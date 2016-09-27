@@ -32,13 +32,9 @@ for data_file in sk_data_list:
 	print "Estimating rest position..."
 	df, rest_position = estimate_rest_position(df)	
 	print rest_position
-
-
-	############################ to be continued #############################
-
-
 	print "Calculating hand distances from rp"
-	df = calc_distance_from_rp(df)
+	df = calc_distance_from_rp(df,rest_position)
+
 	break
 
 
