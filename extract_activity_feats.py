@@ -17,6 +17,7 @@ from r_position import estimate_rest_position, calc_distance_from_rp
 ###################### Main function #############################################################
 
 sk_data_path = "C:\Users\Alex\Documents\University\Python\Data\SKData_txt"
+out_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
 
 sk_data_list = os.listdir(sk_data_path)
 
@@ -24,6 +25,8 @@ file_count = 0
 print "Loading data..."
 for data_file in sk_data_list:
 	file_count += 1
+	#load a batch of 100 files
+	if file_count > 100 : break
 	print data_file
 	df = import_data(sk_data_path, data_file)
 	print "Finished loading data."
@@ -34,8 +37,10 @@ for data_file in sk_data_list:
 	print rest_position
 	print "Calculating hand distances from rp"
 	df = calc_distance_from_rp(df,rest_position)
-
-	break
+	if not os.path.exists(out_path):
+		os.makedirs(out_path)
+	print "Writing output to csv..."
+	df.to_csv(out_path + '/' + data_file[:-4] + '.csv')
 
 
 		
