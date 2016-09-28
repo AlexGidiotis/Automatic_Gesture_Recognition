@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import theano
 from theano import tensor as T
-from activity_detector_dnn import floatX, init_weights, rectify, softmax, RMSprop, dropout, model
+from activity_detector_dnn import floatX, init_weights, softmax, RMSprop, dropout, model
 
 # loads the data from csv files and labels frames as active or inactive
 # arg: data_path: the path where the csv files are stored
@@ -45,6 +45,7 @@ def split_to_sets(df):
 	labs_test = test_s['inactive'].as_matrix()
 	labs_tr = map(lambda x: 1 if x else 0, labs_tr)
 	labs_test = map(lambda x: 1 if x else 0, labs_test)
+	# some weird stuff in order to convert the labels into matrices with two columns for the soft max function
 	new_labs_tr = np.zeros((len(labs_tr),2), dtype=np.int)
 	new_labs_tr[:,0] = labs_tr
 	new_labs_test = np.zeros((len(labs_test),2), dtype=np.int)
@@ -63,6 +64,8 @@ def split_to_sets(df):
 	test_s = test_s.drop(['inactive'],1)
 
 	return tr_s.as_matrix(), test_s.as_matrix(), new_labs_tr, new_labs_test
+
+
 ############## main ##################
 
 data_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
@@ -78,10 +81,10 @@ X = T.fmatrix()
 Y = T.fmatrix()
 
 # initialize weights
-# input to hidden layer: 4 input units, 4 hidden units
-w_h = init_weights((4, 4))
-# second hidden to output layer: 4 hidden units, 1 output unit
-w_o = init_weights((4, 2))
+# input to hidden layer: 4 input units, 8 hidden units
+w_h = init_weights((4, 8))
+# second hidden to output layer: 8 hidden units, 1 output unit
+w_o = init_weights((8, 2))
 
 # probability output
 # use noise during training
@@ -100,23 +103,23 @@ params = [w_h, w_o]
 # update gradients
 updates = RMSprop(cost, params, lr=0.001)
 
+
 # compile to python functions
 train = theano.function(inputs=[X, Y], outputs=cost, updates=updates, allow_input_downcast=True)
 predict = theano.function(inputs=[X], outputs=y_x, allow_input_downcast=True)
 
 print "Starting training for 100 epochs..."
-for i in range(3):
-	#file = open("predictions.txt", 'w')
+for i in range(100):
+	
 	# training on mini batches of 128 examples (very slow convergence)
 	# training on mini batches of 128 examples (very slow convergence)
-	#count = 0 
+	count = 0 
 	for start, end in zip(range(0, len(trX), 128), range(128, len(trX), 128)):
-		#count += 1
+		count += 1
 		cost = train(trX[start:end], trY[start:end])
 		# the cost may increase in some iterations
-	print i, np.mean(np.argmax(teY, axis=1) == predict(teX))
+		#print cost
 
-	#for i in predict(teX):
-		#file.write("%s\n"%i)
-	#file.close()
+
+
 
