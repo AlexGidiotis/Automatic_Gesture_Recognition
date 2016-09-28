@@ -35,12 +35,13 @@ for data_file in sk_data_list:
 	print "Estimating rest position..."
 	df, rest_position = estimate_rest_position(df)	
 	print rest_position
-	print "Calculating hand distances from rp"
+	print "Calculating hand distances from rp..."
 	df = calc_distance_from_rp(df,rest_position)
 	if not os.path.exists(out_path):
 		os.makedirs(out_path)
 	print "Writing output to csv..."
 	df.to_csv(out_path + '/' + data_file[:-4] + '.csv')
+
 
 
 		
