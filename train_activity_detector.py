@@ -11,11 +11,11 @@ from activity_detector_dnn import floatX, init_weights, rectify, softmax, RMSpro
 def load_data(data_path):
 	data_listing = os.listdir(data_path)
 	df = pd.DataFrame()
-	count = 0
+	#count = 0
 	# go through all files and load all data in a big dataframe
 	for dfile in data_listing:
-		count += 1
-		if count > 50: break
+		#count += 1
+		#if count > 50: break
 		new_df = pd.read_csv(data_path + '/' + dfile)
 		df = df.append(new_df)
 
@@ -106,17 +106,17 @@ predict = theano.function(inputs=[X], outputs=y_x, allow_input_downcast=True)
 
 print "Starting training for 100 epochs..."
 for i in range(3):
-	file = open("predictions.txt", 'w')
+	#file = open("predictions.txt", 'w')
 	# training on mini batches of 128 examples (very slow convergence)
 	# training on mini batches of 128 examples (very slow convergence)
-	count = 0 
+	#count = 0 
 	for start, end in zip(range(0, len(trX), 128), range(128, len(trX), 128)):
-		count += 1
+		#count += 1
 		cost = train(trX[start:end], trY[start:end])
 		# the cost may increase in some iterations
 	print i, np.mean(np.argmax(teY, axis=1) == predict(teX))
 
-	for i in predict(teX):
-		file.write("%s\n"%i)
-	file.close()
+	#for i in predict(teX):
+		#file.write("%s\n"%i)
+	#file.close()
 
