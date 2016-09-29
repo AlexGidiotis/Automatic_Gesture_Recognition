@@ -18,7 +18,7 @@ def load_data(data_path):
 	# go through all files and load all data in a big dataframe
 	for dfile in data_listing:
 		count += 1
-		if count > 200: break
+		#if count > 400: break
 		new_df = pd.read_csv(data_path + '/' + dfile)
 		df = df.append(new_df)
 
@@ -52,7 +52,7 @@ def split_to_sets(df):
 	labs_tr = map(lambda x: 1 if x else 0, labs_tr)
 	labs_test = map(lambda x: 1 if x else 0, labs_test)
 	# some weird stuff in order to convert the labels into matrices with two columns for the soft max function
-	# this can be avoided if we change the softmax function
+	# this can be avoided if we change the softmax function to sigmoid
 	new_labs_tr = np.zeros((len(labs_tr),2), dtype=np.int)
 	new_labs_tr[:,0] = labs_tr
 	new_labs_test = np.zeros((len(labs_test),2), dtype=np.int)
@@ -88,10 +88,10 @@ X = T.fmatrix()
 Y = T.fmatrix()
 
 # initialize weights
-# input to hidden layer: 4 input units, 8 hidden units
-w_h = init_weights((4, 4))
-# second hidden to output layer: 8 hidden units, 1 output unit
-w_o = init_weights((4, 2))
+# input to hidden layer: 4 input units, 6 hidden units
+w_h = init_weights((4, 6))
+# second hidden to output layer: 6 hidden units, 2 output unit
+w_o = init_weights((6, 2))
 
 # probability output
 # use noise during training
