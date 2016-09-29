@@ -6,7 +6,7 @@ import os
 import theano
 import time
 from theano import tensor as T
-from activity_detector_dnn import floatX, init_weights, softmax, RMSprop, dropout, model
+from activity_detector_dnn import floatX, init_weights, softmax, RMSprop, dropout, model, rectify
 
 # loads the data from csv files and labels frames as active or inactive
 # arg: data_path: the path where the csv files are stored
@@ -18,7 +18,7 @@ def load_data(data_path):
 	# go through all files and load all data in a big dataframe
 	for dfile in data_listing:
 		count += 1
-		#if count > 400: break
+		if count > 100: break
 		new_df = pd.read_csv(data_path + '/' + dfile)
 		df = df.append(new_df)
 
@@ -39,7 +39,7 @@ def label_inactive(df):
 # split the data into training and test set (70% training, 30% testing)
 def split_to_sets(df):
 	# keep only the features we need for activity detection	
-	df = df[['lh_v', 'rh_v', 'lh_dist_rp', 'rh_dist_rp', 'inactive']]
+	df = df[['lh_v', 'rh_v', 'lh_dist_rp', 'rh_dist_rp','lhX', 'lhY', 'rhX', 'rhY', 'inactive']]
 	#shuffle rows randomly before splitting and reindex
 	df = df.iloc[np.random.permutation(len(df))]
 	df = df.reset_index(drop=True)
@@ -88,10 +88,10 @@ X = T.fmatrix()
 Y = T.fmatrix()
 
 # initialize weights
-# input to hidden layer: 4 input units, 6 hidden units
-w_h = init_weights((4, 6))
-# second hidden to output layer: 6 hidden units, 2 output unit
-w_o = init_weights((6, 2))
+# input to hidden layer: 8 input units, 12 hidden units
+w_h = init_weights((8, 12))
+# second hidden to output layer: 12 hidden units, 2 output unit
+w_o = init_weights((12, 2))
 
 # probability output
 # use noise during training
@@ -121,7 +121,7 @@ train = theano.function(inputs=[X, Y], outputs=cost, updates=updates, allow_inpu
 predict = theano.function(inputs=[X], outputs=y_x, allow_input_downcast=True)
 
 print "Starting training for 100 epochs..."
-for i in range(100):
+for i in range(10):
 
 	# training on mini batches of 128 examples (very slow convergence)
 	count = 0 

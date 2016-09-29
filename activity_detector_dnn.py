@@ -15,6 +15,10 @@ def floatX(X):
 def init_weights(shape):
     return theano.shared(floatX(np.random.randn(*shape) * 0.01))
 
+#rectifier
+def rectify(X):
+	return T.maximum(X, 0.)
+
 # numerically stable softmax
 def softmax(X):
 	e_x = T.exp(X - X.max(axis=1).dimshuffle(0, 'x'))
@@ -45,14 +49,15 @@ def dropout(X, p=0.):
 		X /= retain_prob
 	return X
 
-# our neural net model is a single layer neural net with sigmoid activation for hidden units and softmax output
+# our neural net model is a single layer neural net with relu activation for hidden units and softmax output
 def model(X, w_h, w_o, p_drop_input, p_drop_hidden):
 	# inject noise to every layer
 	X = dropout(X, p_drop_input)
-	# use sigmoid activation for hidden layer activation
-	h = T.nnet.sigmoid(T.dot(X, w_h))
+	# use relu activation for hidden layer activation
+	#h = T.nnet.sigmoid(T.dot(X, w_h))
+	h = rectify(T.dot(X, w_h))	
 	# inject noise again 
-	h = dropout(h, p_drop_hidden)	
+	h = dropout(h, p_drop_hidden)
 	py_x = softmax(T.dot(h, w_o))
 	return h, py_x
 
