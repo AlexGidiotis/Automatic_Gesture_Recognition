@@ -28,12 +28,20 @@ for data_file in sk_data_list:
 	#load a batch of 100 files
 	if file_count > 100 : break
 	print data_file
-	df = import_data(sk_data_path, data_file)
+	# sometimes an error is caused here so we want to discard the example
+	try:
+		df = import_data(sk_data_path, data_file)
+	except:
+		continue
 	print "Finished loading data."
 	print "Calculating hand velocities..."
 	df = calculate_hand_velocities(df)
 	print "Estimating rest position..."
-	df, rest_position = estimate_rest_position(df)	
+	# another error here
+	try:
+		df, rest_position = estimate_rest_position(df)	
+	except:
+		continue
 	print rest_position
 	print "Calculating hand distances from rp..."
 	df = calc_distance_from_rp(df,rest_position)
