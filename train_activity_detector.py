@@ -18,9 +18,6 @@ def load_data(data_path):
 	count = 0
 	# go through all files and load all data in a big dataframe
 	for dfile in data_listing:
-		count += 1
-		# load a batch of 100 files
-		#if count > 200: break
 		new_df = pd.read_csv(data_path + '/' + dfile)
 		df = df.append(new_df)
 
@@ -38,14 +35,14 @@ def label_inactive(df):
 	df['inactive'] = inactive
 	return df
 
-# split the data into training and test set (70% training, 30% testing)
+# split the data into training and cross validation set (70% training, 30% testing)
 def split_to_sets(df):
 	# keep only the features we need for activity detection	
 	df = df[['lh_v', 'rh_v', 'lh_dist_rp', 'rh_dist_rp','lhX', 'lhY', 'rhX', 'rhY', 'inactive']]
 	#shuffle rows randomly before splitting and reindex
 	df = df.iloc[np.random.permutation(len(df))]
 	df = df.reset_index(drop=True)
-	# split into the two sets keeping 70% for training and 30% for test set
+	# split into the two sets keeping 70% for training and 30% for cross validation set
 	tr_s = df.iloc[0:int(0.7*len(df))]
 	test_s = df.iloc[int(0.7*len(df)):]
 	# extract labels from the 'inactive' column and convert to int
@@ -111,10 +108,6 @@ params = [w_h, w_h2, w_o]
 
 # mean crossentropy cost function  
 cost = T.mean(T.nnet.categorical_crossentropy(noise_py_x, Y))
-# add L2 regularization
-#for w in params:
-	#cost += T.sum(w ** 2)
-
 
 # update gradients
 updates = RMSprop(cost, params, lr=0.001)
@@ -125,7 +118,7 @@ train = theano.function(inputs=[X, Y], outputs=cost, updates=updates, allow_inpu
 predict = theano.function(inputs=[X], outputs=y_x, allow_input_downcast=True)
 
 print "Starting training for 100 epochs..."
-for i in range(10):
+for i in range(100):
 
 	# training on mini batches of 128 examples (very slow convergence)
 	count = 0 
@@ -142,19 +135,12 @@ for i in range(10):
 	print (1 - np.mean(np.argmax(teY, axis=1) == predict(teX)))
 
 	# save the weights after every epoch
-	out_p = open('saved_nn.pkl', 'wb')
+	out_p = open('saved_activity_detector.pkl', 'wb')
 	state = [w_h.get_value(), w_h2.get_value(), w_o.get_value()]
 	pickle.dump(state, out_p)
 	out_p.flush()
-
 end_time = time.time()
 print("--- %s seconds ---" % (end_time - start_time))
-of = open("predictions.txt", 'w')
-for pr in predict(teX):
-	of.write("%s\n" %pr)
-
-of.close()
-
 
 
 

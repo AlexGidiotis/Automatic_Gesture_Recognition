@@ -1,4 +1,4 @@
-# here we implement the parameters of our neural network
+# here we implement the parameters and model of our neural network
 
 import theano
 from theano import tensor as T
@@ -54,7 +54,6 @@ def model(X, w_h, w_h2, w_o, p_drop_input, p_drop_hidden):
 	# inject noise to every layer
 	X = dropout(X, p_drop_input)
 	# use relu activation for hidden layer activation
-	#h = T.nnet.sigmoid(T.dot(X, w_h))
 	h = rectify(T.dot(X, w_h))	
 	# inject noise again 
 	h = dropout(h, p_drop_hidden)
@@ -62,6 +61,6 @@ def model(X, w_h, w_h2, w_o, p_drop_input, p_drop_hidden):
 	h2 = rectify(T.dot(h, w_h2))
 	py_x = softmax(T.dot(h2, w_o))
 	return h, h2, py_x
-	
+
 
 	

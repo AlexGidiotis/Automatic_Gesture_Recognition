@@ -1,3 +1,5 @@
+# loads and test the trained model on a series of test videos.
+
 import numpy as np
 import pandas as pd
 import os
@@ -13,12 +15,8 @@ from activity_detector_dnn import floatX, init_weights, softmax, RMSprop, dropou
 def load_data(data_path):
 	data_listing = os.listdir(data_path)
 	df = pd.DataFrame()
-	count = 0
 	# go through all files and load all data in a big dataframe
 	for dfile in data_listing:
-		count += 1
-		# load a batch of 100 files
-		#if count > 200: break
 		new_df = pd.read_csv(data_path + '/' + dfile)
 		df = df.append(new_df)
 
@@ -30,7 +28,8 @@ def split_to_sets(df):
 	test_s = df
 	return test_s.as_matrix()
 
-########################### main ######################################
+############################## main ######################################
+
 data_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
 
 print "Loading test set..."
@@ -40,7 +39,7 @@ print "Test set loaded."
 print teX.shape
 
 print "Loading trained model..."
-pkl_file = open('saved_nn.pkl', 'rb')
+pkl_file = open('saved_activity_detector.pkl', 'rb')
 loaded_nn = pickle.load(pkl_file)
 
 X = T.fmatrix()
