@@ -42,21 +42,37 @@ print "Loading trained model..."
 pkl_file = open('saved_activity_detector.pkl', 'rb')
 loaded_nn = pickle.load(pkl_file)
 
+# symbolic variables matrices initialization
 X = T.fmatrix()
 Y = T.fmatrix()
 
+# load between layers weight vectors
 w_h = theano.shared(value=loaded_nn[0], name='w_h', borrow=True)
 w_h2 = theano.shared(value=loaded_nn[1], name='w_h2', borrow=True)
 w_o = theano.shared(value=loaded_nn[2], name='w_o', borrow=True)
 
+# create a prediction model
 h, h2, py_x = model(X, w_h, w_h2, w_o, 0., 0.)
 
+# maxima prediction
 y_x = T.argmax(py_x, axis=1)
 
 print "Testing..."
+
+# compile to python function
 predict = theano.function(inputs=[X], outputs=y_x, allow_input_downcast=True)
+
+
+# write predictions to a file
 of = open("test_predictions.txt", 'w')
-for pr in predict(teX):
+predictions = predict(teX)
+
+# average every 3 frames for smoothing
+for i in range(0,(len(predictions)-2)):
+	batch = np.array([predictions[i], predictions[(i+1)], predictions[(i+2)]])
+	predictions[i] = np.median(batch)
+
+for pr in predictions:
 	of.write("%s\n" %pr)
 of.close()
 

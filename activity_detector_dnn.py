@@ -59,6 +59,7 @@ def model(X, w_h, w_h2, w_o, p_drop_input, p_drop_hidden):
 	h = dropout(h, p_drop_hidden)
 	# relu activation for the second hidden layer
 	h2 = rectify(T.dot(h, w_h2))
+	# softmax activation for the output layer
 	py_x = softmax(T.dot(h2, w_o))
 	return h, h2, py_x
 
