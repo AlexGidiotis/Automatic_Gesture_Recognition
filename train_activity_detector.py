@@ -5,6 +5,7 @@ import pandas as pd
 import os
 import theano
 import time
+import pickle
 from theano import tensor as T
 from activity_detector_dnn import floatX, init_weights, softmax, RMSprop, dropout, model, rectify
 
@@ -128,6 +129,7 @@ for i in range(10):
 
 	# training on mini batches of 128 examples (very slow convergence)
 	count = 0 
+	
 	for start, end in zip(range(0, len(trX), 128), range(128, len(trX), 128)):
 		count += 1
 		cost = train(trX[start:end], trY[start:end])
@@ -139,6 +141,12 @@ for i in range(10):
 	print (1 - np.mean(np.argmax(trY, axis=1) == predict(trX)))
 	print (1 - np.mean(np.argmax(teY, axis=1) == predict(teX)))
 
+	# save the weights after every epoch
+	out_p = open('saved_nn.pkl', 'wb')
+	state = [w_h.get_value(), w_h2.get_value(), w_o.get_value()]
+	pickle.dump(state, out_p)
+	out_p.flush()
+
 end_time = time.time()
 print("--- %s seconds ---" % (end_time - start_time))
 of = open("predictions.txt", 'w')
@@ -146,5 +154,7 @@ for pr in predict(teX):
 	of.write("%s\n" %pr)
 
 of.close()
+
+
 
 
