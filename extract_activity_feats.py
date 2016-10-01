@@ -16,8 +16,19 @@ from r_position import estimate_rest_position, calc_distance_from_rp
 
 ###################### Main function #############################################################
 
-sk_data_path = "C:\Users\Alex\Documents\University\Python\Data\SKData_txt"
-out_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
+sk_training_path = "C:\Users\Alex\Documents\University\Python\Data\SKData_txt"
+sk_test_path = "C:\Users\Alex\Documents\University\Python\Data\Test_SKData_txt"
+out_training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
+out_test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
+
+############################ change this flag to Train or Test to extract ########################
+flag = 'Test'
+if flag == 'Train':
+	sk_data_path = sk_training_path
+	out_path = out_training_path
+elif flag == 'Test':
+	sk_data_path = sk_test_path
+	out_path = out_test_path
 
 sk_data_list = os.listdir(sk_data_path)
 

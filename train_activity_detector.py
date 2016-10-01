@@ -18,7 +18,8 @@ def load_data(data_path):
 	# go through all files and load all data in a big dataframe
 	for dfile in data_listing:
 		count += 1
-		if count > 100: break
+		# load a batch of 100 files
+		#if count > 200: break
 		new_df = pd.read_csv(data_path + '/' + dfile)
 		df = df.append(new_df)
 
@@ -88,22 +89,24 @@ X = T.fmatrix()
 Y = T.fmatrix()
 
 # initialize weights
-# input to hidden layer: 8 input units, 12 hidden units
-w_h = init_weights((8, 12))
+# input to hidden layer: 8 input units, 16 hidden units
+w_h = init_weights((8, 16))
+# first to second hidden layer with 12 units
+w_h2 = init_weights((16, 12))
 # second hidden to output layer: 12 hidden units, 2 output unit
 w_o = init_weights((12, 2))
 
 # probability output
 # use noise during training
-noise_h, noise_py_x = model(X, w_h, w_o, 0.2, 0.5)
-# we do not want noise for prdiction
-h, py_x = model(X, w_h, w_o, 0., 0.)
+noise_h, noise_h2, noise_py_x = model(X, w_h, w_h2, w_o, 0.2, 0.5)
+# we do not want noise for prediction
+h, h2, py_x = model(X, w_h, w_h2, w_o, 0., 0.)
 
 # maxima prediction
 y_x = T.argmax(py_x, axis=1)
 
 # parameters
-params = [w_h, w_o]
+params = [w_h, w_h2, w_o]
 
 # mean crossentropy cost function  
 cost = T.mean(T.nnet.categorical_crossentropy(noise_py_x, Y))
