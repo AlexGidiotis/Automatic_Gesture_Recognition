@@ -23,6 +23,7 @@ def load_data(data_path,labels_path,labeled):
 	if labeled == 'True':
 		labels_listing = os.listdir(labels_path)		
 		# go through all files and load all data and labels in a big dataframe
+		# there must be exactly the same data and label files
 		for dfile, lfile in zip(data_listing, labels_listing):
 			new_df = pd.read_csv(data_path + '/' + dfile)
 			# initialize label column to 'None'
@@ -55,9 +56,9 @@ def split_to_sets(df):
 	return test_s.as_matrix()
 
 ############################## main ######################################
-# modify this flag for Training or Testing
-flag = 'Testing'
-labeled = 'False'
+# modify this flags for Training or Testing
+flag = 'Training'
+labeled = 'True'
 training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
 test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
 training_labels = "C:\Users\Alex\Documents\University\Python\Data\Labels"
@@ -116,7 +117,11 @@ if labeled == 'True':
 
 	print "Writing output..."
 	# writing output to csv
-	np.savetxt("training_label_file.csv", labs, fmt='%s', delimiter=',')
+	if flag == 'Training':
+		np.savetxt("training_label_file.csv", labs, fmt='%s', delimiter=',')
+	elif flag == 'Testing':
+		np.savetxt("testing_label_file.csv", labs, fmt='%s', delimiter=',')
+
 	# if prediction is 0 we  re-label "sil"
 	# if prediction is 1 we label 'action'
 elif labeled == 'False':
