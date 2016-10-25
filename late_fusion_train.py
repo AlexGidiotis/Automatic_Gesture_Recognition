@@ -6,11 +6,11 @@ from keras.models import Sequential
 from keras.layers import Dense
 import numpy as np
 
-# load pima indians dataset
-dataset = numpy.loadtxt(, delimiter=",")
+# load gesture dataset
+#dataset = numpy.loadtxt(, delimiter=",")
 
 #input = feature vector extracted 
-#keras.optimizers.RMSprop(lr=0.001, rho=0.9, epsilon=1e-08, decay=0.0)
+
 # create model
 model = Sequential()
 model.add(Dense(18, input_dim=6, init='uniform', activation='relu'))
