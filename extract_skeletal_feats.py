@@ -2,7 +2,6 @@ import re
 import os
 import numpy as np
 import pandas as pd
-import numpy.linalg as la
 
 train_labels_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\training_label_file.csv"
 test_labels_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\testing_label_file.csv"
@@ -60,19 +59,25 @@ def get_previous_pos(df):
 	return df
 
 # ======================================== Calculate and return hand and elbow velocities. =====================================================
+# We use the current and previous positions of elbows and hands to calculate the velocities as the distance in pixels between consecutive frames.
+# Returns the original data frame with the velocity columns added.
 def calculate_velocities(df):
+	# Load positions to arrays for faster computation.
 	lh_x,lh_y,rh_x,rh_y = df['lhX'].as_matrix(),df['lhY'].as_matrix(),df['rhX'].as_matrix(),df['rhY'].as_matrix()
 	le_x,le_y,re_x,re_y = df['leX'].as_matrix(),df['leY'].as_matrix(),df['reX'].as_matrix(),df['reY'].as_matrix()
 	
 	pr_lh_x,pr_lh_y,pr_rh_x,pr_rh_y = df['pre_lhX'].as_matrix(),df['pre_lhY'].as_matrix(),df['pre_rhX'].as_matrix(),df['pre_rhY'].as_matrix()
 	pr_le_x,pr_le_y,pr_re_x,pr_re_y = df['pre_leX'].as_matrix(),df['pre_leY'].as_matrix(),df['pre_reX'].as_matrix(),df['pre_reY'].as_matrix()
 
+	# Create the zero arrays to store velocities.
 	lh_vel,rh_vel = np.zeros_like(lh_x), np.zeros_like(rh_x)
 	le_vel,re_vel = np.zeros_like(le_x), np.zeros_like(re_x)
 
+	# Create the position vectors from the x,y vectors.
 	lh, pre_lh, rh, pre_rh = np.array((lh_x,lh_y)), np.array((pr_lh_x,pr_lh_y)), np.array((rh_x,rh_y)), np.array((pr_rh_x,pr_rh_y))
 	le, pre_le, re, pre_re = np.array((le_x,le_y)), np.array((pr_le_x,pr_le_y)), np.array((re_x,re_y)), np.array((pr_re_x,pr_re_y))
 
+	# Vectorized computation of the euclidean distance between the previous and current position.
 	dist_lh, dist_rh = (lh - pre_lh)**2, (rh - pre_rh)**2
 	dist_le, dist_re = (le - pre_le)**2, (re - pre_re)**2
 
@@ -82,12 +87,62 @@ def calculate_velocities(df):
 	dist_lh, dist_rh = np.sqrt(dist_lh), np.sqrt(dist_rh) 
 	dist_le, dist_re = np.sqrt(dist_le), np.sqrt(dist_re)
 
+	# Store the velocities back to the dataframe.
 	lh_vel[5:],rh_vel[5:] = dist_lh[5:], dist_rh[5:]
 	le_vel[5:],re_vel[5:] = dist_le[5:], dist_re[5:]
 
 	df['lh_v'], df['rh_v'] = lh_vel, rh_vel	
 	df['le_v'], df['re_v'] = le_vel, re_vel
 	return df
+
+# ============================== Calculate the distances of joints from the hip center and shoulder center =====================================
+# Calculates the distances of both elbows and hands from the hip center and the shoulder center.
+# Returns: the original dataframe with the hip-elbows, hip-hands, should center-elbows and shoulder center-hands distances columns added.
+def calculate_distances(df):
+	# Load the joint positions into arrays for faster computation.
+	lh_x,lh_y,rh_x,rh_y = df['lhX'].as_matrix(),df['lhY'].as_matrix(),df['rhX'].as_matrix(),df['rhY'].as_matrix()
+	le_x,le_y,re_x,re_y = df['leX'].as_matrix(),df['leY'].as_matrix(),df['reX'].as_matrix(),df['reY'].as_matrix()
+	hip_x,hip_y,shc_x,shc_y = df['hipX'].as_matrix(),df['hipY'].as_matrix(),df['shcX'].as_matrix(),df['shcY'].as_matrix()
+
+	# Create the empty arrays to put the values.
+	lh_hip_dist,rh_hip_dist = np.zeros_like(lh_x), np.zeros_like(rh_x)
+	le_hip_dist,re_hip_dist = np.zeros_like(le_x), np.zeros_like(re_x)
+	lh_shoulder_center_dist,rh_shoulder_center_dist = np.zeros_like(lh_x), np.zeros_like(rh_x)
+	le_shoulder_center_dist,re_shoulder_center_dist = np.zeros_like(le_x), np.zeros_like(re_x)
+
+	# Create the position vectors from the x,y vectors.
+	lh, rh = np.array((lh_x,lh_y)), np.array((rh_x,rh_y))
+	le, re = np.array((le_x,le_y)), np.array((re_x,re_y))
+	hip, shc = np.array((hip_x,hip_y)), np.array((shc_x,shc_y))
+
+	# Calculate the euclidean distance of hands and elbows from the hip.
+	lh_hip_dist, rh_hip_dist = (lh - hip)**2, (rh - hip)**2
+	le_hip_dist, re_hip_dist = (le - hip)**2, (re - hip)**2
+
+	lh_hip_dist, rh_hip_dist = lh_hip_dist.sum(axis=0), rh_hip_dist.sum(axis=0) 
+	le_hip_dist, re_hip_dist = le_hip_dist.sum(axis=0), re_hip_dist.sum(axis=0)
+
+	lh_hip_dist, rh_hip_dist = np.sqrt(lh_hip_dist), np.sqrt(rh_hip_dist) 
+	le_hip_dist, re_hip_dist = np.sqrt(le_hip_dist), np.sqrt(re_hip_dist)
+
+	# Calculate the euclidean distance of hands and elbows from the shoulder center.
+	lh_shoulder_center_dist, rh_shoulder_center_dist = (lh - shc)**2, (rh - shc)**2
+	le_shoulder_center_dist, re_shoulder_center_dist = (le - shc)**2, (re - shc)**2
+
+	lh_shoulder_center_dist, rh_shoulder_center_dist = lh_shoulder_center_dist.sum(axis=0), rh_shoulder_center_dist.sum(axis=0) 
+	le_shoulder_center_dist, re_shoulder_center_dist = le_shoulder_center_dist.sum(axis=0), re_shoulder_center_dist.sum(axis=0)
+
+	lh_shoulder_center_dist, rh_shoulder_center_dist = np.sqrt(lh_shoulder_center_dist), np.sqrt(rh_shoulder_center_dist) 
+	le_shoulder_center_dist, re_shoulder_center_dist = np.sqrt(le_shoulder_center_dist), np.sqrt(re_shoulder_center_dist)
+
+	# Put the distances back into the dataframe to be returned.
+	df['lh_hip_d'], df['rh_hip_d'] = lh_hip_dist, rh_hip_dist	
+	df['le_hip_d'], df['re_hip_d'] = le_hip_dist, re_hip_dist
+
+	df['lh_shc_d'], df['rh_shc_d'] = lh_shoulder_center_dist, rh_shoulder_center_dist	
+	df['le_shc_d'], df['re_shc_d'] = le_shoulder_center_dist, re_shoulder_center_dist
+
+	return df 
 
 #============================================================= Main function ====================================================================
 
@@ -111,7 +166,10 @@ print "Finished loading."
 df = get_previous_pos(df)
 print "Calculating velocities..."
 df = calculate_velocities(df)
+print "Calculating distances..."
+df = calculate_distances(df)
 print df
+
 
 
 
