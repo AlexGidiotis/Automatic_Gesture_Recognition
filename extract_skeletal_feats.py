@@ -144,7 +144,52 @@ def calculate_distances(df):
 
 	return df 
 
+#================================================== Calculate some sets of angles ==============================================================
+# Here we calculate the angles of hands-hip, hands-shoulder center and hands-elbows. 
+# We represent this angles with 8-chain codes where: 0 is movement right, 1 is up-right, 2 is up, 3 is up-left, 4 is left, 5 is down-left, six is down, 7 is down-right.
+# Returns: the original df with the angles columns added to it.
+def calculate_angles(df):
+
+	# Load all the positions into arrays for faster computation.
+	lh_x,lh_y,rh_x,rh_y = df['lhX'].as_matrix(),df['lhY'].as_matrix(),df['rhX'].as_matrix(),df['rhY'].as_matrix()
+	le_x,le_y,re_x,re_y = df['leX'].as_matrix(),df['leY'].as_matrix(),df['reX'].as_matrix(),df['reY'].as_matrix()
+	hip_x,hip_y,shc_x,shc_y = df['hipX'].as_matrix(),df['hipY'].as_matrix(),df['shcX'].as_matrix(),df['shcY'].as_matrix()
+
+	# Create the position vectors from the x,y vectors.
+	lh, rh = np.array((lh_x,lh_y)), np.array((rh_x,rh_y))
+	le, re = np.array((le_x,le_y)), np.array((re_x,re_y))
+	hip, shc = np.array((hip_x,hip_y)), np.array((shc_x,shc_y))
+
+	# The number of chain codes we are going to use as described.
+	num_chain = 8
+
+	# Calculate the distances between joints.
+	lh_hip_dist, rh_hip_dist = np.array((lh-hip)), np.array((rh-hip))
+	lh_shc_dist, rh_shc_dist = np.array((lh-shc)), np.array((rh-shc))
+	lh_el_dist, rh_el_dist = np.array((lh-le)), np.array((rh-re))
+
+	# Calculate some angles.
+	Theta_lh_hip, Theta_rh_hip = np.arctan2(lh_hip_dist[1],lh_hip_dist[0]), np.arctan2(rh_hip_dist[1],rh_hip_dist[0])
+	Theta_lh_shc, Theta_rh_shc = np.arctan2(lh_shc_dist[1],lh_shc_dist[0]), np.arctan2(rh_shc_dist[1],rh_shc_dist[0])
+	Theta_lh_el, Theta_rh_el = np.arctan2(lh_el_dist[1],lh_el_dist[0]), np.arctan2(rh_el_dist[1],rh_el_dist[0])
+
+	# Calculate the relative angles and convert to chain codes.
+	Theta_lh_hip_t = (num_chain - (Theta_lh_hip/(np.pi/4) + 0.5 + (lh_hip_dist[1]<0)*num_chain).astype(int))%num_chain
+	Theta_rh_hip_t = (num_chain - (Theta_rh_hip/(np.pi/4) + 0.5 + (rh_hip_dist[1]<0)*num_chain).astype(int))%num_chain
+	Theta_lh_shc_t = (num_chain - (Theta_lh_shc/(np.pi/4) + 0.5 + (lh_shc_dist[1]<0)*num_chain).astype(int))%num_chain
+	Theta_rh_shc_t = (num_chain - (Theta_rh_shc/(np.pi/4) + 0.5 + (rh_shc_dist[1]<0)*num_chain).astype(int))%num_chain
+	Theta_lh_el_t = (num_chain - (Theta_lh_el/(np.pi/4) + 0.5 + (lh_el_dist[1]<0)*num_chain).astype(int))%num_chain
+	Theta_rh_el_t = (num_chain - (Theta_rh_el/(np.pi/4) + 0.5 + (rh_el_dist[1]<0)*num_chain).astype(int))%num_chain
+
+	# Store back into the data frame to be returned.
+	df['lh_hip_ang'], df['rh_hip_ang'] = Theta_lh_hip_t, Theta_rh_hip_t	
+	df['lh_shc_ang'], df['rh_shc_ang'] = Theta_lh_shc_t, Theta_rh_shc_t
+	df['lh_el_ang'], df['rh_el_ang'] = Theta_lh_el_t, Theta_rh_el_t	
+
+	return df
+
 #============================================================= Main function ====================================================================
+# This is the function that goes through the feature extraction process and writes the output.
 
 sk_training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
 sk_test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
@@ -168,6 +213,8 @@ print "Calculating velocities..."
 df = calculate_velocities(df)
 print "Calculating distances..."
 df = calculate_distances(df)
+print "Calculating angles..."
+df = calculate_angles(df)
 print df
 
 
