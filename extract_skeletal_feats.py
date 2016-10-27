@@ -188,6 +188,43 @@ def calculate_angles(df):
 
 	return df
 
+
+# ======================================= Calculate the movement directions of hands. ==========================================================
+# Get the movement direction of the hands from the relative to the previous position of each hand. 
+# Again these directions are represented using 8-chain codes.
+# Returns: the data frame with the left and right hand direction columns added.
+def calculate_movement_directions(df):
+	# Load current and previous indices into arrays for fast computation.
+	lh_x,lh_y,rh_x,rh_y = df['lhX'].as_matrix(),df['lhY'].as_matrix(),df['rhX'].as_matrix(),df['rhY'].as_matrix()
+	pr_lh_x,pr_lh_y,pr_rh_x,pr_rh_y = df['pre_lhX'].as_matrix(),df['pre_lhY'].as_matrix(),df['pre_rhX'].as_matrix(),df['pre_rhY'].as_matrix()
+
+	# Create the zero arrays to store velocities.
+	lh_direction,rh_direction = np.zeros_like(lh_x), np.zeros_like(rh_x)
+
+	# Create the position vectors from the x,y vectors.
+	lh, pre_lh, rh, pre_rh = np.array((lh_x,lh_y)), np.array((pr_lh_x,pr_lh_y)), np.array((rh_x,rh_y)), np.array((pr_rh_x,pr_rh_y))
+
+	# The number of chain codes we are going to use.
+	num_chain = 8
+
+	# Calculate the distances from the previous position.
+	lh_movement_dist, rh_movement_dist = np.array((lh-pre_lh)), np.array((rh-pre_rh))
+
+	# Calculate some angles.
+	Theta_lh, Theta_rh = np.arctan2(lh_movement_dist[1],lh_movement_dist[0]), np.arctan2(rh_movement_dist[1],rh_movement_dist[0])
+
+	# Calculate the relative to the previous position angle and convert to chain codes.
+	Theta_lh_t = (num_chain - (Theta_lh/(np.pi/4) + 0.5 + (lh_movement_dist[1]<0)*num_chain).astype(int))%num_chain
+	Theta_rh_t = (num_chain - (Theta_rh/(np.pi/4) + 0.5 + (rh_movement_dist[1]<0)*num_chain).astype(int))%num_chain
+
+	# Save the direction arrays.
+	lh_direction[5:],rh_direction[5:] = Theta_lh_t[5:], Theta_rh_t[5:]
+
+	# Store to the data frame to be returned.
+	df['lh_dir'], df['rh_dir'] = lh_direction, rh_direction	
+
+	return df
+
 #============================================================= Main function ====================================================================
 # This is the function that goes through the feature extraction process and writes the output.
 
@@ -215,6 +252,8 @@ print "Calculating distances..."
 df = calculate_distances(df)
 print "Calculating angles..."
 df = calculate_angles(df)
+print "Calculating movement directions..."
+df = calculate_movement_directions(df)
 print df
 
 
