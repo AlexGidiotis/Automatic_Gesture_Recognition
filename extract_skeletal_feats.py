@@ -1,3 +1,10 @@
+# Author: Alex Gidiotis
+#		  gidiotisAlex@outlook.com.gr
+#
+# Goes through the skeletal feature extraction process.
+# Reads from the skeletal data and label files.
+# Outputs a .csv file with the whole dataset features extracted.
+
 import re
 import os
 import numpy as np
@@ -24,6 +31,11 @@ def load_data(sk_data_path, labeled):
 	# Put all the data in a new dataframe.
 	for dfile in sk_list:
 		new_df = pd.read_csv(sk_data_path + '/' + dfile)
+		# We want to remember which file each frame came from.
+		file_n = int(re.findall("Sample(\d*)_",dfile)[0])
+		file_num = np.zeros((new_df.shape[0],))
+		file_num.fill(file_n)
+		new_df['file'] = file_num
 		df = df.append(new_df, ignore_index=True)
 	df = df.drop(df.columns[[0]], axis=1)
 	# Choose between labeled and unlabeled mode.
@@ -255,6 +267,12 @@ df = calculate_angles(df)
 print "Calculating movement directions..."
 df = calculate_movement_directions(df)
 print df
+print "Writing output to csv..."
+if flag == 'Train':
+	df.to_csv("Training_set_skeletal.csv",index=False)
+elif flag == 'Test':
+	df.to_csv("Testing_set_skeletal.csv",index=False)
+
 
 
 
