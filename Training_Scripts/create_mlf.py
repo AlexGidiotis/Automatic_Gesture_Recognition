@@ -26,9 +26,9 @@ train_scp = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Re
 # C:\Users\Alex\Documents\University\Python\Data\MFC_data\Training_Sequence101_0.mfc
 for line in train_scp:
     # We want to get the file name only.
-    name = re.findall('.*\\\(\w*_\w*\d*_\d+.mfc)',line)[0]
+    name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0]
     # We also want to get the label.
-    num = int(re.findall('.*_(\d+).mfc',name)[0])
+    num = int(re.findall('.*_(\d+)',name)[0])
 
     # Write to master label file.
     mlf.write('"*/%s.lab"\n' % name)
