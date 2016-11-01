@@ -1,0 +1,8 @@
+# This will guide through the htk training process.
+# We will later add a script to do all these.
+
+1.Create grammar.
+2.Create a word network from the grammar. -> HParse gram wdnet 
+3.Create gesture_lexicon and tiedlist.
+4.Extract features and create Train.scp ->create_train_scp.py
+5.Create phones0.mlf ->create_mlf.py

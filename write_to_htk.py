@@ -2,7 +2,7 @@
 #		  gidiotisAlex@outlook.com.gr
 
 # This script reads extracted features and writes them to htk mfc format.
-# Outputs one .mfc file for every gesture sequence and a master label file with numerical representation of the class sequence.
+# Outputs one .mfc file for every gesture in every file.
 
 # We need to add handles for testing and unlabeled data as well.
 
@@ -41,37 +41,34 @@ out_path = "C:\Users\Alex\Documents\University\Python\Data\MFC_data"
 print "Loading data..."
 df = pd.read_csv("Training_set_skeletal.csv")
 files = df['file'].unique()
-# Open the master label file to write the labels.
-lf = open(out_path + "\\master_label_file.txt",'w')
 
+# Alternative isolated gestures.
 # Go through all the data by file id.
 for file_id in files:
-	file_labs = []
 	vf = df[df['file'] == file_id]
-	# Open a .mfc file to write the feature vectors.
-	file_id = int(file_id)
-	file_name = 'Training_Sequence' + str(file_id) +'.mfc'
-	out_file_name = os.path.join(out_path,file_name)
-	print out_file_name
-	mfc_writer = htkmfc.open(out_file_name,'w',22)
-	# Go through all frames in the specific file id and write the extracted features to mfc format.
-	for i in vf.index:
-		feats = df.iloc[i]
-		gest = feats['label']
-		feats = feats[['lh_v','rh_v','le_v','re_v','lh_dist_rp','rh_dist_rp','lh_hip_d','rh_hip_d','le_hip_d','re_hip_d','lh_shc_d','rh_shc_d','le_shc_d','re_shc_d',
-						'lh_hip_ang','rh_hip_ang','lh_shc_ang','rh_shc_ang','lh_el_ang','rh_el_ang','lh_dir','rh_dir']].as_matrix().astype(float)
-		mfc_writer.writevec(feats)
-		# Also create the label sequence to be written in the label file.
+	# Get all the different gestures in the video file.
+	gestures = vf['label'].unique()
+	for gest in gestures:
+		# Open a .mfc file for each gesture to write the feature vectors.
+		file_id = int(file_id)
 		label = map_gesture(gest)
-		if len(file_labs) == 0:	
-			file_labs.append(label)
-		elif file_labs[-1] != label:
-			file_labs.append(label)
+		file_name = 'Training_Sequence' + str(file_id) + '_' + str(label) + '.mfc'
+		out_file_name = os.path.join(out_path,file_name)
+		print out_file_name
 
-	# Close the mfc file and write the class sequence to the master label file.
-	mfc_writer.close()
-	gest_seq = '_'.join((str(g) for g in file_labs))
-	lf.write("%s: %s\n" %(file_name,gest_seq))
+		# Get the frames that correspond to the specific gesture.
+		gf = vf[vf['label'] == gest]
 
-lf.close()
+		mfc_writer = htkmfc.open(out_file_name,'w',22)
+		# Go through all frames in the specific file id and write the extracted features to mfc format.
+		for i in gf.index:
+			feats = df.iloc[i]
+			gest = feats['label']
+			feats = feats[['lh_v','rh_v','le_v','re_v','lh_dist_rp','rh_dist_rp','lh_hip_d','rh_hip_d','le_hip_d','re_hip_d','lh_shc_d','rh_shc_d','le_shc_d','re_shc_d',
+							'lh_hip_ang','rh_hip_ang','lh_shc_ang','rh_shc_ang','lh_el_ang','rh_el_ang','lh_dir','rh_dir']].as_matrix().astype(float)
+			mfc_writer.writevec(feats)
+
+		# Close the mfc file.
+		mfc_writer.close()
+
 print "finished"
