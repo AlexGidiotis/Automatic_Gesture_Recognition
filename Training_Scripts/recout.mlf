@@ -1,0 +1,3205 @@
+#!MLF!#
+"'*'/Testing_Sequence410_0.rec"
+0 60600000 SIL -25990.941406
+.
+"'*'/Testing_Sequence410_10.rec"
+0 4400000 FU -2614.048828
+.
+"'*'/Testing_Sequence410_13.rec"
+0 3400000 PF -2121.567383
+.
+"'*'/Testing_Sequence410_14.rec"
+0 3800000 NU -2290.109375
+.
+"'*'/Testing_Sequence410_15.rec"
+0 4000000 CF -2402.672852
+.
+"'*'/Testing_Sequence410_16.rec"
+0 4400000 TT -2669.399170
+.
+"'*'/Testing_Sequence410_17.rec"
+0 4200000 CF -2558.270020
+.
+"'*'/Testing_Sequence410_2.rec"
+0 5500000 CF -3395.642334
+.
+"'*'/Testing_Sequence410_5.rec"
+0 5500000 CN -3417.574951
+.
+"'*'/Testing_Sequence410_6.rec"
+0 3700000 CF -2189.568115
+.
+"'*'/Testing_Sequence411_0.rec"
+0 46700000 SIL -20657.197266
+.
+"'*'/Testing_Sequence411_11.rec"
+0 3900000 ST -2417.444824
+.
+"'*'/Testing_Sequence411_12.rec"
+0 3500000 OK -2061.926270
+.
+"'*'/Testing_Sequence411_14.rec"
+0 4900000 OK -2881.941650
+.
+"'*'/Testing_Sequence411_15.rec"
+0 4000000 CF -2571.964111
+.
+"'*'/Testing_Sequence411_17.rec"
+0 3100000 ST -2006.766846
+.
+"'*'/Testing_Sequence411_18.rec"
+0 4300000 TT -2757.507568
+.
+"'*'/Testing_Sequence411_4.rec"
+0 5200000 CV -3399.155029
+.
+"'*'/Testing_Sequence411_5.rec"
+0 4500000 CN -2795.723633
+.
+"'*'/Testing_Sequence411_6.rec"
+0 3800000 VA -2970.762207
+.
+"'*'/Testing_Sequence411_8.rec"
+0 4300000 FM -2329.244141
+.
+"'*'/Testing_Sequence411_9.rec"
+0 7600000 ST -5330.169922
+.
+"'*'/Testing_Sequence412_0.rec"
+0 37800000 SIL -15612.664063
+.
+"'*'/Testing_Sequence412_10.rec"
+0 4200000 CF -2414.722412
+.
+"'*'/Testing_Sequence412_11.rec"
+0 5600000 BN -3287.168701
+.
+"'*'/Testing_Sequence412_13.rec"
+0 2900000 PF -1797.541138
+.
+"'*'/Testing_Sequence412_16.rec"
+0 4300000 TT -2694.630127
+.
+"'*'/Testing_Sequence412_19.rec"
+0 4700000 CF -2995.452148
+.
+"'*'/Testing_Sequence412_3.rec"
+0 5600000 CP -3341.197754
+.
+"'*'/Testing_Sequence412_5.rec"
+0 4400000 CN -2851.557373
+.
+"'*'/Testing_Sequence412_6.rec"
+0 5300000 CF -3086.627197
+.
+"'*'/Testing_Sequence412_7.rec"
+0 3700000 CV -2468.691895
+.
+"'*'/Testing_Sequence412_9.rec"
+0 4000000 CF -2550.599121
+.
+"'*'/Testing_Sequence413_0.rec"
+0 39200000 SIL -16437.628906
+.
+"'*'/Testing_Sequence413_10.rec"
+0 5000000 CF -2828.078857
+.
+"'*'/Testing_Sequence413_11.rec"
+0 6000000 ST -3540.047852
+.
+"'*'/Testing_Sequence413_13.rec"
+0 3700000 CF -2433.820557
+.
+"'*'/Testing_Sequence413_15.rec"
+0 5800000 CF -3575.584717
+.
+"'*'/Testing_Sequence413_17.rec"
+0 5300000 CF -2959.314697
+.
+"'*'/Testing_Sequence413_18.rec"
+0 5200000 CF -3385.326172
+.
+"'*'/Testing_Sequence413_19.rec"
+0 4000000 PF -2442.548340
+.
+"'*'/Testing_Sequence413_2.rec"
+0 5200000 CF -3175.178955
+.
+"'*'/Testing_Sequence413_20.rec"
+0 6100000 BN -3458.457764
+.
+"'*'/Testing_Sequence413_7.rec"
+0 4500000 CN -3048.502930
+.
+"'*'/Testing_Sequence414_0.rec"
+0 41600000 SIL -18342.451172
+.
+"'*'/Testing_Sequence414_10.rec"
+0 5400000 CF -3088.133301
+.
+"'*'/Testing_Sequence414_16.rec"
+0 5700000 TT -3442.894531
+.
+"'*'/Testing_Sequence414_17.rec"
+0 5300000 CF -3014.017578
+.
+"'*'/Testing_Sequence414_2.rec"
+0 6000000 CF -3825.540039
+.
+"'*'/Testing_Sequence414_3.rec"
+0 3700000 BS -2362.583984
+.
+"'*'/Testing_Sequence414_4.rec"
+0 6000000 CV -3777.387939
+.
+"'*'/Testing_Sequence414_5.rec"
+0 4800000 CN -3032.440430
+.
+"'*'/Testing_Sequence414_6.rec"
+0 5400000 TT -3343.367676
+.
+"'*'/Testing_Sequence414_7.rec"
+0 4800000 CV -3302.452881
+.
+"'*'/Testing_Sequence414_9.rec"
+0 4100000 CF -2645.557617
+.
+"'*'/Testing_Sequence415_0.rec"
+0 52000000 SIL -23616.533203
+.
+"'*'/Testing_Sequence415_13.rec"
+0 3900000 TT -2384.559814
+.
+"'*'/Testing_Sequence415_15.rec"
+0 4300000 SP -2718.944824
+.
+"'*'/Testing_Sequence415_16.rec"
+0 5700000 TT -3503.777588
+.
+"'*'/Testing_Sequence415_18.rec"
+0 5300000 TT -3223.022705
+.
+"'*'/Testing_Sequence415_2.rec"
+0 5900000 CF -3580.434326
+.
+"'*'/Testing_Sequence415_20.rec"
+0 5100000 PF -3000.947266
+.
+"'*'/Testing_Sequence415_3.rec"
+0 4900000 CP -3134.479492
+.
+"'*'/Testing_Sequence415_4.rec"
+0 5600000 CV -3861.699219
+.
+"'*'/Testing_Sequence415_8.rec"
+0 4100000 FM -2222.363525
+.
+"'*'/Testing_Sequence415_9.rec"
+0 4800000 CF -2697.170898
+.
+"'*'/Testing_Sequence416_0.rec"
+0 36200000 SIL -15922.552734
+.
+"'*'/Testing_Sequence416_11.rec"
+0 5600000 ST -3439.543701
+.
+"'*'/Testing_Sequence416_13.rec"
+0 3900000 TT -2426.224854
+.
+"'*'/Testing_Sequence416_14.rec"
+0 6400000 PR -3861.464600
+.
+"'*'/Testing_Sequence416_15.rec"
+0 5200000 CF -3277.717529
+.
+"'*'/Testing_Sequence416_16.rec"
+0 4000000 TT -2847.709229
+.
+"'*'/Testing_Sequence416_2.rec"
+0 5800000 CF -3234.892822
+.
+"'*'/Testing_Sequence416_20.rec"
+0 5300000 CF -3243.103516
+.
+"'*'/Testing_Sequence416_5.rec"
+0 5600000 CN -3530.671143
+.
+"'*'/Testing_Sequence416_7.rec"
+0 6400000 CN -4518.660156
+.
+"'*'/Testing_Sequence416_8.rec"
+0 6500000 FM -3961.142578
+.
+"'*'/Testing_Sequence417_0.rec"
+0 32600000 SIL -14980.643555
+.
+"'*'/Testing_Sequence417_1.rec"
+0 3300000 BS -2280.287842
+.
+"'*'/Testing_Sequence417_10.rec"
+0 3900000 CF -2395.228271
+.
+"'*'/Testing_Sequence417_13.rec"
+0 4400000 TT -2996.555420
+.
+"'*'/Testing_Sequence417_15.rec"
+0 7200000 CF -4551.171387
+.
+"'*'/Testing_Sequence417_18.rec"
+0 5700000 TT -3457.054199
+.
+"'*'/Testing_Sequence417_2.rec"
+0 5400000 CF -3297.947510
+.
+"'*'/Testing_Sequence417_20.rec"
+0 7000000 OK -4343.616211
+.
+"'*'/Testing_Sequence417_3.rec"
+0 6300000 CP -3831.967773
+.
+"'*'/Testing_Sequence417_5.rec"
+0 5500000 CN -3395.004883
+.
+"'*'/Testing_Sequence417_8.rec"
+0 6000000 FM -3118.884277
+.
+"'*'/Testing_Sequence417_9.rec"
+0 4900000 CF -2732.220459
+.
+"'*'/Testing_Sequence418_0.rec"
+0 34300000 SIL -15269.330078
+.
+"'*'/Testing_Sequence418_1.rec"
+0 3700000 BS -2483.864502
+.
+"'*'/Testing_Sequence418_10.rec"
+0 7700000 CF -4846.048828
+.
+"'*'/Testing_Sequence418_13.rec"
+0 4400000 CF -2834.483398
+.
+"'*'/Testing_Sequence418_15.rec"
+0 5500000 SP -3542.989014
+.
+"'*'/Testing_Sequence418_16.rec"
+0 4200000 TT -2597.241455
+.
+"'*'/Testing_Sequence418_17.rec"
+0 5500000 CF -3193.478027
+.
+"'*'/Testing_Sequence418_19.rec"
+0 4600000 TT -2760.144043
+.
+"'*'/Testing_Sequence418_4.rec"
+0 6300000 CV -4200.574707
+.
+"'*'/Testing_Sequence418_5.rec"
+0 8000000 CN -4806.262695
+.
+"'*'/Testing_Sequence418_6.rec"
+0 5900000 TT -3647.842529
+.
+"'*'/Testing_Sequence420_0.rec"
+0 52100000 SIL -23169.527344
+.
+"'*'/Testing_Sequence420_1.rec"
+0 3200000 BS -2183.404053
+.
+"'*'/Testing_Sequence420_11.rec"
+0 6300000 ST -3624.466064
+.
+"'*'/Testing_Sequence420_13.rec"
+0 3800000 TT -2443.858643
+.
+"'*'/Testing_Sequence420_14.rec"
+0 4600000 PR -2674.513428
+.
+"'*'/Testing_Sequence420_15.rec"
+0 4200000 TT -2517.776123
+.
+"'*'/Testing_Sequence420_3.rec"
+0 4900000 BS -3126.986084
+.
+"'*'/Testing_Sequence420_6.rec"
+0 5000000 PF -3019.348389
+.
+"'*'/Testing_Sequence420_7.rec"
+0 6000000 CV -3875.096191
+.
+"'*'/Testing_Sequence420_8.rec"
+0 5900000 FM -3063.732666
+.
+"'*'/Testing_Sequence420_9.rec"
+0 6100000 CF -3667.001709
+.
+"'*'/Testing_Sequence421_0.rec"
+0 64800000 SIL -32620.470703
+.
+"'*'/Testing_Sequence421_1.rec"
+0 3500000 BS -2246.369873
+.
+"'*'/Testing_Sequence421_13.rec"
+0 5000000 PF -3209.315430
+.
+"'*'/Testing_Sequence421_15.rec"
+0 4000000 CF -2412.199951
+.
+"'*'/Testing_Sequence421_16.rec"
+0 3900000 TT -2349.628174
+.
+"'*'/Testing_Sequence421_18.rec"
+0 3500000 TT -2362.764404
+.
+"'*'/Testing_Sequence421_2.rec"
+0 3300000 BN -2114.418945
+.
+"'*'/Testing_Sequence421_20.rec"
+0 4500000 NU -2747.430420
+.
+"'*'/Testing_Sequence421_3.rec"
+0 5100000 CP -2885.918701
+.
+"'*'/Testing_Sequence421_4.rec"
+0 3100000 CV -2143.222900
+.
+"'*'/Testing_Sequence421_6.rec"
+0 4000000 CF -2370.084229
+.
+"'*'/Testing_Sequence422_0.rec"
+0 64300000 SIL -32357.556641
+.
+"'*'/Testing_Sequence422_11.rec"
+0 5900000 MC -3643.947754
+.
+"'*'/Testing_Sequence422_12.rec"
+0 2600000 BN -1632.593384
+.
+"'*'/Testing_Sequence422_13.rec"
+0 3800000 PF -2303.468506
+.
+"'*'/Testing_Sequence422_17.rec"
+0 4800000 FN -2833.318115
+.
+"'*'/Testing_Sequence422_18.rec"
+0 3900000 TT -2924.105957
+.
+"'*'/Testing_Sequence422_2.rec"
+0 4000000 FU -2506.742920
+.
+"'*'/Testing_Sequence422_4.rec"
+0 4100000 CV -2650.652100
+.
+"'*'/Testing_Sequence422_5.rec"
+0 4400000 CN -2637.250000
+.
+"'*'/Testing_Sequence422_8.rec"
+0 2800000 FM -1684.419922
+.
+"'*'/Testing_Sequence422_9.rec"
+0 2700000 CF -1734.930420
+.
+"'*'/Testing_Sequence423_0.rec"
+0 58600000 SIL -29214.833984
+.
+"'*'/Testing_Sequence423_10.rec"
+0 4300000 FU -2743.675293
+.
+"'*'/Testing_Sequence423_11.rec"
+0 4500000 MC -2949.295654
+.
+"'*'/Testing_Sequence423_14.rec"
+0 4700000 NU -2903.187744
+.
+"'*'/Testing_Sequence423_17.rec"
+0 6000000 FU -3598.379883
+.
+"'*'/Testing_Sequence423_18.rec"
+0 5500000 VA -3682.011719
+.
+"'*'/Testing_Sequence423_19.rec"
+0 4600000 VQ -2972.297852
+.
+"'*'/Testing_Sequence423_5.rec"
+0 5400000 CN -3525.533691
+.
+"'*'/Testing_Sequence423_8.rec"
+0 4100000 FM -2430.683594
+.
+"'*'/Testing_Sequence423_9.rec"
+0 3900000 FU -2510.530273
+.
+"'*'/Testing_Sequence424_0.rec"
+0 62500000 SIL -30647.708984
+.
+"'*'/Testing_Sequence424_1.rec"
+0 4300000 BS -2721.234863
+.
+"'*'/Testing_Sequence424_10.rec"
+0 3900000 FU -2452.686279
+.
+"'*'/Testing_Sequence424_13.rec"
+0 4500000 VQ -2755.534912
+.
+"'*'/Testing_Sequence424_17.rec"
+0 3500000 ST -2072.307373
+.
+"'*'/Testing_Sequence424_18.rec"
+0 4200000 VA -3006.290527
+.
+"'*'/Testing_Sequence424_19.rec"
+0 4000000 FN -2461.907715
+.
+"'*'/Testing_Sequence424_3.rec"
+0 3800000 CP -2342.178955
+.
+"'*'/Testing_Sequence424_6.rec"
+0 6400000 FN -3880.691162
+.
+"'*'/Testing_Sequence424_8.rec"
+0 4700000 CP -2808.152588
+.
+"'*'/Testing_Sequence425_0.rec"
+0 59700000 SIL -29839.478516
+.
+"'*'/Testing_Sequence425_1.rec"
+0 4600000 BS -3011.498047
+.
+"'*'/Testing_Sequence425_14.rec"
+0 4000000 PR -2519.044678
+.
+"'*'/Testing_Sequence425_16.rec"
+0 4000000 SP -2633.315186
+.
+"'*'/Testing_Sequence425_18.rec"
+0 3600000 VA -2699.126221
+.
+"'*'/Testing_Sequence425_19.rec"
+0 2900000 FU -1972.367188
+.
+"'*'/Testing_Sequence425_2.rec"
+0 4700000 FN -2843.160889
+.
+"'*'/Testing_Sequence425_20.rec"
+0 4000000 NU -2588.311523
+.
+"'*'/Testing_Sequence425_3.rec"
+0 5500000 CP -3145.353516
+.
+"'*'/Testing_Sequence425_7.rec"
+0 6800000 DC -4214.134766
+.
+"'*'/Testing_Sequence425_8.rec"
+0 4200000 FM -2359.150879
+.
+"'*'/Testing_Sequence426_0.rec"
+0 69000000 SIL -34645.332031
+.
+"'*'/Testing_Sequence426_10.rec"
+0 5100000 FU -2961.033691
+.
+"'*'/Testing_Sequence426_15.rec"
+0 3900000 CF -2613.884033
+.
+"'*'/Testing_Sequence426_18.rec"
+0 3500000 VA -2720.099121
+.
+"'*'/Testing_Sequence426_19.rec"
+0 3300000 VQ -2079.694336
+.
+"'*'/Testing_Sequence426_20.rec"
+0 4300000 NU -2644.736328
+.
+"'*'/Testing_Sequence426_5.rec"
+0 5600000 CN -3368.073975
+.
+"'*'/Testing_Sequence426_6.rec"
+0 4300000 CF -2501.515625
+.
+"'*'/Testing_Sequence426_7.rec"
+0 6100000 DC -3996.653564
+.
+"'*'/Testing_Sequence426_8.rec"
+0 3300000 FM -2018.130737
+.
+"'*'/Testing_Sequence427_0.rec"
+0 71500000 SIL -33157.324219
+.
+"'*'/Testing_Sequence427_11.rec"
+0 5400000 MC -3144.012939
+.
+"'*'/Testing_Sequence427_12.rec"
+0 4500000 PF -2813.197510
+.
+"'*'/Testing_Sequence427_15.rec"
+0 4100000 PF -2469.455078
+.
+"'*'/Testing_Sequence427_16.rec"
+0 4500000 SP -3018.917480
+.
+"'*'/Testing_Sequence427_17.rec"
+0 3900000 MC -2258.692139
+.
+"'*'/Testing_Sequence427_3.rec"
+0 4000000 CP -2411.497314
+.
+"'*'/Testing_Sequence427_4.rec"
+0 3300000 CV -1997.366333
+.
+"'*'/Testing_Sequence427_5.rec"
+0 4300000 CN -2710.016602
+.
+"'*'/Testing_Sequence427_6.rec"
+0 3500000 CF -2237.287598
+.
+"'*'/Testing_Sequence427_7.rec"
+0 3300000 DC -1977.748901
+.
+"'*'/Testing_Sequence428_0.rec"
+0 58400000 SIL -28109.761719
+.
+"'*'/Testing_Sequence428_11.rec"
+0 5000000 MC -2918.493164
+.
+"'*'/Testing_Sequence428_12.rec"
+0 4000000 FU -2368.203369
+.
+"'*'/Testing_Sequence428_13.rec"
+0 3800000 PF -2279.083740
+.
+"'*'/Testing_Sequence428_15.rec"
+0 3500000 SP -2177.633789
+.
+"'*'/Testing_Sequence428_2.rec"
+0 3800000 FU -2419.117432
+.
+"'*'/Testing_Sequence428_3.rec"
+0 5500000 CP -3352.061035
+.
+"'*'/Testing_Sequence428_4.rec"
+0 4400000 CV -2597.375244
+.
+"'*'/Testing_Sequence428_5.rec"
+0 4500000 CN -2998.377686
+.
+"'*'/Testing_Sequence428_6.rec"
+0 4000000 CF -2603.940430
+.
+"'*'/Testing_Sequence428_8.rec"
+0 3800000 PR -2371.495361
+.
+"'*'/Testing_Sequence428_9.rec"
+0 3800000 FN -2261.154297
+.
+"'*'/Testing_Sequence429_0.rec"
+0 65700000 SIL -31614.349609
+.
+"'*'/Testing_Sequence429_10.rec"
+0 3700000 CF -2484.720459
+.
+"'*'/Testing_Sequence429_11.rec"
+0 4500000 MC -2820.413818
+.
+"'*'/Testing_Sequence429_14.rec"
+0 4500000 PR -2832.332031
+.
+"'*'/Testing_Sequence429_15.rec"
+0 4000000 BN -2387.017822
+.
+"'*'/Testing_Sequence429_16.rec"
+0 5800000 TT -3483.501709
+.
+"'*'/Testing_Sequence429_17.rec"
+0 3700000 MC -2308.489258
+.
+"'*'/Testing_Sequence429_18.rec"
+0 5900000 CF -3873.708252
+.
+"'*'/Testing_Sequence429_20.rec"
+0 3800000 MC -2111.487305
+.
+"'*'/Testing_Sequence429_4.rec"
+0 3800000 CV -2335.439209
+.
+"'*'/Testing_Sequence429_5.rec"
+0 5200000 CN -3215.537109
+.
+"'*'/Testing_Sequence430_0.rec"
+0 72400000 SIL -32494.451172
+.
+"'*'/Testing_Sequence430_1.rec"
+0 4000000 BS -2513.256348
+.
+"'*'/Testing_Sequence430_10.rec"
+0 3900000 FU -2312.338135
+.
+"'*'/Testing_Sequence430_11.rec"
+0 4700000 MC -2572.781982
+.
+"'*'/Testing_Sequence430_13.rec"
+0 4300000 FU -2740.718994
+.
+"'*'/Testing_Sequence430_14.rec"
+0 3600000 PR -2399.280762
+.
+"'*'/Testing_Sequence430_16.rec"
+0 4000000 TT -2410.269531
+.
+"'*'/Testing_Sequence430_2.rec"
+0 4500000 FU -2848.345947
+.
+"'*'/Testing_Sequence430_3.rec"
+0 5500000 CP -3216.219482
+.
+"'*'/Testing_Sequence430_4.rec"
+0 3100000 CV -1869.865967
+.
+"'*'/Testing_Sequence430_8.rec"
+0 3700000 FM -1929.739136
+.
+"'*'/Testing_Sequence431_0.rec"
+0 49300000 SIL -20945.986328
+.
+"'*'/Testing_Sequence431_1.rec"
+0 4500000 BS -2992.462646
+.
+"'*'/Testing_Sequence431_11.rec"
+0 4800000 ST -2855.936768
+.
+"'*'/Testing_Sequence431_12.rec"
+0 4100000 FU -2547.193359
+.
+"'*'/Testing_Sequence431_15.rec"
+0 4600000 PF -2793.075195
+.
+"'*'/Testing_Sequence431_19.rec"
+0 5000000 VQ -3112.444824
+.
+"'*'/Testing_Sequence431_3.rec"
+0 5000000 CP -2909.287354
+.
+"'*'/Testing_Sequence431_4.rec"
+0 4800000 CV -3356.726563
+.
+"'*'/Testing_Sequence431_8.rec"
+0 6300000 FM -3630.082275
+.
+"'*'/Testing_Sequence431_9.rec"
+0 5000000 CF -3178.242188
+.
+"'*'/Testing_Sequence432_0.rec"
+0 45600000 SIL -18956.937500
+.
+"'*'/Testing_Sequence432_10.rec"
+0 5200000 CF -3037.141846
+.
+"'*'/Testing_Sequence432_13.rec"
+0 4400000 PF -2652.781006
+.
+"'*'/Testing_Sequence432_14.rec"
+0 4500000 PR -2643.975586
+.
+"'*'/Testing_Sequence432_16.rec"
+0 4900000 TT -2952.103516
+.
+"'*'/Testing_Sequence432_18.rec"
+0 4300000 TT -2610.323242
+.
+"'*'/Testing_Sequence432_19.rec"
+0 5100000 TT -3174.838867
+.
+"'*'/Testing_Sequence432_5.rec"
+0 5100000 CN -3149.802979
+.
+"'*'/Testing_Sequence432_6.rec"
+0 4600000 CF -2885.113770
+.
+"'*'/Testing_Sequence432_8.rec"
+0 5000000 FM -2763.264404
+.
+"'*'/Testing_Sequence433_0.rec"
+0 38400000 SIL -16370.969727
+.
+"'*'/Testing_Sequence433_1.rec"
+0 3700000 BS -2456.533447
+.
+"'*'/Testing_Sequence433_14.rec"
+0 5500000 PR -3254.725342
+.
+"'*'/Testing_Sequence433_15.rec"
+0 3500000 PF -2122.490967
+.
+"'*'/Testing_Sequence433_18.rec"
+0 4700000 TT -2834.688232
+.
+"'*'/Testing_Sequence433_19.rec"
+0 3700000 VQ -2318.227295
+.
+"'*'/Testing_Sequence433_3.rec"
+0 5700000 CP -3505.918701
+.
+"'*'/Testing_Sequence433_4.rec"
+0 4800000 CV -3055.127197
+.
+"'*'/Testing_Sequence433_5.rec"
+0 4800000 CN -3050.604248
+.
+"'*'/Testing_Sequence433_7.rec"
+0 6000000 CN -3947.068848
+.
+"'*'/Testing_Sequence433_9.rec"
+0 4800000 FN -2756.200439
+.
+"'*'/Testing_Sequence434_0.rec"
+0 32900000 SIL -16145.808594
+.
+"'*'/Testing_Sequence434_10.rec"
+0 5000000 FU -2937.285889
+.
+"'*'/Testing_Sequence434_11.rec"
+0 5300000 ST -3054.764160
+.
+"'*'/Testing_Sequence434_12.rec"
+0 4900000 OK -2864.627930
+.
+"'*'/Testing_Sequence434_15.rec"
+0 5100000 CF -2998.994141
+.
+"'*'/Testing_Sequence434_16.rec"
+0 4800000 TT -3165.216797
+.
+"'*'/Testing_Sequence434_19.rec"
+0 6100000 PF -4115.689941
+.
+"'*'/Testing_Sequence434_20.rec"
+0 4300000 OK -2510.532227
+.
+"'*'/Testing_Sequence434_3.rec"
+0 5500000 CP -3690.905518
+.
+"'*'/Testing_Sequence434_5.rec"
+0 4700000 CN -3077.481201
+.
+"'*'/Testing_Sequence434_9.rec"
+0 5000000 FN -3023.478027
+.
+"'*'/Testing_Sequence435_0.rec"
+0 33200000 SIL -15220.805664
+.
+"'*'/Testing_Sequence435_1.rec"
+0 3700000 BS -2479.988037
+.
+"'*'/Testing_Sequence435_10.rec"
+0 5500000 CF -3277.609863
+.
+"'*'/Testing_Sequence435_12.rec"
+0 4500000 FN -2850.633545
+.
+"'*'/Testing_Sequence435_13.rec"
+0 4800000 PF -3008.002930
+.
+"'*'/Testing_Sequence435_20.rec"
+0 4200000 NU -2485.688721
+.
+"'*'/Testing_Sequence435_4.rec"
+0 5200000 CV -3430.939209
+.
+"'*'/Testing_Sequence435_5.rec"
+0 5300000 CN -3375.796143
+.
+"'*'/Testing_Sequence435_6.rec"
+0 4900000 CF -2980.056396
+.
+"'*'/Testing_Sequence435_7.rec"
+0 4700000 DC -3101.351807
+.
+"'*'/Testing_Sequence435_9.rec"
+0 5600000 FU -3381.846924
+.
+"'*'/Testing_Sequence436_0.rec"
+0 26000000 SIL -13651.111328
+.
+"'*'/Testing_Sequence436_10.rec"
+0 5400000 FU -3364.844971
+.
+"'*'/Testing_Sequence436_12.rec"
+0 6300000 OK -3737.702148
+.
+"'*'/Testing_Sequence436_15.rec"
+0 6200000 CF -3727.036865
+.
+"'*'/Testing_Sequence436_19.rec"
+0 5800000 PF -3536.688232
+.
+"'*'/Testing_Sequence436_2.rec"
+0 7400000 FU -4496.060059
+.
+"'*'/Testing_Sequence436_3.rec"
+0 4300000 BS -2669.192383
+.
+"'*'/Testing_Sequence436_7.rec"
+0 6700000 DC -4439.894531
+.
+"'*'/Testing_Sequence436_8.rec"
+0 5500000 FM -3099.448486
+.
+"'*'/Testing_Sequence436_9.rec"
+0 5600000 FU -3347.415527
+.
+"'*'/Testing_Sequence437_0.rec"
+0 20700000 SIL -10308.495117
+.
+"'*'/Testing_Sequence437_1.rec"
+0 4700000 BS -3252.458984
+.
+"'*'/Testing_Sequence437_12.rec"
+0 6100000 FU -3493.269775
+.
+"'*'/Testing_Sequence437_16.rec"
+0 6100000 TT -3700.584961
+.
+"'*'/Testing_Sequence437_17.rec"
+0 5400000 CF -3532.999023
+.
+"'*'/Testing_Sequence437_18.rec"
+0 4600000 TT -2938.075439
+.
+"'*'/Testing_Sequence437_19.rec"
+0 3900000 VQ -2598.033203
+.
+"'*'/Testing_Sequence437_2.rec"
+0 5800000 CF -3428.868408
+.
+"'*'/Testing_Sequence437_6.rec"
+0 3800000 CF -2338.712158
+.
+"'*'/Testing_Sequence437_8.rec"
+0 5900000 FM -3472.870361
+.
+"'*'/Testing_Sequence437_9.rec"
+0 3500000 FU -2252.470947
+.
+"'*'/Testing_Sequence438_0.rec"
+0 14500000 SIL -6887.495117
+.
+"'*'/Testing_Sequence438_10.rec"
+0 6100000 CF -3840.777344
+.
+"'*'/Testing_Sequence438_11.rec"
+0 4300000 VQ -2720.147949
+.
+"'*'/Testing_Sequence438_12.rec"
+0 6500000 CF -4059.828369
+.
+"'*'/Testing_Sequence438_13.rec"
+0 4700000 PF -2947.526855
+.
+"'*'/Testing_Sequence438_14.rec"
+0 4200000 PR -2600.237549
+.
+"'*'/Testing_Sequence438_17.rec"
+0 5200000 CF -3793.491699
+.
+"'*'/Testing_Sequence438_2.rec"
+0 4200000 SP -2739.590820
+.
+"'*'/Testing_Sequence438_4.rec"
+0 6700000 CV -4240.912109
+.
+"'*'/Testing_Sequence438_5.rec"
+0 6100000 CN -4013.177979
+.
+"'*'/Testing_Sequence438_6.rec"
+0 6700000 CF -4173.923828
+.
+"'*'/Testing_Sequence438_9.rec"
+0 4300000 FU -2649.603271
+.
+"'*'/Testing_Sequence439_0.rec"
+0 43900000 SIL -18755.867188
+.
+"'*'/Testing_Sequence439_12.rec"
+0 4100000 FU -2382.806152
+.
+"'*'/Testing_Sequence439_14.rec"
+0 4700000 OK -2839.752197
+.
+"'*'/Testing_Sequence439_16.rec"
+0 4900000 PF -3146.163086
+.
+"'*'/Testing_Sequence439_17.rec"
+0 5100000 CF -3134.605225
+.
+"'*'/Testing_Sequence439_19.rec"
+0 5100000 PF -3177.897705
+.
+"'*'/Testing_Sequence439_4.rec"
+0 4600000 CV -3074.478760
+.
+"'*'/Testing_Sequence439_6.rec"
+0 5200000 CF -3305.166016
+.
+"'*'/Testing_Sequence439_7.rec"
+0 6400000 CV -4294.980469
+.
+"'*'/Testing_Sequence439_8.rec"
+0 4400000 FM -2474.106445
+.
+"'*'/Testing_Sequence440_0.rec"
+0 38600000 SIL -16595.519531
+.
+"'*'/Testing_Sequence440_10.rec"
+0 4000000 FU -2643.921143
+.
+"'*'/Testing_Sequence440_11.rec"
+0 5200000 MC -3122.303223
+.
+"'*'/Testing_Sequence440_12.rec"
+0 4200000 FU -2440.117188
+.
+"'*'/Testing_Sequence440_14.rec"
+0 3800000 OK -2388.821289
+.
+"'*'/Testing_Sequence440_15.rec"
+0 3700000 PF -2247.111572
+.
+"'*'/Testing_Sequence440_16.rec"
+0 5000000 TT -3196.087891
+.
+"'*'/Testing_Sequence440_18.rec"
+0 3700000 TT -2282.638916
+.
+"'*'/Testing_Sequence440_19.rec"
+0 3500000 VQ -2136.978760
+.
+"'*'/Testing_Sequence440_20.rec"
+0 5300000 MC -3041.512695
+.
+"'*'/Testing_Sequence440_5.rec"
+0 8000000 CN -4948.827637
+.
+"'*'/Testing_Sequence440_6.rec"
+0 5600000 CF -3497.770020
+.
+"'*'/Testing_Sequence441_0.rec"
+0 49600000 SIL -20000.658203
+.
+"'*'/Testing_Sequence441_10.rec"
+0 5000000 CF -2955.239258
+.
+"'*'/Testing_Sequence441_11.rec"
+0 8200000 MC -4803.583496
+.
+"'*'/Testing_Sequence441_12.rec"
+0 3500000 FN -2000.247925
+.
+"'*'/Testing_Sequence441_14.rec"
+0 4200000 PR -2486.312500
+.
+"'*'/Testing_Sequence441_15.rec"
+0 4100000 CF -2523.362305
+.
+"'*'/Testing_Sequence441_17.rec"
+0 4500000 CF -2524.896484
+.
+"'*'/Testing_Sequence441_19.rec"
+0 3400000 VQ -2103.260498
+.
+"'*'/Testing_Sequence441_6.rec"
+0 3900000 CF -2330.244385
+.
+"'*'/Testing_Sequence441_7.rec"
+0 4600000 DC -3229.068359
+.
+"'*'/Testing_Sequence441_8.rec"
+0 5800000 FM -3186.273926
+.
+"'*'/Testing_Sequence441_9.rec"
+0 4100000 FN -2383.608154
+.
+"'*'/Testing_Sequence442_0.rec"
+0 51700000 SIL -22075.646484
+.
+"'*'/Testing_Sequence442_10.rec"
+0 5000000 FN -3025.593018
+.
+"'*'/Testing_Sequence442_12.rec"
+0 3400000 OK -2004.398560
+.
+"'*'/Testing_Sequence442_13.rec"
+0 4100000 PF -2551.842041
+.
+"'*'/Testing_Sequence442_18.rec"
+0 4500000 TT -2760.341064
+.
+"'*'/Testing_Sequence442_19.rec"
+0 4200000 TT -2791.444580
+.
+"'*'/Testing_Sequence442_20.rec"
+0 4100000 MC -2424.990234
+.
+"'*'/Testing_Sequence442_3.rec"
+0 4300000 CP -2722.084961
+.
+"'*'/Testing_Sequence442_7.rec"
+0 4900000 CV -3380.584229
+.
+"'*'/Testing_Sequence442_8.rec"
+0 5600000 FM -3021.334961
+.
+"'*'/Testing_Sequence443_0.rec"
+0 50900000 SIL -21386.486328
+.
+"'*'/Testing_Sequence443_1.rec"
+0 4500000 BS -2880.917480
+.
+"'*'/Testing_Sequence443_11.rec"
+0 5200000 MC -3087.250244
+.
+"'*'/Testing_Sequence443_14.rec"
+0 3300000 FU -2107.342285
+.
+"'*'/Testing_Sequence443_15.rec"
+0 4300000 CF -2709.626709
+.
+"'*'/Testing_Sequence443_18.rec"
+0 4500000 TT -2768.529785
+.
+"'*'/Testing_Sequence443_19.rec"
+0 5500000 PF -3283.288818
+.
+"'*'/Testing_Sequence443_2.rec"
+0 4700000 CF -2677.479248
+.
+"'*'/Testing_Sequence443_20.rec"
+0 5100000 NU -2869.616943
+.
+"'*'/Testing_Sequence443_6.rec"
+0 4700000 CF -2738.012451
+.
+"'*'/Testing_Sequence443_9.rec"
+0 3700000 FU -2086.620850
+.
+"'*'/Testing_Sequence444_0.rec"
+0 38200000 SIL -15984.936523
+.
+"'*'/Testing_Sequence444_12.rec"
+0 3900000 CF -2397.005127
+.
+"'*'/Testing_Sequence444_14.rec"
+0 3600000 PR -2145.305176
+.
+"'*'/Testing_Sequence444_15.rec"
+0 4700000 PF -2867.084473
+.
+"'*'/Testing_Sequence444_17.rec"
+0 5400000 CF -3213.984131
+.
+"'*'/Testing_Sequence444_18.rec"
+0 6300000 TT -3925.224609
+.
+"'*'/Testing_Sequence444_20.rec"
+0 5300000 CF -3323.342285
+.
+"'*'/Testing_Sequence444_3.rec"
+0 6500000 CP -4359.760742
+.
+"'*'/Testing_Sequence444_5.rec"
+0 6000000 CN -3863.688477
+.
+"'*'/Testing_Sequence444_7.rec"
+0 5400000 CV -3822.688965
+.
+"'*'/Testing_Sequence444_8.rec"
+0 5000000 FM -2673.677490
+.
+"'*'/Testing_Sequence445_0.rec"
+0 36200000 SIL -15977.733398
+.
+"'*'/Testing_Sequence445_12.rec"
+0 2900000 OK -1706.170166
+.
+"'*'/Testing_Sequence445_13.rec"
+0 4800000 PF -2958.017578
+.
+"'*'/Testing_Sequence445_14.rec"
+0 4800000 OK -3028.366699
+.
+"'*'/Testing_Sequence445_17.rec"
+0 4600000 CF -2659.187744
+.
+"'*'/Testing_Sequence445_2.rec"
+0 5600000 CF -3172.446777
+.
+"'*'/Testing_Sequence445_20.rec"
+0 4400000 VQ -2704.846680
+.
+"'*'/Testing_Sequence445_3.rec"
+0 5600000 CP -3466.384033
+.
+"'*'/Testing_Sequence445_4.rec"
+0 5500000 CV -3758.260010
+.
+"'*'/Testing_Sequence445_6.rec"
+0 5200000 PF -3188.626709
+.
+"'*'/Testing_Sequence445_9.rec"
+0 4200000 CF -2393.338623
+.
+"'*'/Testing_Sequence446_0.rec"
+0 70700000 SIL -36493.808594
+.
+"'*'/Testing_Sequence446_1.rec"
+0 4000000 BS -2568.919434
+.
+"'*'/Testing_Sequence446_11.rec"
+0 6400000 MC -3755.388428
+.
+"'*'/Testing_Sequence446_12.rec"
+0 3800000 FU -2407.015137
+.
+"'*'/Testing_Sequence446_14.rec"
+0 3700000 PR -2391.137939
+.
+"'*'/Testing_Sequence446_19.rec"
+0 3600000 PF -2381.771240
+.
+"'*'/Testing_Sequence446_2.rec"
+0 3600000 CF -2071.849365
+.
+"'*'/Testing_Sequence446_20.rec"
+0 3400000 MC -1937.881836
+.
+"'*'/Testing_Sequence446_4.rec"
+0 4600000 CV -2819.286621
+.
+"'*'/Testing_Sequence446_6.rec"
+0 4400000 VQ -2933.198975
+.
+"'*'/Testing_Sequence446_8.rec"
+0 5000000 FM -3026.840332
+.
+"'*'/Testing_Sequence447_0.rec"
+0 66600000 SIL -35714.679688
+.
+"'*'/Testing_Sequence447_10.rec"
+0 4200000 FU -2814.321533
+.
+"'*'/Testing_Sequence447_14.rec"
+0 4600000 PR -2940.545654
+.
+"'*'/Testing_Sequence447_16.rec"
+0 5600000 TT -3419.354004
+.
+"'*'/Testing_Sequence447_19.rec"
+0 3900000 VQ -2492.449219
+.
+"'*'/Testing_Sequence447_3.rec"
+0 5500000 CP -3159.674561
+.
+"'*'/Testing_Sequence447_4.rec"
+0 3200000 CV -1994.005371
+.
+"'*'/Testing_Sequence447_5.rec"
+0 6500000 CN -3865.769531
+.
+"'*'/Testing_Sequence447_6.rec"
+0 6300000 FU -3955.469727
+.
+"'*'/Testing_Sequence447_9.rec"
+0 4700000 CF -2844.897949
+.
+"'*'/Testing_Sequence448_0.rec"
+0 70700000 SIL -33629.203125
+.
+"'*'/Testing_Sequence448_11.rec"
+0 5700000 NU -3732.860596
+.
+"'*'/Testing_Sequence448_12.rec"
+0 4800000 FU -2904.712646
+.
+"'*'/Testing_Sequence448_13.rec"
+0 4200000 VQ -2689.881348
+.
+"'*'/Testing_Sequence448_15.rec"
+0 4600000 BN -3031.548096
+.
+"'*'/Testing_Sequence448_18.rec"
+0 4500000 VA -3288.677734
+.
+"'*'/Testing_Sequence448_2.rec"
+0 4500000 BN -2932.128662
+.
+"'*'/Testing_Sequence448_20.rec"
+0 4200000 MC -2364.460449
+.
+"'*'/Testing_Sequence448_6.rec"
+0 5100000 FU -3241.531738
+.
+"'*'/Testing_Sequence448_7.rec"
+0 4300000 DC -2609.575684
+.
+"'*'/Testing_Sequence449_0.rec"
+0 67400000 SIL -32093.871094
+.
+"'*'/Testing_Sequence449_1.rec"
+0 5000000 BS -3295.069336
+.
+"'*'/Testing_Sequence449_10.rec"
+0 4300000 FU -3165.488525
+.
+"'*'/Testing_Sequence449_11.rec"
+0 5900000 MC -3303.442871
+.
+"'*'/Testing_Sequence449_12.rec"
+0 3500000 FU -2077.731445
+.
+"'*'/Testing_Sequence449_14.rec"
+0 4600000 FU -3055.613525
+.
+"'*'/Testing_Sequence449_17.rec"
+0 3800000 FU -2412.642822
+.
+"'*'/Testing_Sequence449_2.rec"
+0 4400000 FU -2542.312012
+.
+"'*'/Testing_Sequence449_20.rec"
+0 6300000 NU -3811.001221
+.
+"'*'/Testing_Sequence449_3.rec"
+0 4900000 CP -2927.727783
+.
+"'*'/Testing_Sequence449_8.rec"
+0 3400000 FM -2071.212402
+.
+"'*'/Testing_Sequence450_0.rec"
+0 70800000 SIL -33019.359375
+.
+"'*'/Testing_Sequence450_1.rec"
+0 3900000 BS -2512.217285
+.
+"'*'/Testing_Sequence450_14.rec"
+0 4000000 PR -2567.770508
+.
+"'*'/Testing_Sequence450_15.rec"
+0 6800000 PF -4268.062988
+.
+"'*'/Testing_Sequence450_16.rec"
+0 4100000 TT -2514.472900
+.
+"'*'/Testing_Sequence450_18.rec"
+0 4700000 VQ -3942.108887
+.
+"'*'/Testing_Sequence450_20.rec"
+0 3100000 MC -2025.128052
+.
+"'*'/Testing_Sequence450_4.rec"
+0 3500000 CV -2153.996826
+.
+"'*'/Testing_Sequence450_7.rec"
+0 3700000 DC -2201.935547
+.
+"'*'/Testing_Sequence450_8.rec"
+0 5000000 FM -3092.591064
+.
+"'*'/Testing_Sequence450_9.rec"
+0 4600000 FU -2627.943115
+.
+"'*'/Testing_Sequence451_0.rec"
+0 86100000 SIL -39038.968750
+.
+"'*'/Testing_Sequence451_10.rec"
+0 2400000 FN -1391.624512
+.
+"'*'/Testing_Sequence451_12.rec"
+0 3000000 OK -1742.520630
+.
+"'*'/Testing_Sequence451_14.rec"
+0 3200000 MC -1825.796753
+.
+"'*'/Testing_Sequence451_16.rec"
+0 2900000 TT -1741.787354
+.
+"'*'/Testing_Sequence451_2.rec"
+0 3700000 CF -2068.834229
+.
+"'*'/Testing_Sequence451_20.rec"
+0 3700000 MC -2043.155640
+.
+"'*'/Testing_Sequence451_4.rec"
+0 3400000 CV -2005.314819
+.
+"'*'/Testing_Sequence451_5.rec"
+0 5200000 CN -2849.376953
+.
+"'*'/Testing_Sequence451_7.rec"
+0 4400000 CV -2886.671143
+.
+"'*'/Testing_Sequence451_8.rec"
+0 3500000 FM -1843.549194
+.
+"'*'/Testing_Sequence452_0.rec"
+0 68100000 SIL -33010.109375
+.
+"'*'/Testing_Sequence452_1.rec"
+0 3400000 BS -2478.273926
+.
+"'*'/Testing_Sequence452_11.rec"
+0 5000000 MC -2809.178955
+.
+"'*'/Testing_Sequence452_13.rec"
+0 3400000 PF -2075.011475
+.
+"'*'/Testing_Sequence452_15.rec"
+0 3500000 CF -2040.702637
+.
+"'*'/Testing_Sequence452_17.rec"
+0 4100000 ST -2308.051270
+.
+"'*'/Testing_Sequence452_19.rec"
+0 2800000 VQ -1692.718750
+.
+"'*'/Testing_Sequence452_2.rec"
+0 5200000 CF -2989.495850
+.
+"'*'/Testing_Sequence452_3.rec"
+0 4000000 CP -2706.312744
+.
+"'*'/Testing_Sequence452_5.rec"
+0 4300000 CN -2415.302002
+.
+"'*'/Testing_Sequence452_8.rec"
+0 3900000 FM -2064.955566
+.
+"'*'/Testing_Sequence453_0.rec"
+0 72000000 SIL -37767.332031
+.
+"'*'/Testing_Sequence453_10.rec"
+0 3900000 FU -2289.195801
+.
+"'*'/Testing_Sequence453_12.rec"
+0 2700000 OK -1582.207642
+.
+"'*'/Testing_Sequence453_14.rec"
+0 3400000 MC -1910.065063
+.
+"'*'/Testing_Sequence453_15.rec"
+0 3500000 CF -1908.077881
+.
+"'*'/Testing_Sequence453_17.rec"
+0 4200000 ST -2341.234131
+.
+"'*'/Testing_Sequence453_2.rec"
+0 5100000 CF -2848.909912
+.
+"'*'/Testing_Sequence453_20.rec"
+0 3400000 MC -1879.809204
+.
+"'*'/Testing_Sequence453_4.rec"
+0 4200000 CV -2870.895508
+.
+"'*'/Testing_Sequence453_5.rec"
+0 3600000 CN -2038.191162
+.
+"'*'/Testing_Sequence453_6.rec"
+0 5200000 CF -3035.323975
+.
+"'*'/Testing_Sequence454_0.rec"
+0 64300000 SIL -30828.005859
+.
+"'*'/Testing_Sequence454_1.rec"
+0 3800000 BS -2609.438721
+.
+"'*'/Testing_Sequence454_10.rec"
+0 3800000 FU -2131.322510
+.
+"'*'/Testing_Sequence454_18.rec"
+0 3400000 VQ -2071.462158
+.
+"'*'/Testing_Sequence454_19.rec"
+0 3100000 VQ -1845.970825
+.
+"'*'/Testing_Sequence454_2.rec"
+0 3900000 CF -2213.748535
+.
+"'*'/Testing_Sequence454_20.rec"
+0 3300000 NU -1859.946655
+.
+"'*'/Testing_Sequence454_4.rec"
+0 3000000 CV -1891.812988
+.
+"'*'/Testing_Sequence454_6.rec"
+0 5500000 CF -3125.023193
+.
+"'*'/Testing_Sequence454_8.rec"
+0 3800000 FM -2021.716064
+.
+"'*'/Testing_Sequence455_0.rec"
+0 65800000 SIL -33748.945313
+.
+"'*'/Testing_Sequence455_1.rec"
+0 3100000 BS -2066.601807
+.
+"'*'/Testing_Sequence455_11.rec"
+0 6500000 MC -3544.792969
+.
+"'*'/Testing_Sequence455_13.rec"
+0 4100000 CF -2458.686768
+.
+"'*'/Testing_Sequence455_14.rec"
+0 4000000 MC -2268.278809
+.
+"'*'/Testing_Sequence455_15.rec"
+0 3600000 CF -2067.125244
+.
+"'*'/Testing_Sequence455_16.rec"
+0 2800000 TT -1739.316162
+.
+"'*'/Testing_Sequence455_2.rec"
+0 4000000 CF -2250.499268
+.
+"'*'/Testing_Sequence455_20.rec"
+0 2900000 OK -1707.058594
+.
+"'*'/Testing_Sequence455_3.rec"
+0 5500000 CP -3416.313721
+.
+"'*'/Testing_Sequence455_4.rec"
+0 4000000 CV -2604.354492
+.
+"'*'/Testing_Sequence455_7.rec"
+0 3100000 CN -1970.623169
+.
+"'*'/Testing_Sequence456_0.rec"
+0 73600000 SIL -33448.390625
+.
+"'*'/Testing_Sequence456_1.rec"
+0 3100000 BS -2133.720947
+.
+"'*'/Testing_Sequence456_10.rec"
+0 3600000 FU -2161.136230
+.
+"'*'/Testing_Sequence456_11.rec"
+0 4100000 MC -2308.151367
+.
+"'*'/Testing_Sequence456_12.rec"
+0 5700000 OK -3109.712646
+.
+"'*'/Testing_Sequence456_14.rec"
+0 4500000 MC -2520.683838
+.
+"'*'/Testing_Sequence456_16.rec"
+0 3800000 TT -2297.046143
+.
+"'*'/Testing_Sequence456_18.rec"
+0 3200000 VA -2109.528320
+.
+"'*'/Testing_Sequence456_2.rec"
+0 5900000 CF -3171.687744
+.
+"'*'/Testing_Sequence456_5.rec"
+0 6300000 CN -4018.757324
+.
+"'*'/Testing_Sequence457_0.rec"
+0 67600000 SIL -30527.320313
+.
+"'*'/Testing_Sequence457_11.rec"
+0 6100000 ST -3508.320313
+.
+"'*'/Testing_Sequence457_15.rec"
+0 4500000 CF -2458.918213
+.
+"'*'/Testing_Sequence457_16.rec"
+0 3300000 TT -2002.659912
+.
+"'*'/Testing_Sequence457_17.rec"
+0 6300000 ST -3403.805420
+.
+"'*'/Testing_Sequence457_18.rec"
+0 3300000 TT -2138.878418
+.
+"'*'/Testing_Sequence457_19.rec"
+0 3400000 VQ -2051.037842
+.
+"'*'/Testing_Sequence457_3.rec"
+0 3700000 CP -2229.828857
+.
+"'*'/Testing_Sequence457_4.rec"
+0 3400000 CV -2312.622070
+.
+"'*'/Testing_Sequence457_6.rec"
+0 5600000 CF -3087.816406
+.
+"'*'/Testing_Sequence457_7.rec"
+0 4000000 DC -2391.844971
+.
+"'*'/Testing_Sequence457_8.rec"
+0 3800000 FM -2083.979736
+.
+"'*'/Testing_Sequence458_0.rec"
+0 66300000 SIL -28479.666016
+.
+"'*'/Testing_Sequence458_1.rec"
+0 2700000 BS -1896.197876
+.
+"'*'/Testing_Sequence458_14.rec"
+0 6200000 MC -3366.651611
+.
+"'*'/Testing_Sequence458_15.rec"
+0 5300000 CF -2882.104736
+.
+"'*'/Testing_Sequence458_16.rec"
+0 3600000 TT -2197.748291
+.
+"'*'/Testing_Sequence458_18.rec"
+0 3500000 TT -2265.533936
+.
+"'*'/Testing_Sequence458_19.rec"
+0 4600000 PF -2775.469482
+.
+"'*'/Testing_Sequence458_2.rec"
+0 5500000 CF -2895.457031
+.
+"'*'/Testing_Sequence458_5.rec"
+0 4100000 CN -2424.597168
+.
+"'*'/Testing_Sequence458_7.rec"
+0 3800000 DC -2255.197754
+.
+"'*'/Testing_Sequence459_0.rec"
+0 61100000 SIL -27960.781250
+.
+"'*'/Testing_Sequence459_10.rec"
+0 4100000 BN -2306.063232
+.
+"'*'/Testing_Sequence459_11.rec"
+0 7000000 ST -3665.931152
+.
+"'*'/Testing_Sequence459_12.rec"
+0 4400000 CF -2423.625244
+.
+"'*'/Testing_Sequence459_13.rec"
+0 2800000 FN -1667.758057
+.
+"'*'/Testing_Sequence459_18.rec"
+0 4100000 TT -2531.277100
+.
+"'*'/Testing_Sequence459_3.rec"
+0 4500000 CP -2575.719238
+.
+"'*'/Testing_Sequence459_6.rec"
+0 4300000 CF -2452.141357
+.
+"'*'/Testing_Sequence459_7.rec"
+0 4100000 DC -2403.473145
+.
+"'*'/Testing_Sequence459_8.rec"
+0 5700000 FM -3047.699707
+.
+"'*'/Testing_Sequence460_0.rec"
+0 65100000 SIL -35650.156250
+.
+"'*'/Testing_Sequence460_11.rec"
+0 4800000 MC -2634.818115
+.
+"'*'/Testing_Sequence460_16.rec"
+0 3700000 TT -2298.867432
+.
+"'*'/Testing_Sequence460_2.rec"
+0 4700000 CF -2629.562500
+.
+"'*'/Testing_Sequence460_3.rec"
+0 4200000 CP -2639.511230
+.
+"'*'/Testing_Sequence460_4.rec"
+0 5000000 CV -3568.199707
+.
+"'*'/Testing_Sequence460_5.rec"
+0 6200000 CN -3840.098389
+.
+"'*'/Testing_Sequence460_6.rec"
+0 5300000 CF -3002.085938
+.
+"'*'/Testing_Sequence460_8.rec"
+0 4000000 FM -2222.027588
+.
+"'*'/Testing_Sequence460_9.rec"
+0 5100000 FN -3012.269287
+.
+"'*'/Testing_Sequence461_0.rec"
+0 71600000 SIL -37784.113281
+.
+"'*'/Testing_Sequence461_11.rec"
+0 5500000 ST -3047.980225
+.
+"'*'/Testing_Sequence461_12.rec"
+0 4000000 OK -2248.757080
+.
+"'*'/Testing_Sequence461_16.rec"
+0 3400000 TT -2072.006104
+.
+"'*'/Testing_Sequence461_17.rec"
+0 4500000 ST -2425.158691
+.
+"'*'/Testing_Sequence461_18.rec"
+0 3700000 VA -2423.255127
+.
+"'*'/Testing_Sequence461_19.rec"
+0 5000000 VQ -2965.118164
+.
+"'*'/Testing_Sequence461_2.rec"
+0 4100000 FN -2296.644775
+.
+"'*'/Testing_Sequence461_5.rec"
+0 6400000 CN -4147.749023
+.
+"'*'/Testing_Sequence461_8.rec"
+0 3700000 FM -1921.754028
+.
+"'*'/Testing_Sequence461_9.rec"
+0 4800000 CF -2634.097900
+.
+"'*'/Testing_Sequence462_0.rec"
+0 55200000 SIL -25685.515625
+.
+"'*'/Testing_Sequence462_10.rec"
+0 5200000 FN -2999.690186
+.
+"'*'/Testing_Sequence462_16.rec"
+0 5000000 TT -3032.176514
+.
+"'*'/Testing_Sequence462_17.rec"
+0 3800000 ST -2019.627319
+.
+"'*'/Testing_Sequence462_2.rec"
+0 4400000 CF -2443.412354
+.
+"'*'/Testing_Sequence462_3.rec"
+0 4100000 CP -2328.412354
+.
+"'*'/Testing_Sequence462_4.rec"
+0 4600000 CV -3184.444824
+.
+"'*'/Testing_Sequence462_5.rec"
+0 5000000 CN -2908.958740
+.
+"'*'/Testing_Sequence462_6.rec"
+0 5100000 BN -2870.670166
+.
+"'*'/Testing_Sequence462_7.rec"
+0 4000000 CN -2701.660889
+.
+"'*'/Testing_Sequence462_8.rec"
+0 4300000 FM -2245.413818
+.
+"'*'/Testing_Sequence463_0.rec"
+0 69500000 SIL -30123.955078
+.
+"'*'/Testing_Sequence463_1.rec"
+0 3700000 BS -2525.969482
+.
+"'*'/Testing_Sequence463_12.rec"
+0 3800000 OK -2155.024902
+.
+"'*'/Testing_Sequence463_13.rec"
+0 3300000 FN -2029.734375
+.
+"'*'/Testing_Sequence463_16.rec"
+0 3300000 TT -2044.990234
+.
+"'*'/Testing_Sequence463_17.rec"
+0 4000000 ST -2151.725098
+.
+"'*'/Testing_Sequence463_18.rec"
+0 3000000 TT -1852.464233
+.
+"'*'/Testing_Sequence463_6.rec"
+0 5300000 CF -3016.234131
+.
+"'*'/Testing_Sequence463_7.rec"
+0 5300000 DC -3624.484619
+.
+"'*'/Testing_Sequence463_8.rec"
+0 4100000 FM -2238.263916
+.
+"'*'/Testing_Sequence463_9.rec"
+0 4500000 CF -2515.613281
+.
+"'*'/Testing_Sequence464_0.rec"
+0 59100000 SIL -26563.117188
+.
+"'*'/Testing_Sequence464_17.rec"
+0 4600000 ST -2526.261963
+.
+"'*'/Testing_Sequence464_19.rec"
+0 5800000 SP -3427.720215
+.
+"'*'/Testing_Sequence464_2.rec"
+0 5200000 CF -2871.762451
+.
+"'*'/Testing_Sequence464_20.rec"
+0 4000000 MC -2434.585205
+.
+"'*'/Testing_Sequence464_3.rec"
+0 5000000 CP -2944.051025
+.
+"'*'/Testing_Sequence464_4.rec"
+0 3200000 CV -2180.904785
+.
+"'*'/Testing_Sequence464_5.rec"
+0 4500000 CN -2902.169189
+.
+"'*'/Testing_Sequence464_7.rec"
+0 5100000 DC -3435.022461
+.
+"'*'/Testing_Sequence464_8.rec"
+0 4600000 FM -2445.760254
+.
+"'*'/Testing_Sequence465_0.rec"
+0 59500000 SIL -26951.794922
+.
+"'*'/Testing_Sequence465_10.rec"
+0 3700000 FN -2102.467041
+.
+"'*'/Testing_Sequence465_14.rec"
+0 4400000 OK -2523.780273
+.
+"'*'/Testing_Sequence465_15.rec"
+0 4300000 CF -2418.285889
+.
+"'*'/Testing_Sequence465_18.rec"
+0 3600000 TT -2216.079834
+.
+"'*'/Testing_Sequence465_20.rec"
+0 2900000 OK -1680.958374
+.
+"'*'/Testing_Sequence465_3.rec"
+0 4100000 CP -2457.724121
+.
+"'*'/Testing_Sequence465_4.rec"
+0 4700000 CV -3208.424072
+.
+"'*'/Testing_Sequence465_5.rec"
+0 5600000 CN -3268.457031
+.
+"'*'/Testing_Sequence465_8.rec"
+0 5000000 FM -2634.451904
+.
+"'*'/Testing_Sequence466_0.rec"
+0 66600000 SIL -32600.146484
+.
+"'*'/Testing_Sequence466_12.rec"
+0 3600000 OK -2102.237793
+.
+"'*'/Testing_Sequence466_14.rec"
+0 4700000 OK -2698.415771
+.
+"'*'/Testing_Sequence466_15.rec"
+0 4600000 CF -2541.436768
+.
+"'*'/Testing_Sequence466_16.rec"
+0 4900000 TT -3015.896973
+.
+"'*'/Testing_Sequence466_18.rec"
+0 3300000 VA -2119.521484
+.
+"'*'/Testing_Sequence466_2.rec"
+0 5600000 CF -3005.244385
+.
+"'*'/Testing_Sequence466_20.rec"
+0 2600000 NU -1459.318237
+.
+"'*'/Testing_Sequence466_5.rec"
+0 6000000 CN -3658.134277
+.
+"'*'/Testing_Sequence466_7.rec"
+0 3900000 DC -2494.152832
+.
+"'*'/Testing_Sequence466_8.rec"
+0 4300000 FM -2269.646240
+.
+"'*'/Testing_Sequence467_0.rec"
+0 82200000 SIL -38889.781250
+.
+"'*'/Testing_Sequence467_12.rec"
+0 4000000 OK -2233.511719
+.
+"'*'/Testing_Sequence467_14.rec"
+0 3600000 OK -2083.220459
+.
+"'*'/Testing_Sequence467_15.rec"
+0 5500000 CF -3089.272705
+.
+"'*'/Testing_Sequence467_18.rec"
+0 2700000 PF -1725.036865
+.
+"'*'/Testing_Sequence467_2.rec"
+0 4500000 CF -2467.727539
+.
+"'*'/Testing_Sequence467_20.rec"
+0 3800000 NU -2137.922363
+.
+"'*'/Testing_Sequence467_4.rec"
+0 3400000 CV -2202.101074
+.
+"'*'/Testing_Sequence467_5.rec"
+0 4600000 CN -2970.090332
+.
+"'*'/Testing_Sequence467_7.rec"
+0 4300000 DC -2971.700195
+.
+"'*'/Testing_Sequence467_9.rec"
+0 3900000 CF -2167.062012
+.
+"'*'/Testing_Sequence468_0.rec"
+0 65000000 SIL -33701.269531
+.
+"'*'/Testing_Sequence468_13.rec"
+0 3100000 PF -1905.264404
+.
+"'*'/Testing_Sequence468_14.rec"
+0 3900000 OK -2286.154785
+.
+"'*'/Testing_Sequence468_15.rec"
+0 5000000 CF -2764.973389
+.
+"'*'/Testing_Sequence468_2.rec"
+0 4700000 CF -2595.620361
+.
+"'*'/Testing_Sequence468_20.rec"
+0 4400000 ST -2421.322021
+.
+"'*'/Testing_Sequence468_4.rec"
+0 4000000 CV -2606.353027
+.
+"'*'/Testing_Sequence468_5.rec"
+0 6400000 CN -3927.033203
+.
+"'*'/Testing_Sequence468_7.rec"
+0 4300000 DC -2950.942871
+.
+"'*'/Testing_Sequence468_8.rec"
+0 4100000 FM -2179.364258
+.
+"'*'/Testing_Sequence469_0.rec"
+0 67300000 SIL -34172.023438
+.
+"'*'/Testing_Sequence469_10.rec"
+0 3800000 FN -2143.789063
+.
+"'*'/Testing_Sequence469_11.rec"
+0 5800000 ST -3183.857910
+.
+"'*'/Testing_Sequence469_13.rec"
+0 3000000 PF -1834.890015
+.
+"'*'/Testing_Sequence469_14.rec"
+0 4400000 OK -2525.070557
+.
+"'*'/Testing_Sequence469_15.rec"
+0 5000000 CF -2839.885986
+.
+"'*'/Testing_Sequence469_16.rec"
+0 6400000 PF -3938.285645
+.
+"'*'/Testing_Sequence469_2.rec"
+0 6100000 CF -3239.787354
+.
+"'*'/Testing_Sequence469_5.rec"
+0 5900000 CN -3427.214111
+.
+"'*'/Testing_Sequence469_8.rec"
+0 3000000 FM -1584.786377
+.
+"'*'/Testing_Sequence469_9.rec"
+0 3400000 CF -1901.929932
+.
+"'*'/Testing_Sequence470_0.rec"
+0 63200000 SIL -28974.583984
+.
+"'*'/Testing_Sequence470_10.rec"
+0 3800000 FU -2339.882324
+.
+"'*'/Testing_Sequence470_12.rec"
+0 3800000 OK -2198.540283
+.
+"'*'/Testing_Sequence470_13.rec"
+0 4400000 PF -2746.345947
+.
+"'*'/Testing_Sequence470_14.rec"
+0 4900000 OK -2780.579346
+.
+"'*'/Testing_Sequence470_15.rec"
+0 4700000 CF -2589.503174
+.
+"'*'/Testing_Sequence470_19.rec"
+0 3500000 PF -2133.907227
+.
+"'*'/Testing_Sequence470_3.rec"
+0 4100000 CP -2437.641113
+.
+"'*'/Testing_Sequence470_6.rec"
+0 4900000 CF -2686.913086
+.
+"'*'/Testing_Sequence470_8.rec"
+0 4100000 FM -2154.410645
+.
+"'*'/Testing_Sequence471_0.rec"
+0 63000000 SIL -32186.185547
+.
+"'*'/Testing_Sequence471_10.rec"
+0 3900000 TT -2617.832520
+.
+"'*'/Testing_Sequence471_15.rec"
+0 3200000 CF -1907.785889
+.
+"'*'/Testing_Sequence471_18.rec"
+0 4500000 CF -3041.249268
+.
+"'*'/Testing_Sequence471_19.rec"
+0 2700000 BN -1679.653564
+.
+"'*'/Testing_Sequence471_2.rec"
+0 3800000 CF -2371.093018
+.
+"'*'/Testing_Sequence471_20.rec"
+0 2500000 NU -1548.298340
+.
+"'*'/Testing_Sequence471_3.rec"
+0 2000000 CP -1211.683960
+.
+"'*'/Testing_Sequence471_4.rec"
+0 3100000 CN -2171.069336
+.
+"'*'/Testing_Sequence471_5.rec"
+0 6400000 CN -3910.392334
+.
+"'*'/Testing_Sequence471_7.rec"
+0 4700000 DC -2886.749268
+.
+"'*'/Testing_Sequence471_9.rec"
+0 3100000 CF -2118.586182
+.
+"'*'/Testing_Sequence472_0.rec"
+0 61300000 SIL -32130.207031
+.
+"'*'/Testing_Sequence472_1.rec"
+0 3300000 BS -2331.680176
+.
+"'*'/Testing_Sequence472_10.rec"
+0 4900000 BN -3356.364746
+.
+"'*'/Testing_Sequence472_12.rec"
+0 2000000 FU -1337.999023
+.
+"'*'/Testing_Sequence472_13.rec"
+0 2900000 CF -1834.761963
+.
+"'*'/Testing_Sequence472_16.rec"
+0 4200000 TT -2700.928711
+.
+"'*'/Testing_Sequence472_19.rec"
+0 3100000 CF -1886.460938
+.
+"'*'/Testing_Sequence472_2.rec"
+0 3600000 TT -2379.833252
+.
+"'*'/Testing_Sequence472_3.rec"
+0 2200000 CP -1426.158447
+.
+"'*'/Testing_Sequence472_9.rec"
+0 7900000 CF -4997.145996
+.
+"'*'/Testing_Sequence473_0.rec"
+0 69700000 SIL -36605.996094
+.
+"'*'/Testing_Sequence473_12.rec"
+0 1800000 OK -1184.935669
+.
+"'*'/Testing_Sequence473_13.rec"
+0 2300000 TT -1567.685425
+.
+"'*'/Testing_Sequence473_14.rec"
+0 2900000 ST -1778.148926
+.
+"'*'/Testing_Sequence473_15.rec"
+0 3700000 CF -2322.005859
+.
+"'*'/Testing_Sequence473_19.rec"
+0 4100000 TT -2784.145508
+.
+"'*'/Testing_Sequence473_3.rec"
+0 2800000 CP -1864.365845
+.
+"'*'/Testing_Sequence473_7.rec"
+0 3500000 DC -2437.958496
+.
+"'*'/Testing_Sequence473_8.rec"
+0 2900000 FM -1799.314697
+.
+"'*'/Testing_Sequence473_9.rec"
+0 3700000 CF -2338.899658
+.
+"'*'/Testing_Sequence474_0.rec"
+0 55600000 SIL -30053.144531
+.
+"'*'/Testing_Sequence474_1.rec"
+0 2300000 CP -1581.443359
+.
+"'*'/Testing_Sequence474_10.rec"
+0 4600000 SP -3108.702881
+.
+"'*'/Testing_Sequence474_13.rec"
+0 2200000 SP -1613.611450
+.
+"'*'/Testing_Sequence474_14.rec"
+0 2300000 OK -1508.118408
+.
+"'*'/Testing_Sequence474_2.rec"
+0 3800000 TT -2640.630127
+.
+"'*'/Testing_Sequence474_3.rec"
+0 3300000 CP -2215.055420
+.
+"'*'/Testing_Sequence474_4.rec"
+0 3700000 FU -2534.889404
+.
+"'*'/Testing_Sequence474_6.rec"
+0 4700000 TT -3153.118652
+.
+"'*'/Testing_Sequence474_8.rec"
+0 4000000 FM -2499.172363
+.
+"'*'/Testing_Sequence474_9.rec"
+0 4900000 FU -3398.486084
+.
+"'*'/Testing_Sequence475_0.rec"
+0 62800000 SIL -33948.546875
+.
+"'*'/Testing_Sequence475_10.rec"
+0 3000000 FU -2135.008057
+.
+"'*'/Testing_Sequence475_13.rec"
+0 2500000 TT -1714.749634
+.
+"'*'/Testing_Sequence475_14.rec"
+0 2400000 OK -1614.126709
+.
+"'*'/Testing_Sequence475_16.rec"
+0 3800000 TT -2780.303467
+.
+"'*'/Testing_Sequence475_18.rec"
+0 3000000 TT -2028.669800
+.
+"'*'/Testing_Sequence475_19.rec"
+0 3200000 TT -2124.156982
+.
+"'*'/Testing_Sequence475_20.rec"
+0 2200000 CP -1469.331909
+.
+"'*'/Testing_Sequence475_7.rec"
+0 4900000 DC -3266.118652
+.
+"'*'/Testing_Sequence475_9.rec"
+0 2600000 CF -1640.126831
+.
+"'*'/Testing_Sequence476_0.rec"
+0 60200000 SIL -31912.246094
+.
+"'*'/Testing_Sequence476_1.rec"
+0 2400000 BS -1754.381592
+.
+"'*'/Testing_Sequence476_11.rec"
+0 3800000 MC -2633.380615
+.
+"'*'/Testing_Sequence476_12.rec"
+0 1700000 BN -1131.771606
+.
+"'*'/Testing_Sequence476_14.rec"
+0 2600000 FU -1696.792969
+.
+"'*'/Testing_Sequence476_15.rec"
+0 3100000 TT -2010.504272
+.
+"'*'/Testing_Sequence476_16.rec"
+0 3100000 TT -2151.129150
+.
+"'*'/Testing_Sequence476_18.rec"
+0 3000000 TT -1955.748047
+.
+"'*'/Testing_Sequence476_2.rec"
+0 3500000 TT -2440.360352
+.
+"'*'/Testing_Sequence476_5.rec"
+0 5800000 DC -3740.329834
+.
+"'*'/Testing_Sequence476_7.rec"
+0 4300000 CN -3086.823486
+.
+"'*'/Testing_Sequence477_0.rec"
+0 77900000 SIL -40205.152344
+.
+"'*'/Testing_Sequence477_10.rec"
+0 3500000 BN -2357.856934
+.
+"'*'/Testing_Sequence477_16.rec"
+0 3100000 TT -1960.904663
+.
+"'*'/Testing_Sequence477_18.rec"
+0 2800000 TT -1818.489014
+.
+"'*'/Testing_Sequence477_19.rec"
+0 2700000 TT -1767.278198
+.
+"'*'/Testing_Sequence477_3.rec"
+0 2800000 CP -1748.831665
+.
+"'*'/Testing_Sequence477_4.rec"
+0 3600000 ST -2229.963135
+.
+"'*'/Testing_Sequence477_6.rec"
+0 3500000 CF -2190.993164
+.
+"'*'/Testing_Sequence477_8.rec"
+0 3900000 NU -2500.724365
+.
+"'*'/Testing_Sequence478_0.rec"
+0 64400000 SIL -32931.136719
+.
+"'*'/Testing_Sequence478_1.rec"
+0 2600000 CP -1838.766724
+.
+"'*'/Testing_Sequence478_10.rec"
+0 3800000 SP -2644.729492
+.
+"'*'/Testing_Sequence478_11.rec"
+0 3400000 BN -2240.666748
+.
+"'*'/Testing_Sequence478_12.rec"
+0 2000000 FU -1310.331177
+.
+"'*'/Testing_Sequence478_13.rec"
+0 2600000 TT -1737.906372
+.
+"'*'/Testing_Sequence478_14.rec"
+0 2300000 OK -1500.639893
+.
+"'*'/Testing_Sequence478_16.rec"
+0 3200000 TT -2126.634277
+.
+"'*'/Testing_Sequence478_18.rec"
+0 4000000 TT -2608.965088
+.
+"'*'/Testing_Sequence478_3.rec"
+0 2700000 CP -1771.937744
+.
+"'*'/Testing_Sequence478_4.rec"
+0 3100000 CV -2179.746338
+.
+"'*'/Testing_Sequence478_5.rec"
+0 4300000 CN -2715.552734
+.
+"'*'/Testing_Sequence479_0.rec"
+0 74400000 SIL -38538.328125
+.
+"'*'/Testing_Sequence479_11.rec"
+0 3000000 NU -1929.256592
+.
+"'*'/Testing_Sequence479_12.rec"
+0 2100000 NU -1390.739502
+.
+"'*'/Testing_Sequence479_13.rec"
+0 1900000 TT -1298.896484
+.
+"'*'/Testing_Sequence479_14.rec"
+0 2000000 NU -1271.270508
+.
+"'*'/Testing_Sequence479_15.rec"
+0 2700000 CF -1728.020996
+.
+"'*'/Testing_Sequence479_16.rec"
+0 3000000 TT -1955.928467
+.
+"'*'/Testing_Sequence479_19.rec"
+0 2900000 CF -1818.744629
+.
+"'*'/Testing_Sequence479_3.rec"
+0 2300000 CP -1487.133057
+.
+"'*'/Testing_Sequence479_4.rec"
+0 3000000 CF -1902.352417
+.
+"'*'/Testing_Sequence479_7.rec"
+0 3200000 CN -2334.246338
+.
+"'*'/Testing_Sequence479_9.rec"
+0 3500000 CF -2143.333008
+.
+"'*'/Testing_Sequence480_0.rec"
+0 62300000 SIL -31817.113281
+.
+"'*'/Testing_Sequence480_1.rec"
+0 2400000 CP -1672.217651
+.
+"'*'/Testing_Sequence480_11.rec"
+0 2300000 FM -1468.678467
+.
+"'*'/Testing_Sequence480_13.rec"
+0 2500000 CF -1619.969482
+.
+"'*'/Testing_Sequence480_14.rec"
+0 2400000 NU -1534.132568
+.
+"'*'/Testing_Sequence480_16.rec"
+0 3100000 TT -1916.372559
+.
+"'*'/Testing_Sequence480_19.rec"
+0 3200000 TT -2121.960693
+.
+"'*'/Testing_Sequence480_2.rec"
+0 3800000 CF -2316.659424
+.
+"'*'/Testing_Sequence480_20.rec"
+0 1600000 NU -1007.718872
+.
+"'*'/Testing_Sequence480_3.rec"
+0 2500000 CP -1647.656006
+.
+"'*'/Testing_Sequence480_4.rec"
+0 2700000 CN -1753.281128
+.
+"'*'/Testing_Sequence481_0.rec"
+0 78100000 SIL -39687.957031
+.
+"'*'/Testing_Sequence481_1.rec"
+0 2500000 CP -1768.904541
+.
+"'*'/Testing_Sequence481_10.rec"
+0 4000000 FU -2678.969482
+.
+"'*'/Testing_Sequence481_13.rec"
+0 2600000 TT -1712.861206
+.
+"'*'/Testing_Sequence481_14.rec"
+0 2300000 BN -1484.019531
+.
+"'*'/Testing_Sequence481_15.rec"
+0 2600000 TT -1733.108765
+.
+"'*'/Testing_Sequence481_17.rec"
+0 1500000 FM -923.347961
+.
+"'*'/Testing_Sequence481_18.rec"
+0 3800000 TT -2700.762451
+.
+"'*'/Testing_Sequence481_3.rec"
+0 2400000 CP -1524.314819
+.
+"'*'/Testing_Sequence481_4.rec"
+0 2900000 CN -1887.940796
+.
+"'*'/Testing_Sequence481_6.rec"
+0 3800000 CF -2247.543945
+.
+"'*'/Testing_Sequence481_9.rec"
+0 5000000 CF -3121.019287
+.
+"'*'/Testing_Sequence482_0.rec"
+0 75200000 SIL -37022.292969
+.
+"'*'/Testing_Sequence482_1.rec"
+0 2000000 CP -1415.328857
+.
+"'*'/Testing_Sequence482_10.rec"
+0 4200000 FU -2755.275146
+.
+"'*'/Testing_Sequence482_15.rec"
+0 3100000 TT -2032.866821
+.
+"'*'/Testing_Sequence482_18.rec"
+0 3100000 TT -1977.864990
+.
+"'*'/Testing_Sequence482_19.rec"
+0 2800000 TT -1797.524048
+.
+"'*'/Testing_Sequence482_4.rec"
+0 3100000 CN -1940.769531
+.
+"'*'/Testing_Sequence482_6.rec"
+0 3300000 CF -2053.090088
+.
+"'*'/Testing_Sequence482_7.rec"
+0 3000000 CN -2124.030518
+.
+"'*'/Testing_Sequence482_8.rec"
+0 4300000 NU -2737.525391
+.
+"'*'/Testing_Sequence483_0.rec"
+0 55400000 SIL -27828.640625
+.
+"'*'/Testing_Sequence483_1.rec"
+0 3800000 CP -2495.341797
+.
+"'*'/Testing_Sequence483_13.rec"
+0 3700000 TT -2355.239990
+.
+"'*'/Testing_Sequence483_14.rec"
+0 3100000 NU -1997.968140
+.
+"'*'/Testing_Sequence483_16.rec"
+0 3900000 TT -2547.448242
+.
+"'*'/Testing_Sequence483_19.rec"
+0 2600000 TT -1686.993286
+.
+"'*'/Testing_Sequence483_2.rec"
+0 3700000 PF -2491.161621
+.
+"'*'/Testing_Sequence483_6.rec"
+0 4400000 CF -2643.251709
+.
+"'*'/Testing_Sequence483_7.rec"
+0 4400000 DC -2740.865234
+.
+"'*'/Testing_Sequence483_8.rec"
+0 4000000 NU -2559.553711
+.
+"'*'/Testing_Sequence484_0.rec"
+0 78100000 SIL -40951.507813
+.
+"'*'/Testing_Sequence484_1.rec"
+0 2600000 BS -1905.741455
+.
+"'*'/Testing_Sequence484_11.rec"
+0 2800000 NU -1821.406006
+.
+"'*'/Testing_Sequence484_13.rec"
+0 2700000 TT -1761.093750
+.
+"'*'/Testing_Sequence484_14.rec"
+0 2200000 FU -1432.437500
+.
+"'*'/Testing_Sequence484_16.rec"
+0 2500000 TT -1643.876709
+.
+"'*'/Testing_Sequence484_2.rec"
+0 4000000 CF -2461.743896
+.
+"'*'/Testing_Sequence484_20.rec"
+0 2400000 CP -1548.700073
+.
+"'*'/Testing_Sequence484_4.rec"
+0 2800000 CV -1953.905396
+.
+"'*'/Testing_Sequence484_6.rec"
+0 3600000 CF -2362.471680
+.
+"'*'/Testing_Sequence485_0.rec"
+0 77300000 SIL -40895.398438
+.
+"'*'/Testing_Sequence485_13.rec"
+0 3000000 CF -1959.135132
+.
+"'*'/Testing_Sequence485_14.rec"
+0 2600000 PR -1627.070313
+.
+"'*'/Testing_Sequence485_15.rec"
+0 3000000 TT -1965.335205
+.
+"'*'/Testing_Sequence485_16.rec"
+0 3800000 TT -2369.681152
+.
+"'*'/Testing_Sequence485_18.rec"
+0 2900000 TT -1958.930786
+.
+"'*'/Testing_Sequence485_19.rec"
+0 2400000 TT -1548.857788
+.
+"'*'/Testing_Sequence485_20.rec"
+0 1600000 FM -1001.172791
+.
+"'*'/Testing_Sequence485_8.rec"
+0 3700000 NU -2326.367676
+.
+"'*'/Testing_Sequence486_0.rec"
+0 74300000 SIL -36925.554688
+.
+"'*'/Testing_Sequence486_1.rec"
+0 2600000 BS -1947.842529
+.
+"'*'/Testing_Sequence486_10.rec"
+0 4700000 CF -3072.981201
+.
+"'*'/Testing_Sequence486_13.rec"
+0 3200000 CF -2091.168701
+.
+"'*'/Testing_Sequence486_16.rec"
+0 2700000 TT -1732.812378
+.
+"'*'/Testing_Sequence486_2.rec"
+0 3800000 CF -2344.589355
+.
+"'*'/Testing_Sequence486_3.rec"
+0 2400000 CP -1547.317871
+.
+"'*'/Testing_Sequence486_5.rec"
+0 4100000 CN -2696.599121
+.
+"'*'/Testing_Sequence486_7.rec"
+0 3100000 FM -2111.908691
+.
+"'*'/Testing_Sequence486_8.rec"
+0 3200000 NU -2059.920898
+.
+"'*'/Testing_Sequence487_0.rec"
+0 69500000 SIL -35529.535156
+.
+"'*'/Testing_Sequence487_13.rec"
+0 2900000 CF -1870.833740
+.
+"'*'/Testing_Sequence487_14.rec"
+0 2900000 NU -1821.438599
+.
+"'*'/Testing_Sequence487_15.rec"
+0 2800000 TT -1806.748901
+.
+"'*'/Testing_Sequence487_16.rec"
+0 3300000 TT -2074.390381
+.
+"'*'/Testing_Sequence487_19.rec"
+0 2600000 TT -1664.784668
+.
+"'*'/Testing_Sequence487_2.rec"
+0 3500000 CF -2160.806396
+.
+"'*'/Testing_Sequence487_3.rec"
+0 1700000 CP -1127.669800
+.
+"'*'/Testing_Sequence487_4.rec"
+0 3000000 CN -1945.526123
+.
+"'*'/Testing_Sequence487_5.rec"
+0 4300000 CN -2686.614258
+.
+"'*'/Testing_Sequence487_7.rec"
+0 3200000 DC -2346.237305
+.
+"'*'/Testing_Sequence487_9.rec"
+0 4100000 CF -2519.706787
+.
+"'*'/Testing_Sequence488_0.rec"
+0 67000000 SIL -35010.335938
+.
+"'*'/Testing_Sequence488_1.rec"
+0 2500000 CP -1797.961670
+.
+"'*'/Testing_Sequence488_10.rec"
+0 3300000 SP -2200.091797
+.
+"'*'/Testing_Sequence488_12.rec"
+0 1700000 FU -1143.766846
+.
+"'*'/Testing_Sequence488_13.rec"
+0 3600000 TT -2394.618408
+.
+"'*'/Testing_Sequence488_19.rec"
+0 2500000 CF -1596.669434
+.
+"'*'/Testing_Sequence488_2.rec"
+0 2800000 CF -1836.283325
+.
+"'*'/Testing_Sequence488_6.rec"
+0 3700000 CF -2260.101318
+.
+"'*'/Testing_Sequence488_8.rec"
+0 3900000 FM -2461.448242
+.
+"'*'/Testing_Sequence488_9.rec"
+0 3600000 CF -2268.382324
+.
+"'*'/Testing_Sequence489_0.rec"
+0 70400000 SIL -35049.218750
+.
+"'*'/Testing_Sequence489_1.rec"
+0 3200000 BS -2289.953369
+.
+"'*'/Testing_Sequence489_11.rec"
+0 2700000 ST -1765.496582
+.
+"'*'/Testing_Sequence489_13.rec"
+0 3300000 TT -2094.901611
+.
+"'*'/Testing_Sequence489_14.rec"
+0 2700000 ST -1691.275024
+.
+"'*'/Testing_Sequence489_18.rec"
+0 3000000 TT -1856.599976
+.
+"'*'/Testing_Sequence489_2.rec"
+0 3900000 CF -2396.412109
+.
+"'*'/Testing_Sequence489_20.rec"
+0 3300000 CP -2071.455811
+.
+"'*'/Testing_Sequence489_3.rec"
+0 3200000 CP -2200.692871
+.
+"'*'/Testing_Sequence489_8.rec"
+0 2800000 NU -1778.251343
+.
+"'*'/Testing_Sequence490_0.rec"
+0 76400000 SIL -38794.714844
+.
+"'*'/Testing_Sequence490_10.rec"
+0 3400000 SP -2270.007080
+.
+"'*'/Testing_Sequence490_11.rec"
+0 3700000 BN -2384.287598
+.
+"'*'/Testing_Sequence490_13.rec"
+0 3000000 TT -1910.352173
+.
+"'*'/Testing_Sequence490_16.rec"
+0 3400000 TT -2144.704346
+.
+"'*'/Testing_Sequence490_18.rec"
+0 4200000 TT -2696.897217
+.
+"'*'/Testing_Sequence490_2.rec"
+0 3600000 CF -2237.187500
+.
+"'*'/Testing_Sequence490_3.rec"
+0 2400000 CP -1580.372437
+.
+"'*'/Testing_Sequence490_5.rec"
+0 4300000 CN -2740.928467
+.
+"'*'/Testing_Sequence490_8.rec"
+0 3400000 NU -2156.838623
+.
+"'*'/Testing_Sequence491_0.rec"
+0 53500000 SIL -24870.712891
+.
+"'*'/Testing_Sequence491_11.rec"
+0 4500000 MC -2532.914795
+.
+"'*'/Testing_Sequence491_13.rec"
+0 4300000 PF -2544.214111
+.
+"'*'/Testing_Sequence491_16.rec"
+0 3400000 TT -2020.145386
+.
+"'*'/Testing_Sequence491_17.rec"
+0 3800000 ST -2113.090576
+.
+"'*'/Testing_Sequence491_2.rec"
+0 4100000 FN -2339.401367
+.
+"'*'/Testing_Sequence491_3.rec"
+0 3800000 CP -2027.398193
+.
+"'*'/Testing_Sequence491_5.rec"
+0 6400000 CN -3778.758545
+.
+"'*'/Testing_Sequence491_7.rec"
+0 3900000 DC -2306.148193
+.
+"'*'/Testing_Sequence491_8.rec"
+0 4300000 FM -2310.848145
+.
+"'*'/Testing_Sequence491_9.rec"
+0 3500000 FU -2336.328857
+.
+"'*'/Testing_Sequence492_0.rec"
+0 61600000 SIL -25867.923828
+.
+"'*'/Testing_Sequence492_11.rec"
+0 4800000 MC -2712.993164
+.
+"'*'/Testing_Sequence492_16.rec"
+0 6200000 TT -3769.583740
+.
+"'*'/Testing_Sequence492_18.rec"
+0 3900000 BN -2384.146729
+.
+"'*'/Testing_Sequence492_19.rec"
+0 3800000 OK -2254.020508
+.
+"'*'/Testing_Sequence492_2.rec"
+0 4800000 FU -2743.177246
+.
+"'*'/Testing_Sequence492_20.rec"
+0 3400000 MC -1898.639893
+.
+"'*'/Testing_Sequence492_3.rec"
+0 3400000 CP -1868.146484
+.
+"'*'/Testing_Sequence492_6.rec"
+0 4200000 CF -2498.686768
+.
+"'*'/Testing_Sequence492_7.rec"
+0 3800000 DC -2406.848145
+.
+"'*'/Testing_Sequence493_0.rec"
+0 68200000 SIL -26674.763672
+.
+"'*'/Testing_Sequence493_10.rec"
+0 3900000 FU -2209.130127
+.
+"'*'/Testing_Sequence493_16.rec"
+0 4400000 TT -2680.619141
+.
+"'*'/Testing_Sequence493_19.rec"
+0 3400000 VQ -2053.484375
+.
+"'*'/Testing_Sequence493_20.rec"
+0 4600000 NU -2612.996582
+.
+"'*'/Testing_Sequence493_3.rec"
+0 5000000 CP -2808.968018
+.
+"'*'/Testing_Sequence493_4.rec"
+0 4500000 CV -2930.012207
+.
+"'*'/Testing_Sequence493_6.rec"
+0 5700000 FU -3560.224365
+.
+"'*'/Testing_Sequence493_7.rec"
+0 4700000 CN -2953.651367
+.
+"'*'/Testing_Sequence493_8.rec"
+0 3600000 FM -1826.692261
+.
+"'*'/Testing_Sequence494_0.rec"
+0 53200000 SIL -21865.761719
+.
+"'*'/Testing_Sequence494_11.rec"
+0 4600000 MC -2576.688477
+.
+"'*'/Testing_Sequence494_12.rec"
+0 3100000 OK -1765.474487
+.
+"'*'/Testing_Sequence494_16.rec"
+0 4900000 TT -3059.175049
+.
+"'*'/Testing_Sequence494_17.rec"
+0 6100000 ST -3363.324707
+.
+"'*'/Testing_Sequence494_19.rec"
+0 3900000 FU -2358.195068
+.
+"'*'/Testing_Sequence494_3.rec"
+0 5600000 CP -3141.068604
+.
+"'*'/Testing_Sequence494_4.rec"
+0 4200000 CV -2498.313965
+.
+"'*'/Testing_Sequence494_5.rec"
+0 6300000 CN -3793.818848
+.
+"'*'/Testing_Sequence494_6.rec"
+0 4700000 FN -2717.774902
+.
+"'*'/Testing_Sequence494_9.rec"
+0 4600000 FU -2614.217285
+.
+"'*'/Testing_Sequence495_0.rec"
+0 44600000 SIL -18635.246094
+.
+"'*'/Testing_Sequence495_1.rec"
+0 6000000 BS -4201.995117
+.
+"'*'/Testing_Sequence495_12.rec"
+0 3000000 OK -1654.276855
+.
+"'*'/Testing_Sequence495_13.rec"
+0 3600000 SP -2153.713379
+.
+"'*'/Testing_Sequence495_14.rec"
+0 4000000 MC -2285.752686
+.
+"'*'/Testing_Sequence495_15.rec"
+0 4300000 CF -2506.841797
+.
+"'*'/Testing_Sequence495_18.rec"
+0 3900000 CF -2309.529541
+.
+"'*'/Testing_Sequence495_19.rec"
+0 3800000 FU -2380.344482
+.
+"'*'/Testing_Sequence495_3.rec"
+0 4200000 CP -2469.335205
+.
+"'*'/Testing_Sequence495_7.rec"
+0 4300000 DC -2620.069580
+.
+"'*'/Testing_Sequence495_8.rec"
+0 3600000 FM -1873.096924
+.
+"'*'/Testing_Sequence495_9.rec"
+0 4400000 FU -2436.935303
+.
+"'*'/Testing_Sequence496_0.rec"
+0 61200000 SIL -25552.402344
+.
+"'*'/Testing_Sequence496_1.rec"
+0 5800000 BS -3842.459473
+.
+"'*'/Testing_Sequence496_10.rec"
+0 3700000 FN -2081.072510
+.
+"'*'/Testing_Sequence496_11.rec"
+0 3200000 MC -1801.805786
+.
+"'*'/Testing_Sequence496_14.rec"
+0 3100000 VQ -2093.106689
+.
+"'*'/Testing_Sequence496_19.rec"
+0 3700000 FN -2161.970703
+.
+"'*'/Testing_Sequence496_4.rec"
+0 5000000 CV -3116.646484
+.
+"'*'/Testing_Sequence496_5.rec"
+0 6600000 CN -4009.658936
+.
+"'*'/Testing_Sequence496_7.rec"
+0 4800000 DC -2915.419434
+.
+"'*'/Testing_Sequence496_8.rec"
+0 5400000 FM -2770.273438
+.
+"'*'/Testing_Sequence497_0.rec"
+0 42700000 SIL -17689.361328
+.
+"'*'/Testing_Sequence497_1.rec"
+0 5700000 BS -3794.455811
+.
+"'*'/Testing_Sequence497_12.rec"
+0 3500000 OK -1940.354370
+.
+"'*'/Testing_Sequence497_13.rec"
+0 3900000 PF -2820.054443
+.
+"'*'/Testing_Sequence497_17.rec"
+0 4700000 ST -2484.340088
+.
+"'*'/Testing_Sequence497_19.rec"
+0 4400000 OK -2536.195068
+.
+"'*'/Testing_Sequence497_20.rec"
+0 3800000 MC -2185.714355
+.
+"'*'/Testing_Sequence497_3.rec"
+0 4800000 CP -2780.321777
+.
+"'*'/Testing_Sequence497_7.rec"
+0 4400000 DC -2696.078369
+.
+"'*'/Testing_Sequence497_8.rec"
+0 4600000 FM -2478.203125
+.
+"'*'/Testing_Sequence497_9.rec"
+0 4600000 FU -2695.237793
+.
+"'*'/Testing_Sequence498_0.rec"
+0 44100000 SIL -19253.640625
+.
+"'*'/Testing_Sequence498_10.rec"
+0 4500000 FN -2506.976318
+.
+"'*'/Testing_Sequence498_11.rec"
+0 4600000 MC -2548.674072
+.
+"'*'/Testing_Sequence498_14.rec"
+0 4500000 NU -2480.987793
+.
+"'*'/Testing_Sequence498_15.rec"
+0 4800000 CF -2807.913818
+.
+"'*'/Testing_Sequence498_16.rec"
+0 4300000 TT -2530.216064
+.
+"'*'/Testing_Sequence498_19.rec"
+0 3500000 OK -2022.132446
+.
+"'*'/Testing_Sequence498_4.rec"
+0 4500000 CV -2738.346436
+.
+"'*'/Testing_Sequence498_6.rec"
+0 4500000 BN -2643.326660
+.
+"'*'/Testing_Sequence498_8.rec"
+0 4400000 FM -2248.930664
+.
+"'*'/Testing_Sequence498_9.rec"
+0 4600000 FN -2623.486084
+.
+"'*'/Testing_Sequence499_0.rec"
+0 56900000 SIL -23725.373047
+.
+"'*'/Testing_Sequence499_1.rec"
+0 6000000 BS -3984.390625
+.
+"'*'/Testing_Sequence499_12.rec"
+0 4100000 OK -2348.795898
+.
+"'*'/Testing_Sequence499_13.rec"
+0 4600000 FU -3072.724121
+.
+"'*'/Testing_Sequence499_14.rec"
+0 3600000 NU -2100.896729
+.
+"'*'/Testing_Sequence499_18.rec"
+0 4400000 CF -2479.068115
+.
+"'*'/Testing_Sequence499_3.rec"
+0 5000000 CP -2669.061279
+.
+"'*'/Testing_Sequence499_5.rec"
+0 5900000 CN -3407.213135
+.
+"'*'/Testing_Sequence499_6.rec"
+0 4400000 CF -2631.612061
+.
+"'*'/Testing_Sequence499_7.rec"
+0 5400000 DC -3060.238037
+.
+"'*'/Testing_Sequence500_0.rec"
+0 60200000 SIL -23738.843750
+.
+"'*'/Testing_Sequence500_12.rec"
+0 3300000 NU -1827.629517
+.
+"'*'/Testing_Sequence500_13.rec"
+0 3500000 FU -2065.887451
+.
+"'*'/Testing_Sequence500_16.rec"
+0 4100000 TT -2458.853271
+.
+"'*'/Testing_Sequence500_19.rec"
+0 3800000 OK -2261.169189
+.
+"'*'/Testing_Sequence500_2.rec"
+0 4100000 FN -2263.714355
+.
+"'*'/Testing_Sequence500_20.rec"
+0 3700000 NU -2040.032104
+.
+"'*'/Testing_Sequence500_3.rec"
+0 3800000 CP -2098.614502
+.
+"'*'/Testing_Sequence500_5.rec"
+0 6300000 CN -3431.088379
+.
+"'*'/Testing_Sequence500_8.rec"
+0 4600000 FM -2377.986328
+.
+"'*'/Testing_Sequence500_9.rec"
+0 5000000 FU -2777.719238
+.
+"'*'/Testing_Sequence501_0.rec"
+0 52000000 SIL -22057.179688
+.
+"'*'/Testing_Sequence501_1.rec"
+0 4900000 BS -3367.954346
+.
+"'*'/Testing_Sequence501_10.rec"
+0 4600000 FU -2566.207520
+.
+"'*'/Testing_Sequence501_13.rec"
+0 4000000 FN -2277.847412
+.
+"'*'/Testing_Sequence501_15.rec"
+0 5100000 SP -3009.069580
+.
+"'*'/Testing_Sequence501_16.rec"
+0 4200000 SP -2493.491943
+.
+"'*'/Testing_Sequence501_17.rec"
+0 4800000 ST -2673.907471
+.
+"'*'/Testing_Sequence501_18.rec"
+0 4100000 CF -2335.349365
+.
+"'*'/Testing_Sequence501_2.rec"
+0 5100000 FN -2812.720947
+.
+"'*'/Testing_Sequence501_5.rec"
+0 5300000 CN -3282.034180
+.
+"'*'/Testing_Sequence501_6.rec"
+0 4000000 CF -2306.909668
+.
+"'*'/Testing_Sequence501_8.rec"
+0 4200000 FM -2112.680908
+.
+"'*'/Testing_Sequence502_0.rec"
+0 63600000 SIL -25793.677734
+.
+"'*'/Testing_Sequence502_1.rec"
+0 4400000 BS -3133.028320
+.
+"'*'/Testing_Sequence502_11.rec"
+0 5300000 MC -2830.615234
+.
+"'*'/Testing_Sequence502_12.rec"
+0 3700000 OK -2052.611572
+.
+"'*'/Testing_Sequence502_13.rec"
+0 4000000 VQ -2390.795898
+.
+"'*'/Testing_Sequence502_15.rec"
+0 5200000 CF -2930.670654
+.
+"'*'/Testing_Sequence502_17.rec"
+0 5300000 ST -2815.069580
+.
+"'*'/Testing_Sequence502_18.rec"
+0 3500000 FN -2034.083740
+.
+"'*'/Testing_Sequence502_19.rec"
+0 3600000 OK -2070.873047
+.
+"'*'/Testing_Sequence502_4.rec"
+0 5000000 CN -3167.466064
+.
+"'*'/Testing_Sequence502_6.rec"
+0 5100000 FN -2967.480713
+.
+"'*'/Testing_Sequence503_0.rec"
+0 49200000 SIL -22879.648438
+.
+"'*'/Testing_Sequence503_14.rec"
+0 4300000 NU -2334.881592
+.
+"'*'/Testing_Sequence503_15.rec"
+0 4200000 CF -2443.765137
+.
+"'*'/Testing_Sequence503_16.rec"
+0 4600000 TT -2747.455322
+.
+"'*'/Testing_Sequence503_18.rec"
+0 3700000 CF -2166.703369
+.
+"'*'/Testing_Sequence503_19.rec"
+0 3600000 VQ -2239.099609
+.
+"'*'/Testing_Sequence503_20.rec"
+0 5600000 NU -3165.611572
+.
+"'*'/Testing_Sequence503_3.rec"
+0 3900000 CP -2253.728760
+.
+"'*'/Testing_Sequence503_6.rec"
+0 4000000 CF -2281.916016
+.
+"'*'/Testing_Sequence503_8.rec"
+0 5500000 FM -2861.110107
+.
+"'*'/Testing_Sequence503_9.rec"
+0 4600000 FU -2535.541504
+.
+"'*'/Testing_Sequence504_0.rec"
+0 52500000 SIL -21059.744141
+.
+"'*'/Testing_Sequence504_1.rec"
+0 5500000 BS -3713.873291
+.
+"'*'/Testing_Sequence504_10.rec"
+0 3300000 FU -1794.312622
+.
+"'*'/Testing_Sequence504_12.rec"
+0 3100000 OK -1741.627075
+.
+"'*'/Testing_Sequence504_14.rec"
+0 4000000 NU -2213.434082
+.
+"'*'/Testing_Sequence504_16.rec"
+0 4800000 TT -2853.088867
+.
+"'*'/Testing_Sequence504_18.rec"
+0 3800000 CF -2201.464844
+.
+"'*'/Testing_Sequence504_20.rec"
+0 5100000 NU -2742.656006
+.
+"'*'/Testing_Sequence504_3.rec"
+0 5100000 CP -2842.559082
+.
+"'*'/Testing_Sequence504_5.rec"
+0 5600000 CN -3129.396484
+.
+"'*'/Testing_Sequence504_8.rec"
+0 4700000 FM -2318.130127
+.
+"'*'/Testing_Sequence505_0.rec"
+0 49700000 SIL -20848.716797
+.
+"'*'/Testing_Sequence505_1.rec"
+0 3800000 BS -2366.170166
+.
+"'*'/Testing_Sequence505_10.rec"
+0 4400000 FU -2432.311035
+.
+"'*'/Testing_Sequence505_11.rec"
+0 4300000 MC -2336.468506
+.
+"'*'/Testing_Sequence505_12.rec"
+0 2800000 OK -1628.782959
+.
+"'*'/Testing_Sequence505_16.rec"
+0 4500000 TT -2700.977783
+.
+"'*'/Testing_Sequence505_17.rec"
+0 4700000 ST -2500.548096
+.
+"'*'/Testing_Sequence505_19.rec"
+0 3400000 OK -1991.049438
+.
+"'*'/Testing_Sequence505_20.rec"
+0 3900000 NU -2132.162109
+.
+"'*'/Testing_Sequence505_3.rec"
+0 5500000 CP -3139.570801
+.
+"'*'/Testing_Sequence505_5.rec"
+0 6500000 CN -3558.863525
+.
+"'*'/Testing_Sequence506_0.rec"
+0 30600000 SIL -14152.433594
+.
+"'*'/Testing_Sequence506_1.rec"
+0 4100000 BS -2525.144531
+.
+"'*'/Testing_Sequence506_10.rec"
+0 4500000 FN -2580.316895
+.
+"'*'/Testing_Sequence506_11.rec"
+0 5700000 MC -3158.306641
+.
+"'*'/Testing_Sequence506_13.rec"
+0 3800000 VQ -2277.536377
+.
+"'*'/Testing_Sequence506_16.rec"
+0 4100000 TT -2532.594727
+.
+"'*'/Testing_Sequence506_17.rec"
+0 4800000 ST -2581.989258
+.
+"'*'/Testing_Sequence506_19.rec"
+0 4300000 OK -2494.321045
+.
+"'*'/Testing_Sequence506_2.rec"
+0 5100000 CF -2818.158936
+.
+"'*'/Testing_Sequence506_4.rec"
+0 4400000 CV -2726.607178
+.
+"'*'/Testing_Sequence506_7.rec"
+0 5900000 DC -3324.282471
+.
+"'*'/Testing_Sequence506_8.rec"
+0 3800000 FM -2004.815063
+.
+"'*'/Testing_Sequence507_0.rec"
+0 49000000 SIL -19860.841797
+.
+"'*'/Testing_Sequence507_1.rec"
+0 5900000 BS -3916.379395
+.
+"'*'/Testing_Sequence507_11.rec"
+0 4700000 MC -2632.224365
+.
+"'*'/Testing_Sequence507_12.rec"
+0 3300000 OK -1873.730469
+.
+"'*'/Testing_Sequence507_14.rec"
+0 4200000 NU -2378.707520
+.
+"'*'/Testing_Sequence507_16.rec"
+0 4000000 TT -2402.259277
+.
+"'*'/Testing_Sequence507_17.rec"
+0 3700000 ST -1891.094727
+.
+"'*'/Testing_Sequence507_3.rec"
+0 5400000 CP -3078.917969
+.
+"'*'/Testing_Sequence507_4.rec"
+0 4400000 CV -2755.293457
+.
+"'*'/Testing_Sequence507_6.rec"
+0 3900000 CF -2211.598389
+.
+"'*'/Testing_Sequence507_9.rec"
+0 5200000 FN -2872.465820
+.
+"'*'/Testing_Sequence508_0.rec"
+0 41200000 SIL -17454.095703
+.
+"'*'/Testing_Sequence508_1.rec"
+0 3800000 BS -2411.145752
+.
+"'*'/Testing_Sequence508_13.rec"
+0 3600000 FN -2130.475342
+.
+"'*'/Testing_Sequence508_14.rec"
+0 3700000 NU -2053.281250
+.
+"'*'/Testing_Sequence508_15.rec"
+0 4700000 BN -2739.413086
+.
+"'*'/Testing_Sequence508_18.rec"
+0 3800000 CF -2243.128906
+.
+"'*'/Testing_Sequence508_19.rec"
+0 3300000 OK -1979.123535
+.
+"'*'/Testing_Sequence508_2.rec"
+0 4600000 CF -2584.468750
+.
+"'*'/Testing_Sequence508_20.rec"
+0 4200000 NU -2390.752930
+.
+"'*'/Testing_Sequence508_5.rec"
+0 4400000 CN -2370.759033
+.
+"'*'/Testing_Sequence508_6.rec"
+0 4100000 SP -2669.760498
+.
+"'*'/Testing_Sequence508_9.rec"
+0 4500000 FU -2536.836670
+.
+"'*'/Testing_Sequence509_0.rec"
+0 23300000 SIL -10137.393555
+.
+"'*'/Testing_Sequence509_11.rec"
+0 3400000 MC -1934.645874
+.
+"'*'/Testing_Sequence509_13.rec"
+0 4200000 FN -2421.868408
+.
+"'*'/Testing_Sequence509_15.rec"
+0 5200000 CF -3001.028564
+.
+"'*'/Testing_Sequence509_18.rec"
+0 4500000 OK -2556.144043
+.
+"'*'/Testing_Sequence509_2.rec"
+0 4500000 FN -2490.049316
+.
+"'*'/Testing_Sequence509_4.rec"
+0 5300000 CV -3302.633057
+.
+"'*'/Testing_Sequence509_5.rec"
+0 6800000 CN -3592.453857
+.
+"'*'/Testing_Sequence509_6.rec"
+0 4400000 CF -2556.723633
+.
+"'*'/Testing_Sequence509_8.rec"
+0 5000000 FM -2631.283691
+.
+"'*'/Testing_Sequence509_9.rec"
+0 4000000 FU -2180.889893
+.

@@ -13,7 +13,7 @@ import pandas as pd
 train_labels_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\training_label_file.csv"
 test_labels_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\testing_label_file.csv"
 unlabelled_lab_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\label_file.csv"
-flag = 'Train'
+flag = 'Test'
 labeled = 'True'
 
 # ========================================= Loads the skeletal data and labels =================================================================
@@ -254,6 +254,7 @@ elif flag == 'Test':
 	sk_data_path = sk_test_path
 	out_path = out_test_path
 
+print flag
 print "Loading data..."
 df = load_data(sk_data_path, labeled) 
 print "Finished loading."

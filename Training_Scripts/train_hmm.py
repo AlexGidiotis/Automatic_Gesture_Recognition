@@ -1,14 +1,22 @@
+# Author: Alex Gidiotis
+#         gidiotisAlex@outlook.com.gr
+
+# This script goes through the training of the hmms for 1-8 gmms.
+# This process will output the trained hmms for 1,2,4 and 8 gmms. We will pick the model that gives us the best CV accuracy.
+
 import os
 import sys, subprocess
 import time
 
-#For 1 Gaussian
+#=========================================================== For 1 Gaussian ===================================================================
+# Make directories to put in the trained hmms.
 for i in range (1,10):
     cur_dir = "hmm"+str(i)
     if not os.path.exists(cur_dir):
         os.makedirs(cur_dir)
     print cur_dir
 
+# Train for 9 iterations.
 herest = subprocess.Popen(['HERest','-A', '-D', '-T', '1', '-C', 'config_file', '-I', 'phones0.mlf', '-S', 'Train.scp', '-H', 'hmm0/macros', '-H', 'hmm0/hmmdefs', '-M', 'hmm1', 'hmm0/monophones0'])
 herest.wait()
 
@@ -38,15 +46,19 @@ herest.wait()
     
 print "HMM (1 GMM) Training Finished"
 
+#=========================================================== 2 GMMs training ====================================================================
+# Make directories to put in the trained hmms.
 for i in range (1,10):
     cur_dir = "2gmm_hmm"+str(i)
     if not os.path.exists(cur_dir):
         os.makedirs(cur_dir)
     print cur_dir
-    
+
+# Edit the results of the 1gmm model for 2 gmms.    
 hhed = subprocess.Popen(['HHEd', '-H', 'hmm9/macros', '-H', 'hmm9/hmmdefs', '-M', '2gmm_hmm1', 'split.hed', 'tiedlist'])
 hhed.wait()
 
+# Train for 9 iterations.
 herest = subprocess.Popen(['HERest','-A', '-D', '-T', '1', '-C', 'config_file', '-I', 'phones0.mlf', '-S', 'Train.scp', '-H', '2gmm_hmm1/macros', '-H', '2gmm_hmm1/hmmdefs', '-M', '2gmm_hmm2', 'hmm0/monophones0'])
 herest.wait()
 
@@ -73,16 +85,19 @@ herest.wait()
    
 print "HMM (2 GMM) Training Finished"
 
-#For 4 Gaussians
+#=========================================================== 4 GMMs training ====================================================================
+# Make directories to put in the trained hmms.
 for i in range (1,10):
     cur_dir = "4gmm_hmm"+str(i)
     if not os.path.exists(cur_dir):
         os.makedirs(cur_dir)
     print cur_dir
 
+# Edit the results of the 2gmm model for 4 gmms.
 hhed = subprocess.Popen(['HHEd', '-H', '2gmm_hmm9/macros', '-H', '2gmm_hmm9/hmmdefs', '-M', '4gmm_hmm1', 'split.hed', 'tiedlist'])
 hhed.wait()
 
+# Train for 9 iterations.
 herest = subprocess.Popen(['HERest','-A', '-D', '-T', '1', '-C', 'config_file', '-I', 'phones0.mlf', '-S', 'Train.scp', '-H', '4gmm_hmm1/macros', '-H', '4gmm_hmm1/hmmdefs', '-M', '4gmm_hmm2', 'hmm0/monophones0'])
 herest.wait()
 
@@ -109,16 +124,19 @@ herest.wait()
    
 print "HMM (4 GMM) Training Finished"
 
-#For 8 Gaussians
+#=========================================================== 8 GMMs training ====================================================================
+# Make directories to put in the trained hmms.
 for i in range (1,10):
     cur_dir = "8gmm_hmm"+str(i)
     if not os.path.exists(cur_dir):
         os.makedirs(cur_dir)
     print cur_dir
 
+# Edit the results of the 4gmm model for 8 gmms.
 hhed = subprocess.Popen(['HHEd', '-H', '4gmm_hmm9/macros', '-H', '4gmm_hmm9/hmmdefs', '-M', '8gmm_hmm1', 'split.hed', 'tiedlist'])
 hhed.wait()
 
+# Train for 9 iterations.
 herest = subprocess.Popen(['HERest','-A', '-D', '-T', '1', '-C', 'config_file', '-I', 'phones0.mlf', '-S', 'Train.scp', '-H', '8gmm_hmm1/macros', '-H', '8gmm_hmm1/hmmdefs', '-M', '8gmm_hmm2', 'hmm0/monophones0'])
 herest.wait()
 

@@ -4,7 +4,7 @@
 # This script reads extracted features and writes them to htk mfc format.
 # Outputs one .mfc file for every gesture in every file.
 
-# We need to add handles for testing and unlabeled data as well.
+# We need to add handles for unlabeled data as well.
 
 import os
 import htkmfc
@@ -35,11 +35,23 @@ def map_gesture(gest):
 	if gest == 'noncenepiu': return 20
 
 # Change this path to the saved skeletal .csv file.
-out_path = "C:\Users\Alex\Documents\University\Python\Data\MFC_data"
-
+out_path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_data"
+out_path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_test_data"
+# Modify this flag to 'Training' or 'Testing'.
+flag = 'Testing'
+if flag == 'Training':
+	out_path = out_path_train
+	in_file = "Training_set_skeletal.csv"
+	out_file = 'Training_Sequence'
+elif flag == 'Testing':
+	out_path = out_path_test
+	in_file = "Testing_set_skeletal.csv"
+	out_file = 'Testing_Sequence'
 # Load the data and get the different file ids in a list.
+print flag
 print "Loading data..."
-df = pd.read_csv("Training_set_skeletal.csv")
+df = pd.read_csv(in_file)
+df[df['Labels'] == 'None'] = 'sil'
 files = df['file'].unique()
 
 # Alternative isolated gestures.
@@ -52,7 +64,7 @@ for file_id in files:
 		# Open a .mfc file for each gesture to write the feature vectors.
 		file_id = int(file_id)
 		label = map_gesture(gest)
-		file_name = 'Training_Sequence' + str(file_id) + '_' + str(label) + '.mfc'
+		file_name = out_file + str(file_id) + '_' + str(label) + '.mfc'
 		out_file_name = os.path.join(out_path,file_name)
 		print out_file_name
 

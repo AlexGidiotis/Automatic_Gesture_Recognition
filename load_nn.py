@@ -57,12 +57,14 @@ def split_to_sets(df):
 
 ############################## main ######################################
 # modify this flags for Training or Testing
-flag = 'Training'
+flag = 'Testing'
 labeled = 'True'
 training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
 test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
 training_labels = "C:\Users\Alex\Documents\University\Python\Data\Labels"
 test_labels = "C:\Users\Alex\Documents\University\Python\Data\Test_Labels"
+
+print flag
 
 if flag == 'Training':
 	data_path = training_path
