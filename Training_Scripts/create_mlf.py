@@ -4,6 +4,8 @@
 # Reads the Train.scp script and creates the phonemes master label file and .lab files
 # Outputs phones0.mlf and a directory train_labels with all the .lab files that contain each label.
 
+# NEED TO BE MODILIED TO HANDLE EMBEDDED SEQUENCIES.
+
 import os
 import re
 
