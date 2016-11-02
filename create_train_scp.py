@@ -16,6 +16,7 @@ flag = 'Testing'
 flag_emb = 'Embedded'
 print flag, flag_emb
 
+#================================================================== Training ===================================================================
 if flag == 'Training':
 	path_top = path_train
 	# Go to the data directory and write all .mfc files in the training script.
@@ -29,6 +30,8 @@ if flag == 'Training':
 		of.write("%s\\%s\n" %(path_top,f))
 	print "Training script created."
 	of.close()
+
+#============================================================== Isolated Testing ===============================================================
 elif flag == 'Testing':
 	path_top = path_test
 	# Go to the data directory and write all .mfc files in the training script.
@@ -43,6 +46,7 @@ elif flag == 'Testing':
 			elif f[-3:] == 'txt':continue
 			of.write("%s\\%s\n" %(path_top,f))
 		print "Test script created."
+#============================================================== Embedded Testing ==============================================================
 	# Handle embedded sequences.
 	elif flag_emb == 'Embedded':
 		# List the directory and open each file.

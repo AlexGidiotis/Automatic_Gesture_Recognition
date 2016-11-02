@@ -35,6 +35,8 @@ def map_gesture(gest):
 	if gest == 'vieniqui': return 19
 	if gest == 'noncenepiu': return 20
 
+#================================================================= MAIN =======================================================================
+
 # Change this path to the saved skeletal .csv file.
 out_path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_data"
 out_path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_test_data"
@@ -42,6 +44,7 @@ out_path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_test_data"
 flag = 'Testing'
 # Modify this flag to 'Isolated' or 'Embedded'.
 flag_embed = 'Embedded'
+#================================================================ Switch between Training and Testing =========================================
 if flag == 'Training':
 	out_path = out_path_train
 	in_file = "Training_set_skeletal.csv"
@@ -50,6 +53,8 @@ elif flag == 'Testing':
 	out_path = out_path_test
 	in_file = "Testing_set_skeletal.csv"
 	out_file = 'Testing_Sequence'
+
+#============================================== Load data and get rid of some weird labels ====================================================
 # Load the data and get the different file ids in a list.
 print flag, flag_embed
 print "Loading data..."
@@ -57,6 +62,7 @@ df = pd.read_csv(in_file)
 # May need to change some labels.
 df.ix[df['label'] == 'None','label'] = 'sil'
 files = df['file'].unique()
+#========================================================== Isolated ==========================================================================
 # Handled isolated gestures.
 if flag_embed == 'Isolated':
 	# Alternative isolated gestures.
@@ -87,6 +93,8 @@ if flag_embed == 'Isolated':
 
 			# Close the mfc file.
 			mfc_writer.close()
+
+#===================================================================== Embedded================================================================
 # If we choose embedded testing we will write a sequence of gestures in each file.
 elif flag_embed == 'Embedded':
 	# Alternative embeded gestures.
