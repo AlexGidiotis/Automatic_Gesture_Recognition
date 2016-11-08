@@ -26,8 +26,8 @@ def load_data(data_path,labels_path,labeled):
 		# there must be exactly the same data and label files
 		for dfile, lfile in zip(data_listing, labels_listing):
 			new_df = pd.read_csv(data_path + '/' + dfile)
-			# initialize label column to 'None'
-			labels = ['None' for i in range(len(new_df.index))]
+			# initialize label column to 'sil'
+			labels = ['sil' for i in range(len(new_df.index))]
 			lf = open(labels_path + '/' + lfile, 'r')
 			# extract labels as well as starting and ending frames
 			for line in lf:
@@ -106,8 +106,8 @@ predict = theano.function(inputs=[X], outputs=y_x, allow_input_downcast=True)
 predictions = predict(teX)
 
 # average every 3 frames for smoothing
-for i in range(0,(len(predictions)-2)):
-	batch = np.array([predictions[i], predictions[(i+1)], predictions[(i+2)]])
+for i in range(0,(len(predictions)-4)):
+	batch = np.array([predictions[i], predictions[(i+1)], predictions[(i+2)], predictions[(i+3)], predictions[(i+4)]])
 	predictions[i] = np.median(batch)
 if labeled == 'True':
 	labs = df["labels"].as_matrix()

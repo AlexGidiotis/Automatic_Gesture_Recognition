@@ -113,6 +113,9 @@ elif flag == 'Testing':
             mlf.write('"*/%s.lab"\n' % name)
             for lab in seq:
                 label = classes[int(lab)]
+                #################################
+                #if label == 'SIL':continue
+                #################################
                 mlf.write("%s\n"% label)
             mlf.write(".\n")
 
@@ -120,6 +123,9 @@ elif flag == 'Testing':
             lf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_Scripts\\test_labels\\"+name+'.lab','w')
             for lab in seq:
                 label = classes[int(lab)]
+                ###################################
+                #if label == 'SIL':continue
+                ###################################
                 lf.write("%s\n"% label)
             lf.close()
         mlf.close()
