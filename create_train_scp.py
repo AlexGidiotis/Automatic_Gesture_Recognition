@@ -11,9 +11,9 @@ path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_test_data"
 path_out = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_Scripts"
 
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Testing'
+flag = 'Training'
 # Modify this flag to 'Isolated' or 'Embedded'.
-flag_emb = 'Embedded'
+flag_emb = 'Isolated'
 print flag, flag_emb
 
 #================================================================== Training ===================================================================

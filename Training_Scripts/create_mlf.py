@@ -14,9 +14,9 @@ classes = {'0':"SIL", '1':"BS", '2':"BN", '3':"CP", '4':"CV", '5':"CN", '6':"CF"
          '15':"SP", '16':"TT", '17':"ST",  '18':"VA",  '19':"VQ", '20':"NU"}
 
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Testing'
+flag = 'Training'
 # Modify this to 'Isolated' or 'Embedded'.
-embed_flag = 'Embedded'
+embed_flag = 'Isolated'
 print flag, embed_flag
 
 #=========================================================== Training ==========================================================================

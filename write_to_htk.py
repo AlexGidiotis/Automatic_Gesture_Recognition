@@ -82,13 +82,13 @@ if flag_embed == 'Isolated':
 			# Get the frames that correspond to the specific gesture.
 			gf = vf[vf['label'] == gest]
 
-			mfc_writer = htkmfc.open(out_file_name,'w',23)
+			mfc_writer = htkmfc.open(out_file_name,'w',22)
 			# Go through all frames in the specific file id and write the extracted features to mfc format.
 			for i in gf.index:
 				feats = df.iloc[i]
 				gest = feats['label']
 				feats = feats[['lh_v','rh_v','le_v','re_v','lh_dist_rp','rh_dist_rp','lh_hip_d','rh_hip_d','le_hip_d','re_hip_d','lh_shc_d','rh_shc_d','le_shc_d','re_shc_d',
-								'lh_hip_ang','rh_hip_ang','lh_shc_ang','rh_shc_ang','lh_el_ang','rh_el_ang','lh_dir','rh_dir','hands_d']].as_matrix().astype(float)
+								'lh_hip_ang','rh_hip_ang','lh_shc_ang','rh_shc_ang','lh_el_ang','rh_el_ang','lh_dir','rh_dir']].as_matrix().astype(float)
 				mfc_writer.writevec(feats)
 
 			# Close the mfc file.
@@ -111,14 +111,14 @@ elif flag_embed == 'Embedded':
 		print out_file_name
 		# We also need to keep a list of the label sequence.
 		label_sequence = []
-		mfc_writer = htkmfc.open(out_file_name,'w',23)			
+		mfc_writer = htkmfc.open(out_file_name,'w',22)			
 		# Go through all frames in the specific file id and write the extracted features to mfc format.
 		for i in vf.index:
 			feats = df.iloc[i]
 			gest = feats['label']
 			label = map_gesture(gest)
 			feats = feats[['lh_v','rh_v','le_v','re_v','lh_dist_rp','rh_dist_rp','lh_hip_d','rh_hip_d','le_hip_d','re_hip_d','lh_shc_d','rh_shc_d','le_shc_d','re_shc_d',
-							'lh_hip_ang','rh_hip_ang','lh_shc_ang','rh_shc_ang','lh_el_ang','rh_el_ang','lh_dir','rh_dir','hands_d']].as_matrix().astype(float)
+							'lh_hip_ang','rh_hip_ang','lh_shc_ang','rh_shc_ang','lh_el_ang','rh_el_ang','lh_dir','rh_dir']].as_matrix().astype(float)
 			mfc_writer.writevec(feats)
 			# Append labels into the sequence list of the file.
 			if len(label_sequence) > 0:
