@@ -117,6 +117,7 @@ def calculate_distances(df):
 	hip_x,hip_y,shc_x,shc_y = df['hipX'].as_matrix(),df['hipY'].as_matrix(),df['shcX'].as_matrix(),df['shcY'].as_matrix()
 
 	# Create the empty arrays to put the values.
+	hands_dist = np.zeros_like(lh_x)
 	lh_hip_dist,rh_hip_dist = np.zeros_like(lh_x), np.zeros_like(rh_x)
 	le_hip_dist,re_hip_dist = np.zeros_like(le_x), np.zeros_like(re_x)
 	lh_shoulder_center_dist,rh_shoulder_center_dist = np.zeros_like(lh_x), np.zeros_like(rh_x)
@@ -126,6 +127,11 @@ def calculate_distances(df):
 	lh, rh = np.array((lh_x,lh_y)), np.array((rh_x,rh_y))
 	le, re = np.array((le_x,le_y)), np.array((re_x,re_y))
 	hip, shc = np.array((hip_x,hip_y)), np.array((shc_x,shc_y))
+
+	# Calculate the euclidean distance between hands.
+	hands_dist = (lh - rh)**2
+	hands_dist = hands_dist.sum(axis=0)
+	hands_dist = np.sqrt(hands_dist)
 
 	# Calculate the euclidean distance of hands and elbows from the hip.
 	lh_hip_dist, rh_hip_dist = (lh - hip)**2, (rh - hip)**2
@@ -148,6 +154,8 @@ def calculate_distances(df):
 	le_shoulder_center_dist, re_shoulder_center_dist = np.sqrt(le_shoulder_center_dist), np.sqrt(re_shoulder_center_dist)
 
 	# Put the distances back into the dataframe to be returned.
+	df['hands_d'] = hands_dist
+
 	df['lh_hip_d'], df['rh_hip_d'] = lh_hip_dist, rh_hip_dist	
 	df['le_hip_d'], df['re_hip_d'] = le_hip_dist, re_hip_dist
 
@@ -234,7 +242,6 @@ def calculate_movement_directions(df):
 
 	# Store to the data frame to be returned.
 	df['lh_dir'], df['rh_dir'] = lh_direction, rh_direction	
-
 	return df
 
 #============================================================= Main function ====================================================================

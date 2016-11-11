@@ -105,7 +105,7 @@ predict = theano.function(inputs=[X], outputs=y_x, allow_input_downcast=True)
 
 predictions = predict(teX)
 
-# average every 3 frames for smoothing
+# average every 4 frames for smoothing
 for i in range(0,(len(predictions)-4)):
 	batch = np.array([predictions[i], predictions[(i+1)], predictions[(i+2)], predictions[(i+3)], predictions[(i+4)]])
 	predictions[i] = np.median(batch)
