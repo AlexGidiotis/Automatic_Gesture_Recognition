@@ -59,6 +59,7 @@ def calculate_rect_points(all_df,const):
 # Modify this to 'Training' or 'Testing'.
 flag = 'Training'
 print flag
+# This constant will be half the side of the bounding rectangle we will draw around each hand.
 const = 20
 
 #==================================================== Isolated Training =======================================================
