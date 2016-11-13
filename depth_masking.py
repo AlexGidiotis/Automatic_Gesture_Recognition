@@ -13,7 +13,7 @@ import re
 
 #=========================================================== MAIN =============================================================
 # Modify this to 'Training' or 'Testing'.
-flag = 'Training'
+flag = 'Testing'
 print flag
 
 #==================================================== Isolated Training =======================================================
@@ -49,7 +49,9 @@ for file in file_list:
 	# The output file.
 	masked_file = os.path.join(path,file,'masked')
 	# First remove previous output directories.
-	shutil.rmtree(masked_file)
+	try:	
+		shutil.rmtree(masked_file)
+	except: pass
 	# Create the output directory.
 	if not os.path.exists(masked_file):
 		os.makedirs(masked_file)

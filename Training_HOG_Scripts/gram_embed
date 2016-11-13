@@ -1,0 +1,6 @@
+$events= VA | VQ | PF | FU | CP | CV |
+DC | SP | CN | FN | OK | CF | BS |
+PR | NU | FM | TT | BN | MC |
+ST | SIL ;	
+
+( ( <$events> ) )

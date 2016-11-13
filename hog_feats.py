@@ -5,11 +5,12 @@
 # We extract a 576-dim HOG descriptor from the dominant hand of each frame.
 # The output is saved in gesture files (.csv)
 
+# NEEDS TO BE MODIFIED FOR EMBEDDED SEQUENCES.
+
 import cv2
 import os
 import re
 import numpy as np
-
 import pandas as pd
 
 #========================================== Find the dominant hand in each gesture ============================================
@@ -17,7 +18,7 @@ import pandas as pd
 def get_dominant_hand(gest_df):
 	vel_left = gest_df['lh_v'].as_matrix()
 	vel_right = gest_df['rh_v'].as_matrix()
-	# Return the hand with the bigger average velocity.
+	# Return the hand with the bigest average velocity.
 	if vel_left.mean() > vel_right.mean():
 		return 'left'
 	else:
