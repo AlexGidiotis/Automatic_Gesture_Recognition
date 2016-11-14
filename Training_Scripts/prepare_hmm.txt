@@ -50,7 +50,7 @@
 
 ======================================================= Testing (Embedded) =======================================================
 4.HVite -A -D -T 1 -H 2gmm_hmm9/macros -H 2gmm_hmm9/hmmdefs -C config_file -S Test.scp -l '*' -i recout.mlf -w wdnet_embed -p -150.0 gesture_lexicon tiedlist
-5.HResults -e ??? SIL -I testphones0.mlf tiedlist recout.mlf
+5.HResults -e ??? SIL -t -I testphones0.mlf tiedlist recout.mlf
 
 ========================================================== Testing (HOG) =========================================================
 1.Extract skeletal feats and write to htk format(isolated or embedded)

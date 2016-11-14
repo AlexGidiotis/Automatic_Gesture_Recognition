@@ -1,4 +1,4 @@
-~o <VecSize> 22 <MFCC_0>
+~o <VecSize> 22 <MFCC_0_Z>
 ~h "prototype"
 <BeginHMM>
   <NumStates> 5

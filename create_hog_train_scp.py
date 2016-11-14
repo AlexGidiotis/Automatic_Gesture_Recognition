@@ -30,7 +30,7 @@ if flag == 'Training':
 			if f.startswith('Embedded'):continue
 			elif f[-3:] == 'txt':continue
 			label = re.findall('_hog_(\d+).mfc',f)[0]
-			if int(label) == 0: continue
+			#if int(label) == 0: continue
 			of.write("%s\\%s\n" %(path_top,f))
 		print "Training script created."
 	elif flag_emb == 'Embedded':
