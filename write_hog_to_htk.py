@@ -44,7 +44,7 @@ out_path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_test_dat
 # Modify this flag to 'Training' or 'Testing'.
 flag = 'Testing'
 # Modify this flag to 'Isolated' or 'Embedded'.
-flag_embed = 'Isolated'
+flag_embed = 'Embedded'
 #================================================================ Switch between Training and Testing =========================================
 if flag == 'Training':
 	out_path = out_path_train
@@ -59,10 +59,21 @@ elif flag == 'Testing':
 # Load the data and get the different file ids in a list.
 print flag, flag_embed
 file_list = os.listdir(in_path)
+
+print 'Loading data...'
+# Make a list of all file ids.
+files = []
 for file in file_list:
-	#========================================================== Isolated ==========================================================================
-	# Handled isolated gestures.
-	if flag_embed == 'Isolated':
+	if file.startswith('Reduced'):continue
+	file_id = re.findall('sample(\d+)_',file)[0]
+	if file_id not in files: 
+		files.append(file_id)
+
+
+#========================================================== Isolated ==========================================================================
+# Handled isolated gestures.
+if flag_embed == 'Isolated':
+	for file in file_list:
 		df = pd.read_csv(in_path + '/' + file)
 		df = df.drop(['label', 'file', 'frame', 'hand'], axis=1)
 		# Alternative isolated gestures.
@@ -86,47 +97,60 @@ for file in file_list:
 		# Close the mfc file.
 		mfc_writer.close()
 
-'''
-	#===================================================================== Embedded================================================================
-	# If we choose embedded testing we will write a sequence of gestures in each file.
-	elif flag_embed == 'Embedded':
-		# Alternative embeded gestures.
-		# Create a label file for embedded class sequencies.
-		lab_file_name = 'label_file.txt'
-		lab_file_name = os.path.join(out_path,lab_file_name)
-		lab_file = open(lab_file_name,'w')
-		# Go through all the data by file id.
-		for file_id in files:
-			vf = df[df['file'] == file_id]
-			file_id = int(file_id)
-			file_name = 'Embedded' + out_file + str(file_id) + '.mfc'
-			out_file_name = os.path.join(out_path,file_name)
-			print out_file_name
-			# We also need to keep a list of the label sequence.
-			label_sequence = []
-			mfc_writer = htkmfc.open(out_file_name,'w',22)			
-			# Go through all frames in the specific file id and write the extracted features to mfc format.
-			for i in vf.index:
-				feats = df.iloc[i]
-				gest = feats['label']
-				label = map_gesture(gest)
-				feats = feats[['lh_v','rh_v','le_v','re_v','lh_dist_rp','rh_dist_rp','lh_hip_d','rh_hip_d','le_hip_d','re_hip_d','lh_shc_d','rh_shc_d','le_shc_d','re_shc_d',
-								'lh_hip_ang','rh_hip_ang','lh_shc_ang','rh_shc_ang','lh_el_ang','rh_el_ang','lh_dir','rh_dir']].as_matrix().astype(float)
-				mfc_writer.writevec(feats)
-				# Append labels into the sequence list of the file.
-				if len(label_sequence) > 0:
-					if label_sequence[-1] == label:
-						pass
-					else:
-						label_sequence.append(label)
+
+#===================================================================== Embedded================================================================
+# If we choose embedded testing we will write a sequence of gestures in each file.
+elif flag_embed == 'Embedded':
+	# Alternative embeded gestures.
+	# Create a label file for embedded class sequencies.
+	lab_file_name = 'label_file.txt'
+	lab_file_name = os.path.join(out_path,lab_file_name)
+	lab_file = open(lab_file_name,'w')
+	# Go through all the data by file id.
+	for f_id in files:
+		# Gather all parts of a file in one dataframe.
+		all_df = pd.DataFrame()
+		for file in file_list:
+			file_id = re.findall('sample(\d+)_',file)[0]
+			if file_id != f_id: continue
+			df = pd.read_csv(in_path + '/' + file)
+			all_df = all_df.append(df,ignore_index=True)
+
+		# Sort by frame.
+		all_df = all_df.sort_values('frame').reset_index(drop=True)
+		# Drop useless columns.
+		all_df = all_df.drop(['file', 'frame', 'hand'], axis=1)
+
+		# Write .mfc output vectors.
+		file_name = 'Embedded' + out_file + str(f_id) + '.mfc'
+		out_file_name = os.path.join(out_path,file_name)
+		print out_file_name
+
+		label_sequence = []
+		mfc_writer = htkmfc.open(out_file_name,'w',576)
+		# Go through all frames in the specific file id and write the extracted features to mfc format.
+		for i in all_df.index:	
+			# Get the feature vector.
+			feats = all_df.iloc[i]
+			# Get the label.
+			gest = feats['label']
+			label = map_gesture(gest)
+			# Drop the label column.
+			feats = feats.drop('label').as_matrix().astype(float)
+			# Write feat vector.
+			mfc_writer.writevec(feats)
+			# Make a list of label sequence.
+			if len(label_sequence) > 0:
+				if label_sequence[-1] == label:
+					pass
 				else:
 					label_sequence.append(label)
+			else:
+				label_sequence.append(label)
+		mfc_writer.close()
+		# Write label file.
+		lab_file.write('%s:%s\n' %(file_name,label_sequence))
+	lab_file.close()
 
-			# Close the mfc file.
-			mfc_writer.close()
-			# Write the label sequence for each file to the label file.
-			lab_file.write('%s:%s\n' %(file_name,label_sequence))
-		lab_file.close()
-'''
 
 print "finished"

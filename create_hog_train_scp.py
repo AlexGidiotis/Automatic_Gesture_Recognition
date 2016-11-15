@@ -14,7 +14,7 @@ path_out = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognit
 # Modify this flag to 'Training' or 'Testing'.
 flag = 'Testing'
 # Modify this flag to 'Isolated' or 'Embedded'.
-flag_emb = 'Isolated'
+flag_emb = 'Embedded'
 print flag, flag_emb
 
 #================================================================== Training ===================================================================

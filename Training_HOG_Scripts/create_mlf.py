@@ -16,7 +16,7 @@ classes = {'0':"SIL", '1':"BS", '2':"BN", '3':"CP", '4':"CV", '5':"CN", '6':"CF"
 # Modify this flag to 'Training' or 'Testing'.
 flag = 'Testing'
 # Modify this to 'Isolated' or 'Embedded'.
-embed_flag = 'Isolated'
+embed_flag = 'Embedded'
 print flag, embed_flag
 
 #=========================================================== Training ==========================================================================
@@ -71,6 +71,7 @@ if flag == 'Training':
             # Write to master label file.
             mlf.write('"*/%s.lab"\n' % name)
             for lab in seq:
+
                 label = classes[lab]
                 mlf.write("%s\n"% label)
             mlf.write(".\n")
