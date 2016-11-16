@@ -5,9 +5,9 @@
 
 import sys, subprocess
 
-classes=['SIL', 'BN', 'BS', 'CF', 'CN', 'CP', 'CV', 'DC', 'FM', 'FN', 'FU', 'MC', 'NU', 'OK', 'PF', 'PR', 'SP', 'ST', 'TT', 'VA', 'VQ']
+classes=['SIL', 'BN_2', 'BS_2', 'CF_2', 'CN_2', 'CP_2', 'CV_2', 'DC_2', 'FM_2', 'FN_2', 'FU_2', 'MC_2', 'NU_2', 'OK_2', 'PF_2', 'PR_2', 'SP_2', 'ST_2', 'TT_2', 'VA_2', 'VQ_2', 'OH_U', 'OH_D', 'TH_LU', 'TH_LD', 'TH_U', 'TH_D']
 
-path = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_Scripts\hmm0"
+path = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\hmm0"
 
 #=============================== Create the macros file =======================================================================================
 pf = open(path+"/prototype",'r')

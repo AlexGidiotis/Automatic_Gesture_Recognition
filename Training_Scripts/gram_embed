@@ -1,6 +1,9 @@
-$events= VA | VQ | PF | FU | CP | CV |
-DC | SP | CN | FN | OK | CF | BS |
-PR | NU | FM | TT | BN | MC |
-ST | SIL ;	
+$events = SIL OH_U | OH_D | TH_LU | TH_LD | TH_U | TH_D ;	
 
-( ( <$events> ) )
+$ONE_HAND_GEST = BN_2 | CF_2 | FM_2 | FN_2 | FU_2 | MC_2 | OK_2 | PF_2 | PR_2 | SP_2 | TT_2 | ST_2 | VA_2 | VQ_2 | NU_2 ;
+$TWO_HAND_LOW_GEST = BS_2 | CP_2 ;
+$TWO_HAND_GEST = CV_2 | CN_2 | DC_2 ;
+
+(
+	<([SIL] (OH_U $ONE_HAND_GEST OH_D) | (TH_LU $TWO_HAND_LOW_GEST TH_D) | (TH_U $TWO_HAND_GEST TH_D) [SIL])>
+)

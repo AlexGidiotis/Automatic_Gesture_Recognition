@@ -3,17 +3,17 @@
 
 # Creates the training script required for htk training.
 # Outputs a training script .scp inside the training directory.
-# NEEDS TO BE MODIFIED TO SUPPORT EMBEDDED TRAINING
+
 import os
 
 path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_data"
 path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_test_data"
-path_out = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_Scripts"
+path_out = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Training_Scripts"
 
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Training'
+flag = 'Testing'
 # Modify this flag to 'Isolated' or 'Embedded'.
-flag_emb = 'Isolated'
+flag_emb = 'Embedded'
 print flag, flag_emb
 
 #================================================================== Training ===================================================================

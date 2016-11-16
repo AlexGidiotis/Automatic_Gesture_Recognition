@@ -13,27 +13,67 @@ import pandas as pd
 
 # Map each gesture code into an integer id.
 def map_gesture(gest):
-	if gest == 'sil': return 0
-	if gest == 'basta': return 1
-	if gest == 'buonissimo' : return 2
-	if gest == 'cheduepalle' : return 3
-	if gest == 'chevuoi' : return 4
-	if gest == 'combinato' : return 5
-	if gest == 'cosatifarei' : return 6
-	if gest == 'daccordo' : return 7
-	if gest == 'fame' : return 8
-	if gest == 'freganiente' : return 9
-	if gest == 'furbo' : return 10
-	if gest == 'messidaccordo' : return 11
-	if gest == 'ok' : return 12
-	if gest == 'perfetto': return 13
-	if gest == 'prendere': return 14
-	if gest == 'seipazzo': return 15
-	if gest == 'tantotempo': return 16
-	if gest == 'sonostufo': return 17
-	if gest == 'vattene': return 18
-	if gest == 'vieniqui': return 19
-	if gest == 'noncenepiu': return 20
+	if gest == 'sil': return '0_0'
+	if gest == 'basta_1': return '1_1'
+	if gest == 'basta_2': return '1_2'
+	if gest == 'basta_3': return '1_3'		
+	if gest == 'buonissimo_1' : return '2_1'
+	if gest == 'buonissimo_2' : return '2_2'
+	if gest == 'buonissimo_3' : return '2_3'		
+	if gest == 'cheduepalle_1' : return '3_1'
+	if gest == 'cheduepalle_2' : return '3_2'
+	if gest == 'cheduepalle_3' : return '3_3'		
+	if gest == 'chevuoi_1' : return '4_1'
+	if gest == 'chevuoi_2' : return '4_2'
+	if gest == 'chevuoi_3' : return '4_3'		
+	if gest == 'combinato_1' : return '5_1'
+	if gest == 'combinato_2' : return '5_2'
+	if gest == 'combinato_3' : return '5_3'		
+	if gest == 'cosatifarei_1' : return '6_1'
+	if gest == 'cosatifarei_2' : return '6_2'
+	if gest == 'cosatifarei_3' : return '6_3'		
+	if gest == 'daccordo_1' : return '7_1'
+	if gest == 'daccordo_2' : return '7_2'
+	if gest == 'daccordo_3' : return '7_3'		
+	if gest == 'fame_1' : return '8_1'
+	if gest == 'fame_2' : return '8_2'
+	if gest == 'fame_3' : return '8_3'		
+	if gest == 'freganiente_1' : return '9_1'
+	if gest == 'freganiente_2' : return '9_2'
+	if gest == 'freganiente_3' : return '9_3'		
+	if gest == 'furbo_1' : return '10_1'
+	if gest == 'furbo_2' : return '10_2'
+	if gest == 'furbo_3' : return '10_3'		
+	if gest == 'messidaccordo_1' : return '11_1'
+	if gest == 'messidaccordo_2' : return '11_2'
+	if gest == 'messidaccordo_3' : return '11_3'		
+	if gest == 'ok_1' : return '12_1'
+	if gest == 'ok_2' : return '12_2'
+	if gest == 'ok_3' : return '12_3'		
+	if gest == 'perfetto_1': return '13_1'
+	if gest == 'perfetto_2': return '13_2'
+	if gest == 'perfetto_3': return '13_3'		
+	if gest == 'prendere_1': return '14_1'
+	if gest == 'prendere_2': return '14_2'
+	if gest == 'prendere_3': return '14_3'		
+	if gest == 'seipazzo_1': return '15_1'
+	if gest == 'seipazzo_2': return '15_2'
+	if gest == 'seipazzo_3': return '15_3'		
+	if gest == 'tantotempo_1': return '16_1'
+	if gest == 'tantotempo_2': return '16_2'
+	if gest == 'tantotempo_3': return '16_3'		
+	if gest == 'sonostufo_1': return '17_1'
+	if gest == 'sonostufo_2': return '17_2'
+	if gest == 'sonostufo_3': return '17_3'		
+	if gest == 'vattene_1': return '18_1'
+	if gest == 'vattene_2': return '18_2'
+	if gest == 'vattene_3': return '18_3'		
+	if gest == 'vieniqui_1': return '19_1'
+	if gest == 'vieniqui_2': return '19_2'
+	if gest == 'vieniqui_3': return '19_3'		
+	if gest == 'noncenepiu_1': return '20_1'
+	if gest == 'noncenepiu_2': return '20_2'
+	if gest == 'noncenepiu_3': return '20_3'		
 
 #================================================================= MAIN =======================================================================
 
@@ -47,11 +87,11 @@ flag_embed = 'Embedded'
 #================================================================ Switch between Training and Testing =========================================
 if flag == 'Training':
 	out_path = out_path_train
-	in_file = "Training_set_skeletal.csv"
+	in_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_set_skeletal_extended.csv"
 	out_file = 'Training_Sequence'
 elif flag == 'Testing':
 	out_path = out_path_test
-	in_file = "Testing_set_skeletal.csv"
+	in_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Testing_set_skeletal_extended.csv"
 	out_file = 'Testing_Sequence'
 
 #============================================== Load data and get rid of some weird labels ====================================================
