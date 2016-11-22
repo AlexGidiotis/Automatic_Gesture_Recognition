@@ -49,8 +49,9 @@
 5.Get the results ->HResults -I testphones0.mlf tiedlist recout.mlf
 
 ======================================================= Testing (Embedded) =======================================================
-4.HVite -A -D -T 1 -H 2gmm_hmm9/macros -H 2gmm_hmm9/hmmdefs -C config_file -S Test.scp -l '*' -i recout.mlf -w wdnet_embed -p -150.0 gesture_lexicon tiedlist
+4.HVite -A -D -T 1 -H 4gmm_hmm9/macros -H 4gmm_hmm9/hmmdefs -C config_file -S Test.scp -l '*' -i recout.mlf -w wdnet_embed -p -110.0 gesture_lexicon tiedlist
 5.HResults -e ??? SIL -t -I testphones0.mlf tiedlist recout.mlf
+5.b HResults -e ??? SIL -e ??? OH_U -e ??? OH_D -e ??? TH_U -e ??? TH_D -e ??? TH_LU -e ??? TH_LD -t -I testphones0.mlf tiedlist recout.mlf
 
 ========================================================== Testing (HOG) =========================================================
 1.Extract skeletal feats and write to htk format(isolated or embedded)
@@ -62,3 +63,4 @@
 3.Create testphones0.mlf ->create_mlf.py
 4.Test -> HVite -A -D -T 1 -H 4gmm_hmm9/macros -H 4gmm_hmm9/hmmdefs -C config_file -S Test.scp -l '*' -i recout.mlf -w wdnet -p 10.0 gesture_lexicon tiedlist
 5.Get the results ->HResults -I testphones0.mlf tiedlist recout.mlf
+

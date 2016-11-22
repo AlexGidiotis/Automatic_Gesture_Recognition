@@ -1,0 +1,126 @@
+VERSION=1.0
+N=52   L=72   
+I=0    W=sil                 
+I=1    W=noise               
+I=2    W=!NULL               
+I=3    W=farei               
+I=4    W=ti                  
+I=5    W=Cosa                
+I=6    W=niente              
+I=7    W=frega               
+I=8    W=ne                  
+I=9    W=me                  
+I=10   W=Non                 
+I=11   W=combinato           
+I=12   W=Cos'hai             
+I=13   W=Pazzo               
+I=14   W=Sei                 
+I=15   W=furbo               
+I=16   W=un                  
+I=17   W=E'                  
+I=18   W=qui                 
+I=19   W=Vieni               
+I=20   W=vuoi                
+I=21   W=palle               
+I=22   W=due                 
+I=23   W=Che                 
+I=24   W=d'accordo           
+I=25   W=messi               
+I=26   W=!NULL               
+I=27   W=sono                
+I=28   W=Si                  
+I=29   W=Vanno               
+I=30   W=stufo               
+I=31   W=sono                
+I=32   W=Buonissimo          
+I=33   W=fa                  
+I=34   W=tempo               
+I=35   W=Tanto               
+I=36   W=fame                
+I=37   W=Ho                  
+I=38   W=piu                 
+I=39   W=n'e                 
+I=40   W=ce                  
+I=41   W=Non                 
+I=42   W=prendere            
+I=43   W=vuoi                
+I=44   W=Le                  
+I=45   W=Basta               
+I=46   W=ok                  
+I=47   W=Perfetto            
+I=48   W=Vattene             
+I=49   W=sil                 
+I=50   W=!NULL               
+I=51   W=!NULL               
+J=0     S=2    E=0    
+J=1     S=49   E=1    
+J=2     S=1    E=2    
+J=3     S=3    E=2    
+J=4     S=6    E=2    
+J=5     S=11   E=2    
+J=6     S=13   E=2    
+J=7     S=15   E=2    
+J=8     S=18   E=2    
+J=9     S=20   E=2    
+J=10    S=21   E=2    
+J=11    S=24   E=2    
+J=12    S=30   E=2    
+J=13    S=32   E=2    
+J=14    S=33   E=2    
+J=15    S=36   E=2    
+J=16    S=38   E=2    
+J=17    S=42   E=2    
+J=18    S=45   E=2    
+J=19    S=46   E=2    
+J=20    S=47   E=2    
+J=21    S=48   E=2    
+J=22    S=4    E=3    
+J=23    S=5    E=4    
+J=24    S=49   E=5    
+J=25    S=7    E=6    
+J=26    S=8    E=7    
+J=27    S=9    E=8    
+J=28    S=10   E=9    
+J=29    S=49   E=10   
+J=30    S=12   E=11   
+J=31    S=49   E=12   
+J=32    S=14   E=13   
+J=33    S=49   E=14   
+J=34    S=16   E=15   
+J=35    S=17   E=16   
+J=36    S=49   E=17   
+J=37    S=19   E=18   
+J=38    S=49   E=19   
+J=39    S=23   E=20   
+J=40    S=22   E=21   
+J=41    S=23   E=22   
+J=42    S=49   E=23   
+J=43    S=26   E=24   
+J=44    S=27   E=25   
+J=45    S=25   E=26   
+J=46    S=29   E=26   
+J=47    S=28   E=27   
+J=48    S=49   E=28   
+J=49    S=49   E=29   
+J=50    S=31   E=30   
+J=51    S=49   E=31   
+J=52    S=49   E=32   
+J=53    S=34   E=33   
+J=54    S=35   E=34   
+J=55    S=49   E=35   
+J=56    S=37   E=36   
+J=57    S=49   E=37   
+J=58    S=39   E=38   
+J=59    S=40   E=39   
+J=60    S=41   E=40   
+J=61    S=49   E=41   
+J=62    S=43   E=42   
+J=63    S=44   E=43   
+J=64    S=49   E=44   
+J=65    S=49   E=45   
+J=66    S=49   E=46   
+J=67    S=49   E=47   
+J=68    S=49   E=48   
+J=69    S=0    E=49   
+J=70    S=51   E=49   
+J=71    S=0    E=50   
