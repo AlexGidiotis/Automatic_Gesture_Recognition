@@ -10,9 +10,19 @@ import os
 import numpy as np
 import pandas as pd
 
-train_labels_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\training_label_file.csv"
-test_labels_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\testing_label_file.csv"
-unlabelled_lab_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\label_file.csv"
+flag_path = 'Dimitris'
+
+if flag_path == 'Alex':
+	#Alex's Paths
+	train_labels_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\training_label_file.csv"
+	test_labels_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\testing_label_file.csv"
+	unlabelled_lab_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\label_file.csv"
+elif flag_path == 'Dimitris':
+	#Dimitr's Paths
+	train_labels_file = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/training_label_file.csv"
+	test_labels_file = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/testing_label_file.csv"
+	unlabelled_lab_file = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/label_file.csv"
+
 flag = 'Test'
 labeled = 'True'
 
@@ -26,7 +36,7 @@ def load_data(sk_data_path, labeled):
 		labels_file = test_labels_file
 
 	# Go find all the saved data.
-	sk_list = os.listdir(sk_data_path)
+	sk_list = (os.listdir(sk_data_path))
 	df = pd.DataFrame()
 	# Put all the data in a new dataframe.
 	for dfile in sk_list:
@@ -246,11 +256,16 @@ def calculate_movement_directions(df):
 
 #============================================================= Main function ====================================================================
 # This is the function that goes through the feature extraction process and writes the output.
-
-sk_training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
-sk_test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
-out_training_path = "C:\Users\Alex\Documents\University\Python\Data\SK_CSV_feats"
-out_test_path = "C:\Users\Alex\Documents\University\Python\Data\SK_CSV_TEST_feats"
+if flag_path == 'Alex':
+	sk_training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
+	sk_test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
+	out_training_path = "C:\Users\Alex\Documents\University\Python\Data\SK_CSV_feats"
+	out_test_path = "C:\Users\Alex\Documents\University\Python\Data\SK_CSV_TEST_feats"
+elif flag_path == 'Dimitris':
+	sk_training_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/CSV_data"
+	sk_test_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/CSV_TEST_data"
+	out_training_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/SK_CSV_feats"
+	out_test_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/SK_CSV_TEST_feats"
 
 #============================================= change this flag to Train or Test to extract ====================================================
 # Chose between training and testing mode.

@@ -13,7 +13,7 @@ from activity_detector_dnn import floatX, init_weights, softmax, RMSprop, dropou
 # arg: data_path: the path where the csv files are stored
 # returns: df: a dataframe with the loaded data and the 'inactive' column added
 def load_data(data_path):
-	data_listing = os.listdir(data_path)
+	data_listing = sorted(os.listdir(data_path))
 	df = pd.DataFrame()
 	count = 0
 	# go through all files and load all data in a big dataframe
@@ -73,8 +73,12 @@ def split_to_sets(df):
 
 
 ############## main ##################
+path_flag = 'Dimitris'
+if path_flag == 'Alex':
+	data_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
+elif path_flag == 'Dimitris':
+	data_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/CSV_data"
 
-data_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
 start_time = time.time()
 # load training and testing data and labels
 print "Loading data set..."
@@ -118,6 +122,9 @@ train = theano.function(inputs=[X, Y], outputs=cost, updates=updates, allow_inpu
 predict = theano.function(inputs=[X], outputs=y_x, allow_input_downcast=True)
 
 print "Starting training for 100 epochs..."
+
+print (1 - np.mean(np.argmax(trY, axis=1) == predict(trX)))
+print (1 - np.mean(np.argmax(teY, axis=1) == predict(teX)))
 for i in range(100):
 
 	# training on mini batches of 128 examples (very slow convergence)

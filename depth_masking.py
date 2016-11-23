@@ -13,18 +13,25 @@ import re
 
 #=========================================================== MAIN =============================================================
 # Modify this to 'Training' or 'Testing'.
-flag = 'Testing'
+flag = 'Training'
 print flag
-
+flag_path = 'Dimitris'
 #==================================================== Isolated Training =======================================================
 # Choose between Training and Testing.
-if flag == 'Training':
-	path = 'C:\Users\Alex\Documents\University\Python\Data\Train_Images'
-	in_file = "Training_set_skeletal.csv"
-elif flag == 'Testing':
-	path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Images'
-	in_file = "Testing_set_skeletal.csv"
-
+if flag_path == 'Alex':
+	if flag == 'Training':
+		path = 'C:\Users\Alex\Documents\University\Python\Data\Train_Images'
+		in_file = "Training_set_skeletal.csv"
+	elif flag == 'Testing':
+		path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Images'
+		in_file = "Testing_set_skeletal.csv"
+elif flag_path == 'Dimitris':
+	if flag == 'Training':
+		path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Train_Images'
+		in_file = "Training_set_skeletal.csv"
+	elif flag == 'Testing':
+		path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Test_Images'
+		in_file = "Testing_set_skeletal.csv"
 # Load some data.
 print "Loading data..."
 all_df = pd.read_csv(in_file)
@@ -33,7 +40,7 @@ all_df.ix[all_df['label'] == 'None','label'] = 'sil'
 all_df = all_df[['frame','label','file']]
 
 # List the files in the directory and open each file.
-file_list = os.listdir(path)
+file_list = sorted(os.listdir(path))
 for file in file_list:
 	print file
 	# Get the file number.
@@ -58,8 +65,8 @@ for file in file_list:
 		print 'Created',masked_file
 
 	# List the input directories and open color and depth images in pairs.
-	color_list = os.listdir(color_file)
-	depth_list = os.listdir(depth_file)
+	color_list = sorted(os.listdir(color_file))
+	depth_list = sorted(os.listdir(depth_file))
 	for col,dep in zip(color_list,depth_list):
 		# Read the two input images.
 		c_img = cv2.imread(color_file + '/' + col,cv2.IMREAD_COLOR)

@@ -7,6 +7,7 @@
 
 import os
 import re
+import sys
 
 # This dictionary will match each numeric class label into each coding word.
 classes = {'0_0':"SIL", '1_1':"TH_LU", '1_2':"BS_2", '1_3':"TH_LD", '2_1':"OH_U", '2_2':"BN_2", '2_3':"OH_D", '3_1':"TH_LU", '3_2':"CP_2", '3_3':"TH_LD", '4_1':"TH_U", '4_2':"CV_2", '4_3':"TH_D", '5_1':"TH_U", '5_2':"CN_2", '5_3':"TH_D", '6_1':"OH_U", '6_2':"CF_2", '6_3':"OH_D", '7_1':"TH_U", '7_2':"DC_2", '7_3':"TH_D", 
@@ -19,6 +20,16 @@ flag = 'Testing'
 embed_flag = 'Embedded'
 print flag, embed_flag
 
+flag_path = 'Dimitris'
+
+if flag_path == 'Alex':
+    #Alex's Paths
+    path_train = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\phones0.mlf"
+elif flag_path == 'Dimitris':
+    #Dimitri's Paths
+    path_train = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/"
+
+
 #=========================================================== Training ==========================================================================
 if flag == 'Training':
     # Create a directory to put the label files if it doesn't already exist.
@@ -26,11 +37,11 @@ if flag == 'Training':
         os.makedirs("train_labels")
 
     # Create the output .mlf file
-    mlf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\phones0.mlf", "w")
+    mlf = open(path_train + "Training_Scripts/phones0.mlf", "w")
     # Phonemes label file starts with #!MLF!#
     mlf.write("#!MLF!#\n")
 
-    train_scp = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\Train.scp")
+    train_scp = open(path_train + "Training_Scripts/Train.scp")
 
 #=================================================== Isolated Training =========================================================
     # Names in Train.scp appear in the following format.
@@ -39,10 +50,16 @@ if flag == 'Training':
     if embed_flag == 'Isolated':
         for line in train_scp:
             # We want to get the file name only.
-            name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0]
-            # We also want to get the label.
+            if flag_path == 'Alex':
+                name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0] #GAMW TA  WINDOWS PATHS~!!!
+                #num = re.findall('.*_(\d+_\d+)',name)[0] #GAMW TA  WINDOWS PATHS~!!!
+            elif flag_path == 'Dimitris':
+                name = re.findall('.*\\/(\w*_\w*\d*_\d+).mfc',line)[0]
+                # We also want to get the label.
             num = re.findall('.*_(\d+_\d+)',name)[0]
-
+            #print 'name::',name
+            #print 'num::',num
+            #break
             # Write to master label file.
             mlf.write('"*/%s.lab"\n' % name)
             label = classes[num]
@@ -50,7 +67,7 @@ if flag == 'Training':
             mlf.write(".\n")
 
             # Also create a .lab file and write the class in there too.
-            lf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\train_labels\\"+name+'.lab','w')
+            lf = open(path_train + "train_labels/"+name+'.lab','w')
             lf.write(label)
             lf.close()
             
@@ -64,7 +81,11 @@ if flag == 'Training':
         lab_file = open('C:\Users\Alex\Documents\University\Python\Data\MFC_data\\label_file.txt')
         for line, lab_line in zip(train_scp,lab_file):
             # We want to get the file name only.
-            name = re.findall('.*\\\(\w*_\w*\d*).mfc',line)[0]
+            if flag_path == 'Alex':
+                name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0] #GAMW TA  WINDOWS PATHS~!!!
+                #num = re.findall('.*_(\d+_\d+)',name)[0] #GAMW TA  WINDOWS PATHS~!!!
+            elif flag_path == 'Dimitris':
+                name = re.findall('.*\\/(\w*_\w*\d*_\d+).mfc',line)[0]
             # Extract labels sequence.
             seq = lab_line.split('[')[1]
             seq = seq.split(']')[0].split(', ')
@@ -90,11 +111,14 @@ elif flag == 'Testing':
         os.makedirs("test_labels")
 
     # Create the output .mlf file
-    mlf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\testphones0.mlf", "w")
+    if flag_path == 'Alex':
+        mlf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\testphones0.mlf", "w")
+        train_scp = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\Test.scp")
+    elif flag_path == 'Dimitris':
+        mlf = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_Scripts/testphones0.mlf", "w")
+        train_scp = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_Scripts/Test.scp")
     # Phonemes label file starts with #!MLF!#
     mlf.write("#!MLF!#\n")
-
-    train_scp = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\Test.scp")
  
 #=================================================== Isolated Testing ==========================================================   
     if embed_flag == 'Isolated':
@@ -103,7 +127,11 @@ elif flag == 'Testing':
         # C:\Users\Alex\Documents\University\Python\Data\MFC_data\Testing_Sequence101_0.mfc
         for line in train_scp:
             # We want to get the file name only.
-            name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0]
+            if flag_path == 'Alex':
+                name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0] #GAMW TA  WINDOWS PATHS~!!!
+                #num = re.findall('.*_(\d+_\d+)',name)[0] #GAMW TA  WINDOWS PATHS~!!!
+            elif flag_path == 'Dimitris':
+                name = re.findall('.*\\/(\w*_\w*\d*_\d+).mfc',line)[0]
             # We also want to get the label.
             num = re.findall('.*_(\d+_\d+)',name)[0]
 
@@ -125,10 +153,18 @@ elif flag == 'Testing':
         # Names in Train.scp appear in the following format.
         # C:\Users\Alex\Documents\University\Python\Data\MFC_data\Testing_Sequence101.mfc
         # Read the class sequences from the lab file.
-        lab_file = open('C:\Users\Alex\Documents\University\Python\Data\MFC_test_data\\label_file.txt')
+        if flag_path == 'Alex':
+            lab_file = open('C:\Users\Alex\Documents\University\Python\Data\MFC_test_data\\label_file.txt')
+        elif flag_path == 'Dimitris':
+            lab_file = open('/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_test_data/label_file.txt')
+
         for line, lab_line in zip(train_scp,lab_file):
             # We want to get the file name only.
-            name = re.findall('.*\\\(\w*_\w*\d*).mfc',line)[0]
+            if flag_path == 'Alex':
+                name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0] #GAMW TA  WINDOWS PATHS~!!!
+                #num = re.findall('.*_(\d+_\d+)',name)[0] #GAMW TA  WINDOWS PATHS~!!!
+            elif flag_path == 'Dimitris':
+                name = re.findall('.*\\/(\w*_\w*\d+).mfc',line)[0]
             # Extract labels sequence.
             seq = lab_line.split('[')[1]
             seq = seq.split(']')[0].split(', ')
@@ -140,7 +176,11 @@ elif flag == 'Testing':
             mlf.write(".\n")
 
             # Also create a .lab file and write the class in there too.
-            lf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\test_labels\\"+name+'.lab','w')
+            if flag_path == 'Alex':
+                lf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\test_labels\\"+name+'.lab','w')
+            elif flag_path == 'Dimitris':
+                lf = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_Scripts/test_labels/"+name+'.lab','w')
+
             for lab in seq:
                 label = classes[lab[1:-1]]
                 lf.write("%s\n"% label)

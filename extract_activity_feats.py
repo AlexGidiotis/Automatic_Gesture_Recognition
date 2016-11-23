@@ -13,16 +13,23 @@ from velocity import calculate_hand_velocities
 from load_skeleton import import_data
 from r_position import estimate_rest_position, calc_distance_from_rp
 
+#Define which path 
+flag_path = 'Dimitris'
 
 ###################### Main function #############################################################
-
-sk_training_path = "C:\Users\Alex\Documents\University\Python\Data\SKData_txt"
-sk_test_path = "C:\Users\Alex\Documents\University\Python\Data\Test_SKData_txt"
-out_training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
-out_test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
+if flag_path == 'Alex':
+	sk_training_path = "C:\Users\Alex\Documents\University\Python\Data\SKData_txt"
+	sk_test_path = "C:\Users\Alex\Documents\University\Python\Data\Test_SKData_txt"
+	out_training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
+	out_test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
+elif flag_path == 'Dimitris':
+	sk_training_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/SKData_txt"
+	sk_test_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/Test_SKData_txt"
+	out_training_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/CSV_data"
+	out_test_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/CSV_TEST_data"
 
 ############################ change this flag to Train or Test to extract ########################
-flag = 'Test'
+flag = 'Train'
 if flag == 'Train':
 	sk_data_path = sk_training_path
 	out_path = out_training_path
@@ -30,14 +37,14 @@ elif flag == 'Test':
 	sk_data_path = sk_test_path
 	out_path = out_test_path
 
-sk_data_list = os.listdir(sk_data_path)
+sk_data_list = sorted(os.listdir(sk_data_path))
 
 file_count = 0
 print "Loading data..."
 for data_file in sk_data_list:
 	file_count += 1
 	#load a batch of 100 files
-	if file_count > 100 : break
+	#if file_count > 100 : break
 	print data_file
 	# sometimes an error is caused here so we want to discard the example
 	try:

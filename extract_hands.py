@@ -62,18 +62,31 @@ print flag
 # This constant will be half the side of the bounding rectangle we will draw around each hand.
 const = 20
 
+flag_path = 'Dimitris'
 #==================================================== Isolated Training =======================================================
 # Choose between Training and Testing.
-if flag == 'Training':
-	color_path = 'C:\Users\Alex\Documents\University\Python\Data\Color_vid'
-	depth_path = 'C:\Users\Alex\Documents\University\Python\Data\Depth_vid'
-	out_path = 'C:\Users\Alex\Documents\University\Python\Data\Train_Images'
-	in_file = "Training_set_skeletal.csv"
-elif flag == 'Testing':
-	color_path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Color_vid'
-	depth_path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Depth_vid'
-	out_path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Images'
-	in_file = "Testing_set_skeletal.csv"
+if flag_path == 'Alex':
+	if flag == 'Training':
+		color_path = 'C:\Users\Alex\Documents\University\Python\Data\Color_vid'
+		depth_path = 'C:\Users\Alex\Documents\University\Python\Data\Depth_vid'
+		out_path = 'C:\Users\Alex\Documents\University\Python\Data\Train_Images'
+		in_file = "Training_set_skeletal.csv"
+	elif flag == 'Testing':
+		color_path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Color_vid'
+		depth_path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Depth_vid'
+		out_path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Images'
+		in_file = "Testing_set_skeletal.csv"
+elif flag_path == 'Dimitris':
+	if flag == 'Training':
+		color_path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Color_vid'
+		depth_path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Depth_vid'
+		out_path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Train_Images'
+		in_file = "Training_set_skeletal.csv"
+	elif flag == 'Testing':
+		color_path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Test_Color_vid'
+		depth_path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Test_Depth_vid'
+		out_path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Test_Images'
+		in_file = "Testing_set_skeletal.csv"
 
 print "Loading data..."
 all_df = pd.read_csv(in_file)
@@ -83,8 +96,8 @@ all_df = all_df[['frame','lwX','lwY','lhX','lhY','rwX','rwY','rhX','rhY','label'
 all_df = calculate_rect_points(all_df,const)
 
 # List the directories with the input videos.
-listing_color = os.listdir(color_path)
-listing_depth = os.listdir(depth_path)
+listing_color = sorted(os.listdir(color_path))
+listing_depth = sorted(os.listdir(depth_path))
 
 # Go through all color and depth videos.
 for vid,dep in zip(listing_color,listing_depth):

@@ -4,10 +4,11 @@
 # This script initializes the hmms for training.
 
 import sys, subprocess
+#path = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_HOG_Scripts\hmm0"
+path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_HOG_Scripts/hmm0'
 
 classes=['SIL', 'BN', 'BS', 'CF', 'CN', 'CP', 'CV', 'DC', 'FM', 'FN', 'FU', 'MC', 'NU', 'OK', 'PF', 'PR', 'SP', 'ST', 'TT', 'VA', 'VQ']
 
-path = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_HOG_Scripts\hmm0"
 
 #=============================== Create the macros file =======================================================================================
 pf = open(path+"/prototype",'r')

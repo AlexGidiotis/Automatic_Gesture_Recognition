@@ -1,5 +1,17 @@
-$events= OH_U | VA_2 | OH_D | VQ_2 | PF_2 | FU_2 | TH_LU | CP_2 | TH_LD | TH_U | CV_2 | TH_D
-|DC_2 | SP_2 | CN_2 | FN_2 | OK_2 | CF_2 | BS_2 
-| PR_2 | NU_2 | FM_2 | TT_2| BN_2 | MC_2 | ST_2 | SIL ;	
+$single = Vattene | Perfetto | ok | Basta 
+| Le vuoi prendere | Non ce n'e piu | Ho fame | Tanto tempo fa | Buonissimo | sono stufo ;	
 
-($events)
+$cosatifarei = Cosa ti farei ;
+$freganiente = Non me ne frega niente ; 
+$combinato = Cos'hai combinato ;
+$seipazzo = Sei Pazzo ;
+$furbo = E' un furbo ;
+$vieniqui = Vieni qui ;
+$daccordo =	((Vanno) | (Si sono messi)) d'accordo ;
+$che = Che ((due palle)|(vuoi)) ;
+$noise = noise ;
+
+
+(
+	<(sil ($single | $daccordo | $che | $vieniqui | $furbo | $seipazzo | $combinato | $freganiente | $cosatifarei | $noise) sil)>
+)

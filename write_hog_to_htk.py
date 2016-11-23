@@ -39,26 +39,40 @@ def map_gesture(gest):
 #================================================================= MAIN =======================================================================
 
 # Change this path to the saved skeletal .csv file.
-out_path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_data"
-out_path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_test_data"
+#out_path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_data"
+#out_path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_test_data"
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Testing'
+flag = 'Training'
 # Modify this flag to 'Isolated' or 'Embedded'.
 flag_embed = 'Embedded'
-#================================================================ Switch between Training and Testing =========================================
-if flag == 'Training':
-	out_path = out_path_train
-	in_path = "C:\Users\Alex\Documents\University\Python\Data\Train_hog_feats"
-	out_file = 'Training_Sequence'
-elif flag == 'Testing':
-	out_path = out_path_test
-	in_path = "C:\Users\Alex\Documents\University\Python\Data\Test_hog_feats"
-	out_file = 'Testing_Sequence'
+flag_path = 'Dimitris'
 
+
+#================================================================ Switch between Training and Testing =========================================
+#Define paths
+if flag_path == 'Alex':
+	if flag == 'Training':
+		out_path = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_data"
+		in_path = "C:\Users\Alex\Documents\University\Python\Data\Train_hog_feats"
+		out_file = 'Training_Sequence'
+	elif flag == 'Testing':
+		out_path = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_test_data"
+		in_path = "C:\Users\Alex\Documents\University\Python\Data\Test_hog_feats"
+		out_file = 'Testing_Sequence'
+elif flag_path == 'Dimitris':
+	if flag == 'Training':
+		out_path = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_HOG_data"
+		in_path = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Train_hog_feats"
+		out_file = 'Training_Sequence'
+	elif flag == 'Testing':
+		out_path = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_HOG_test_data"
+		in_path = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Test_hog_feats"
+		out_file = 'Testing_Sequence'
+		
 #============================================== Load data and get rid of some weird labels ====================================================
 # Load the data and get the different file ids in a list.
 print flag, flag_embed
-file_list = os.listdir(in_path)
+file_list = sorted(os.listdir(in_path))
 
 print 'Loading data...'
 # Make a list of all file ids.

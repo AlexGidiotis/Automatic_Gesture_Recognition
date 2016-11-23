@@ -7,12 +7,19 @@
 import os
 import re
 
-path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_data"
-path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_test_data"
-path_out = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_HOG_Scripts"
+flag_path = 'Dimitris'
+
+if flag_path == 'Alex':
+	path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_data"
+	path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_test_data"
+	path_out = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_HOG_Scripts"
+elif flag_path == 'Dimitris':
+	path_train = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_HOG_data"
+	path_test = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_HOG_test_data"
+	path_out = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_HOG_Scripts"
 
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Testing'
+flag = 'Training'
 # Modify this flag to 'Isolated' or 'Embedded'.
 flag_emb = 'Embedded'
 print flag, flag_emb
@@ -24,23 +31,31 @@ if flag == 'Training':
 	of = open(path_out+"/Train.scp", 'w')
 	if flag_emb == 'Isolated':
 		# List the directory and open each file.
-		listing = os.listdir(path_top)
+		listing = sorted(os.listdir(path_top))
 		for f in listing:
 			# Ignore some files.
 			if f.startswith('Embedded'):continue
 			elif f[-3:] == 'txt':continue
 			label = re.findall('_hog_(\d+).mfc',f)[0]
 			#if int(label) == 0: continue
-			of.write("%s\\%s\n" %(path_top,f))
+			#Different file systems ('/' or '\')
+			if flag_path == 'Alex':
+				of.write("%s\\%s\n" %(path_top,f))
+			elif flag_path == 'Dimitris':
+				of.write('%s/%s\n'%(path_top,f))
 		print "Training script created."
 	elif flag_emb == 'Embedded':
 		# List the directory and open each file.
-		listing = os.listdir(path_top)
+		listing = sorted(os.listdir(path_top))
 		for f in listing:
 			# Ignore some files.
 			if not f.startswith('Embedded'):continue
 			elif f[-3:] == 'txt':continue
-			of.write("%s\\%s\n" %(path_top,f))
+			#Different file systems ('/' or '\')
+			if flag_path == 'Alex':
+				of.write("%s\\%s\n" %(path_top,f))
+			elif flag_path == 'Dimitris':
+				of.write('%s/%s\n'%(path_top,f))
 		print "Training script created."
 	of.close()
 
@@ -52,7 +67,7 @@ elif flag == 'Testing':
 	# Handle isolated gestures.
 	if flag_emb == 'Isolated':
 		# List the directory and open each file.
-		listing = os.listdir(path_top)
+		listing = sorted(os.listdir(path_top))
 		for f in listing:
 			# Ignore some files.
 
@@ -60,17 +75,25 @@ elif flag == 'Testing':
 			elif f[-3:] == 'txt':continue
 			label = re.findall('_hog_(\d+).mfc',f)[0]
 			if int(label) == 0: continue
-			of.write("%s\\%s\n" %(path_top,f))
+			#Different file systems ('/' or '\')
+			if flag_path == 'Alex':
+				of.write("%s\\%s\n" %(path_top,f))
+			elif flag_path == 'Dimitris':
+				of.write('%s/%s\n'%(path_top,f))
 		print "Test script created."
 #============================================================== Embedded Testing ==============================================================
 	# Handle embedded sequences.
 	elif flag_emb == 'Embedded':
 		# List the directory and open each file.
-		listing = os.listdir(path_top)
+		listing = sorted(os.listdir(path_top))
 		for f in listing:
 			# Ignore some files.
 			if not f.startswith('Embedded'):continue
 			elif f[-3:] == 'txt':continue
-			of.write("%s\\%s\n" %(path_top,f))
+			#Different file systems ('/' or '\')
+			if flag_path == 'Alex':
+				of.write("%s\\%s\n" %(path_top,f))
+			elif flag_path == 'Dimitris':
+				of.write('%s/%s\n'%(path_top,f))
 		print "Test script created."
 	of.close()

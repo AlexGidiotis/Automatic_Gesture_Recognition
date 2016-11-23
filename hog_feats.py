@@ -57,18 +57,30 @@ def HOG(img):
 #=========================================================== MAIN =============================================================
 # Modify this to 'Training' or 'Testing'.
 flag = 'Training'
+flag_path = 'Dimitris'
 print flag
 
 #==================================================== Isolated Training =======================================================
-# Choose between Training and Testing.
-if flag == 'Training':
-	path = 'C:\Users\Alex\Documents\University\Python\Data\Train_Images'
-	in_file = "Training_set_skeletal.csv"
-	out_path = 'C:\Users\Alex\Documents\University\Python\Data\Train_hog_feats'
-elif flag == 'Testing':
-	path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Images'
-	in_file = "Testing_set_skeletal.csv"
-	out_path = 'C:\Users\Alex\Documents\University\Python\Data\Test_hog_feats'
+if flag_path == 'Alex':	
+	# Choose between Training and Testing.
+	if flag == 'Training':
+		path = 'C:\Users\Alex\Documents\University\Python\Data\Train_Images'
+		in_file = "Training_set_skeletal.csv"
+		out_path = 'C:\Users\Alex\Documents\University\Python\Data\Train_hog_feats'
+	elif flag == 'Testing':
+		path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Images'
+		in_file = "Testing_set_skeletal.csv"
+		out_path = 'C:\Users\Alex\Documents\University\Python\Data\Test_hog_feats'
+elif flag_path == 'Dimitris':
+	# Choose between Training and Testing.
+	if flag == 'Training':
+		path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Train_Images'
+		in_file = "Training_set_skeletal.csv"
+		out_path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Train_hog_feats'
+	elif flag == 'Testing':
+		path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Test_Images'
+		in_file = "Testing_set_skeletal.csv"
+		out_path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/Test_hog_feats'
 
 print "Loading data..."
 all_df = pd.read_csv(in_file)
@@ -78,7 +90,7 @@ all_df.ix[all_df['label'] == 'None','label'] = 'sil'
 all_df = all_df[['frame','lh_v','rh_v','label','file']]
 
 #=============================================== Iterate through files ===========================================================
-file_list = os.listdir(path)
+file_list = sorted(os.listdir(path))
 for file in file_list:
 	# Get the file number.
 	# 'sample1'
@@ -90,7 +102,7 @@ for file in file_list:
 
 	# Find and list the input directory.
 	masked_file = os.path.join(path,file,'masked')
-	im_list = os.listdir(masked_file)
+	im_list = sorted(os.listdir(masked_file))
 
 	# Find all gesture that occur in the file.
 	gestures = df['label'].unique()

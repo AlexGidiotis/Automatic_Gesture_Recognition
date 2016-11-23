@@ -6,10 +6,12 @@
 2.Create a word network from the grammar. -> HParse gram wdnet 
 3.Create gesture_lexicon and tiedlist.
 4.Extract features, write to htk and create Train.scp ->create_train_scp.py
-	a.->load_nn.py
-	b.->extract_skeletal_feats.py
-	c.->write_to_htk.py
-	d.->create_train_scp.py
+	a.->create_activity_feats.py
+	b.->load_nn.py
+	c.->extract_skeletal_feats.py
+	d.->split_gestures.py
+	e.->write_to_htk.py
+	f.->create_train_scp.py
 5.Create phones0.mlf ->create_mlf.py
 6.Create config_file
 7.Create gestures.grammar and gestures.voca
@@ -42,7 +44,8 @@
 1.Extract skeletal feats and write to htk format(isolated or embedded)
 	a.->load_nn.py
 	b.->extract_skeletal_feats.py
-	c.->write_to_htk.py
+	c.->split_gestures.py
+	d.->write_to_htk.py
 2.Create Test.scp ->create_train_scp.py
 3.Create testphones0.mlf ->create_mlf.py
 4.Test -> HVite -A -D -T 1 -H 4gmm_hmm9/macros -H 4gmm_hmm9/hmmdefs -C config_file -S Test.scp -l '*' -i recout.mlf -w wdnet -p 10.0 gesture_lexicon tiedlist
@@ -50,8 +53,8 @@
 
 ======================================================= Testing (Embedded) =======================================================
 4.HVite -A -D -T 1 -H 2gmm_hmm9/macros -H 2gmm_hmm9/hmmdefs -C config_file -S Test.scp -l '*' -i recout.mlf -w wdnet_embed -p -150.0 gesture_lexicon tiedlist
-5.HResults -e ??? SIL -t -I testphones0.mlf tiedlist recout.mlf
-
+5(a).HResults -e ??? SIL -t -I testphones0.mlf tiedlist recout.mlf 
+5(b).HResults -e ??? SIL -e ??? OH_U -e ??? OH_D -e ??? TH_U -e ??? TH_D -e ??? TH_LU -e ??? TH_LD -t -I testphones0.mlf tiedlist recout.mlf
 ========================================================== Testing (HOG) =========================================================
 1.Extract skeletal feats and write to htk format(isolated or embedded)
 	a.->extract_hands.py
