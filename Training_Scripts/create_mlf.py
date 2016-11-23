@@ -15,9 +15,9 @@ classes = {'0_0':"SIL", '1_1':"TH_LU", '1_2':"BS_2", '1_3':"TH_LD", '2_1':"OH_U"
          '15_1':"OH_U", '15_2':"SP_2", '15_3':"OH_D", '16_1':"OH_U", '16_2':"TT_2", '16_3':"OH_D", '17_1':"OH_U", '17_2':"ST_2", '17_3':"OH_D",  '18_1':"OH_U", '18_2':"VA_2", '18_3':"OH_D",  '19_1':"OH_U", '19_2':"VQ_2", '19_3':"OH_D", '20_1':"OH_U", '20_2':"NU_2", '20_3':"OH_D"}
 
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Testing'
+flag = 'Training'
 # Modify this to 'Isolated' or 'Embedded'.
-embed_flag = 'Embedded'
+embed_flag = 'Isolated'
 print flag, embed_flag
 
 flag_path = 'Dimitris'

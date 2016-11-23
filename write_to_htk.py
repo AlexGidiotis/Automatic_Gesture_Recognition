@@ -90,9 +90,9 @@ elif flag_path == "Dimitris":
 	out_path_test = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_test_data"
 
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Testing'
+flag = 'Training'
 # Modify this flag to 'Isolated' or 'Embedded'.
-flag_embed = 'Embedded'
+flag_embed = 'Isolated'
 #================================================================ Switch between Training and Testing =========================================
 if flag == 'Training':
 	out_path = out_path_train
