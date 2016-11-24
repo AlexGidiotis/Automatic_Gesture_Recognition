@@ -1,0 +1,6 @@
+=============================================== Models alignment =============================================================
+1.Run previous stages and create recout.mlf for skeletal and recout.mlf for speech.
+2.-> align_speech_model.py
+3.-> HResults -e ??? sil -e ??? noise -t -I test_words.mlf triphones1 aligned_speech_recout.mlf > aligned_speech_results_log
+4.-> align_skeletal_model.py
+5.-> HResults -e ??? SIL -e ??? OH_U -e ??? OH_D -e ??? TH_U -e ??? TH_D -e ??? TH_LU -e ??? TH_LD -t -I testphones0.mlf tiedlist aligned_skeletal_recout.mlf> skeletal_results_log_aligned
