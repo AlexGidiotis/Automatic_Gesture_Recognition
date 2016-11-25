@@ -92,7 +92,6 @@ if flag == 'Training':
                 # Also create a .lab file and write the class in there too.
                 lf = open(path + "\\train_labels\\"+name+'.lab','w')
             elif flag_path == 'Dimitris':
-                print line
                 name = re.findall('.*\\/(\w*_\w*\d*).mfc',line)[0]
                 lf = open(path + "/train_labels/"+name+'.lab','w')
 

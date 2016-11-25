@@ -51,12 +51,13 @@ if flag == 'Training':
         for line in train_scp:
             # We want to get the file name only.
             if flag_path == 'Alex':
-                name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0] #GAMW TA  WINDOWS PATHS~!!!
-                #num = re.findall('.*_(\d+_\d+)',name)[0] #GAMW TA  WINDOWS PATHS~!!!
+                name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0]
+                #num = re.findall('.*_(\d+_\d+)',name)[0]
             elif flag_path == 'Dimitris':
                 name = re.findall('.*\\/(\w*_\w*\d*_\d+).mfc',line)[0]
                 # We also want to get the label.
-            num = re.findall('.*_(\d+_\d+)',name)[0]
+            #num = re.findall('.*_(\d+_\d+)',name)[0]
+            num = re.findall('.*_(\d+)',name)[0]
             #print 'name::',name
             #print 'num::',num
             #break
@@ -82,8 +83,8 @@ if flag == 'Training':
         for line, lab_line in zip(train_scp,lab_file):
             # We want to get the file name only.
             if flag_path == 'Alex':
-                name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0] #GAMW TA  WINDOWS PATHS~!!!
-                #num = re.findall('.*_(\d+_\d+)',name)[0] #GAMW TA  WINDOWS PATHS~!!!
+                name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0]
+                #num = re.findall('.*_(\d+_\d+)',name)[0] 
             elif flag_path == 'Dimitris':
                 name = re.findall('.*\\/(\w*_\w*\d*_\d+).mfc',line)[0]
             # Extract labels sequence.
@@ -133,7 +134,7 @@ elif flag == 'Testing':
             elif flag_path == 'Dimitris':
                 name = re.findall('.*\\/(\w*_\w*\d*_\d+).mfc',line)[0]
             # We also want to get the label.
-            num = re.findall('.*_(\d+_\d+)',name)[0]
+            num = re.findall('.*_(\d+)',name)[0]
 
             # Write to master label file.
             mlf.write('"*/%s.lab"\n' % name)
@@ -161,10 +162,9 @@ elif flag == 'Testing':
         for line, lab_line in zip(train_scp,lab_file):
             # We want to get the file name only.
             if flag_path == 'Alex':
-                name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0] #GAMW TA  WINDOWS PATHS~!!!
-                #num = re.findall('.*_(\d+_\d+)',name)[0] #GAMW TA  WINDOWS PATHS~!!!
+                name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0]
             elif flag_path == 'Dimitris':
-                name = re.findall('.*\\/(\w*_\w*\d+).mfc',line)[0]
+                name = re.findall('.*\\/(\w*_\w*\d*_\d+).mfc',line)[0]
             # Extract labels sequence.
             seq = lab_line.split('[')[1]
             seq = seq.split(']')[0].split(', ')
