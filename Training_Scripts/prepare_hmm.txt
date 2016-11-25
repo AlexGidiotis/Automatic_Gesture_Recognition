@@ -17,7 +17,15 @@
 9.Create split.hed
 10.-> HCompV -A -D -T 1 -C config_file -f 0.01 -m -S Train.scp -M hmm0 prototype
 11.-> initialize_hmm.py
-12.-> train_hmm.py
+12.->Repeat 3 times (hmm0->hmm1,hmm1->hmm2,hmm2->hmm3)
+HERest -A -D -T 1 -C config_file -I phones0.mlf -S Train.scp -H hmm0/macros -H hmm0/hmmdefs -M hmm1 hmm0/monophones0
+13. Create sil.hed
+14. ->HHEd -A -D -T 1 -H hmm3/macros -H hmm3/hmmdefs -M hmm4 sil.hed hmm0/monophones0
+15.->Repeat 5 times (hmm4->hmm5,hmm5->hmm6,,hmm7->hmm8,hmm8->hmm9)
+HERest -A -D -T 1 -C config_file -I phones0.mlf -S Train.scp -H hmm0/macros -H hmm0/hmmdefs -M hmm1 hmm0/monophones0
+16.->HHEd -H hmm9/macros -H hmm9/hmmdefs -M 2gmm_hmm1 split.hed tiedlist
+17.->Repeat 8 times (hmm1->hmm2,hmm2->hmm3,,hmm3->hmm4,hmm4->hmm5,hmm5->hmm6,hmm6->hmm7,hmm7->hmm8,hmm8->hmm9)
+HERest -A -D -T 1 -C config_file -I phones0.mlf -S Train.scp -H 2gmm_hmm1/macros -H 2gmm_hmm1/hmmdefs -M 2gmm_hmm2 hmm0/monophones0
 
 ============================================================== Training (HOG) ===================================================
 1.Create grammar.
@@ -49,7 +57,7 @@
 5.Get the results ->HResults -I testphones0.mlf tiedlist recout.mlf
 
 ======================================================= Testing (Embedded) =======================================================
-4.HVite -A -D -T 1 -H 4gmm_hmm9/macros -H 4gmm_hmm9/hmmdefs -C config_file -S Test.scp -l '*' -i recout.mlf -w wdnet_embed -p -110.0 gesture_lexicon tiedlist
+4.HVite -A -D -T 1 -H 2gmm_hmm9/macros -H 2gmm_hmm9/hmmdefs -C config_file -S Test.scp -l '*' -i recout.mlf -w wdnet_embed -p -20.0 gesture_lexicon tiedlist
 5.HResults -e ??? SIL -t -I testphones0.mlf tiedlist recout.mlf
 5.b HResults -e ??? SIL -e ??? OH_U -e ??? OH_D -e ??? TH_U -e ??? TH_D -e ??? TH_LU -e ??? TH_LD -t -I testphones0.mlf tiedlist recout.mlf
 
