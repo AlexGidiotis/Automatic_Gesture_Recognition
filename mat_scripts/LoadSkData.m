@@ -1,10 +1,11 @@
 clear
 clc
 
-files = dir('C:/Users/Alex/Documents/University/Python/Data/SKData_mat/*.mat');
-
+files = dir('/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/All_mat_files/*.mat');
+files
+pause
 for file = files'
-    in_file = sprintf('C:/Users/Alex/Documents/University/Python/Data/SKData_mat/%s',file.name);
+    in_file = sprintf('/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/All_mat_files/%s',file.name);
     load(in_file);
 
     frames = Video.Frames;
@@ -27,7 +28,7 @@ for file = files'
     end    
     
     outName = file.name(1:12)
-    fname = sprintf('C:/Users/Alex/Documents/University/Python/Data/SKData_txt/%sSKData.txt',outName);
+    fname = sprintf('/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/SKData_txt/%sSKData.txt',outName);
     fileID = fopen(fname,'w');
 
     for i=1:length(frames(1,:))

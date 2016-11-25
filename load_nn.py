@@ -17,29 +17,34 @@ from activity_detector_dnn import floatX, init_weights, softmax, RMSprop, dropou
 #	   labeled: True if data are labeled False if not
 # returns: df: a dataframe with the loaded data and the 'inactive' column added as well as the labels
 def load_data(data_path,labels_path,labeled):
-	data_listing = os.listdir(data_path)
+	data_listing = sorted(os.listdir(data_path))
 	df = pd.DataFrame()
 	# if data are labeled load the labels as well
 	if labeled == 'True':
-		labels_listing = os.listdir(labels_path)		
+		labels_listing = sorted(os.listdir(labels_path))
+		#print labels_listing
 		# go through all files and load all data and labels in a big dataframe
 		# there must be exactly the same data and label files
 		for dfile, lfile in zip(data_listing, labels_listing):
+			#print dfile, lfile
+			print dfile,lfile
 			new_df = pd.read_csv(data_path + '/' + dfile)
 			# initialize label column to 'sil'
 			labels = ['sil' for i in range(len(new_df.index))]
 			lf = open(labels_path + '/' + lfile, 'r')
 			# extract labels as well as starting and ending frames
+			#print lf
 			for line in lf:
 				begin_frame = int(re.findall('Begin: (\d+) ',line)[0])
 				end_frame = int(re.findall('End: (\d+)',line)[0])
 				lab = re.findall('(^\S+) ',line)[0]
-				for i in range(begin_frame, end_frame):
+				for i in range(begin_frame, (end_frame -1)):	
 					labels[(i)] = lab
+															
 			lf.close()
 			# append the 'labels' column
+			#print len(labels)
 			new_df["labels"] = labels
-
 			# append the file dataframe to the big dataframe				
 			df = df.append(new_df)
 	elif labeled == 'False':
@@ -56,13 +61,23 @@ def split_to_sets(df):
 	return test_s.as_matrix()
 
 ############################## main ######################################
+#Change this flag
+flag_path = 'Dimitris'
 # modify this flags for Training or Testing
-flag = 'Testing'
+flag = 'Training'
 labeled = 'True'
-training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
-test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
-training_labels = "C:\Users\Alex\Documents\University\Python\Data\Labels"
-test_labels = "C:\Users\Alex\Documents\University\Python\Data\Test_Labels"
+if flag_path == 'Alex':
+	#Alex's Paths
+	training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
+	test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
+	training_labels = "C:\Users\Alex\Documents\University\Python\Data\Labels"
+	test_labels = "C:\Users\Alex\Documents\University\Python\Data\Test_Labels"
+elif flag_path == 'Dimitris':	
+	#Dimitri's Paths
+	training_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/CSV_data"
+	test_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/CSV_TEST_data"
+	training_labels = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/Labels"
+	test_labels = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/Test_Labels"
 
 print flag
 

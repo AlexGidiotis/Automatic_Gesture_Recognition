@@ -78,20 +78,35 @@ def map_gesture(gest):
 #================================================================= MAIN =======================================================================
 
 # Change this path to the saved skeletal .csv file.
-out_path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_data"
-out_path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_test_data"
+flag_path = 'Dimitris'
+
+if flag_path == 'Alex':
+	#Alex's Paths
+	out_path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_data"
+	out_path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_test_data"
+elif flag_path == "Dimitris":
+	#Dimitri's Paths
+	out_path_train = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_data"
+	out_path_test = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_test_data"
+
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Testing'
+flag = 'Training'
 # Modify this flag to 'Isolated' or 'Embedded'.
-flag_embed = 'Embedded'
+flag_embed = 'Isolated'
 #================================================================ Switch between Training and Testing =========================================
 if flag == 'Training':
 	out_path = out_path_train
-	in_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_set_skeletal_extended.csv"
+	if flag_path == 'Alex':
+		in_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_set_skeletal_extended.csv"
+	elif flag_path == 'Dimitris':
+		in_file = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_set_skeletal_extended.csv'
 	out_file = 'Training_Sequence'
 elif flag == 'Testing':
 	out_path = out_path_test
-	in_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Testing_set_skeletal_extended.csv"
+	if flag_path == 'Alex':
+		in_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Testing_set_skeletal_extended.csv"
+	elif flag_path == 'Dimitris':
+		in_file = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Testing_set_skeletal_extended.csv'
 	out_file = 'Testing_Sequence'
 
 #============================================== Load data and get rid of some weird labels ====================================================
