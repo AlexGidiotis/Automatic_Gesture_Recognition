@@ -1,0 +1,87 @@
+VERSION=1.0
+N=30   L=55   
+I=0    W=!NULL               
+I=1    W=!NULL               
+I=2    W=OH_U                
+I=3    W=!NULL               
+I=4    W=VA_2                
+I=5    W=OH_D                
+I=6    W=VQ_2                
+I=7    W=PF_2                
+I=8    W=FU_2                
+I=9    W=TH_LU               
+I=10   W=CP_2                
+I=11   W=TH_LD               
+I=12   W=TH_U                
+I=13   W=CV_2                
+I=14   W=TH_D                
+I=15   W=DC_2                
+I=16   W=SP_2                
+I=17   W=CN_2                
+I=18   W=FN_2                
+I=19   W=OK_2                
+I=20   W=CF_2                
+I=21   W=BS_2                
+I=22   W=PR_2                
+I=23   W=NU_2                
+I=24   W=FM_2                
+I=25   W=TT_2                
+I=26   W=BN_2                
+I=27   W=MC_2                
+I=28   W=ST_2                
+I=29   W=SIL                 
+J=0     S=3    E=1    
+J=1     S=0    E=2    
+J=2     S=2    E=3    
+J=3     S=4    E=3    
+J=4     S=5    E=3    
+J=5     S=6    E=3    
+J=6     S=7    E=3    
+J=7     S=8    E=3    
+J=8     S=9    E=3    
+J=9     S=10   E=3    
+J=10    S=11   E=3    
+J=11    S=12   E=3    
+J=12    S=13   E=3    
+J=13    S=14   E=3    
+J=14    S=15   E=3    
+J=15    S=16   E=3    
+J=16    S=17   E=3    
+J=17    S=18   E=3    
+J=18    S=19   E=3    
+J=19    S=20   E=3    
+J=20    S=21   E=3    
+J=21    S=22   E=3    
+J=22    S=23   E=3    
+J=23    S=24   E=3    
+J=24    S=25   E=3    
+J=25    S=26   E=3    
+J=26    S=27   E=3    
+J=27    S=28   E=3    
+J=28    S=29   E=3    
+J=29    S=0    E=4    
+J=30    S=0    E=5    
+J=31    S=0    E=6    
+J=32    S=0    E=7    
+J=33    S=0    E=8    
+J=34    S=0    E=9    
+J=35    S=0    E=10   
+J=36    S=0    E=11   
+J=37    S=0    E=12   
+J=38    S=0    E=13   
+J=39    S=0    E=14   
+J=40    S=0    E=15   
+J=41    S=0    E=16   
+J=42    S=0    E=17   
+J=43    S=0    E=18   
+J=44    S=0    E=19   
+J=45    S=0    E=20   
+J=46    S=0    E=21   
+J=47    S=0    E=22   
+J=48    S=0    E=23   
+J=49    S=0    E=24   
+J=50    S=0    E=25   
+J=51    S=0    E=26   
+J=52    S=0    E=27   
+J=53    S=0    E=28   
+J=54    S=0    E=29   
