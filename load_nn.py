@@ -27,6 +27,7 @@ def load_data(data_path,labels_path,labeled):
 		# there must be exactly the same data and label files
 		for dfile, lfile in zip(data_listing, labels_listing):
 			#print dfile, lfile
+			print dfile,lfile
 			new_df = pd.read_csv(data_path + '/' + dfile)
 			# initialize label column to 'sil'
 			labels = ['sil' for i in range(len(new_df.index))]
@@ -63,7 +64,7 @@ def split_to_sets(df):
 #Change this flag
 flag_path = 'Dimitris'
 # modify this flags for Training or Testing
-flag = 'Testing'
+flag = 'Training'
 labeled = 'True'
 if flag_path == 'Alex':
 	#Alex's Paths

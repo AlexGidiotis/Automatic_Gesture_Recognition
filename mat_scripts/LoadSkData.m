@@ -2,7 +2,8 @@ clear
 clc
 
 files = dir('/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/All_mat_files/*.mat');
-
+files
+pause
 for file = files'
     in_file = sprintf('/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/All_mat_files/%s',file.name);
     load(in_file);

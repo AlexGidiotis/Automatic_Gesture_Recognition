@@ -23,7 +23,7 @@ elif flag_path == 'Dimitris':
 	test_labels_file = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/testing_label_file.csv"
 	unlabelled_lab_file = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/label_file.csv"
 
-flag = 'Test'
+flag = 'Train'
 labeled = 'True'
 
 # ========================================= Loads the skeletal data and labels =================================================================
