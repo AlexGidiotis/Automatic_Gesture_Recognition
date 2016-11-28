@@ -2,15 +2,15 @@ import re
 import pandas as pd
 import numpy as np
 
-#activity_file = 'C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Test_labels.csv'
-activity_file = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Test_labels.csv'
+activity_file = 'C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Test_labels.csv'
+#activity_file = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Test_labels.csv'
 fps = 20.0
 
 print 'Loading activity labels...'
 af = pd.read_csv(activity_file)
 out_f = open('aligned_speech_recout.mlf','w')
-#in_f = open('C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Speech\\recout.mlf', 'r')
-in_f = open('/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Speech/recout.mlf', 'r')
+in_f = open('C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Speech\\recout.mlf', 'r')
+#in_f = open('/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Speech/recout.mlf', 'r')
 out_f.write("#!MLF!#\n")
 line = in_f.readline()
 

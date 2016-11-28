@@ -284,7 +284,7 @@ Aligned transcription: '*'/TestingSample509.lab vs '*'/TestingSample509.rec
  LAB: Ho fame Si sono messi d'accordo Non me ne frega niente Perfetto Vattene Sei Pazzo Cosa ti  farei Cos'hai combinato            Buonissimo Che vuoi    
  REC: Ho fame Si sono messi d'accordo     me ne frega niente Perfetto Basta   Sei Pazzo Che  due palle Cos'hai combinato Buonissimo Buonissimo Che vuoi ok 
 ====================== HTK Results Analysis =======================
-  Date: Mon Nov 28 21:49:34 2016
+  Date: Tue Nov 29 01:20:06 2016
   Ref : test_words.mlf
   Rec : aligned_speech_recout.mlf
 ------------------------ Overall Results --------------------------
