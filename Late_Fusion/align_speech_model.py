@@ -56,7 +56,7 @@ for file in list_file_nums:
 		complete_list.append((sil_start,sil_end,sil_word))
 		for i in input_list:
 			speech_start,speech_end,speech_word = i[0],i[1],i[2]
-			if (speech_start > (sil_end)) & (speech_start < (next_sil_start)):
+			if (speech_start > (sil_end - 100000)) & (speech_start < (next_sil_start + 100000)):
 				complete_list.append((i[0],i[1],i[2]))
 
 	complete_list.append((sil_list[-1][0],sil_list[-1][1],sil_list[-1][2]))
