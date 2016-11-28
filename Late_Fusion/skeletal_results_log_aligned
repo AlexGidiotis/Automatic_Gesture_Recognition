@@ -296,7 +296,7 @@ Aligned transcription: '*'/EmbeddedTesting_Sequence509.lab vs '*'/EmbeddedTestin
  LAB: FM_2 MC_2 FN_2 PF_2 VA_2 SP_2 CF_2 CN_2 BN_2 CV_2 
  REC: FM_2 NU_2 FN_2 FN_2 OK_2 SP_2 CF_2 CN_2 FN_2 CV_2 
 ====================== HTK Results Analysis =======================
-  Date: Thu Nov 24 16:02:53 2016
+  Date: Mon Nov 28 02:03:31 2016
   Ref : testphones0.mlf
   Rec : aligned_skeletal_recout.mlf
 ------------------------ Overall Results --------------------------
