@@ -23,7 +23,7 @@ HERest -A -D -T 1 -C config_file -I phones0.mlf -S Train.scp -H hmm0/macros -H h
 14. ->HHEd -A -D -T 1 -H hmm3/macros -H hmm3/hmmdefs -M hmm4 sil.hed hmm0/monophones0
 15.->Repeat 5 times (hmm4->hmm5,hmm5->hmm6,,hmm7->hmm8,hmm8->hmm9)
 HERest -A -D -T 1 -C config_file -I phones0.mlf -S Train.scp -H hmm0/macros -H hmm0/hmmdefs -M hmm1 hmm0/monophones0
-16.->HHEd -H hmm9/macros -H hmm9/hmmdefs -M 2gmm_hmm1 split.hed tiedlist
+16.->HHEd -H hmm9/macros -H hmm9/hmmdefs -M 2gmm_hmm1 split2.hed tiedlist
 17.->Repeat 8 times (hmm1->hmm2,hmm2->hmm3,,hmm3->hmm4,hmm4->hmm5,hmm5->hmm6,hmm6->hmm7,hmm7->hmm8,hmm8->hmm9)
 HERest -A -D -T 1 -C config_file -I phones0.mlf -S Train.scp -H 2gmm_hmm1/macros -H 2gmm_hmm1/hmmdefs -M 2gmm_hmm2 hmm0/monophones0
 

@@ -35,7 +35,7 @@
 	-> HERest  -A -D -T 1 -C config -I wintri.mlf -t 250.0 150.0 3000.0 -S Train.scp -H hmm10/macros -H hmm10/hmmdefs -M hmm11 hmm10/triphones1 
 	-> HERest  -A -D -T 1 -C config -I wintri.mlf -t 250.0 150.0 3000.0 -s stats -S Train.scp -H hmm11/macros -H hmm11/hmmdefs -M hmm12 hmm10/triphones1
 32. restimate all the way to hmm17
-33. HHEd -H hmm17/macros -H hmm17/hmmdefs -M 2gmm_hmm1 split.hed triphones1
+33. HHEd -H hmm17/macros -H hmm17/hmmdefs -M 2gmm_hmm1 split2.hed triphones1
 34. restimate all the way to 2gmm_hmm12
 	HERest  -A -D -T 1 -C config -I wintri.mlf -t 250.0 150.0 3000.0 -S Train.scp -H 2gmm_hmm1/macros -H 2gmm_hmm1/hmmdefs -M 2gmm_hmm2 hmm10/triphones1
 35.Possibly more.
