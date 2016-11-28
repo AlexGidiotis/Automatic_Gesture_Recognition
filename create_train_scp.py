@@ -20,9 +20,9 @@ elif flag_path == 'Dimitris':
 	path_out = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_Scripts"
 
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Training'
+flag = 'Testing'
 # Modify this flag to 'Isolated' or 'Embedded'.
-flag_emb = 'Isolated'
+flag_emb = 'Embedded'
 print flag, flag_emb
 
 #================================================================== Training ===================================================================

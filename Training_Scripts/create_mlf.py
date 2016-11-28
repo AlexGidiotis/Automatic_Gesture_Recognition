@@ -15,9 +15,9 @@ classes = {'0_0':"SIL", '1_1':"TH_LU", '1_2':"BS_2", '1_3':"TH_LD", '2_1':"OH_U"
          '15_1':"OH_U", '15_2':"SP_2", '15_3':"OH_D", '16_1':"OH_U", '16_2':"TT_2", '16_3':"OH_D", '17_1':"OH_U", '17_2':"ST_2", '17_3':"OH_D",  '18_1':"OH_U", '18_2':"VA_2", '18_3':"OH_D",  '19_1':"OH_U", '19_2':"VQ_2", '19_3':"OH_D", '20_1':"OH_U", '20_2':"NU_2", '20_3':"OH_D"}
 
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Training'
+flag = 'Testing'
 # Modify this to 'Isolated' or 'Embedded'.
-embed_flag = 'Isolated'
+embed_flag = 'Embedded'
 print flag, embed_flag
 
 flag_path = 'Dimitris'
@@ -56,8 +56,8 @@ if flag == 'Training':
             elif flag_path == 'Dimitris':
                 name = re.findall('.*\\/(\w*_\w*\d*_\d+).mfc',line)[0]
                 # We also want to get the label.
-            #num = re.findall('.*_(\d+_\d+)',name)[0]
-            num = re.findall('.*_(\d+)',name)[0]
+            num = re.findall('.*_(\d+_\d+)',name)[0]
+            #num = re.findall('.*_(\d+)',name)[0]
             #print 'name::',name
             #print 'num::',num
             #break
@@ -72,37 +72,6 @@ if flag == 'Training':
             lf.write(label)
             lf.close()
             
-        mlf.close()
-#=================================================== Embedded Training ==========================================================
-    elif embed_flag == 'Embedded':
-        # Labels are found in the label file.
-        # Names in Train.scp appear in the following format.
-        # C:\Users\Alex\Documents\University\Python\Data\MFC_data\Testing_Sequence101.mfc
-        # Read the class sequences from the lab file.
-        lab_file = open('C:\Users\Alex\Documents\University\Python\Data\MFC_data\\label_file.txt')
-        for line, lab_line in zip(train_scp,lab_file):
-            # We want to get the file name only.
-            if flag_path == 'Alex':
-                name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0]
-                #num = re.findall('.*_(\d+_\d+)',name)[0] 
-            elif flag_path == 'Dimitris':
-                name = re.findall('.*\\/(\w*_\w*\d*_\d+).mfc',line)[0]
-            # Extract labels sequence.
-            seq = lab_line.split('[')[1]
-            seq = seq.split(']')[0].split(', ')
-            # Write to master label file.
-            mlf.write('"*/%s.lab"\n' % name)
-            for lab in seq:
-                label = classes[lab]
-                mlf.write("%s\n"% label)
-            mlf.write(".\n")
-
-            # Also create a .lab file and write the class in there too.
-            lf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\train_labels\\"+name+'.lab','w')
-            for lab in seq:
-                label = classes[lab]
-                lf.write("%s\n"% label)
-            lf.close()
         mlf.close()
 
 #============================================================== Testing ========================================================================
@@ -134,8 +103,8 @@ elif flag == 'Testing':
             elif flag_path == 'Dimitris':
                 name = re.findall('.*\\/(\w*_\w*\d*_\d+).mfc',line)[0]
             # We also want to get the label.
-            num = re.findall('.*_(\d+)',name)[0]
-
+            #num = re.findall('.*_(\d+)',name)[0]
+            num = re.findall('.*_(\d+_\d+)',name)[0]
             # Write to master label file.
             mlf.write('"*/%s.lab"\n' % name)
             label = classes[num]
@@ -162,9 +131,9 @@ elif flag == 'Testing':
         for line, lab_line in zip(train_scp,lab_file):
             # We want to get the file name only.
             if flag_path == 'Alex':
-                name = re.findall('.*\\\(\w*_\w*\d*_\d+).mfc',line)[0]
+                name = re.findall('.*\\\(\w*_\w*\d*).mfc',line)[0]
             elif flag_path == 'Dimitris':
-                name = re.findall('.*\\/(\w*_\w*\d*_\d+).mfc',line)[0]
+                name = re.findall('.*\\/(\w*_\w*\d*).mfc',line)[0]
             # Extract labels sequence.
             seq = lab_line.split('[')[1]
             seq = seq.split(']')[0].split(', ')

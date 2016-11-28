@@ -1,4 +1,7 @@
 SIL
+TH_U
+CV_2
+SIL
 OH_U
 FM_2
 OH_D
@@ -7,11 +10,8 @@ OH_U
 TT_2
 OH_D
 SIL
-OH_D
+CV_2
 SIL
-TH_U
-SIL
-TH_U
 CV_2
 TH_D
 SIL
@@ -37,8 +37,6 @@ TH_D
 SIL
 OH_U
 OK_2
-OH_D
-SIL
 OH_D
 SIL
 OH_U
