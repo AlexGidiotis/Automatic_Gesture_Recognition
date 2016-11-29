@@ -57,7 +57,7 @@ HERest -A -D -T 1 -C config_file -I phones0.mlf -S Train.scp -H 2gmm_hmm1/macros
 5.Get the results ->HResults -I testphones0.mlf tiedlist recout.mlf
 
 ======================================================= Testing (Embedded) =======================================================
-4.HVite -A -D -T 1 -H 2gmm_hmm9/macros -H 2gmm_hmm9/hmmdefs -C config_file -S Test.scp -l '*' -i recout.mlf -w wdnet_embed -p -20.0 gesture_lexicon tiedlist
+4.HVite -A -D -T 1 -H 4gmm_hmm4/macros -H 4gmm_hmm4/hmmdefs -C config_file -S Test.scp -l '*' -i recout.mlf -w wdnet_embed -p -20.0 gesture_lexicon tiedlist
 5.HResults -e ??? SIL -t -I testphones0.mlf tiedlist recout.mlf
 5.b HResults -e ??? SIL -e ??? OH_U -e ??? OH_D -e ??? TH_U -e ??? TH_D -e ??? TH_LU -e ??? TH_LD -t -I testphones0.mlf tiedlist recout.mlf
 
