@@ -6,7 +6,7 @@
 
 import os
 
-flag_path = 'Dimitris'
+flag_path = 'Alex'
 
 if flag_path == 'Alex':
 	#Alex's Paths

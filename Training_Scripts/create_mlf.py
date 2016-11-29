@@ -20,11 +20,11 @@ flag = 'Testing'
 embed_flag = 'Embedded'
 print flag, embed_flag
 
-flag_path = 'Dimitris'
+flag_path = 'Alex'
 
 if flag_path == 'Alex':
     #Alex's Paths
-    path_train = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\phones0.mlf"
+    path_train = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition/"
 elif flag_path == 'Dimitris':
     #Dimitri's Paths
     path_train = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/"
@@ -68,7 +68,7 @@ if flag == 'Training':
             mlf.write(".\n")
 
             # Also create a .lab file and write the class in there too.
-            lf = open(path_train + "train_labels/"+name+'.lab','w')
+            lf = open(path_train + "Training_Scripts/train_labels/"+name+'.lab','w')
             lf.write(label)
             lf.close()
             
@@ -82,8 +82,8 @@ elif flag == 'Testing':
 
     # Create the output .mlf file
     if flag_path == 'Alex':
-        mlf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\testphones0.mlf", "w")
-        train_scp = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\Test.scp")
+        mlf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Training_Scripts\\testphones0.mlf", "w")
+        train_scp = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Training_Scripts\\Test.scp")
     elif flag_path == 'Dimitris':
         mlf = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_Scripts/testphones0.mlf", "w")
         train_scp = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_Scripts/Test.scp")
@@ -112,7 +112,7 @@ elif flag == 'Testing':
             mlf.write(".\n")
 
             # Also create a .lab file and write the class in there too.
-            lf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\test_labels\\"+name+'.lab','w')
+            lf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Training_Scripts\\test_labels\\"+name+'.lab','w')
             lf.write(label)
             lf.close()
             
@@ -146,7 +146,7 @@ elif flag == 'Testing':
 
             # Also create a .lab file and write the class in there too.
             if flag_path == 'Alex':
-                lf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Devel\\Training_Scripts\\test_labels\\"+name+'.lab','w')
+                lf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Training_Scripts\\test_labels\\"+name+'.lab','w')
             elif flag_path == 'Dimitris':
                 lf = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_Scripts/test_labels/"+name+'.lab','w')
 

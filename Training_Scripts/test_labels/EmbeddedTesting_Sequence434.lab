@@ -1,6 +1,3 @@
-TH_U
-DC_2
-TH_D
 SIL
 OH_U
 TT_2
@@ -34,6 +31,10 @@ OH_U
 FN_2
 OH_D
 SIL
+OH_D
+SIL
+OH_D
+SIL
 OH_U
 NU_2
 OH_D
@@ -46,6 +47,8 @@ OH_D
 SIL
 OH_U
 SP_2
+OH_D
+SIL
 OH_D
 SIL
 OH_D
