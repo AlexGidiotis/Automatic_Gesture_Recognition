@@ -5,3 +5,5 @@ The data set we are using for development is the ChaLearn Chalearn Multimodal Ge
 
 You can download the whole training and test set here:
 http://sunai.uoc.edu/chalearn/
+
+Our speech recognition module currently achieves 79% accuracy and our skeletal module achieves 51% accuracy on validation gesture sequences.
