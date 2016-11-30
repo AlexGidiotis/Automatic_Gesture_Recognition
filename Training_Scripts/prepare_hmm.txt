@@ -26,6 +26,9 @@ HERest -A -D -T 1 -C config_file -I phones0.mlf -S Train.scp -H hmm0/macros -H h
 16.->HHEd -H hmm9/macros -H hmm9/hmmdefs -M 2gmm_hmm1 split2.hed tiedlist
 17.->Repeat 8 times (hmm1->hmm2,hmm2->hmm3,,hmm3->hmm4,hmm4->hmm5,hmm5->hmm6,hmm6->hmm7,hmm7->hmm8,hmm8->hmm9)
 HERest -A -D -T 1 -C config_file -I phones0.mlf -S Train.scp -H 2gmm_hmm1/macros -H 2gmm_hmm1/hmmdefs -M 2gmm_hmm2 hmm0/monophones0
+18.->HHEd -H 2gmm_hmm9/macros -H 2gmm_hmm9/hmmdefs -M 4gmm_hmm1 split4.hed tiedlist
+19.->Repeat 6 times (hmm1->hmm2,hmm2->hmm3,,hmm3->hmm4,hmm4->hmm5,hmm5->hmm6,hmm6->hmm7)
+HERest -A -D -T 1 -C config_file -I phones0.mlf -S Train.scp -H 4gmm_hmm1/macros -H 4gmm_hmm1/hmmdefs -M 4gmm_hmm2 hmm0/monophones0
 
 ============================================================== Training (HOG) ===================================================
 1.Create grammar.
@@ -57,7 +60,7 @@ HERest -A -D -T 1 -C config_file -I phones0.mlf -S Train.scp -H 2gmm_hmm1/macros
 5.Get the results ->HResults -I testphones0.mlf tiedlist recout.mlf
 
 ======================================================= Testing (Embedded) =======================================================
-4.HVite -A -D -T 1 -H 4gmm_hmm4/macros -H 4gmm_hmm4/hmmdefs -C config_file -S Test.scp -l '*' -i recout.mlf -w wdnet_embed -p -20.0 gesture_lexicon tiedlist
+4.HVite -A -D -T 1 -H 4gmm_hmm7/macros -H 4gmm_hmm7/hmmdefs -C config_file -S Test.scp -l '*' -i recout.mlf -w wdnet_embed -p -20.0 gesture_lexicon tiedlist
 5.HResults -e ??? SIL -t -I testphones0.mlf tiedlist recout.mlf
 5.b HResults -e ??? SIL -e ??? OH_U -e ??? OH_D -e ??? TH_U -e ??? TH_D -e ??? TH_LU -e ??? TH_LD -t -I testphones0.mlf tiedlist recout.mlf
 
