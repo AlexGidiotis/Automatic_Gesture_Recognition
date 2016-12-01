@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import numpy as np
 
-flag = 'Training'
+flag = 'Testing'
 
 if flag == 'Training':
 	in_file = 'Training_set_skeletal.csv'

@@ -78,7 +78,7 @@ def map_gesture(gest):
 #================================================================= MAIN =======================================================================
 
 # Change this path to the saved skeletal .csv file.
-flag_path = 'Dimitris'
+flag_path = 'Alex'
 
 if flag_path == 'Alex':
 	#Alex's Paths
@@ -90,9 +90,11 @@ elif flag_path == "Dimitris":
 	out_path_test = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_test_data"
 
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Training'
+flag = 'Testing'
 # Modify this flag to 'Isolated' or 'Embedded'.
-flag_embed = 'Isolated'
+flag_embed = 'Embedded'
+
+lab_flag = 'Unlabelled'
 #================================================================ Switch between Training and Testing =========================================
 if flag == 'Training':
 	out_path = out_path_train
@@ -108,10 +110,9 @@ elif flag == 'Testing':
 	elif flag_path == 'Dimitris':
 		in_file = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Testing_set_skeletal_extended.csv'
 	out_file = 'Testing_Sequence'
-
 #============================================== Load data and get rid of some weird labels ====================================================
 # Load the data and get the different file ids in a list.
-print flag, flag_embed
+print flag, flag_embed, lab_flag
 print "Loading data..."
 df = pd.read_csv(in_file)
 # May need to change some labels.
@@ -152,6 +153,7 @@ if flag_embed == 'Isolated':
 #===================================================================== Embedded================================================================
 # If we choose embedded testing we will write a sequence of gestures in each file.
 elif flag_embed == 'Embedded':
+
 	# Alternative embeded gestures.
 	# Create a label file for embedded class sequencies.
 	lab_file_name = 'label_file.txt'
@@ -171,18 +173,21 @@ elif flag_embed == 'Embedded':
 		for i in vf.index:
 			feats = df.iloc[i]
 			gest = feats['label']
-			label = map_gesture(gest)
+			
 			feats = feats[['lh_v','rh_v','le_v','re_v','lh_dist_rp','rh_dist_rp','lh_hip_d','rh_hip_d','le_hip_d','re_hip_d','lh_shc_d','rh_shc_d','le_shc_d','re_shc_d',
 							'lh_hip_ang','rh_hip_ang','lh_shc_ang','rh_shc_ang','lh_el_ang','rh_el_ang','lh_dir','rh_dir']].as_matrix().astype(float)
 			mfc_writer.writevec(feats)
-			# Append labels into the sequence list of the file.
-			if len(label_sequence) > 0:
-				if label_sequence[-1] == label:
-					pass
+			if lab_flag == 'Labelled':
+				label = map_gesture(gest)
+				# Append labels into the sequence list of the file.
+				if len(label_sequence) > 0:
+					if label_sequence[-1] == label:
+						pass
+					else:
+						label_sequence.append(label)
 				else:
 					label_sequence.append(label)
-			else:
-				label_sequence.append(label)
+
 
 		# Close the mfc file.
 		mfc_writer.close()

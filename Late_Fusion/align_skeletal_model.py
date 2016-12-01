@@ -1,3 +1,6 @@
+# OBSOLETE
+
+
 import re
 import pandas as pd
 import numpy as np
@@ -8,6 +11,7 @@ print 'Loading activity labels...'
 af = pd.read_csv(activity_file)
 out_f = open('aligned_skeletal_recout.mlf','w')
 in_f = open('C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_Scripts\\recout.mlf', 'r')
+#in_f = open('C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Late_Fusion\\aligned_skeletal_recout_2.mlf', 'r')
 out_f.write("#!MLF!#\n")
 line = in_f.readline()
 

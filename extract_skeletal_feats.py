@@ -10,21 +10,21 @@ import os
 import numpy as np
 import pandas as pd
 
-flag_path = 'Dimitris'
+flag_path = 'Alex'
 
 if flag_path == 'Alex':
 	#Alex's Paths
 	train_labels_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\training_label_file.csv"
 	test_labels_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\testing_label_file.csv"
-	unlabelled_lab_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\label_file.csv"
+	unlabelled_lab_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\unlabelled_label_file.csv"
 elif flag_path == 'Dimitris':
 	#Dimitr's Paths
 	train_labels_file = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/training_label_file.csv"
 	test_labels_file = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/testing_label_file.csv"
-	unlabelled_lab_file = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/label_file.csv"
+	unlabelled_lab_file = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/unlabelled_label_file.csv"
 
-flag = 'Train'
-labeled = 'True'
+flag = 'Test'
+labeled = 'False'
 
 # ========================================= Loads the skeletal data and labels =================================================================
 # Returns: a dataframe with the whole training set frame by frame. (num frames x 27)
@@ -275,6 +275,7 @@ if flag == 'Train':
 elif flag == 'Test':
 	sk_data_path = sk_test_path
 	out_path = out_test_path
+
 
 print flag
 print "Loading data..."

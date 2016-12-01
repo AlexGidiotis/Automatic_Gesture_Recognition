@@ -14,7 +14,7 @@ from load_skeleton import import_data
 from r_position import estimate_rest_position, calc_distance_from_rp
 
 #Define which path 
-flag_path = 'Dimitris'
+flag_path = 'Alex'
 
 ###################### Main function #############################################################
 if flag_path == 'Alex':
@@ -29,7 +29,7 @@ elif flag_path == 'Dimitris':
 	out_test_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/CSV_TEST_data"
 
 ############################ change this flag to Train or Test to extract ########################
-flag = 'Train'
+flag = 'Test'
 if flag == 'Train':
 	sk_data_path = sk_training_path
 	out_path = out_training_path

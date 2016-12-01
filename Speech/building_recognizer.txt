@@ -9,7 +9,7 @@
 9. Phone level mlf ->HLEd -l * -d dictionary -i phones0.mlf mkphones0.led words.mlf ->HLEd -l * -d dictionary -i phones1.mlf mkphones1.led words.mlf
 10. Create config_HCopy
 11. Create wav2mfc.scp ->create_wav2mfc_scp.py
-12.	Convert .wav to .mfc
+12.	Convert .wav to .mfc 
 13.	Create prototype
 14. Create Train.scp ->create_train_scp.py
 15. Create config

@@ -6,7 +6,7 @@ import re
 import os
 
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Training'
+flag = 'Testing'
 print flag
 
 # Choose between the two modes.
@@ -18,7 +18,7 @@ elif flag == 'Testing':
 	out_name = 'Test.scp'
 
 # List the directory with the input .mfc data.
-f_list = os.listdir(path)
+f_list = sorted(os.listdir(path))
 # Create the .scp file.
 of = open(out_name,'w')
 # Write all input files.

@@ -73,7 +73,7 @@ def split_to_sets(df):
 
 
 ############## main ##################
-path_flag = 'Dimitris'
+path_flag = 'Alex'
 if path_flag == 'Alex':
 	data_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
 elif path_flag == 'Dimitris':

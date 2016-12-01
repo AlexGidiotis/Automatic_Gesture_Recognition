@@ -62,10 +62,10 @@ def split_to_sets(df):
 
 ############################## main ######################################
 #Change this flag
-flag_path = 'Dimitris'
+flag_path = 'Alex'
 # modify this flags for Training or Testing
-flag = 'Training'
-labeled = 'True'
+flag = 'Testing'
+labeled = 'False'
 if flag_path == 'Alex':
 	#Alex's Paths
 	training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
@@ -148,7 +148,7 @@ elif labeled == 'False':
 			labs[i] = "sil"
 	print "Writing output..."
 	# writing output to csv
-	np.savetxt("label_file.csv", labs, fmt='%s', delimiter=',')
+	np.savetxt("unlabelled_label_file.csv", labs, fmt='%s', delimiter=',')
 
 
 

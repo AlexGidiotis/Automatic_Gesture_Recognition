@@ -37,6 +37,7 @@ if flag == 'Training':
 			# Ignore some files.
 			if f.startswith('Embedded'):continue
 			elif f[-3:] == 'txt':continue
+			elif f[-3:] == 'csv':continue
 			if flag_path == 'Alex':
 				of.write("%s\\%s\n" %(path_top,f))
 			elif flag_path == 'Dimitris':
@@ -69,6 +70,7 @@ elif flag == 'Testing':
 			# Ignore some files.
 			if f.startswith('Embedded'):continue
 			elif f[-3:] == 'txt':continue
+			elif f[-3:] == 'csv':continue
 			if flag_path == 'Alex':
 				of.write("%s\\%s\n" %(path_top,f))
 			elif flag_path == 'Dimitris':
@@ -83,6 +85,7 @@ elif flag == 'Testing':
 			# Ignore some files.
 			if not f.startswith('Embedded'):continue
 			elif f[-3:] == 'txt':continue
+			elif f[-3:] == 'csv':continue
 			if flag_path == 'Alex':
 				of.write("%s\\%s\n" %(path_top,f))
 			elif flag_path == 'Dimitris':

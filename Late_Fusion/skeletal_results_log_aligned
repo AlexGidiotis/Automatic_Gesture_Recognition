@@ -1,305 +1,830 @@
-Aligned transcription: '*'/EmbeddedTesting_Sequence410.lab vs '*'/EmbeddedTesting_Sequence410.rec
- LAB: BN_2 PF_2 FU_2 CF_2 ST_2 PR_2 SP_2 CN_2 TT_2 
- REC: CF_2 PF_2 FN_2 CF_2 CF_2 PR_2 SP_2 CN_2 TT_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence411.lab vs '*'/EmbeddedTesting_Sequence411.rec
- LAB:      FN_2 CF_2 VA_2 OK_2 CV_2 MC_2 ST_2 FM_2      CN_2 SP_2 PR_2 
- REC: PF_2 FM_2 CF_2 TT_2 OK_2 CV_2 MC_2      FM_2 OK_2 CN_2 CF_2 PR_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence412.lab vs '*'/EmbeddedTesting_Sequence412.rec
- LAB: FN_2 PF_2 CF_2 TT_2           DC_2 MC_2 VQ_2 CN_2 CP_2 FU_2 
- REC:           CF_2 TT_2 SP_2 VA_2 CV_2 BN_2 CF_2 CN_2 CP_2 CF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence413.lab vs '*'/EmbeddedTesting_Sequence413.rec
- LAB: DC_2 BN_2 VA_2 VQ_2 FU_2 NU_2 SP_2 MC_2 PF_2 ST_2 
- REC: DC_2 CF_2 SP_2 SP_2 CF_2 BN_2 SP_2 OK_2 TT_2 BN_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence414.lab vs '*'/EmbeddedTesting_Sequence414.rec
- LAB:      BN_2 CN_2 CP_2 FU_2 ST_2 CV_2 DC_2 FN_2 CF_2      TT_2 
- REC: CF_2 CV_2 CN_2 CP_2 CF_2 BN_2 CV_2 DC_2      CF_2 TT_2 TT_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence415.lab vs '*'/EmbeddedTesting_Sequence415.rec
- LAB: FM_2 VA_2 CV_2 CP_2 NU_2 SP_2 PF_2 FN_2 BN_2 TT_2 
- REC: FM_2 TT_2 CV_2 CP_2 PF_2 SP_2 TT_2 SP_2 SP_2 TT_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence416.lab vs '*'/EmbeddedTesting_Sequence416.rec
- LAB: TT_2 MC_2 PF_2 FM_2 NU_2 BN_2 SP_2 DC_2 CN_2 PR_2 
- REC: TT_2 DC_2 PF_2 FM_2 FN_2 CF_2 SP_2 CV_2 CN_2 PR_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence417.lab vs '*'/EmbeddedTesting_Sequence417.rec
- LAB: PF_2 FM_2 VA_2 CP_2 NU_2 BN_2      FN_2 BS_2 CN_2 FU_2 SP_2 
- REC: TT_2 FM_2 TT_2 CP_2 CF_2 BN_2 CF_2 CF_2 BS_2 CN_2 CF_2 SP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence418.lab vs '*'/EmbeddedTesting_Sequence418.rec
- LAB:      FU_2 PF_2 BS_2 CN_2 VQ_2 SP_2 CV_2 CF_2 TT_2 ST_2 
- REC: CF_2 CP_2 SP_2 BS_2 CN_2 PF_2 SP_2 CV_2 CF_2 SP_2 CF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence420.lab vs '*'/EmbeddedTesting_Sequence420.rec
- LAB: BS_2 MC_2 FM_2      FN_2 CP_2 DC_2 CF_2 PF_2 PR_2 SP_2 
- REC: BS_2 OK_2 FM_2 CF_2 BS_2 OK_2 DC_2 SP_2 PF_2 PR_2 TT_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence421.lab vs '*'/EmbeddedTesting_Sequence421.rec
- LAB: CP_2 NU_2 TT_2 CV_2 SP_2 BN_2 BS_2 CF_2 PF_2           VA_2 
- REC: CP_2 ST_2 TT_2 CV_2 SP_2 FN_2 BS_2 CF_2 PF_2 CP_2 TT_2 CP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence422.lab vs '*'/EmbeddedTesting_Sequence422.rec
- LAB: PF_2 ST_2 FN_2 OK_2 MC_2 CV_2 BN_2 FM_2 CN_2 VA_2      
- REC: FN_2 FN_2 FN_2 FU_2 MC_2 CV_2 FN_2 FM_2 CN_2 VA_2 CP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence423.lab vs '*'/EmbeddedTesting_Sequence423.rec
- LAB: FN_2 MC_2      FM_2 VQ_2 ST_2 ST_2 VA_2 FU_2 CN_2 PR_2 
- REC: FN_2 MC_2 CP_2 FM_2 VQ_2 CP_2 ST_2 CF_2 FU_2 CN_2 MC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence424.lab vs '*'/EmbeddedTesting_Sequence424.rec
- LAB:      BS_2 FM_2 FU_2 VA_2 CF_2      CP_2 VQ_2 PF_2 ST_2 
- REC: MC_2 BS_2 FM_2 FU_2 VA_2 CF_2 DC_2 CP_2 VQ_2 PF_2 FU_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence425.lab vs '*'/EmbeddedTesting_Sequence425.rec
- LAB: FM_2 VA_2 TT_2 VQ_2 CP_2 DC_2 DC_2 DC_2 NU_2 BS_2 PR_2 BN_2 
- REC: FM_2 VA_2 TT_2 FN_2 CP_2           DC_2 MC_2 BS_2 VQ_2 CF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence426.lab vs '*'/EmbeddedTesting_Sequence426.rec
- LAB: VQ_2      CN_2 FM_2 CF_2 SP_2 FU_2      DC_2 VA_2 NU_2 
- REC: VQ_2 CP_2 CN_2 FM_2 CF_2 SP_2 FU_2 OK_2 DC_2 VA_2 MC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence427.lab vs '*'/EmbeddedTesting_Sequence427.rec
- LAB: SP_2 CF_2 DC_2 CP_2 MC_2 ST_2 CN_2 TT_2      CV_2 OK_2 
- REC: SP_2 CF_2 DC_2 CP_2 MC_2 FU_2 CN_2 TT_2 CP_2 CV_2 VQ_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence428.lab vs '*'/EmbeddedTesting_Sequence428.rec
- LAB: CF_2      CP_2 SP_2 FM_2      CV_2 OK_2 MC_2 CN_2 FN_2 PF_2 BN_2 
- REC: CF_2 CP_2 CP_2 SP_2 FM_2 CP_2 CV_2 FN_2 MC_2 CN_2 CF_2 PF_2 FN_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence429.lab vs '*'/EmbeddedTesting_Sequence429.rec
- LAB: ST_2 TT_2 MC_2 PR_2      NU_2 VA_2 CV_2 SP_2 FU_2 CN_2 
- REC: FN_2 TT_2 NU_2 PR_2 CP_2 MC_2 TT_2 CV_2 SP_2 FU_2 CN_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence430.lab vs '*'/EmbeddedTesting_Sequence430.rec
- LAB: FU_2 PF_2 BS_2 CV_2 FM_2 PR_2 MC_2 BN_2 TT_2 CP_2 
- REC: FU_2 TT_2 BS_2 CV_2 FM_2 PR_2 MC_2 FN_2 TT_2 CP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence431.lab vs '*'/EmbeddedTesting_Sequence431.rec
- LAB: FN_2 CP_2 BS_2 OK_2 FM_2 SP_2 VQ_2 CV_2 MC_2 
- REC: CF_2 CP_2 BS_2 VQ_2 FM_2 SP_2 PF_2 CV_2 MC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence432.lab vs '*'/EmbeddedTesting_Sequence432.rec
- LAB: VA_2 FM_2 CN_2 TT_2 PF_2 PR_2 VQ_2 CF_2 FU_2 
- REC: TT_2 FM_2 CN_2 TT_2 SP_2 PR_2 TT_2 CF_2 CF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence433.lab vs '*'/EmbeddedTesting_Sequence433.rec
- LAB: VA_2 CN_2 BS_2 SP_2      CP_2 CV_2 VQ_2 PR_2 FN_2 DC_2 
- REC: TT_2 DC_2 BS_2 SP_2 MC_2 CP_2 CV_2 SP_2 PR_2 FN_2 DC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence434.lab vs '*'/EmbeddedTesting_Sequence434.rec
- LAB: TT_2 CP_2 OK_2 CN_2 FU_2 VQ_2 FN_2 NU_2 MC_2 SP_2 
- REC: TT_2 CP_2 VQ_2 DC_2 FN_2 SP_2 FN_2 FU_2 MC_2 SP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence435.lab vs '*'/EmbeddedTesting_Sequence435.rec
- LAB:      BS_2 DC_2 CF_2 CV_2 FU_2 NU_2 CN_2 PF_2 FN_2 OK_2 
- REC: MC_2 BS_2 CV_2 CF_2 CV_2 CF_2 MC_2 CN_2 PF_2 CF_2 VQ_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence436.lab vs '*'/EmbeddedTesting_Sequence436.rec
- LAB: FU_2 BN_2 CP_2 OK_2 SP_2 DC_2 FM_2 VQ_2 FN_2 
- REC: CF_2 CF_2 CP_2 VQ_2 SP_2 DC_2 FM_2 TT_2 CF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence437.lab vs '*'/EmbeddedTesting_Sequence437.rec
- LAB: VQ_2 CF_2 BN_2 FM_2 TT_2 ST_2 BS_2 OK_2 FN_2 VA_2 
- REC: VQ_2 CF_2 CF_2 FM_2 TT_2 PR_2 BS_2 FU_2 FN_2 TT_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence438.lab vs '*'/EmbeddedTesting_Sequence438.rec
- LAB: BN_2 PF_2 FU_2 CF_2 FN_2 CN_2 ST_2 MC_2 PR_2      OK_2 CV_2 
- REC:      CF_2 CF_2 CF_2 CF_2 CN_2      BN_2 PR_2 CF_2 DC_2 CV_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence439.lab vs '*'/EmbeddedTesting_Sequence439.rec
- LAB: FM_2 TT_2 CV_2 PR_2 ST_2 CF_2      DC_2 OK_2 VQ_2 
- REC: FM_2 TT_2 CV_2 OK_2 CF_2 CF_2 CV_2 CV_2 FN_2 PF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence440.lab vs '*'/EmbeddedTesting_Sequence440.rec
- LAB: FU_2 CF_2 SP_2 PR_2 CN_2 VA_2 VQ_2 OK_2 NU_2 TT_2 MC_2 
- REC: FU_2 CF_2 SP_2 PR_2 CN_2 TT_2 PF_2 FN_2 MC_2 VA_2 MC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence441.lab vs '*'/EmbeddedTesting_Sequence441.rec
- LAB: PR_2 ST_2 OK_2 DC_2 CF_2 VQ_2 SP_2 MC_2 FM_2 FN_2 FU_2 
- REC: PR_2 BN_2 FN_2 DC_2 CF_2 VQ_2 VA_2 MC_2      FN_2 CF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence442.lab vs '*'/EmbeddedTesting_Sequence442.rec
- LAB:           VQ_2 VA_2 NU_2 DC_2 CP_2 FU_2 PF_2 OK_2 FM_2 
- REC: PF_2 TT_2 VQ_2           CV_2 CP_2 CF_2 VA_2 VQ_2 FM_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence443.lab vs '*'/EmbeddedTesting_Sequence443.rec
- LAB: MC_2 BN_2 SP_2 FN_2 CF_2 PR_2 VA_2 NU_2 BS_2 VQ_2 
- REC: MC_2 CF_2 SP_2 FN_2 CF_2 PR_2 TT_2 NU_2 BS_2 PF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence444.lab vs '*'/EmbeddedTesting_Sequence444.rec
- LAB: PR_2 CP_2 DC_2 ST_2 NU_2 FM_2 VA_2 CN_2 SP_2 OK_2 
- REC: OK_2 BS_2 CV_2 CF_2 FN_2 FM_2 TT_2 DC_2 SP_2      
-Aligned transcription: '*'/EmbeddedTesting_Sequence445.lab vs '*'/EmbeddedTesting_Sequence445.rec
- LAB: CP_2 ST_2 CV_2 NU_2 FN_2 OK_2 PF_2 BN_2 PR_2 CF_2 
- REC: CP_2 BN_2 CV_2 VQ_2 CF_2 VQ_2 PF_2 CF_2 PR_2 SP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence446.lab vs '*'/EmbeddedTesting_Sequence446.rec
- LAB: BN_2      OK_2 PR_2 CV_2 VQ_2 NU_2 FM_2      BS_2 CF_2      MC_2 
- REC: BN_2 FU_2 CP_2 PR_2 CV_2 BN_2 NU_2 FM_2 MC_2 BS_2 CF_2 CV_2 MC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence447.lab vs '*'/EmbeddedTesting_Sequence447.rec
- LAB: TT_2      VQ_2 CF_2 CF_2 FN_2 PR_2 CN_2 FU_2 CV_2 CP_2 
- REC: TT_2 CP_2 VQ_2 CF_2 CF_2      PR_2 CN_2 FU_2 CV_2 CP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence448.lab vs '*'/EmbeddedTesting_Sequence448.rec
- LAB: OK_2 MC_2 PF_2 SP_2      NU_2 DC_2 VA_2 CF_2 BN_2 
- REC: VQ_2 MC_2 PF_2 SP_2 MC_2 PR_2 DC_2 VA_2 CF_2 FN_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence449.lab vs '*'/EmbeddedTesting_Sequence449.rec
- LAB: BS_2 FU_2 NU_2 CP_2      ST_2 OK_2 PR_2 MC_2 BN_2 FM_2 
- REC: BS_2 FU_2 MC_2 CP_2 FN_2 CP_2 VQ_2 NU_2 MC_2 FU_2 FM_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence450.lab vs '*'/EmbeddedTesting_Sequence450.rec
- LAB:      DC_2 CV_2 NU_2 TT_2 FM_2      SP_2 BS_2 VA_2 FN_2 PR_2 
- REC: NU_2 DC_2 CV_2 PR_2 TT_2 FM_2 PF_2 MC_2 BS_2 VA_2 FN_2 PR_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence451.lab vs '*'/EmbeddedTesting_Sequence451.rec
- LAB:      OK_2 DC_2 CV_2 CN_2 FM_2 NU_2 FU_2 BN_2      PR_2 TT_2 
- REC: PF_2 NU_2 CV_2 CV_2 CN_2 FM_2 NU_2      BN_2 CF_2 PR_2 TT_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence452.lab vs '*'/EmbeddedTesting_Sequence452.rec
- LAB: ST_2 CN_2 SP_2 CP_2 PF_2 BN_2 VQ_2 BS_2 MC_2 FM_2 
- REC: ST_2 CN_2 SP_2 BS_2 PF_2 BN_2 PF_2 DC_2 MC_2 FM_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence453.lab vs '*'/EmbeddedTesting_Sequence453.rec
- LAB: BN_2 NU_2 PR_2 SP_2 OK_2 CF_2 ST_2 CN_2 FU_2 CV_2 
- REC: BN_2 NU_2 PR_2 SP_2 OK_2 BN_2 ST_2 CN_2 FU_2 CV_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence454.lab vs '*'/EmbeddedTesting_Sequence454.rec
- LAB: NU_2 FM_2 VA_2 FU_2 BN_2 VQ_2 BS_2 CF_2 CV_2 
- REC: NU_2 FM_2 SP_2 FU_2 CF_2 VQ_2 BS_2 BN_2 CV_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence455.lab vs '*'/EmbeddedTesting_Sequence455.rec
- LAB:      CP_2 PR_2 MC_2 BS_2 BN_2 PF_2 DC_2 TT_2      CV_2 NU_2 SP_2 
- REC: FM_2 CP_2 PR_2 MC_2 BS_2 BN_2 CF_2 CN_2 TT_2 MC_2 CV_2      SP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence456.lab vs '*'/EmbeddedTesting_Sequence456.rec
- LAB: TT_2 VA_2 CN_2 BN_2 FU_2 PR_2 BS_2 OK_2 MC_2 
- REC: TT_2 SP_2 CN_2 BN_2 FU_2 PR_2 BS_2 OK_2 MC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence457.lab vs '*'/EmbeddedTesting_Sequence457.rec
- LAB: VQ_2 CF_2 DC_2 TT_2 CV_2 VA_2 SP_2 CP_2 ST_2 MC_2 FM_2 
- REC: PF_2 BN_2 DC_2 TT_2 CV_2 VA_2 SP_2 CP_2 ST_2 MC_2 FM_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence458.lab vs '*'/EmbeddedTesting_Sequence458.rec
- LAB:      DC_2 VA_2 CN_2 PR_2 TT_2 BS_2 SP_2 VQ_2 BN_2 
- REC: FM_2 DC_2 SP_2 CN_2 NU_2 TT_2 BS_2 SP_2 PF_2 CF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence459.lab vs '*'/EmbeddedTesting_Sequence459.rec
- LAB: DC_2 MC_2 CP_2 FM_2 FU_2 VA_2 PF_2 CF_2 OK_2 
- REC: DC_2 MC_2 CP_2 FM_2 FU_2 TT_2 CF_2 CF_2 BN_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence460.lab vs '*'/EmbeddedTesting_Sequence460.rec
- LAB: MC_2 CN_2 CP_2 CF_2 BN_2 FM_2 TT_2 FN_2 CV_2 
- REC: ST_2 CN_2 CP_2 CF_2 BN_2 FM_2 TT_2 BN_2 CV_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence461.lab vs '*'/EmbeddedTesting_Sequence461.rec
- LAB: TT_2 OK_2 ST_2 CN_2 VQ_2 FM_2 FN_2 BN_2 VA_2 MC_2 
- REC: TT_2 OK_2 ST_2 CN_2 SP_2 FM_2 BN_2 BN_2 VA_2 MC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence462.lab vs '*'/EmbeddedTesting_Sequence462.rec
- LAB: ST_2 CF_2 CP_2 BN_2 FM_2 DC_2 CV_2 TT_2 FU_2 CN_2 
- REC: ST_2 BN_2 CP_2 BN_2 FM_2 CN_2 CV_2 TT_2 BN_2 CN_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence463.lab vs '*'/EmbeddedTesting_Sequence463.rec
- LAB: VA_2 PF_2      CF_2 DC_2 TT_2 BS_2 FN_2 ST_2 OK_2 FM_2 
- REC: TT_2 PF_2 BN_2 MC_2 DC_2 TT_2 BS_2 BN_2 ST_2 VQ_2 FM_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence464.lab vs '*'/EmbeddedTesting_Sequence464.rec
- LAB: BN_2 DC_2 CN_2 ST_2 VQ_2 NU_2 CV_2 FM_2 CP_2 
- REC: BN_2 DC_2 CN_2 ST_2 PF_2 MC_2 CV_2 FM_2 CP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence465.lab vs '*'/EmbeddedTesting_Sequence465.rec
- LAB:      CV_2 FM_2 PR_2 FU_2 CP_2 VA_2 CN_2 SP_2 NU_2 
- REC: OK_2 CV_2 FM_2 VQ_2 BN_2 CP_2 TT_2 CN_2 SP_2 BN_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence466.lab vs '*'/EmbeddedTesting_Sequence466.rec
- LAB: NU_2 CN_2 DC_2 OK_2 TT_2 VA_2 BN_2 FM_2 SP_2 PR_2 
- REC: NU_2 CN_2 DC_2 VQ_2 TT_2 SP_2 BN_2 FM_2 SP_2 VQ_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence467.lab vs '*'/EmbeddedTesting_Sequence467.rec
- LAB: OK_2 BN_2 SP_2 CN_2 VA_2 FN_2 NU_2 PR_2 CV_2      DC_2 
- REC: OK_2 BN_2 SP_2 CN_2 SP_2 BN_2 NU_2 PR_2 CV_2 BS_2 DC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence468.lab vs '*'/EmbeddedTesting_Sequence468.rec
- LAB: PF_2      DC_2 SP_2 PR_2 CV_2 BN_2 CN_2 NU_2 FM_2 
- REC: PF_2 BS_2 CN_2 SP_2 VQ_2 CV_2 SP_2 CN_2 OK_2 FM_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence469.lab vs '*'/EmbeddedTesting_Sequence469.rec
- LAB: FN_2 CN_2 PR_2 PF_2 BN_2 FM_2 MC_2 TT_2 FU_2 SP_2 
- REC: BN_2 CN_2 OK_2 PF_2 BN_2 FM_2 MC_2 TT_2 BN_2 SP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence470.lab vs '*'/EmbeddedTesting_Sequence470.rec
- LAB: CP_2 VQ_2 OK_2 SP_2 FM_2 PR_2 CF_2 FU_2 PF_2 
- REC: CP_2 PF_2 OK_2 SP_2 FM_2 OK_2 CF_2 FU_2 SP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence471.lab vs '*'/EmbeddedTesting_Sequence471.rec
- LAB:      CV_2 VA_2 FU_2 NU_2 VQ_2 SP_2 CN_2 FN_2 CP_2 DC_2 BN_2 
- REC: MC_2 CN_2 CF_2 SP_2 MC_2 BN_2 SP_2 CN_2 CF_2 CV_2 DC_2 CF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence472.lab vs '*'/EmbeddedTesting_Sequence472.rec
- LAB:      BS_2 FN_2 OK_2 PF_2 TT_2 CP_2           BN_2 VQ_2 FU_2 
- REC: FM_2 BS_2 BN_2 ST_2 CF_2 SP_2 CP_2 SP_2 CF_2 BN_2           
-Aligned transcription: '*'/EmbeddedTesting_Sequence473.lab vs '*'/EmbeddedTesting_Sequence473.rec
- LAB: PR_2 OK_2 PF_2 VQ_2 SP_2 CP_2 DC_2 FM_2 FN_2 
- REC: MC_2 OK_2 SP_2 TT_2 SP_2 CP_2 DC_2 FM_2 BN_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence474.lab vs '*'/EmbeddedTesting_Sequence474.rec
- LAB: PR_2 CV_2 CP_2 FU_2 PF_2 BN_2      FN_2 FN_2 CF_2      FM_2 BS_2 
- REC: MC_2 ST_2 CP_2           BN_2 CF_2 SP_2 MC_2 CF_2 SP_2 FM_2 DC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence475.lab vs '*'/EmbeddedTesting_Sequence475.rec
- LAB: TT_2 FN_2 PR_2 VA_2 NU_2                FU_2 DC_2 VQ_2 PF_2 
- REC: SP_2 FN_2           NU_2 SP_2 CP_2 BN_2 MC_2 CN_2 SP_2 CF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence476.lab vs '*'/EmbeddedTesting_Sequence476.rec
- LAB: SP_2 BS_2 PR_2 TT_2 BN_2 DC_2 MC_2 OK_2 VA_2 CN_2 
- REC: SP_2 BS_2      NU_2 SP_2 DC_2 MC_2 CF_2 SP_2 DC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence477.lab vs '*'/EmbeddedTesting_Sequence477.rec
- LAB: VA_2 CF_2 FM_2 CP_2 TT_2 CV_2 VQ_2 FU_2 
- REC: SP_2 SP_2 MC_2 CP_2 TT_2 ST_2 CF_2 SP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence478.lab vs '*'/EmbeddedTesting_Sequence478.rec
- LAB: PR_2 PF_2 CV_2 FU_2 BS_2 TT_2 OK_2 CN_2 CP_2 VA_2 MC_2 
- REC: NU_2 PF_2 CV_2 SP_2 BS_2 SP_2 OK_2 CN_2 CP_2 SP_2 MC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence479.lab vs '*'/EmbeddedTesting_Sequence479.rec
- LAB: TT_2 PR_2 MC_2 FN_2 SP_2 DC_2 PF_2 OK_2 CP_2 CV_2 VQ_2 
- REC: TT_2 MC_2 MC_2 FN_2      CF_2 PF_2 OK_2 CP_2      ST_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence480.lab vs '*'/EmbeddedTesting_Sequence480.rec
- LAB: PR_2 NU_2 CP_2 BS_2 MC_2 CV_2 VQ_2 BN_2 PF_2 TT_2 
- REC: PR_2 FM_2 CP_2 BS_2 FM_2 CN_2 SP_2 CF_2 CF_2 SP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence481.lab vs '*'/EmbeddedTesting_Sequence481.rec
- LAB: PF_2 ST_2 CV_2 SP_2 BS_2 PR_2 CF_2 FN_2 FU_2 VA_2 CP_2 
- REC: CF_2 FM_2 CN_2 SP_2      MC_2 CF_2 FN_2 SP_2 CF_2 CP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence482.lab vs '*'/EmbeddedTesting_Sequence482.rec
- LAB: FM_2 CV_2 DC_2 CF_2 VQ_2 VA_2 BS_2 SP_2 FU_2 
- REC: MC_2 CN_2 DC_2 CF_2 CF_2 SP_2 SP_2 SP_2 CV_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence483.lab vs '*'/EmbeddedTesting_Sequence483.rec
- LAB:      DC_2 VQ_2 BS_2 PR_2 PF_2 FM_2 TT_2 BN_2 CF_2 
- REC: OK_2 DC_2 CF_2 BS_2 PR_2 SP_2 MC_2 TT_2 BN_2 CF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence484.lab vs '*'/EmbeddedTesting_Sequence484.rec
- LAB: MC_2 BN_2 NU_2 CV_2 PF_2 BS_2 TT_2 CF_2 PR_2 
- REC: MC_2 CF_2 OK_2 CV_2 CF_2 BS_2 TT_2 CF_2 MC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence485.lab vs '*'/EmbeddedTesting_Sequence485.rec
- LAB: VA_2 PF_2 SP_2           NU_2 VQ_2 FM_2 PR_2 TT_2 
- REC:           SP_2 CF_2 CF_2 FM_2 CF_2 FM_2 PR_2 TT_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence486.lab vs '*'/EmbeddedTesting_Sequence486.rec
- LAB: CN_2 PF_2 CP_2 FM_2 BN_2 TT_2 DC_2 BS_2 FU_2 
- REC: CN_2 CF_2 CP_2 MC_2 CF_2 TT_2 DC_2 CP_2 SP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence487.lab vs '*'/EmbeddedTesting_Sequence487.rec
- LAB: CV_2 VQ_2 SP_2 TT_2 PR_2 PF_2 BN_2 CP_2 CN_2 FN_2 DC_2 
- REC: CN_2 CF_2 SP_2 TT_2 PR_2 CF_2 CF_2 FM_2 CN_2 FN_2 DC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence488.lab vs '*'/EmbeddedTesting_Sequence488.rec
- LAB: PF_2 BS_2 FU_2 FN_2 CF_2 BN_2 FM_2 OK_2 VQ_2 
- REC: CF_2 BS_2 SP_2 FN_2 CF_2 CF_2 FM_2 OK_2 CF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence489.lab vs '*'/EmbeddedTesting_Sequence489.rec
- LAB: PF_2 PR_2 NU_2 VA_2 BS_2 FM_2 BN_2 MC_2 CP_2 
- REC:      CF_2 NU_2 SP_2 BS_2 FM_2 CF_2 MC_2 DC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence490.lab vs '*'/EmbeddedTesting_Sequence490.rec
- LAB: VA_2 PF_2 CN_2 FM_2 MC_2 CP_2 FU_2 BN_2 TT_2 
- REC: SP_2 CF_2 CN_2 MC_2 MC_2 FM_2 SP_2 CF_2 TT_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence491.lab vs '*'/EmbeddedTesting_Sequence491.rec
- LAB: FM_2 BN_2 PF_2 MC_2 ST_2 DC_2 TT_2 CP_2 CN_2 FN_2 
- REC: FM_2 BN_2 PF_2 NU_2 OK_2 DC_2 TT_2 OK_2 CN_2 CV_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence492.lab vs '*'/EmbeddedTesting_Sequence492.rec
- LAB: NU_2 BN_2 VA_2 TT_2 DC_2 MC_2 VQ_2 CP_2 CF_2 
- REC: NU_2 BN_2 PF_2 TT_2 DC_2 MC_2 VQ_2      SP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence493.lab vs '*'/EmbeddedTesting_Sequence493.rec
- LAB: CF_2 FM_2 TT_2      CV_2 DC_2 NU_2      CP_2 VQ_2 FU_2 
- REC: CF_2 FM_2 TT_2 NU_2 CV_2 CN_2 NU_2 FM_2 CP_2 VQ_2 FU_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence494.lab vs '*'/EmbeddedTesting_Sequence494.rec
- LAB: ST_2 MC_2 VQ_2 CV_2 CP_2 CN_2 OK_2 TT_2 CF_2 FN_2 
- REC: ST_2 MC_2 VQ_2 CV_2 CP_2 CN_2 NU_2 SP_2 SP_2 FN_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence495.lab vs '*'/EmbeddedTesting_Sequence495.rec
- LAB: FM_2 SP_2 OK_2 FN_2 CP_2 VQ_2           BS_2 DC_2 VA_2 PR_2 PF_2 
- REC: FM_2 SP_2      FN_2 CP_2 VQ_2 MC_2 BS_2 BS_2 DC_2 CF_2 PR_2 SP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence496.lab vs '*'/EmbeddedTesting_Sequence496.rec
- LAB: PR_2 CV_2 FM_2 FU_2 DC_2      BS_2 CN_2 VQ_2 MC_2 
- REC: NU_2 CV_2 FM_2 FU_2 DC_2 FN_2 BS_2 CN_2 VQ_2 NU_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence497.lab vs '*'/EmbeddedTesting_Sequence497.rec
- LAB: OK_2 VQ_2 BS_2 ST_2 PF_2 FN_2      CP_2 FM_2 NU_2 DC_2 
- REC: OK_2 OK_2 BS_2 ST_2 VQ_2 FN_2 OK_2 CP_2 FM_2 NU_2 DC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence498.lab vs '*'/EmbeddedTesting_Sequence498.rec
- LAB: CF_2 CV_2 PR_2 FU_2 FN_2 SP_2 FM_2 VQ_2 MC_2 TT_2 
- REC: SP_2 CV_2 NU_2 SP_2 FN_2 SP_2 FM_2 VQ_2 NU_2 TT_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence499.lab vs '*'/EmbeddedTesting_Sequence499.rec
- LAB:      PF_2 CF_2 VA_2 CN_2 DC_2 CP_2 PR_2 OK_2           BS_2 
- REC: SP_2 FN_2 CF_2      CN_2 DC_2 CP_2 PR_2 OK_2 MC_2 BS_2 BS_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence500.lab vs '*'/EmbeddedTesting_Sequence500.rec
- LAB: FN_2 CN_2 TT_2 FM_2 BN_2 CP_2 VQ_2 OK_2 PF_2 NU_2 
- REC: FN_2 CN_2 TT_2 FM_2 BN_2      VQ_2 NU_2 SP_2 NU_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence501.lab vs '*'/EmbeddedTesting_Sequence501.rec
- LAB: CF_2 ST_2 FM_2 SP_2 CN_2 BN_2 TT_2 VA_2 FU_2 PF_2 BS_2      
- REC: SP_2 ST_2 FM_2 SP_2 CN_2 BN_2 SP_2 CF_2 FU_2 SP_2 BS_2 DC_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence502.lab vs '*'/EmbeddedTesting_Sequence502.rec
- LAB: ST_2 VA_2 VQ_2 MC_2 BS_2 PF_2 OK_2 CV_2 CF_2 SP_2 
- REC: ST_2 CF_2 OK_2 NU_2 BS_2 SP_2 OK_2 CV_2 SP_2 SP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence503.lab vs '*'/EmbeddedTesting_Sequence503.rec
- LAB: FN_2 PR_2 TT_2 CP_2 NU_2 SP_2 VA_2 FM_2 CF_2 VQ_2 
- REC: FN_2 NU_2 TT_2      NU_2 SP_2 CF_2 FM_2 SP_2 SP_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence504.lab vs '*'/EmbeddedTesting_Sequence504.rec
- LAB: OK_2 FU_2 CP_2 FM_2 NU_2 CN_2           VA_2 PR_2 BS_2 TT_2 
- REC: OK_2      CP_2 FM_2 NU_2 CN_2 CF_2 NU_2 MC_2 BS_2 BS_2 TT_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence505.lab vs '*'/EmbeddedTesting_Sequence505.rec
- LAB: VQ_2 BS_2 MC_2 NU_2 CP_2      FU_2 CN_2 ST_2 TT_2 OK_2 
- REC: OK_2 BS_2 NU_2 NU_2 CP_2 FN_2 OK_2 CN_2 ST_2 TT_2 NU_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence506.lab vs '*'/EmbeddedTesting_Sequence506.rec
- LAB: FM_2 DC_2 PF_2 ST_2 BN_2 VQ_2 FU_2 CV_2 TT_2 BS_2 MC_2 
- REC: FM_2 DC_2 SP_2 NU_2 BN_2 VQ_2 FN_2 CV_2 SP_2 BS_2 NU_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence507.lab vs '*'/EmbeddedTesting_Sequence507.rec
- LAB: OK_2 FN_2 TT_2 ST_2      MC_2 PR_2 CP_2 BS_2 CF_2 CV_2 
- REC: OK_2 FN_2 TT_2 ST_2 NU_2 NU_2 OK_2 BS_2 BS_2 SP_2 CN_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence508.lab vs '*'/EmbeddedTesting_Sequence508.rec
- LAB: FN_2 CF_2 CN_2 BN_2 PF_2 SP_2      NU_2 BS_2 VQ_2 PR_2 VA_2 
- REC: FN_2 VQ_2 CN_2 BN_2 SP_2 SP_2 NU_2 NU_2 BS_2 VQ_2 NU_2 PF_2 
-Aligned transcription: '*'/EmbeddedTesting_Sequence509.lab vs '*'/EmbeddedTesting_Sequence509.rec
- LAB: FM_2 MC_2 FN_2 PF_2 VA_2 SP_2 CF_2 CN_2 BN_2 CV_2 
- REC: FM_2 NU_2 FN_2 VQ_2 OK_2 SP_2 CF_2 CN_2 FN_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1000.lab vs '*'/EmbeddedTesting_Sequence1000.rec
+ LAB: CP_2 BS_2 CN_2      FN_2 ST_2      FM_2 FU_2 OK_2 PR_2 SP_2 
+ REC: CP_2 BS_2 CN_2 CP_2 CN_2 ST_2 FN_2 VQ_2 FU_2 VQ_2 CV_2 VQ_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1001.lab vs '*'/EmbeddedTesting_Sequence1001.rec
+ LAB: CF_2 ST_2 NU_2 PR_2 SP_2 FM_2 CV_2 CP_2 OK_2 TT_2 
+ REC:                VQ_2 SP_2 FM_2 CV_2           TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1002.lab vs '*'/EmbeddedTesting_Sequence1002.rec
+ LAB: MC_2 FN_2 TT_2 DC_2 CF_2 OK_2 BS_2 SP_2      PF_2 CV_2 
+ REC: MC_2                     FU_2 SP_2 SP_2 VA_2 CF_2 FN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1003.lab vs '*'/EmbeddedTesting_Sequence1003.rec
+ LAB: VQ_2 ST_2 PF_2 CN_2 DC_2 FM_2 TT_2 FN_2 CP_2 PR_2 
+ REC:           MC_2 CN_2 FU_2 FM_2 TT_2      FU_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1004.lab vs '*'/EmbeddedTesting_Sequence1004.rec
+ LAB: BS_2 OK_2 PR_2 BN_2 VQ_2 SP_2 TT_2 CP_2 CF_2 VA_2 DC_2 
+ REC:           VQ_2 BN_2 SP_2 SP_2 TT_2 BS_2 CF_2      FN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1005.lab vs '*'/EmbeddedTesting_Sequence1005.rec
+ LAB: CP_2 OK_2 ST_2 DC_2 TT_2 MC_2 PF_2 BS_2 PR_2 
+ REC: CP_2           CF_2 SP_2 MC_2      SP_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1006.lab vs '*'/EmbeddedTesting_Sequence1006.rec
+ LAB: CN_2 VQ_2 DC_2 PR_2 CV_2 ST_2 OK_2 NU_2 FU_2      FM_2 
+ REC: CN_2 VQ_2      PR_2 CV_2      CF_2 NU_2 FU_2 BS_2 FM_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1007.lab vs '*'/EmbeddedTesting_Sequence1007.rec
+ LAB: NU_2 SP_2 MC_2 BS_2 CF_2      PF_2 FN_2 TT_2 VQ_2 
+ REC: VQ_2 SP_2 MC_2      CF_2 NU_2 FU_2 SP_2 SP_2 MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1008.lab vs '*'/EmbeddedTesting_Sequence1008.rec
+ LAB: OK_2 VA_2 CP_2 TT_2 SP_2 FU_2      NU_2 CF_2 BS_2 FN_2 CV_2 
+ REC:      VQ_2 CF_2 TT_2 SP_2 FU_2 VQ_2 BS_2 CF_2      FU_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1009.lab vs '*'/EmbeddedTesting_Sequence1009.rec
+ LAB: SP_2           CV_2 FN_2 NU_2 ST_2 OK_2 BS_2 TT_2 CP_2 
+ REC: SP_2 FU_2 PR_2 CV_2                FU_2 PR_2 CF_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1010.lab vs '*'/EmbeddedTesting_Sequence1010.rec
+ LAB: BS_2 TT_2 FM_2 VA_2 NU_2 PR_2 DC_2                     MC_2 BN_2 ST_2 
+ REC:      SP_2 FM_2           CF_2 DC_2 VQ_2 VQ_2 CF_2 SP_2 MC_2           
+Aligned transcription: '*'/EmbeddedTesting_Sequence1011.lab vs '*'/EmbeddedTesting_Sequence1011.rec
+ LAB: BN_2 FN_2 CF_2 ST_2 MC_2 DC_2 TT_2 CV_2 VA_2 OK_2 
+ REC: CF_2 FU_2 CF_2      MC_2                SP_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1012.lab vs '*'/EmbeddedTesting_Sequence1012.rec
+ LAB: FU_2 SP_2 ST_2 FN_2 CN_2 PF_2 VA_2 DC_2 OK_2 CV_2 
+ REC: FN_2 SP_2 ST_2 BN_2 CN_2      VA_2           CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1013.lab vs '*'/EmbeddedTesting_Sequence1013.rec
+ LAB: CN_2 VQ_2 MC_2 ST_2 CP_2 PF_2 CF_2 NU_2      FU_2 PR_2 
+ REC: CN_2 VQ_2 MC_2           MC_2 FU_2 NU_2 FN_2 FN_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1014.lab vs '*'/EmbeddedTesting_Sequence1014.rec
+ LAB: NU_2 CN_2 CV_2 PR_2 CP_2      FU_2 FN_2 SP_2 TT_2 DC_2 
+ REC: VQ_2 CN_2 VQ_2 FN_2 CP_2 FU_2 FU_2 VA_2 SP_2 SP_2 DC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1015.lab vs '*'/EmbeddedTesting_Sequence1015.rec
+ LAB: VQ_2 DC_2 VA_2 MC_2 CF_2 CN_2 BS_2 SP_2 TT_2      
+ REC: VQ_2      CF_2 MC_2 CF_2 CN_2 BS_2 SP_2 TT_2 FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1016.lab vs '*'/EmbeddedTesting_Sequence1016.rec
+ LAB: CP_2 VQ_2 TT_2 PF_2 CF_2 CV_2 VA_2 FN_2 OK_2 DC_2 SP_2      
+ REC: CP_2 SP_2 TT_2           CV_2      CF_2 FU_2 VQ_2 SP_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1017.lab vs '*'/EmbeddedTesting_Sequence1017.rec
+ LAB: DC_2 FN_2 TT_2 CF_2 CV_2 CN_2 OK_2 SP_2 VQ_2 NU_2 
+ REC:           FU_2 SP_2 CV_2 CN_2 DC_2 SP_2 SP_2 OK_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1018.lab vs '*'/EmbeddedTesting_Sequence1018.rec
+ LAB: OK_2 BN_2 PR_2 CP_2 BS_2 CV_2 FN_2 MC_2      CF_2 PF_2 TT_2 
+ REC:           VQ_2 SP_2 VQ_2 CV_2 FU_2 MC_2 TT_2 CF_2           
+Aligned transcription: '*'/EmbeddedTesting_Sequence1019.lab vs '*'/EmbeddedTesting_Sequence1019.rec
+ LAB: NU_2 TT_2 CP_2 PR_2 FM_2 BN_2 DC_2 PF_2 SP_2 CN_2      
+ REC: OK_2 TT_2      PF_2 FM_2 BN_2 DC_2      SP_2 CN_2 FN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1020.lab vs '*'/EmbeddedTesting_Sequence1020.rec
+ LAB: VA_2 ST_2 DC_2 CF_2 OK_2 FM_2 PF_2 FN_2 CV_2      
+ REC: TT_2 ST_2                FM_2 FU_2 PR_2 CV_2 BS_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1021.lab vs '*'/EmbeddedTesting_Sequence1021.rec
+ LAB: SP_2 BN_2 FU_2 VQ_2 CV_2 DC_2 ST_2 BS_2 PF_2 PR_2      
+ REC: SP_2 CF_2 FU_2 PF_2 CV_2      MC_2 CV_2 CP_2 PR_2 NU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1022.lab vs '*'/EmbeddedTesting_Sequence1022.rec
+ LAB:           SP_2 CN_2 FM_2 MC_2 FN_2 OK_2 PF_2 BN_2 BS_2 VQ_2 
+ REC: PF_2 BS_2 SP_2 CN_2 FM_2 MC_2           FU_2 BN_2      SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1023.lab vs '*'/EmbeddedTesting_Sequence1023.rec
+ LAB: VA_2 FU_2 CV_2 FN_2 CN_2 BS_2 SP_2 MC_2 NU_2 PF_2 
+ REC: VA_2 FU_2 CV_2 FU_2 CN_2      SP_2 MC_2      PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1024.lab vs '*'/EmbeddedTesting_Sequence1024.rec
+ LAB:      FU_2      CF_2 FM_2 ST_2 PF_2 MC_2 VA_2 SP_2 BS_2 BN_2 
+ REC: BS_2 FU_2 CF_2 CF_2 FM_2           CF_2 CF_2 SP_2      BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1025.lab vs '*'/EmbeddedTesting_Sequence1025.rec
+ LAB: NU_2 ST_2 BS_2 BN_2 PR_2 FN_2 MC_2 CV_2 FM_2 
+ REC: VQ_2 MC_2 BS_2 BN_2 PR_2 MC_2 MC_2 CV_2 FM_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1026.lab vs '*'/EmbeddedTesting_Sequence1026.rec
+ LAB: CP_2 VQ_2 OK_2 BN_2 FN_2 SP_2           NU_2      VA_2 CN_2 CF_2 
+ REC:                     PF_2 SP_2 FU_2 CF_2 NU_2 TT_2 PF_2 CN_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1027.lab vs '*'/EmbeddedTesting_Sequence1027.rec
+ LAB: PR_2 VQ_2 CP_2 DC_2 CV_2      ST_2 OK_2 SP_2 FM_2      
+ REC: CP_2 FN_2 CP_2      CV_2 FN_2 TT_2 PF_2 SP_2 FM_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1028.lab vs '*'/EmbeddedTesting_Sequence1028.rec
+ LAB:           FN_2 CF_2 NU_2 BN_2 VA_2 OK_2 PF_2           TT_2 MC_2 DC_2      
+ REC: FM_2 TT_2 FN_2 CF_2      SP_2 CF_2 TT_2 PF_2 BS_2 TT_2 TT_2 MC_2 DC_2 BS_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1029.lab vs '*'/EmbeddedTesting_Sequence1029.rec
+ LAB:           CP_2      ST_2 TT_2 BN_2 DC_2 FU_2 PF_2 PR_2 FN_2 MC_2 
+ REC: SP_2 TT_2 CP_2 FU_2 SP_2 TT_2 BN_2      FN_2 PF_2      CP_2 MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1030.lab vs '*'/EmbeddedTesting_Sequence1030.rec
+ LAB:      ST_2 VQ_2 CV_2      VA_2 TT_2 FU_2 BS_2 SP_2 BN_2           CP_2 
+ REC: PF_2 FU_2 BN_2 CV_2 CF_2 SP_2 TT_2 FU_2      SP_2 BN_2 DC_2 BS_2 BS_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1031.lab vs '*'/EmbeddedTesting_Sequence1031.rec
+ LAB:                     VA_2 FM_2 FU_2 FN_2 VQ_2 DC_2 TT_2 CF_2 NU_2 CV_2 MC_2 
+ REC: TT_2 TT_2 CF_2 CN_2 CN_2 FM_2 FU_2      CF_2 DC_2 TT_2 CF_2 OK_2 CV_2 MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1032.lab vs '*'/EmbeddedTesting_Sequence1032.rec
+ LAB: DC_2      CV_2 FU_2 NU_2 MC_2 VA_2 FM_2      VQ_2 PF_2 
+ REC: DC_2 CF_2 CP_2 FU_2 PR_2 MC_2 SP_2 FM_2 FU_2 TT_2 TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1033.lab vs '*'/EmbeddedTesting_Sequence1033.rec
+ LAB: NU_2 PF_2 TT_2      CV_2 FM_2 CF_2      MC_2 VQ_2 CP_2 
+ REC: NU_2 SP_2 TT_2 PF_2 PF_2 FM_2 CF_2 FN_2 MC_2 FU_2 CP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1034.lab vs '*'/EmbeddedTesting_Sequence1034.rec
+ LAB: FU_2 MC_2 CN_2 CP_2                PR_2 BN_2 CF_2 NU_2 FM_2 OK_2 
+ REC: FN_2 MC_2 CN_2 CP_2 TT_2 VA_2 FM_2 MC_2 FU_2 FU_2 ST_2 FM_2 TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1035.lab vs '*'/EmbeddedTesting_Sequence1035.rec
+ LAB:           CN_2 PF_2 VQ_2 FM_2 NU_2 CF_2 CP_2 ST_2           CV_2      BS_2 
+ REC: CP_2 CF_2 TT_2 TT_2 FU_2 FM_2                ST_2 FU_2 BN_2 CV_2 PF_2 BS_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1036.lab vs '*'/EmbeddedTesting_Sequence1036.rec
+ LAB: CN_2 MC_2           DC_2      CF_2 NU_2 PF_2 FU_2 OK_2 PR_2           
+ REC: CN_2 MC_2 PF_2 CF_2 DC_2 PF_2 CF_2 ST_2 PF_2 FU_2 BN_2 PR_2 PF_2 BS_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1037.lab vs '*'/EmbeddedTesting_Sequence1037.rec
+ LAB:      VA_2 TT_2 ST_2 DC_2 CV_2 PR_2 VQ_2 BS_2 PF_2 BN_2 
+ REC: CF_2 BS_2 TT_2 ST_2 DC_2 CV_2           FN_2 PF_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1038.lab vs '*'/EmbeddedTesting_Sequence1038.rec
+ LAB:           CV_2      NU_2           PR_2 ST_2 OK_2 CN_2      DC_2 PF_2 BS_2 
+ REC: FM_2 CP_2 CV_2 SP_2 NU_2 MC_2 FU_2 BN_2 ST_2      CN_2 DC_2 DC_2 TT_2 TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1039.lab vs '*'/EmbeddedTesting_Sequence1039.rec
+ LAB:      CP_2 ST_2 FN_2      CF_2 MC_2 BS_2 NU_2 CV_2 DC_2           VA_2 CN_2 
+ REC: FM_2 CP_2 ST_2 FN_2 FU_2 BN_2 MC_2 MC_2 PR_2 CV_2 DC_2 TT_2 ST_2 FN_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1040.lab vs '*'/EmbeddedTesting_Sequence1040.rec
+ LAB:      VA_2 FM_2                     BN_2 CF_2 MC_2 CV_2           ST_2 PR_2 CN_2 
+ REC: CP_2 CF_2 FM_2 FU_2 BS_2 FU_2 TT_2 CF_2 CF_2 MC_2 CV_2 TT_2 FU_2 PF_2 MC_2 CN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1041.lab vs '*'/EmbeddedTesting_Sequence1041.rec
+ LAB:      CP_2 OK_2 VQ_2 VA_2      PF_2 PR_2 DC_2 ST_2 BS_2 NU_2 
+ REC: CV_2 CP_2      FN_2 VA_2 OK_2 TT_2 NU_2 DC_2      BN_2 NU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1042.lab vs '*'/EmbeddedTesting_Sequence1042.rec
+ LAB: CV_2 OK_2 VA_2 CF_2 FN_2 DC_2 BS_2 MC_2      SP_2 FM_2 
+ REC: CV_2           PF_2 FN_2 DC_2 SP_2 MC_2 BN_2 SP_2 FM_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1043.lab vs '*'/EmbeddedTesting_Sequence1043.rec
+ LAB: OK_2 VQ_2 DC_2 SP_2      NU_2 FM_2 BS_2 CV_2 TT_2      FN_2      
+ REC: OK_2 PR_2 PR_2 SP_2 ST_2 SP_2 FM_2      CV_2 TT_2 CV_2 FN_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1044.lab vs '*'/EmbeddedTesting_Sequence1044.rec
+ LAB: CP_2 FN_2 CN_2 ST_2 SP_2 VA_2 CF_2 PR_2 VQ_2 DC_2 BN_2 
+ REC: CP_2 OK_2 CN_2 ST_2      CF_2 CF_2 MC_2 ST_2 DC_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1045.lab vs '*'/EmbeddedTesting_Sequence1045.rec
+ LAB: FN_2 PF_2 BS_2      OK_2 FM_2 SP_2 ST_2      CN_2 TT_2 NU_2 
+ REC:      BN_2 BS_2 BN_2 SP_2 FM_2 SP_2 ST_2 CV_2 CN_2 TT_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1046.lab vs '*'/EmbeddedTesting_Sequence1046.rec
+ LAB:      CV_2 PR_2 MC_2 FN_2 VQ_2 FM_2 DC_2 ST_2           BN_2 FU_2 
+ REC: CP_2 CV_2 PR_2 ST_2 FN_2      FM_2 CN_2 ST_2 CF_2 CN_2 FN_2 TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1047.lab vs '*'/EmbeddedTesting_Sequence1047.rec
+ LAB:      PR_2 DC_2 MC_2 FM_2      NU_2 BS_2 ST_2 FN_2      VA_2 PF_2 CV_2 
+ REC: MC_2 BS_2 DC_2 MC_2 FM_2 PR_2 FU_2 BS_2      FN_2 SP_2 VQ_2 FU_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1048.lab vs '*'/EmbeddedTesting_Sequence1048.rec
+ LAB: PF_2 CV_2 CF_2 FM_2 MC_2 CP_2                     TT_2 SP_2 DC_2 VA_2 
+ REC: PF_2 CV_2 CF_2 FM_2 ST_2 CP_2 BS_2 PF_2 BN_2 CN_2 FN_2 SP_2           
+Aligned transcription: '*'/EmbeddedTesting_Sequence1049.lab vs '*'/EmbeddedTesting_Sequence1049.rec
+ LAB: CV_2 FM_2 PR_2 VQ_2 VA_2 CP_2 BN_2 PF_2 BS_2 CF_2 
+ REC: CV_2 FM_2      ST_2 FN_2 SP_2 OK_2 CF_2 FN_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1050.lab vs '*'/EmbeddedTesting_Sequence1050.rec
+ LAB:           CN_2                VQ_2 ST_2 MC_2 BS_2 SP_2 NU_2 BN_2 CV_2 CF_2 
+ REC: ST_2 BS_2 CN_2 FN_2 TT_2 CF_2 BN_2 BN_2 MC_2      SP_2 PR_2 BN_2 CV_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1051.lab vs '*'/EmbeddedTesting_Sequence1051.rec
+ LAB: CP_2 TT_2 FU_2 NU_2 OK_2 BS_2 CN_2      BN_2 DC_2 
+ REC:                VA_2 BN_2 BS_2 CN_2 CF_2 CN_2 OK_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1052.lab vs '*'/EmbeddedTesting_Sequence1052.rec
+ LAB:      MC_2 TT_2 PF_2 OK_2 BS_2 NU_2 CP_2 FN_2 FU_2 SP_2           
+ REC: ST_2 VA_2 TT_2           BS_2      OK_2 FN_2      SP_2 TT_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1053.lab vs '*'/EmbeddedTesting_Sequence1053.rec
+ LAB: TT_2 ST_2      BS_2 MC_2 FM_2 FN_2 CP_2 VA_2 PR_2 VQ_2 CN_2 
+ REC: TT_2 ST_2 PR_2 BS_2 ST_2 FM_2 FN_2      VA_2 NU_2 TT_2 CN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1054.lab vs '*'/EmbeddedTesting_Sequence1054.rec
+ LAB: ST_2      BN_2 CF_2 MC_2 DC_2 VA_2 TT_2 FU_2 PR_2 
+ REC: ST_2 CN_2 CF_2 CF_2 ST_2 CN_2 VA_2 TT_2 BN_2 OK_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1055.lab vs '*'/EmbeddedTesting_Sequence1055.rec
+ LAB: FN_2 CN_2 VQ_2 TT_2 MC_2 DC_2 BS_2 FU_2 BN_2 CV_2 
+ REC: FN_2      CP_2 TT_2      BN_2 BS_2 CF_2 CF_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1056.lab vs '*'/EmbeddedTesting_Sequence1056.rec
+ LAB: ST_2 OK_2 CN_2 VQ_2 CV_2 DC_2 CF_2 PF_2 FM_2 VA_2 
+ REC: ST_2      CN_2      CV_2      CF_2 VA_2 FM_2 VA_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1057.lab vs '*'/EmbeddedTesting_Sequence1057.rec
+ LAB: BS_2 PF_2 FU_2 ST_2      CN_2 DC_2 VQ_2 MC_2 FN_2 
+ REC: BS_2 TT_2 BN_2 ST_2 FM_2 CN_2 DC_2 SP_2 ST_2 FN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1058.lab vs '*'/EmbeddedTesting_Sequence1058.rec
+ LAB: CF_2 FM_2 FU_2 VA_2 FN_2 MC_2 OK_2           BN_2 CN_2 DC_2 
+ REC: CF_2 FM_2 BN_2 VA_2 FN_2 VA_2 OK_2 CP_2 CP_2 BN_2 CN_2 CN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1059.lab vs '*'/EmbeddedTesting_Sequence1059.rec
+ LAB: OK_2 MC_2 VQ_2 FN_2 FU_2 FM_2 BN_2 CN_2 VA_2 PR_2 
+ REC: BN_2 BN_2 TT_2 FN_2 BN_2 FM_2 CF_2 CN_2 CF_2 NU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1060.lab vs '*'/EmbeddedTesting_Sequence1060.rec
+ LAB: DC_2 VQ_2 PF_2      CN_2 SP_2 BS_2 PR_2 FN_2 CV_2 
+ REC:      CN_2 PF_2 TT_2 CN_2 TT_2 BS_2 PR_2 FN_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence1061.lab vs '*'/EmbeddedTesting_Sequence1061.rec
+ LAB: FU_2 BN_2 CP_2 BS_2 ST_2 VA_2 CV_2                MC_2 VQ_2 PR_2 SP_2 
+ REC:      BN_2 CF_2 BS_2 ST_2 VA_2 CV_2 TT_2 BS_2 BN_2 PF_2 CF_2 CV_2 BS_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1062.lab vs '*'/EmbeddedTesting_Sequence1062.rec
+ LAB: CV_2 CP_2 BS_2      FM_2 BN_2 MC_2 CF_2 CN_2      VQ_2 SP_2 
+ REC: CV_2      BS_2 NU_2 FM_2 CF_2 ST_2 CF_2 CN_2 TT_2 TT_2 OK_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1063.lab vs '*'/EmbeddedTesting_Sequence1063.rec
+ LAB: VQ_2 BN_2 CF_2 CP_2 PR_2 FU_2 FN_2 CV_2 CN_2      MC_2 
+ REC:      PF_2 CF_2 SP_2 PR_2      BN_2 CV_2 CN_2 ST_2 CP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1064.lab vs '*'/EmbeddedTesting_Sequence1064.rec
+ LAB: VA_2 CP_2 BN_2 ST_2 TT_2 FN_2 FM_2      NU_2 
+ REC: VA_2      CF_2 ST_2 TT_2      FM_2 BS_2 NU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1065.lab vs '*'/EmbeddedTesting_Sequence1065.rec
+ LAB: CN_2 VQ_2 MC_2 PF_2 SP_2 CV_2 PR_2 ST_2 FN_2 
+ REC: CN_2 TT_2 ST_2 TT_2 TT_2 CV_2 NU_2 ST_2 FN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1066.lab vs '*'/EmbeddedTesting_Sequence1066.rec
+ LAB: FN_2 FU_2 CP_2 PR_2 OK_2 TT_2 BN_2 CN_2 VA_2 FM_2           DC_2 
+ REC: FN_2 BN_2 CP_2 OK_2 OK_2 TT_2 CF_2 CP_2 VA_2 FM_2 FU_2 CN_2 BS_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1067.lab vs '*'/EmbeddedTesting_Sequence1067.rec
+ LAB: TT_2      PR_2 OK_2 BS_2 VQ_2 CP_2 VA_2 CN_2 CV_2 ST_2 
+ REC: TT_2 NU_2 OK_2 OK_2 BS_2           VA_2 CN_2 CV_2 DC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1068.lab vs '*'/EmbeddedTesting_Sequence1068.rec
+ LAB:      SP_2 MC_2 NU_2 PF_2 BS_2 PR_2 CN_2 OK_2 CF_2 CV_2 
+ REC: TT_2 ST_2 BN_2 FM_2 VA_2 BS_2 OK_2 CN_2 FU_2 CF_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1069.lab vs '*'/EmbeddedTesting_Sequence1069.rec
+ LAB: OK_2 CV_2 PR_2 VA_2 DC_2      FN_2 PF_2 BS_2 FU_2 TT_2 
+ REC: BN_2 CV_2 OK_2 VA_2 DC_2 PF_2 FN_2 PF_2 BS_2 CF_2 TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1070.lab vs '*'/EmbeddedTesting_Sequence1070.rec
+ LAB: CP_2 BN_2 CF_2      FU_2 CN_2 FN_2 FM_2 ST_2 VQ_2 VA_2 
+ REC:      BN_2 CF_2 FN_2 CP_2 CN_2 FN_2 FM_2 ST_2 PF_2 VA_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1071.lab vs '*'/EmbeddedTesting_Sequence1071.rec
+ LAB: VQ_2 BN_2 MC_2 NU_2 DC_2 CN_2 OK_2 FN_2 PR_2 FM_2 
+ REC: TT_2 CF_2 CP_2 ST_2 OK_2 CN_2      FN_2 NU_2 FM_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1072.lab vs '*'/EmbeddedTesting_Sequence1072.rec
+ LAB: FM_2      PR_2 SP_2 FN_2 CV_2 TT_2      OK_2 VA_2 BS_2 
+ REC: FM_2 OK_2 TT_2 TT_2 FN_2 CV_2 TT_2 CP_2 OK_2 TT_2 BS_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1073.lab vs '*'/EmbeddedTesting_Sequence1073.rec
+ LAB: PF_2 FN_2 BN_2 MC_2 SP_2 FM_2 VQ_2 CV_2 ST_2      VA_2      
+ REC: VA_2 FN_2 CF_2 ST_2 TT_2 FM_2 SP_2 CV_2 ST_2 TT_2 VA_2 FM_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence1074.lab vs '*'/EmbeddedTesting_Sequence1074.rec
+ LAB: NU_2 VA_2 SP_2 OK_2 FU_2 BN_2      PR_2 CF_2 TT_2 BS_2           
+ REC: BN_2 VA_2           CF_2 BN_2 CF_2 OK_2 CF_2 TT_2 BS_2 FM_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence800.lab vs '*'/EmbeddedTesting_Sequence800.rec
+ LAB:      FM_2 OK_2 PR_2 CF_2 DC_2 BS_2 SP_2 NU_2 PF_2 CN_2           
+ REC: CP_2 FM_2      PR_2 CF_2      BS_2 SP_2 PR_2 PF_2 CN_2 DC_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence801.lab vs '*'/EmbeddedTesting_Sequence801.rec
+ LAB: CP_2 CV_2 TT_2 DC_2 ST_2 OK_2 VQ_2           NU_2 PF_2 CF_2      FN_2 
+ REC: CN_2 CV_2 TT_2 DC_2           VQ_2 PF_2 PR_2 VA_2 PF_2 CF_2 FU_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence802.lab vs '*'/EmbeddedTesting_Sequence802.rec
+ LAB: TT_2 BS_2 VA_2 OK_2 FU_2 CP_2 CN_2 MC_2 PF_2 CV_2 
+ REC: TT_2 BS_2 VA_2      FU_2      CN_2 MC_2 PF_2 OK_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence803.lab vs '*'/EmbeddedTesting_Sequence803.rec
+ LAB: FM_2 CV_2 VA_2 VQ_2      DC_2 PR_2 MC_2 TT_2 OK_2 SP_2 
+ REC: FM_2 CN_2 VA_2 VQ_2 CN_2 DC_2 PR_2      TT_2 TT_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence804.lab vs '*'/EmbeddedTesting_Sequence804.rec
+ LAB: CV_2 VQ_2 SP_2 VA_2 BS_2 CP_2 OK_2 FM_2 PR_2      
+ REC:      VQ_2 SP_2      TT_2 CP_2 VA_2 FM_2 PR_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence805.lab vs '*'/EmbeddedTesting_Sequence805.rec
+ LAB: TT_2 NU_2 BS_2 BN_2 MC_2 FU_2 PF_2 OK_2 CF_2 CP_2 
+ REC: TT_2 NU_2 BS_2 BN_2 MC_2 FU_2 PF_2      CF_2 CP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence806.lab vs '*'/EmbeddedTesting_Sequence806.rec
+ LAB: BS_2 PF_2 FN_2 FU_2 PR_2 CP_2 DC_2 OK_2 BN_2 NU_2 
+ REC:      PF_2 CF_2 FU_2 PR_2 BS_2 DC_2 VQ_2 FU_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence807.lab vs '*'/EmbeddedTesting_Sequence807.rec
+ LAB: BS_2 BN_2 NU_2 TT_2 CN_2 CF_2 VQ_2 FM_2 PR_2 
+ REC:      BN_2 PR_2 TT_2 CN_2 CF_2 DC_2 FM_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence808.lab vs '*'/EmbeddedTesting_Sequence808.rec
+ LAB: FU_2 CF_2      DC_2 OK_2 ST_2 VQ_2 TT_2 MC_2 SP_2 CV_2 CP_2 
+ REC:      CF_2 CN_2 CP_2 MC_2 FN_2 FM_2 TT_2 MC_2      TT_2 CP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence809.lab vs '*'/EmbeddedTesting_Sequence809.rec
+ LAB: PF_2      NU_2 BS_2 OK_2 DC_2 CV_2 MC_2 VA_2 PR_2 CF_2 
+ REC: PF_2 DC_2 FU_2 BS_2 VQ_2 DC_2 CV_2 MC_2 VA_2      CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence810.lab vs '*'/EmbeddedTesting_Sequence810.rec
+ LAB: FN_2 FU_2 BS_2 PF_2 TT_2 CN_2 VA_2 VQ_2 BN_2 
+ REC: CF_2 FU_2 BS_2 PF_2 TT_2 CN_2 VA_2 PF_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence811.lab vs '*'/EmbeddedTesting_Sequence811.rec
+ LAB: MC_2 NU_2 DC_2 FN_2 TT_2 BS_2 CP_2 SP_2 FM_2 CF_2 VA_2 
+ REC: MC_2      PR_2 CF_2 TT_2 BS_2 CP_2 SP_2 MC_2 CF_2 TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence812.lab vs '*'/EmbeddedTesting_Sequence812.rec
+ LAB: CN_2 BN_2 PF_2 CP_2 OK_2 SP_2 TT_2 BS_2 
+ REC: CP_2 FU_2 FU_2 CP_2 FU_2 VA_2 CP_2 CP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence813.lab vs '*'/EmbeddedTesting_Sequence813.rec
+ LAB: FN_2 PR_2 ST_2 TT_2 VQ_2 CF_2 DC_2 NU_2 VA_2 CP_2 MC_2 
+ REC: FU_2 PR_2 MC_2 TT_2 PF_2 CF_2 DC_2      VA_2      MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence814.lab vs '*'/EmbeddedTesting_Sequence814.rec
+ LAB: PR_2 BN_2 OK_2 VQ_2 TT_2 NU_2 CP_2 CV_2      BS_2 VA_2 
+ REC: PR_2 BN_2      VQ_2 TT_2 NU_2      CV_2 PR_2 VA_2 VA_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence815.lab vs '*'/EmbeddedTesting_Sequence815.rec
+ LAB: FN_2 OK_2 ST_2 FU_2 BN_2 VQ_2 SP_2 PR_2      CP_2 FM_2 
+ REC: MC_2 CF_2 FU_2 FU_2 PF_2 VQ_2      PR_2 VA_2 PR_2 MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence816.lab vs '*'/EmbeddedTesting_Sequence816.rec
+ LAB:      CP_2 TT_2      FN_2 SP_2 FU_2 VQ_2 ST_2 NU_2 FM_2 MC_2 
+ REC: VA_2 CF_2 TT_2 VA_2 FN_2                PF_2 CF_2 MC_2 MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence817.lab vs '*'/EmbeddedTesting_Sequence817.rec
+ LAB: BS_2 DC_2 ST_2 MC_2 FU_2 VA_2 PR_2 FM_2 CV_2 PF_2 
+ REC:      FM_2 CN_2 MC_2 FU_2 VA_2 MC_2 CN_2 FN_2 PF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence818.lab vs '*'/EmbeddedTesting_Sequence818.rec
+ LAB: TT_2 BS_2 VQ_2 CF_2 CV_2 FN_2 CN_2 NU_2 ST_2 PF_2 
+ REC: TT_2 BS_2 VQ_2 CF_2      CF_2 CN_2 PR_2 ST_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence819.lab vs '*'/EmbeddedTesting_Sequence819.rec
+ LAB:      CN_2 TT_2 FM_2      ST_2 BS_2 NU_2 CV_2 SP_2 VA_2      DC_2 
+ REC: FM_2 CN_2 TT_2 FM_2 MC_2 FN_2 BS_2      MC_2 SP_2 VA_2 CN_2 VA_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence820.lab vs '*'/EmbeddedTesting_Sequence820.rec
+ LAB:           VA_2 BN_2 MC_2      OK_2 PR_2 NU_2 DC_2 SP_2 
+ REC: VQ_2 BS_2 CN_2 CF_2 MC_2 VA_2 FM_2 FU_2 CF_2 CN_2 FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence821.lab vs '*'/EmbeddedTesting_Sequence821.rec
+ LAB: OK_2 VQ_2 SP_2 DC_2 CV_2 PF_2 CN_2 FM_2 BS_2      FN_2 
+ REC: FM_2 VQ_2 TT_2 DC_2      PF_2 CN_2 FM_2 BS_2 CF_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence822.lab vs '*'/EmbeddedTesting_Sequence822.rec
+ LAB: FM_2 FU_2 BS_2 OK_2 SP_2 CN_2 VQ_2      PR_2 MC_2 VA_2 
+ REC: MC_2 FU_2 BS_2 VQ_2 VA_2 CN_2 VQ_2 OK_2 BS_2 MC_2 TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence823.lab vs '*'/EmbeddedTesting_Sequence823.rec
+ LAB: DC_2 FN_2 CV_2 PR_2 VQ_2 OK_2 CN_2 ST_2 CP_2 SP_2 
+ REC: DC_2 CF_2 VQ_2 PR_2      FN_2 CN_2 ST_2 CP_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence824.lab vs '*'/EmbeddedTesting_Sequence824.rec
+ LAB: ST_2 PR_2 DC_2 CV_2 BS_2 VQ_2 FU_2 MC_2 CF_2 CP_2      
+ REC:      PR_2 DC_2 DC_2 CN_2 VA_2 FU_2      VA_2 CP_2 VA_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence825.lab vs '*'/EmbeddedTesting_Sequence825.rec
+ LAB: VQ_2 SP_2 CV_2 VA_2 BS_2 MC_2 FN_2 PF_2 FM_2      
+ REC: VA_2 SP_2 DC_2 VA_2 BS_2 MC_2 FN_2 VA_2 FM_2 VA_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence826.lab vs '*'/EmbeddedTesting_Sequence826.rec
+ LAB: FN_2      OK_2 CN_2 BN_2 PF_2 CP_2 NU_2      SP_2 CF_2 FU_2 
+ REC: FN_2 VQ_2 VA_2 CN_2 VA_2 CN_2 CP_2 NU_2 PF_2 SP_2 TT_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence827.lab vs '*'/EmbeddedTesting_Sequence827.rec
+ LAB: DC_2 TT_2 CN_2 BS_2 BN_2 PF_2 CF_2 VQ_2 FU_2 
+ REC: DC_2      CN_2      CF_2 TT_2 CF_2 VA_2 FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence828.lab vs '*'/EmbeddedTesting_Sequence828.rec
+ LAB: VA_2 TT_2 PR_2      BS_2           NU_2 FM_2 CP_2 BN_2 ST_2 FU_2      MC_2 
+ REC: VA_2 VA_2 PR_2 VA_2 BS_2 TT_2 VQ_2 NU_2 FM_2 CP_2      SP_2 FU_2 SP_2 FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence829.lab vs '*'/EmbeddedTesting_Sequence829.rec
+ LAB: PR_2 CP_2 PF_2      BS_2 FU_2      BN_2 CN_2 ST_2 OK_2 FN_2 MC_2 
+ REC: PR_2 CP_2 PF_2 ST_2 BS_2 FU_2 CV_2 CF_2 CN_2 VA_2 VA_2 TT_2 VQ_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence830.lab vs '*'/EmbeddedTesting_Sequence830.rec
+ LAB: FU_2      CP_2 FN_2           CN_2 PF_2 VQ_2 SP_2 FM_2 VA_2 BN_2 NU_2 
+ REC: FU_2 TT_2 CP_2 FN_2 DC_2 VA_2 DC_2 VA_2 VA_2 SP_2      VA_2 BN_2 NU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence831.lab vs '*'/EmbeddedTesting_Sequence831.rec
+ LAB: CF_2 ST_2 OK_2 CN_2 SP_2 FU_2 FM_2 CV_2 BN_2      NU_2 
+ REC: CF_2 ST_2 FN_2 CN_2 CF_2 FU_2 FM_2      BN_2 CF_2 FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence832.lab vs '*'/EmbeddedTesting_Sequence832.rec
+ LAB:           SP_2 CP_2 DC_2 CV_2 FU_2 FN_2 BN_2 PF_2 BS_2 OK_2 
+ REC: CF_2 PR_2 ST_2 CP_2      FN_2 FU_2 CF_2 CF_2 TT_2 DC_2 ST_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence833.lab vs '*'/EmbeddedTesting_Sequence833.rec
+ LAB: CP_2 NU_2      VQ_2 CV_2 MC_2 ST_2 BS_2 OK_2 DC_2 CN_2      
+ REC: CP_2 NU_2 VA_2 BS_2 CV_2 MC_2 MC_2 BS_2      VA_2 CN_2 TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence834.lab vs '*'/EmbeddedTesting_Sequence834.rec
+ LAB:           VQ_2 FM_2      NU_2 FU_2 CN_2 MC_2 CV_2 CF_2 FN_2 
+ REC: OK_2 SP_2 CF_2 FM_2 BS_2 BS_2 FU_2 VQ_2 DC_2 DC_2 CF_2 VQ_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence835.lab vs '*'/EmbeddedTesting_Sequence835.rec
+ LAB: PF_2 FM_2 MC_2      SP_2      CF_2 CP_2 CV_2 NU_2 DC_2 
+ REC: TT_2 FM_2 MC_2 TT_2 SP_2 VA_2 TT_2 NU_2 CV_2      CP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence836.lab vs '*'/EmbeddedTesting_Sequence836.rec
+ LAB: BS_2 OK_2 VQ_2      ST_2      BN_2 FM_2 CP_2 NU_2      FN_2 FU_2 
+ REC:      ST_2 VQ_2 TT_2 ST_2 CF_2 TT_2 FM_2 CP_2 NU_2 CF_2 CN_2 FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence837.lab vs '*'/EmbeddedTesting_Sequence837.rec
+ LAB: ST_2 TT_2 NU_2 BN_2 FU_2 MC_2 SP_2 CF_2 PR_2 OK_2 
+ REC:      VA_2 PR_2 CF_2 FU_2 MC_2 SP_2 CF_2 PR_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence838.lab vs '*'/EmbeddedTesting_Sequence838.rec
+ LAB: ST_2 TT_2 NU_2 BN_2 FU_2 MC_2 SP_2 CF_2 PR_2 OK_2 
+ REC:      VA_2 PR_2 CF_2 FU_2 MC_2 SP_2 CF_2 PR_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence839.lab vs '*'/EmbeddedTesting_Sequence839.rec
+ LAB:           NU_2 FN_2 SP_2      BS_2 VA_2      MC_2 CP_2 FM_2 ST_2 
+ REC: OK_2 TT_2 CN_2 CF_2 SP_2 FM_2 BS_2 VA_2 TT_2 MC_2      MC_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence840.lab vs '*'/EmbeddedTesting_Sequence840.rec
+ LAB:           NU_2 FN_2 SP_2      BS_2 VA_2      MC_2 CP_2 FM_2 ST_2 
+ REC: OK_2 TT_2 CN_2 CF_2 SP_2 FM_2 BS_2 VA_2 TT_2 MC_2      MC_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence841.lab vs '*'/EmbeddedTesting_Sequence841.rec
+ LAB:           PF_2 NU_2 TT_2 CP_2 VA_2 MC_2 OK_2 CV_2 SP_2 CN_2 
+ REC: TT_2 FU_2 PF_2      VA_2 CP_2 VA_2 MC_2 PF_2 CV_2 PF_2 CN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence842.lab vs '*'/EmbeddedTesting_Sequence842.rec
+ LAB:           PF_2 NU_2 TT_2 CP_2 VA_2 MC_2 OK_2 CV_2 SP_2 CN_2 
+ REC: TT_2 FU_2 PF_2      VA_2 CP_2 VA_2 MC_2 PF_2 CV_2 PF_2 CN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence843.lab vs '*'/EmbeddedTesting_Sequence843.rec
+ LAB: TT_2 SP_2 CP_2 FU_2 VQ_2 CF_2 BS_2 FN_2 NU_2 FM_2 
+ REC: VA_2 VA_2 CP_2 FU_2 VA_2 VA_2 BS_2      FU_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence844.lab vs '*'/EmbeddedTesting_Sequence844.rec
+ LAB: TT_2 SP_2 CP_2 FU_2 VQ_2 CF_2 BS_2 FN_2 NU_2 FM_2 
+ REC: VA_2 VA_2 CP_2 FU_2 VA_2 VA_2 BS_2      FU_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence845.lab vs '*'/EmbeddedTesting_Sequence845.rec
+ LAB: PF_2 CP_2 CV_2 SP_2 FM_2 PR_2 FU_2 BN_2 TT_2 
+ REC: TT_2 CP_2      TT_2 FM_2 PR_2      VA_2 VA_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence846.lab vs '*'/EmbeddedTesting_Sequence846.rec
+ LAB: BS_2           TT_2 VQ_2 CV_2 SP_2 CP_2      ST_2 DC_2 OK_2 CN_2      FN_2 NU_2 
+ REC: BS_2 SP_2 VA_2 VA_2 VA_2 CV_2 SP_2 CP_2 VA_2 ST_2           CN_2 FU_2 FM_2 NU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence847.lab vs '*'/EmbeddedTesting_Sequence847.rec
+ LAB: VQ_2 TT_2 MC_2      BS_2 FN_2 ST_2 CV_2 PF_2 VA_2 OK_2 
+ REC: VA_2 VA_2 MC_2 VA_2 BS_2 FN_2 VA_2 CN_2 VA_2 VA_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence848.lab vs '*'/EmbeddedTesting_Sequence848.rec
+ LAB:      BS_2 CP_2 ST_2 PR_2      VA_2 TT_2 OK_2 BN_2 DC_2 
+ REC: CN_2 TT_2 VQ_2 DC_2 PR_2 VA_2 VA_2 VA_2 VA_2 SP_2 DC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence849.lab vs '*'/EmbeddedTesting_Sequence849.rec
+ LAB: MC_2 FN_2 ST_2 VA_2 SP_2 CP_2 PF_2 CN_2 FU_2 CV_2 
+ REC: MC_2           VA_2 SP_2      VA_2 CN_2 FU_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence850.lab vs '*'/EmbeddedTesting_Sequence850.rec
+ LAB: FU_2 CN_2 MC_2 SP_2      PR_2 DC_2 TT_2 BS_2 NU_2 FM_2 ST_2 
+ REC: FU_2 DC_2 MC_2 SP_2 CP_2 PR_2      VA_2 VA_2 NU_2 FM_2 ST_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence851.lab vs '*'/EmbeddedTesting_Sequence851.rec
+ LAB: VQ_2 MC_2 DC_2 OK_2 FM_2 SP_2 CF_2 CP_2 CV_2 BS_2 
+ REC: FN_2 MC_2 DC_2 NU_2 FM_2      CF_2 CF_2 NU_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence852.lab vs '*'/EmbeddedTesting_Sequence852.rec
+ LAB: CF_2 SP_2 NU_2 BN_2 MC_2 TT_2 ST_2 PR_2      VA_2 
+ REC: CF_2 CF_2 NU_2 BN_2 MC_2 TT_2 ST_2 PR_2 CF_2 OK_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence853.lab vs '*'/EmbeddedTesting_Sequence853.rec
+ LAB: VQ_2 PF_2 BN_2 SP_2 DC_2 MC_2 CV_2 FN_2 CN_2 NU_2 
+ REC: FN_2 PF_2 BN_2 SP_2 DC_2 MC_2 CV_2 CF_2 CN_2 VQ_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence854.lab vs '*'/EmbeddedTesting_Sequence854.rec
+ LAB: DC_2 CF_2 BN_2 FM_2 MC_2 CV_2 FU_2 VA_2 ST_2 OK_2 TT_2 
+ REC:      CF_2 CF_2 FM_2 ST_2 CV_2      CF_2 CF_2 FN_2 TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence855.lab vs '*'/EmbeddedTesting_Sequence855.rec
+ LAB: BS_2 PF_2 TT_2 MC_2 DC_2 NU_2 FM_2 VA_2 CV_2 CF_2 PR_2 
+ REC:      PF_2 TT_2      ST_2 ST_2 FM_2 CF_2 CV_2 CF_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence856.lab vs '*'/EmbeddedTesting_Sequence856.rec
+ LAB: SP_2 TT_2 ST_2 DC_2 PR_2 VQ_2 OK_2 CV_2 FM_2 FN_2 VA_2 
+ REC: CF_2 TT_2 ST_2 DC_2 PR_2 FN_2 OK_2 CV_2 FM_2      CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence857.lab vs '*'/EmbeddedTesting_Sequence857.rec
+ LAB: ST_2 SP_2 FM_2 BN_2 VQ_2 CN_2 NU_2 CP_2 PR_2 PF_2 
+ REC: BN_2 CF_2 MC_2 CF_2 FN_2 CN_2      ST_2 PR_2 PF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence858.lab vs '*'/EmbeddedTesting_Sequence858.rec
+ LAB: ST_2 DC_2 CN_2 VA_2 FM_2 VQ_2 FU_2 FN_2 SP_2 BS_2 
+ REC:                          CF_2 FN_2 FN_2 SP_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence859.lab vs '*'/EmbeddedTesting_Sequence859.rec
+ LAB: TT_2 CP_2 VQ_2 PR_2 OK_2 SP_2 PF_2 FM_2 BS_2 BN_2 
+ REC: TT_2      FN_2 PR_2 OK_2 CF_2 PF_2      MC_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence860.lab vs '*'/EmbeddedTesting_Sequence860.rec
+ LAB: CV_2 TT_2 MC_2 CF_2 FM_2 VQ_2 ST_2 NU_2 DC_2      FU_2 
+ REC: CV_2 TT_2 ST_2 SP_2 FM_2 FN_2 ST_2      DC_2 FN_2 OK_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence861.lab vs '*'/EmbeddedTesting_Sequence861.rec
+ LAB: CV_2 MC_2 ST_2 BS_2 CP_2 SP_2 NU_2 VA_2 OK_2 FU_2 CN_2      
+ REC: CV_2      ST_2           ST_2 CF_2 CF_2 OK_2 FN_2 CN_2 FM_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence862.lab vs '*'/EmbeddedTesting_Sequence862.rec
+ LAB: BS_2 CV_2 FU_2 PR_2 OK_2 VA_2 CN_2 CF_2 TT_2 FM_2 
+ REC:      CV_2      BN_2 OK_2 VA_2 CN_2 CF_2 TT_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence863.lab vs '*'/EmbeddedTesting_Sequence863.rec
+ LAB: BS_2 TT_2 FU_2 OK_2 DC_2 BN_2 NU_2 CF_2 PR_2 SP_2 
+ REC:      TT_2 FN_2 OK_2 DC_2      CF_2 CF_2 PR_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence864.lab vs '*'/EmbeddedTesting_Sequence864.rec
+ LAB: VA_2 PR_2 VQ_2 DC_2 CV_2 TT_2 SP_2 NU_2 MC_2 
+ REC: VA_2 PR_2 TT_2 DC_2 CV_2 TT_2      CF_2 MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence865.lab vs '*'/EmbeddedTesting_Sequence865.rec
+ LAB: ST_2 PF_2 FU_2 NU_2 CV_2 SP_2 FM_2 VA_2 PR_2 MC_2 BN_2 
+ REC: ST_2 VA_2 CF_2 NU_2 CV_2 TT_2 FM_2 VA_2 PR_2      BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence866.lab vs '*'/EmbeddedTesting_Sequence866.rec
+ LAB: FU_2 SP_2 FN_2 BN_2 CN_2 BS_2 OK_2 TT_2 VA_2 MC_2 
+ REC:      CF_2 CF_2 BN_2           ST_2 TT_2 CF_2 ST_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence867.lab vs '*'/EmbeddedTesting_Sequence867.rec
+ LAB: CN_2 FU_2 VQ_2 VA_2 PR_2 BN_2 CV_2 SP_2 BS_2 CP_2 
+ REC: CN_2 BN_2 SP_2 TT_2 PR_2 CF_2 CV_2           CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence868.lab vs '*'/EmbeddedTesting_Sequence868.rec
+ LAB: MC_2 NU_2 VQ_2 CN_2 FU_2 CF_2 CP_2 DC_2 PF_2 CV_2 OK_2 
+ REC: MC_2 ST_2 FN_2 CN_2      CF_2      CF_2 PF_2 CV_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence869.lab vs '*'/EmbeddedTesting_Sequence869.rec
+ LAB: FU_2 CV_2 SP_2 ST_2 FM_2 CP_2 CF_2 TT_2 PR_2      
+ REC: CF_2 CV_2 CF_2 ST_2 FM_2      CF_2 TT_2 PR_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence870.lab vs '*'/EmbeddedTesting_Sequence870.rec
+ LAB: FM_2 SP_2 CP_2 CF_2 VA_2 BS_2 NU_2 PF_2 PR_2 CN_2 
+ REC: FM_2 SP_2 FM_2 CF_2           TT_2 PF_2 PR_2 CN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence871.lab vs '*'/EmbeddedTesting_Sequence871.rec
+ LAB: PR_2 FU_2 CP_2 CN_2 SP_2 FN_2 MC_2 VQ_2 BN_2 PF_2 OK_2 
+ REC: PR_2      FN_2 CN_2 CF_2 FN_2 MC_2      BN_2 SP_2 FN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence872.lab vs '*'/EmbeddedTesting_Sequence872.rec
+ LAB: OK_2 CF_2 VQ_2 BS_2 FM_2 SP_2 PR_2 CN_2 BN_2 TT_2 
+ REC: BN_2 CF_2 SP_2 BS_2 FM_2           CN_2 BN_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence873.lab vs '*'/EmbeddedTesting_Sequence873.rec
+ LAB: CF_2 SP_2 MC_2 VQ_2 DC_2 FM_2 BS_2 VA_2 CV_2 PF_2 
+ REC: CF_2 SP_2 MC_2 SP_2 DC_2 FM_2 BS_2      SP_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence874.lab vs '*'/EmbeddedTesting_Sequence874.rec
+ LAB: FU_2 BN_2 VQ_2 CN_2 OK_2 DC_2 SP_2 PR_2 CV_2 NU_2 
+ REC: FU_2                PF_2 PF_2 SP_2 OK_2 CV_2 VQ_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence875.lab vs '*'/EmbeddedTesting_Sequence875.rec
+ LAB: FN_2 BS_2 CV_2 FU_2 SP_2 CP_2 BN_2 CN_2 OK_2 
+ REC: FN_2 BS_2      CF_2 CF_2 BS_2 BN_2 CN_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence876.lab vs '*'/EmbeddedTesting_Sequence876.rec
+ LAB: BS_2 VA_2 FM_2 FN_2 BN_2 CF_2 NU_2 CV_2 CP_2 OK_2 
+ REC: BS_2 SP_2 FM_2      CF_2 CF_2 BN_2 PF_2 BS_2 PF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence877.lab vs '*'/EmbeddedTesting_Sequence877.rec
+ LAB:      CF_2 FM_2 VA_2 CN_2 BS_2 VQ_2 PF_2 NU_2 TT_2 PR_2 
+ REC: CP_2 BN_2 FM_2 TT_2 CN_2 BS_2 SP_2 PF_2      TT_2 NU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence878.lab vs '*'/EmbeddedTesting_Sequence878.rec
+ LAB: FN_2 CN_2 OK_2 PF_2 FM_2 NU_2 DC_2 ST_2 FU_2 
+ REC: BN_2 CN_2 PF_2 PF_2 FM_2 VQ_2 DC_2      FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence879.lab vs '*'/EmbeddedTesting_Sequence879.rec
+ LAB: CF_2 FN_2 TT_2 CV_2 DC_2 PR_2 SP_2 CP_2 VQ_2 MC_2 
+ REC:      BN_2 BN_2 CV_2 DC_2 OK_2 SP_2 BS_2 SP_2 MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence880.lab vs '*'/EmbeddedTesting_Sequence880.rec
+ LAB: FN_2 DC_2 VA_2 ST_2 TT_2 VQ_2 NU_2 OK_2 FU_2 SP_2 
+ REC:      DC_2 VQ_2 ST_2 TT_2      SP_2 CF_2 CF_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence881.lab vs '*'/EmbeddedTesting_Sequence881.rec
+ LAB: CN_2 MC_2 DC_2 CP_2 PR_2 PF_2 BN_2 TT_2 FN_2 OK_2 
+ REC: CP_2 MC_2 DC_2 BS_2 OK_2 PF_2 CF_2 SP_2 FN_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence882.lab vs '*'/EmbeddedTesting_Sequence882.rec
+ LAB: VA_2 BN_2 ST_2 MC_2 OK_2 PR_2 NU_2 DC_2 SP_2 
+ REC: TT_2 BN_2      MC_2 FU_2 PR_2 OK_2 DC_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence883.lab vs '*'/EmbeddedTesting_Sequence883.rec
+ LAB: TT_2 VA_2 CN_2 PR_2 SP_2 ST_2 NU_2 MC_2 PF_2 CV_2 
+ REC: TT_2 SP_2 CN_2      OK_2 BN_2 BN_2 MC_2 PF_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence884.lab vs '*'/EmbeddedTesting_Sequence884.rec
+ LAB: BS_2 CN_2 NU_2 TT_2 FN_2 DC_2 CV_2 PF_2 VA_2 FM_2 
+ REC: BS_2 CN_2 PF_2 SP_2 FN_2 DC_2      PF_2 TT_2 FM_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence885.lab vs '*'/EmbeddedTesting_Sequence885.rec
+ LAB: BS_2 MC_2 VA_2 VQ_2 FN_2 PF_2 BN_2 PR_2 CV_2 TT_2 
+ REC: BS_2 MC_2 VA_2      FN_2 SP_2 BN_2 OK_2 CV_2 PF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence886.lab vs '*'/EmbeddedTesting_Sequence886.rec
+ LAB: VA_2 ST_2 MC_2 OK_2 PF_2 CN_2 VQ_2 FN_2 FM_2 PR_2 
+ REC: TT_2 ST_2      NU_2 CF_2 SP_2 SP_2 FN_2 FM_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence887.lab vs '*'/EmbeddedTesting_Sequence887.rec
+ LAB: SP_2 VQ_2 ST_2 FU_2 BN_2 TT_2 FM_2 PR_2 BS_2 VA_2 
+ REC: SP_2           BN_2 BN_2 TT_2 FM_2      BS_2 TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence888.lab vs '*'/EmbeddedTesting_Sequence888.rec
+ LAB: BS_2 TT_2 VA_2 PR_2 CV_2 FN_2 SP_2 FU_2 ST_2 FM_2 
+ REC:      TT_2 VA_2 PR_2 CV_2 BN_2 SP_2 BN_2 BN_2 FM_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence889.lab vs '*'/EmbeddedTesting_Sequence889.rec
+ LAB: VA_2 FU_2 CP_2      FM_2 MC_2 PF_2 NU_2 CN_2      CF_2 SP_2 
+ REC:           CP_2 CF_2 FM_2      SP_2 OK_2 CN_2 BN_2 BN_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence890.lab vs '*'/EmbeddedTesting_Sequence890.rec
+ LAB: PR_2 BN_2 BS_2 OK_2 ST_2 SP_2 FM_2 VQ_2 FU_2 
+ REC: NU_2 BN_2 BS_2      PF_2 BN_2 FM_2 SP_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence891.lab vs '*'/EmbeddedTesting_Sequence891.rec
+ LAB: CV_2 FN_2 ST_2 FU_2 OK_2 VQ_2 MC_2 PR_2 PF_2 
+ REC: CV_2 CF_2 CF_2 FU_2      SP_2 MC_2 PR_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence892.lab vs '*'/EmbeddedTesting_Sequence892.rec
+ LAB: CV_2 PF_2 CF_2 BN_2 BS_2 VA_2 MC_2 SP_2 CP_2 NU_2 
+ REC:      SP_2 CF_2 BN_2 BS_2 SP_2 MC_2      CF_2 PF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence893.lab vs '*'/EmbeddedTesting_Sequence893.rec
+ LAB: VA_2 CN_2 FM_2 TT_2      SP_2 DC_2 PF_2 MC_2 PR_2 
+ REC: TT_2 CN_2 FM_2 TT_2 PR_2 TT_2 DC_2 TT_2 ST_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence894.lab vs '*'/EmbeddedTesting_Sequence894.rec
+ LAB: DC_2 FU_2 CN_2 BN_2 ST_2 CF_2 BS_2 PR_2 OK_2 TT_2 
+ REC: DC_2 FN_2 CN_2 BN_2 ST_2 CF_2      PR_2 OK_2 TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence895.lab vs '*'/EmbeddedTesting_Sequence895.rec
+ LAB: NU_2 ST_2           BN_2 TT_2      DC_2 SP_2 CV_2 CF_2 PR_2      OK_2 
+ REC:      ST_2 FM_2 CF_2 CP_2 TT_2 CP_2 DC_2 SP_2 CV_2 CF_2 PR_2 OK_2 OK_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence896.lab vs '*'/EmbeddedTesting_Sequence896.rec
+ LAB: BS_2 ST_2 CF_2 TT_2 FU_2 DC_2 SP_2 FN_2 CP_2 VA_2 
+ REC: BS_2 ST_2 CF_2 TT_2 FU_2      SP_2 FN_2 SP_2 FN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence897.lab vs '*'/EmbeddedTesting_Sequence897.rec
+ LAB: PR_2 CF_2 BN_2 DC_2 SP_2 TT_2 CN_2      BS_2 NU_2 ST_2 
+ REC: PR_2 SP_2 BN_2 CN_2 PF_2 TT_2 CN_2 FM_2 CP_2 ST_2 ST_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence898.lab vs '*'/EmbeddedTesting_Sequence898.rec
+ LAB:      FN_2 CP_2 OK_2 FU_2 DC_2 MC_2 CV_2 SP_2 PR_2 TT_2      
+ REC: FM_2 FN_2      OK_2 FN_2 DC_2 ST_2 CV_2 SP_2 PR_2 TT_2 FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence899.lab vs '*'/EmbeddedTesting_Sequence899.rec
+ LAB: BN_2 FU_2 ST_2 PR_2 MC_2 VQ_2 FN_2 CF_2 VA_2 
+ REC: BN_2 FU_2 ST_2 PR_2 ST_2 SP_2 CF_2 CF_2 VA_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence900.lab vs '*'/EmbeddedTesting_Sequence900.rec
+ LAB: FU_2 BN_2 CF_2 PF_2 VA_2 CV_2 OK_2 FM_2      SP_2 PR_2 BS_2 
+ REC: FM_2 PF_2 CF_2 VA_2 VA_2 CV_2 CP_2 FM_2 CP_2 SP_2 PR_2 BS_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence901.lab vs '*'/EmbeddedTesting_Sequence901.rec
+ LAB: FN_2      SP_2 TT_2 CF_2 VQ_2 NU_2 MC_2 FM_2 CP_2 ST_2 
+ REC: FN_2 TT_2 SP_2      CF_2 VQ_2 FN_2 ST_2 FM_2      BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence902.lab vs '*'/EmbeddedTesting_Sequence902.rec
+ LAB: TT_2 BN_2 PR_2 CP_2 VA_2 FM_2 ST_2 FU_2 PF_2 SP_2      
+ REC: TT_2 BN_2 PR_2 BS_2 SP_2 FM_2 BN_2 FN_2 TT_2 SP_2 MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence903.lab vs '*'/EmbeddedTesting_Sequence903.rec
+ LAB: SP_2 VQ_2 DC_2 ST_2 NU_2 FN_2 OK_2 MC_2                CV_2 PR_2 PF_2 
+ REC: SP_2 VQ_2 DC_2           FN_2 FM_2 MC_2 PF_2 PF_2 ST_2 CV_2 PR_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence904.lab vs '*'/EmbeddedTesting_Sequence904.rec
+ LAB: MC_2 FU_2 BS_2      TT_2 PF_2 SP_2 ST_2 VA_2 OK_2 DC_2 CP_2 
+ REC: ST_2 CF_2 BS_2 FM_2 TT_2 TT_2 SP_2 ST_2 TT_2 OK_2 DC_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence906.lab vs '*'/EmbeddedTesting_Sequence906.rec
+ LAB: MC_2 VQ_2 ST_2 BS_2 CF_2 CP_2 PF_2 CN_2 PR_2 
+ REC:      OK_2 ST_2 BN_2 CF_2      BS_2 VA_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence907.lab vs '*'/EmbeddedTesting_Sequence907.rec
+ LAB:           FU_2 PR_2                CN_2 MC_2      CF_2 PF_2 TT_2 CP_2 ST_2 FM_2 
+ REC: CP_2 PF_2 CP_2 PR_2 CP_2 ST_2 CP_2 CN_2 MC_2 OK_2 CF_2      TT_2 TT_2 FN_2 FM_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence908.lab vs '*'/EmbeddedTesting_Sequence908.rec
+ LAB: FU_2 SP_2 CN_2 TT_2 CP_2 VQ_2 BS_2 MC_2 BN_2 
+ REC: FU_2 SP_2 CN_2 TT_2           FN_2 MC_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence909.lab vs '*'/EmbeddedTesting_Sequence909.rec
+ LAB:      BN_2 DC_2 BS_2 VA_2 MC_2 CN_2 CV_2 CF_2 SP_2 FN_2 CP_2 
+ REC: DC_2 BN_2 DC_2      VA_2 MC_2 CN_2 CV_2      SP_2 SP_2 BS_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence910.lab vs '*'/EmbeddedTesting_Sequence910.rec
+ LAB: BS_2 BN_2 CF_2 TT_2 DC_2 PF_2 VA_2 OK_2 FM_2      VQ_2 
+ REC:      BN_2 CF_2 TT_2 CN_2 VA_2 VA_2 VQ_2 FM_2 VA_2 FM_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence911.lab vs '*'/EmbeddedTesting_Sequence911.rec
+ LAB: CV_2 BN_2 BS_2 SP_2 VA_2 FM_2 FU_2 CN_2 DC_2      ST_2 
+ REC: CV_2 BN_2      SP_2 VA_2 FM_2 FN_2 CN_2 DC_2 ST_2 ST_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence912.lab vs '*'/EmbeddedTesting_Sequence912.rec
+ LAB: SP_2 FM_2 PF_2 BS_2 NU_2 FN_2 CF_2      FU_2 TT_2 OK_2 
+ REC: SP_2 FM_2 VQ_2 BS_2 MC_2 FN_2 CF_2 FU_2 FU_2 TT_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence913.lab vs '*'/EmbeddedTesting_Sequence913.rec
+ LAB: FU_2 PR_2 MC_2 TT_2      PF_2      CV_2 SP_2 NU_2 FN_2 CP_2      
+ REC: FU_2 PR_2 ST_2 TT_2 SP_2 PF_2 ST_2 OK_2 SP_2           CP_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence914.lab vs '*'/EmbeddedTesting_Sequence914.rec
+ LAB:      TT_2 CN_2 OK_2 PR_2 BS_2 ST_2 SP_2 DC_2 MC_2 VA_2 FN_2 
+ REC: MC_2 TT_2 CN_2      PR_2 BS_2 ST_2 SP_2 DC_2 MC_2 CF_2 FN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence915.lab vs '*'/EmbeddedTesting_Sequence915.rec
+ LAB: CF_2 ST_2 VA_2 FN_2 FU_2 SP_2 OK_2 PF_2 BN_2      VQ_2 
+ REC: CF_2 ST_2 SP_2 FN_2 FU_2 SP_2 BN_2 SP_2 BN_2 VQ_2 VQ_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence916.lab vs '*'/EmbeddedTesting_Sequence916.rec
+ LAB: SP_2 OK_2 TT_2 CN_2 FU_2 FN_2 PR_2 BN_2 ST_2      PF_2 
+ REC: SP_2 FN_2 TT_2 CN_2 FU_2 FN_2 PR_2 BN_2 ST_2 TT_2 OK_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence917.lab vs '*'/EmbeddedTesting_Sequence917.rec
+ LAB: FU_2 FM_2 TT_2 MC_2 SP_2 CF_2 CV_2      DC_2 NU_2 VQ_2 
+ REC: FU_2 FM_2 TT_2 ST_2 SP_2      CV_2 CN_2 ST_2 SP_2 OK_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence918.lab vs '*'/EmbeddedTesting_Sequence918.rec
+ LAB: BN_2 NU_2 SP_2 CF_2 CP_2 PF_2 CN_2 FM_2      ST_2      VA_2 
+ REC: CF_2 ST_2 SP_2 CF_2 BS_2 VA_2 CN_2 FM_2 ST_2 ST_2 SP_2 PF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence919.lab vs '*'/EmbeddedTesting_Sequence919.rec
+ LAB: SP_2 PR_2 CF_2 NU_2 FU_2 TT_2 FN_2 CV_2 ST_2 BN_2 CN_2 
+ REC: CF_2 PR_2 SP_2 FN_2 FU_2 TT_2 FN_2 CV_2 ST_2 BN_2 CN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence920.lab vs '*'/EmbeddedTesting_Sequence920.rec
+ LAB: ST_2 CF_2 BS_2 DC_2 CV_2 PR_2 FU_2 FM_2 MC_2 OK_2 PR_2 FN_2 
+ REC: ST_2 CF_2 BS_2 DC_2 CV_2 NU_2 FU_2 FM_2      PF_2 CF_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence921.lab vs '*'/EmbeddedTesting_Sequence921.rec
+ LAB: PF_2 TT_2 VQ_2 OK_2 VA_2 CN_2 CP_2 FU_2 FM_2 ST_2 CV_2 
+ REC: TT_2 TT_2 VQ_2      VA_2 CN_2 CP_2 FU_2 FM_2 ST_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence922.lab vs '*'/EmbeddedTesting_Sequence922.rec
+ LAB: CF_2 SP_2      OK_2 MC_2 CV_2 PF_2 VQ_2 BS_2 BN_2 
+ REC: SP_2 SP_2 FU_2 BS_2 MC_2 CV_2 TT_2 FU_2 CF_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence923.lab vs '*'/EmbeddedTesting_Sequence923.rec
+ LAB: CN_2 FM_2 BN_2 CF_2 BS_2 OK_2 FN_2      ST_2 VQ_2 VA_2 CV_2 
+ REC: CN_2 FM_2 BN_2           SP_2 FN_2 FU_2 ST_2 FN_2 SP_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence924.lab vs '*'/EmbeddedTesting_Sequence924.rec
+ LAB: CV_2 CP_2 MC_2 VQ_2 BS_2 FM_2 TT_2 PF_2 SP_2      PR_2 
+ REC: CV_2 CP_2 MC_2 VA_2 BS_2 FM_2 TT_2 VA_2 SP_2 NU_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence925.lab vs '*'/EmbeddedTesting_Sequence925.rec
+ LAB:      VA_2 PF_2 VQ_2 PR_2 DC_2 MC_2 NU_2 FN_2 BS_2 CF_2      
+ REC: TT_2 VA_2 SP_2 BN_2 PR_2 DC_2 MC_2 ST_2 FN_2      CF_2 MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence926.lab vs '*'/EmbeddedTesting_Sequence926.rec
+ LAB: BN_2 VQ_2 ST_2 CP_2 CF_2 BS_2 OK_2 NU_2 TT_2      
+ REC: BN_2 SP_2 ST_2 CP_2 CF_2 BS_2      FN_2 TT_2 FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence927.lab vs '*'/EmbeddedTesting_Sequence927.rec
+ LAB: FU_2 FM_2 BS_2 BN_2      CP_2 SP_2 VA_2 FN_2 DC_2      OK_2 
+ REC: FU_2 FM_2 BS_2 BN_2 BS_2 PF_2 SP_2      FN_2 DC_2 FN_2 VA_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence928.lab vs '*'/EmbeddedTesting_Sequence928.rec
+ LAB: PF_2 CV_2 DC_2 FM_2 VA_2 FN_2 CN_2 VQ_2 ST_2 CF_2      
+ REC: SP_2 CV_2      FM_2 TT_2 FN_2 CN_2 SP_2 ST_2 CF_2 FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence929.lab vs '*'/EmbeddedTesting_Sequence929.rec
+ LAB: DC_2 OK_2 BS_2 PF_2 SP_2 FM_2 CF_2 NU_2 VA_2 CN_2 
+ REC: DC_2           CF_2 SP_2 BN_2 CF_2 FN_2 SP_2 CN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence930.lab vs '*'/EmbeddedTesting_Sequence930.rec
+ LAB: PR_2 OK_2 ST_2 CP_2 FM_2 BS_2 PF_2 CF_2 MC_2 CN_2 
+ REC:      NU_2 ST_2 CP_2 FM_2 BS_2 PF_2 CF_2 MC_2 CN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence931.lab vs '*'/EmbeddedTesting_Sequence931.rec
+ LAB: FU_2 CF_2 BS_2 CP_2 OK_2 CN_2 ST_2 NU_2 DC_2 
+ REC:                               ST_2           
+Aligned transcription: '*'/EmbeddedTesting_Sequence932.lab vs '*'/EmbeddedTesting_Sequence932.rec
+ LAB: PR_2 TT_2 CF_2           VA_2 BN_2 SP_2 MC_2           BS_2 FN_2 CV_2 
+ REC: PR_2 TT_2 CF_2 ST_2 TT_2 CP_2 BN_2 SP_2 MC_2 TT_2 ST_2 PR_2 CF_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence933.lab vs '*'/EmbeddedTesting_Sequence933.rec
+ LAB: CN_2                NU_2 BN_2 PR_2 SP_2 BS_2 ST_2 DC_2 VA_2 CP_2 
+ REC: CN_2 CP_2 ST_2 CF_2 NU_2           SP_2      ST_2 DC_2      TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence934.lab vs '*'/EmbeddedTesting_Sequence934.rec
+ LAB: CP_2 FM_2 PR_2 TT_2 SP_2 DC_2 VA_2 CF_2      NU_2 
+ REC: CP_2 MC_2 PR_2 TT_2 SP_2      CN_2 CF_2 BN_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence935.lab vs '*'/EmbeddedTesting_Sequence935.rec
+ LAB: FM_2 BN_2      VA_2 CV_2 SP_2 OK_2 FN_2 DC_2 PR_2      MC_2 CF_2 
+ REC: MC_2 BN_2 TT_2 SP_2 CV_2 SP_2      FN_2 CF_2 PR_2 ST_2 SP_2 FM_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence936.lab vs '*'/EmbeddedTesting_Sequence936.rec
+ LAB: MC_2 PR_2 PF_2 ST_2 FN_2 BS_2 FU_2 CP_2 FM_2 DC_2 BN_2 
+ REC: MC_2 PR_2 SP_2 ST_2 FN_2      FU_2 CP_2 FM_2 DC_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence937.lab vs '*'/EmbeddedTesting_Sequence937.rec
+ LAB: CF_2 FU_2 MC_2 VA_2 SP_2 TT_2 PF_2 PR_2 
+ REC: CF_2 FU_2 MC_2 CF_2 SP_2 TT_2 SP_2 MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence938.lab vs '*'/EmbeddedTesting_Sequence938.rec
+ LAB: TT_2 FM_2 ST_2 CV_2 VQ_2 MC_2 DC_2 FN_2 PF_2 SP_2 
+ REC: TT_2 FM_2 ST_2 CV_2 VQ_2 ST_2 CV_2 FN_2 SP_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence939.lab vs '*'/EmbeddedTesting_Sequence939.rec
+ LAB:      CF_2 PR_2 ST_2 VQ_2 FM_2 FN_2 BN_2 TT_2 BS_2 CP_2 
+ REC: BN_2 ST_2 NU_2 ST_2 PF_2 MC_2 BN_2 BN_2 TT_2      CP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence940.lab vs '*'/EmbeddedTesting_Sequence940.rec
+ LAB: MC_2 DC_2 VQ_2 TT_2 NU_2 CN_2 VA_2 FU_2 PF_2 BN_2 BS_2 
+ REC:      ST_2 PF_2 VA_2 PR_2 CN_2 SP_2 BN_2 PF_2 BN_2 FM_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence941.lab vs '*'/EmbeddedTesting_Sequence941.rec
+ LAB: VA_2 PR_2 BS_2 FU_2 FN_2      SP_2 CN_2      OK_2 TT_2 
+ REC: CF_2 PR_2 BS_2      FN_2 BN_2 CF_2 CN_2 TT_2 OK_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence942.lab vs '*'/EmbeddedTesting_Sequence942.rec
+ LAB: FU_2 PR_2 CV_2 NU_2 DC_2 MC_2 BN_2 CN_2 CP_2 VA_2 
+ REC: FN_2 NU_2 CV_2 ST_2 DC_2 ST_2 CF_2 CN_2 CP_2 PF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence943.lab vs '*'/EmbeddedTesting_Sequence943.rec
+ LAB:      CF_2 BS_2 FU_2 ST_2           VQ_2 DC_2 PR_2 SP_2 VA_2 OK_2 FN_2 
+ REC: CP_2 CF_2      BN_2 ST_2 PF_2 CN_2 VQ_2      CF_2 CF_2 CF_2 OK_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence944.lab vs '*'/EmbeddedTesting_Sequence944.rec
+ LAB:      BN_2 CF_2 ST_2 PR_2 TT_2 CV_2 CP_2 OK_2 BS_2 
+ REC: CF_2 BN_2      ST_2 NU_2 TT_2 CV_2 CP_2 ST_2 BS_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence945.lab vs '*'/EmbeddedTesting_Sequence945.rec
+ LAB:      VQ_2 BS_2 DC_2      CV_2      SP_2 VA_2 PF_2 TT_2 CF_2      
+ REC: FN_2 PR_2 CV_2 DC_2 ST_2 CV_2 CP_2 CF_2 VQ_2 PF_2 TT_2 CF_2 VA_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence946.lab vs '*'/EmbeddedTesting_Sequence946.rec
+ LAB: VA_2 NU_2 ST_2 BS_2 CN_2 SP_2 TT_2 OK_2 BN_2 VQ_2 
+ REC:      FU_2 ST_2      CN_2 CF_2 TT_2 FU_2 CF_2 PF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence947.lab vs '*'/EmbeddedTesting_Sequence947.rec
+ LAB: VA_2 MC_2 FU_2 FM_2 CF_2 BN_2 TT_2 CV_2 ST_2 FN_2 DC_2 
+ REC: PF_2 MC_2      FN_2 SP_2 BN_2 TT_2 CV_2 ST_2 CF_2 DC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence948.lab vs '*'/EmbeddedTesting_Sequence948.rec
+ LAB: FN_2 CF_2      CN_2 CP_2 BN_2 OK_2 DC_2 PR_2 CV_2 NU_2 
+ REC:      CF_2 SP_2 CN_2      CF_2 FN_2 DC_2 NU_2 CV_2 ST_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence949.lab vs '*'/EmbeddedTesting_Sequence949.rec
+ LAB: NU_2 PF_2 FM_2 MC_2 CF_2 VQ_2 CP_2 BS_2 VA_2 CN_2 PR_2 
+ REC:           FM_2 MC_2 CF_2                SP_2 CN_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence950.lab vs '*'/EmbeddedTesting_Sequence950.rec
+ LAB: CP_2 CN_2 TT_2 MC_2 DC_2                FM_2 FU_2 SP_2 ST_2 BN_2 
+ REC: CP_2 CN_2 TT_2 ST_2 DC_2 TT_2 PR_2 MC_2 TT_2 FU_2 CF_2 ST_2 BN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence951.lab vs '*'/EmbeddedTesting_Sequence951.rec
+ LAB:      CP_2 SP_2      CF_2 PR_2           TT_2 NU_2 FM_2 CV_2 BS_2 ST_2 
+ REC: FU_2 CP_2 SP_2 CP_2 CF_2 PR_2 FU_2 PF_2 MC_2 VQ_2 FM_2      BS_2 MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence952.lab vs '*'/EmbeddedTesting_Sequence952.rec
+ LAB: CP_2 BS_2 PF_2 VQ_2 CF_2 ST_2 TT_2 SP_2 MC_2      
+ REC: BS_2 BS_2 CF_2 VQ_2 CF_2 FU_2 CF_2 CF_2 MC_2 FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence953.lab vs '*'/EmbeddedTesting_Sequence953.rec
+ LAB: FN_2 OK_2 VQ_2 SP_2 FM_2 BN_2 MC_2 PF_2 NU_2                     TT_2 
+ REC:      FU_2 FU_2 PR_2 CF_2 CF_2 MC_2      NU_2 FU_2 MC_2 DC_2 CF_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence954.lab vs '*'/EmbeddedTesting_Sequence954.rec
+ LAB: PR_2      MC_2 CN_2 VQ_2 VA_2 TT_2 OK_2 CP_2 SP_2 CV_2 
+ REC: PR_2 ST_2 MC_2 CN_2      PR_2 CF_2 FU_2 CP_2 CF_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence955.lab vs '*'/EmbeddedTesting_Sequence955.rec
+ LAB: FU_2 CP_2 NU_2      BN_2 SP_2 OK_2 BS_2 PR_2 VQ_2 CN_2 DC_2 
+ REC: FU_2      NU_2 FU_2 CF_2 NU_2 MC_2 BS_2 PR_2 PR_2 CN_2 DC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence956.lab vs '*'/EmbeddedTesting_Sequence956.rec
+ LAB:      NU_2 PF_2 SP_2 FM_2 CN_2      CV_2 BS_2      BN_2 PR_2 
+ REC: FU_2 NU_2 CF_2 CF_2 FM_2 CN_2 CP_2 CV_2 BS_2 CF_2 MC_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence957.lab vs '*'/EmbeddedTesting_Sequence957.rec
+ LAB: VA_2 OK_2 CV_2 BN_2 NU_2 PR_2 FM_2 FN_2 CP_2 ST_2 
+ REC: CP_2 MC_2 CV_2 CF_2 NU_2 PR_2 FM_2 MC_2 CP_2 MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence958.lab vs '*'/EmbeddedTesting_Sequence958.rec
+ LAB: CP_2      SP_2 CN_2      OK_2 MC_2 DC_2           TT_2 CF_2 BN_2 
+ REC: CP_2 BS_2 CF_2 CN_2 ST_2 FN_2 MC_2 DC_2 ST_2 CF_2 CF_2 CF_2 DC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence959.lab vs '*'/EmbeddedTesting_Sequence959.rec
+ LAB:      MC_2 DC_2 SP_2 FM_2 BN_2 CP_2 OK_2 CF_2 FN_2 FU_2      TT_2 
+ REC: FU_2 CP_2 DC_2 CF_2 CP_2 FN_2 CP_2 FU_2 CF_2 MC_2 FU_2 BS_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence960.lab vs '*'/EmbeddedTesting_Sequence960.rec
+ LAB: CF_2 CP_2      TT_2 SP_2 MC_2 CN_2 ST_2 FM_2 NU_2 DC_2 
+ REC: CF_2 CP_2 ST_2 VQ_2 CF_2 MC_2      ST_2 CP_2 NU_2 DC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence961.lab vs '*'/EmbeddedTesting_Sequence961.rec
+ LAB: CV_2 SP_2 FM_2 DC_2 PR_2           FU_2 NU_2 OK_2 MC_2 FN_2 
+ REC: CV_2 MC_2 CF_2 DC_2 PR_2 MC_2 CP_2 VQ_2 MC_2 OK_2 MC_2 FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence962.lab vs '*'/EmbeddedTesting_Sequence962.rec
+ LAB:      BN_2 ST_2 CN_2 FU_2 CF_2 VQ_2 FM_2 SP_2 NU_2 TT_2 
+ REC: CF_2 CF_2 FU_2 CN_2 FU_2 CF_2 VQ_2 FM_2 CF_2 NU_2 PF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence963.lab vs '*'/EmbeddedTesting_Sequence963.rec
+ LAB: ST_2 FM_2 VA_2 DC_2 BN_2 CF_2 PF_2 MC_2 CV_2 PR_2      
+ REC:           FU_2 DC_2 CF_2 CF_2 CF_2 MC_2 CV_2 PR_2 MC_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence964.lab vs '*'/EmbeddedTesting_Sequence964.rec
+ LAB: FU_2 BS_2      DC_2 PR_2 CP_2 NU_2           PF_2 FM_2 FN_2 CN_2 
+ REC: FU_2 BS_2 ST_2 DC_2      CP_2 NU_2 CP_2 MC_2 FU_2 FM_2 VQ_2 CP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence965.lab vs '*'/EmbeddedTesting_Sequence965.rec
+ LAB:      VA_2 BS_2 PR_2 CV_2      CP_2 CF_2 BN_2 FM_2      ST_2 SP_2 
+ REC: NU_2 VQ_2 CP_2 PR_2 CV_2 PR_2 CP_2 CF_2 CF_2 FM_2 VQ_2 MC_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence966.lab vs '*'/EmbeddedTesting_Sequence966.rec
+ LAB: DC_2      SP_2 FM_2      CP_2      TT_2 VA_2 CF_2 CV_2      FN_2 PF_2 
+ REC: DC_2 MC_2 CF_2 FM_2 FU_2 CP_2 SP_2 CF_2 VQ_2 CF_2 CV_2 FU_2 MC_2 CP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence967.lab vs '*'/EmbeddedTesting_Sequence967.rec
+ LAB: VQ_2           CP_2 OK_2 FU_2 FM_2      CF_2 TT_2 NU_2 BS_2 CN_2 
+ REC: VQ_2 MC_2 CP_2 CP_2 FN_2 FU_2 FM_2 VQ_2 CF_2 SP_2 MC_2 BS_2 CN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence968.lab vs '*'/EmbeddedTesting_Sequence968.rec
+ LAB: CF_2 SP_2 PF_2 FM_2                BS_2      ST_2 CP_2 VA_2 FU_2 
+ REC: CF_2 CF_2 CF_2 FM_2 BS_2 FU_2 FU_2 BS_2 CP_2 FU_2 CP_2 VQ_2 FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence969.lab vs '*'/EmbeddedTesting_Sequence969.rec
+ LAB: TT_2 VQ_2 CN_2 MC_2 ST_2 CV_2 OK_2 BN_2 FM_2 CP_2 
+ REC: PF_2 FU_2 CN_2 MC_2 FU_2 CV_2 FU_2 CF_2 FM_2 CP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence970.lab vs '*'/EmbeddedTesting_Sequence970.rec
+ LAB: FU_2      VQ_2 PF_2 SP_2 DC_2 CV_2      BS_2 CN_2 CP_2 PR_2 
+ REC: FU_2 FN_2 FU_2 PR_2 CF_2 DC_2 CV_2 NU_2 BS_2 CN_2 CP_2 PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence971.lab vs '*'/EmbeddedTesting_Sequence971.rec
+ LAB: ST_2 CF_2                BN_2 NU_2 PR_2 CP_2 FM_2 OK_2 MC_2      SP_2 
+ REC: ST_2 CF_2 FU_2 DC_2 MC_2 PR_2 NU_2 NU_2 CP_2 FM_2 PR_2 MC_2 FU_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence972.lab vs '*'/EmbeddedTesting_Sequence972.rec
+ LAB: CV_2 ST_2 VA_2 CF_2 CN_2 FM_2 TT_2 OK_2 VQ_2 PF_2 
+ REC: CV_2 ST_2      CF_2 CN_2 FM_2      SP_2 VQ_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence973.lab vs '*'/EmbeddedTesting_Sequence973.rec
+ LAB: VA_2 PR_2      MC_2 NU_2 CF_2 FN_2 SP_2 VQ_2 FM_2      CV_2 
+ REC: MC_2 PR_2 MC_2 MC_2 MC_2 CF_2 ST_2 CF_2 PR_2 FM_2 MC_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence974.lab vs '*'/EmbeddedTesting_Sequence974.rec
+ LAB: OK_2 DC_2      PR_2 VQ_2 BN_2 NU_2 CN_2 CP_2 VA_2 BS_2      PF_2 
+ REC: OK_2 DC_2 PR_2 PR_2 CF_2 CP_2 MC_2 CN_2      MC_2 BS_2 CP_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence975.lab vs '*'/EmbeddedTesting_Sequence975.rec
+ LAB: FU_2      CF_2 DC_2 NU_2 MC_2 CV_2 BN_2 VA_2 CN_2 
+ REC: FU_2 BS_2 CF_2 DC_2 MC_2 MC_2 CV_2 CP_2 CF_2 CN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence976.lab vs '*'/EmbeddedTesting_Sequence976.rec
+ LAB: CF_2 BS_2 OK_2 FN_2      DC_2 SP_2 CV_2 VQ_2 FM_2 
+ REC: CF_2      FU_2 FN_2 CP_2 DC_2 SP_2 CV_2           
+Aligned transcription: '*'/EmbeddedTesting_Sequence977.lab vs '*'/EmbeddedTesting_Sequence977.rec
+ LAB: CF_2 VQ_2 CV_2 CN_2 CP_2 TT_2                PF_2 PR_2 MC_2 ST_2 
+ REC: FU_2 TT_2 CV_2 CN_2 BS_2 TT_2 VA_2 SP_2 VQ_2 FU_2 BS_2 MC_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence978.lab vs '*'/EmbeddedTesting_Sequence978.rec
+ LAB: CN_2 CV_2 FM_2 TT_2 ST_2 MC_2 PF_2 PR_2 FN_2 FU_2 
+ REC: CN_2 CV_2 FU_2 TT_2                VQ_2 FN_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence979.lab vs '*'/EmbeddedTesting_Sequence979.rec
+ LAB: OK_2 NU_2 CV_2 PF_2 CF_2 CN_2 PR_2 FM_2 VA_2 FU_2 MC_2 
+ REC:           CV_2 MC_2 CF_2                NU_2 VQ_2 BS_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence980.lab vs '*'/EmbeddedTesting_Sequence980.rec
+ LAB: CP_2 FM_2 DC_2      SP_2 CN_2 CV_2 NU_2 TT_2 FN_2 PR_2 VQ_2      
+ REC:      VA_2 DC_2 VQ_2 BS_2 CN_2           TT_2 FU_2 NU_2 VQ_2 ST_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence981.lab vs '*'/EmbeddedTesting_Sequence981.rec
+ LAB: CN_2 FN_2 MC_2      TT_2 VA_2 VQ_2 FM_2 CF_2 PF_2 CV_2 BS_2 
+ REC: CV_2 FN_2 MC_2 CN_2 TT_2      VQ_2      CF_2      NU_2 NU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence982.lab vs '*'/EmbeddedTesting_Sequence982.rec
+ LAB: VA_2 PF_2 CN_2      DC_2 ST_2 MC_2 PR_2 NU_2 OK_2 
+ REC:      SP_2 CN_2 SP_2 DC_2      DC_2 PR_2      PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence983.lab vs '*'/EmbeddedTesting_Sequence983.rec
+ LAB:      FN_2 BN_2 PR_2 VA_2 TT_2 PF_2 OK_2 BS_2 CP_2 
+ REC: FU_2 CP_2 CN_2 FU_2 VQ_2 TT_2      BS_2 BS_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence984.lab vs '*'/EmbeddedTesting_Sequence984.rec
+ LAB:      PR_2 FU_2 FN_2 VQ_2      OK_2 ST_2 TT_2 MC_2 BS_2 CV_2 
+ REC: DC_2 MC_2 FU_2      VQ_2 CP_2 VA_2 MC_2 TT_2 MC_2           
+Aligned transcription: '*'/EmbeddedTesting_Sequence985.lab vs '*'/EmbeddedTesting_Sequence985.rec
+ LAB: FU_2 ST_2 FN_2 CN_2 TT_2 OK_2 CF_2 SP_2 FM_2 CV_2 
+ REC: NU_2 OK_2 OK_2 BS_2 TT_2      CF_2 VQ_2 CV_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence986.lab vs '*'/EmbeddedTesting_Sequence986.rec
+ LAB:      TT_2 PR_2      FN_2 SP_2 CN_2 CP_2 CF_2 BS_2 BN_2 FM_2 
+ REC: CP_2 VQ_2 PR_2 TT_2 BS_2 VQ_2 CN_2 CP_2           FU_2 FU_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence987.lab vs '*'/EmbeddedTesting_Sequence987.rec
+ LAB: ST_2 SP_2 PR_2 BS_2 BN_2 PF_2 OK_2 NU_2 FM_2 CV_2 
+ REC: CP_2 VQ_2 PR_2      FU_2 PF_2           ST_2 CV_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence988.lab vs '*'/EmbeddedTesting_Sequence988.rec
+ LAB: FN_2 OK_2 FU_2 CF_2 PF_2 DC_2 CP_2 BS_2 FM_2                     VQ_2 
+ REC:      FU_2 FU_2 CF_2      DC_2      BS_2 FM_2 CV_2 PF_2 VQ_2 VA_2 VQ_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence989.lab vs '*'/EmbeddedTesting_Sequence989.rec
+ LAB: PF_2 NU_2 PR_2 DC_2 VQ_2 FN_2 ST_2 VA_2 TT_2      FU_2      
+ REC:           VQ_2 DC_2 VQ_2           TT_2 TT_2 BS_2 FU_2 FN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence990.lab vs '*'/EmbeddedTesting_Sequence990.rec
+ LAB: FM_2 CV_2 MC_2 TT_2 ST_2 VA_2 PR_2 FN_2 PF_2 VQ_2           
+ REC:           MC_2 TT_2                     BS_2 VQ_2 NU_2 SP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence991.lab vs '*'/EmbeddedTesting_Sequence991.rec
+ LAB: TT_2 FM_2 OK_2 PR_2 VA_2 VQ_2 FU_2 PF_2 NU_2 MC_2 
+ REC: TT_2                CN_2 ST_2 FU_2           PR_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence992.lab vs '*'/EmbeddedTesting_Sequence992.rec
+ LAB: FN_2 MC_2 FU_2 TT_2      BN_2 ST_2 CP_2 CF_2 OK_2 DC_2      
+ REC:      MC_2      TT_2 PR_2 FU_2 ST_2      CF_2 FN_2 DC_2 OK_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence993.lab vs '*'/EmbeddedTesting_Sequence993.rec
+ LAB:      CV_2 VQ_2 TT_2 OK_2 BN_2 PR_2 FM_2 CF_2 PF_2 ST_2 VA_2 
+ REC: FN_2 BS_2 VQ_2 TT_2 VQ_2 ST_2 PR_2      CF_2      PR_2 CF_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence994.lab vs '*'/EmbeddedTesting_Sequence994.rec
+ LAB: CF_2 BS_2 CV_2 PF_2 SP_2 FN_2 NU_2      CN_2      TT_2      
+ REC: CF_2 PF_2 CV_2      SP_2      NU_2 ST_2 CN_2 DC_2 TT_2 CP_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence995.lab vs '*'/EmbeddedTesting_Sequence995.rec
+ LAB: CF_2 FU_2 PF_2 FN_2 SP_2      CP_2 ST_2 BS_2 DC_2 OK_2 
+ REC: CF_2                SP_2 BS_2 BS_2 ST_2      DC_2      
+Aligned transcription: '*'/EmbeddedTesting_Sequence996.lab vs '*'/EmbeddedTesting_Sequence996.rec
+ LAB: PF_2 CN_2 VQ_2 CV_2      FU_2 NU_2 PR_2 BN_2 BS_2 FN_2           
+ REC: CP_2 CN_2      CV_2 CP_2 FU_2 CV_2 PR_2      VQ_2 FN_2 TT_2 CN_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence997.lab vs '*'/EmbeddedTesting_Sequence997.rec
+ LAB:      OK_2 MC_2 BN_2 BS_2 CN_2 DC_2      SP_2 PR_2 FM_2 TT_2 
+ REC: DC_2 FN_2 FU_2 CN_2 BS_2      DC_2 VQ_2 VQ_2 TT_2 FM_2 TT_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence998.lab vs '*'/EmbeddedTesting_Sequence998.rec
+ LAB: FM_2 NU_2 CP_2 MC_2      FU_2 BN_2 CV_2 SP_2 DC_2 ST_2      
+ REC:                MC_2 FU_2 FU_2 FU_2 BS_2 SP_2 DC_2 ST_2 OK_2 
+Aligned transcription: '*'/EmbeddedTesting_Sequence999.lab vs '*'/EmbeddedTesting_Sequence999.rec
+ LAB: CF_2           NU_2 SP_2 FM_2      DC_2 FU_2 OK_2 CV_2 CP_2 FN_2 
+ REC: CF_2 FN_2 PR_2 BS_2 VQ_2 FM_2 MC_2 DC_2 FU_2      CV_2 CP_2 FN_2 
 ====================== HTK Results Analysis =======================
-  Date: Wed Nov 30 13:31:07 2016
+  Date: Thu Dec 01 14:10:42 2016
   Ref : testphones0.mlf
   Rec : aligned_skeletal_recout.mlf
 ------------------------ Overall Results --------------------------
-SENT: %Correct=0.00 [H=0, S=99, N=99]
-WORD: %Corr=59.45, Acc=52.16 [H=579, D=34, S=361, I=71, N=974]
+SENT: %Correct=0.00 [H=0, S=274, N=274]
+WORD: %Corr=50.62, Acc=37.16 [H=1380, D=397, S=949, I=367, N=2726]
 ===================================================================
