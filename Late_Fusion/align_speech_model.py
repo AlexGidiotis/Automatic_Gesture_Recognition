@@ -30,9 +30,9 @@ for file in af['file'].unique():
 # Read prediction and put in dictionary
 input_dict = {}
 for line in in_f:
-	if line.startswith('\"\'*\''):
+	if line.startswith('\"*'):
 		file_list = []
-		fileNum = re.findall('\"\'*\'\D*(\d+).rec',line)[0]
+		fileNum = re.findall('\"*\D*(\d+).rec',line)[0]
 		file_list.append(line)
 		
 	elif line.startswith('.'):
