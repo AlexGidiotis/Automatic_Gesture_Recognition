@@ -7,7 +7,7 @@ import sys, subprocess
 
 phones = ['sp', 'noise', 'sil', 'a' ,'a1' ,'b' ,'d' ,'e' ,'e1' ,'g' ,'f' ,'i' ,'i1' ,'j' ,'k' ,'l' ,'m' ,'n' ,'o' ,'o1' ,'p' ,'r' ,'s' ,'t' ,'ts' ,'u' ,'u1' ,'v' ,'w']
 
-path = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Speech\hmm0"
+path = "/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Speech/hmm0"
 
 #=============================== Create the macros file =======================================================================================
 pf = open(path+"/prototype",'r')

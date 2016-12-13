@@ -68,10 +68,10 @@ flag = 'Testing'
 labeled = 'False'
 if flag_path == 'Alex':
 	#Alex's Paths
-	training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
-	test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
-	training_labels = "C:\Users\Alex\Documents\University\Python\Data\Labels"
-	test_labels = "C:\Users\Alex\Documents\University\Python\Data\Test_Labels"
+	training_path = "/home/alex/Documents/Data/CSV_data"
+	test_path = "/home/alex/Documents/Data/CSV_TEST_data"
+	training_labels = "/home/alex/Documents/Data/Labels"
+	test_labels = "/home/alex/Documents/Data/Test_Labels"
 elif flag_path == 'Dimitris':	
 	#Dimitri's Paths
 	training_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/CSV_data"

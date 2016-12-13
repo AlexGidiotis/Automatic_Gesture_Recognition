@@ -18,10 +18,10 @@ flag_path = 'Alex'
 
 ###################### Main function #############################################################
 if flag_path == 'Alex':
-	sk_training_path = "C:\Users\Alex\Documents\University\Python\Data\SKData_txt"
-	sk_test_path = "C:\Users\Alex\Documents\University\Python\Data\Test_SKData_txt"
-	out_training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
-	out_test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
+	sk_training_path = "/home/alex/Documents/Data/SKData_txt"
+	sk_test_path = "/home/alex/Documents/Data/Test_SKData_txt"
+	out_training_path = "/home/alex/Documents/Data/Data\CSV_data"
+	out_test_path = "/home/alex/Documents/Data/CSV_TEST_data"
 elif flag_path == 'Dimitris':
 	sk_training_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/SKData_txt"
 	sk_test_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/Test_SKData_txt"

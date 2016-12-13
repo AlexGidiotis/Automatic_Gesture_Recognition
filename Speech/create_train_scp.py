@@ -11,10 +11,10 @@ print flag
 
 # Choose between the two modes.
 if flag == 'Training':
-	path = 'C:\Users\Alex\Documents\University\Python\Data\MFC_audio'
+	path = '/home/alex/Documents/Data/MFC_audio'
 	out_name = 'Train.scp'
 elif flag == 'Testing':
-	path = 'C:\Users\Alex\Documents\University\Python\Data\MFC_test_audio'
+	path = '/home/alex/Documents/Data/MFC_test_audio'
 	out_name = 'Test.scp'
 
 # List the directory with the input .mfc data.
@@ -23,5 +23,5 @@ f_list = sorted(os.listdir(path))
 of = open(out_name,'w')
 # Write all input files.
 for file in f_list:
-	of.write('%s\%s\n' % (path,file))
+	of.write('%s/%s\n' % (path,file))
 of.close()

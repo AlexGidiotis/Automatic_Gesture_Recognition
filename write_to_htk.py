@@ -82,8 +82,8 @@ flag_path = 'Alex'
 
 if flag_path == 'Alex':
 	#Alex's Paths
-	out_path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_data"
-	out_path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_test_data"
+	out_path_train = "/home/alex/Documents/Data/MFC_data"
+	out_path_test = "/home/alex/Documents/Data/MFC_test_data"
 elif flag_path == "Dimitris":
 	#Dimitri's Paths
 	out_path_train = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_data"
@@ -99,14 +99,14 @@ lab_flag = 'Unlabelled'
 if flag == 'Training':
 	out_path = out_path_train
 	if flag_path == 'Alex':
-		in_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_set_skeletal_extended.csv"
+		in_file = "/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Training_set_skeletal_extended.csv"
 	elif flag_path == 'Dimitris':
 		in_file = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_set_skeletal_extended.csv'
 	out_file = 'Training_Sequence'
 elif flag == 'Testing':
 	out_path = out_path_test
 	if flag_path == 'Alex':
-		in_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Testing_set_skeletal_extended.csv"
+		in_file = "/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Testing_set_skeletal_extended.csv"
 	elif flag_path == 'Dimitris':
 		in_file = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Testing_set_skeletal_extended.csv'
 	out_file = 'Testing_Sequence'

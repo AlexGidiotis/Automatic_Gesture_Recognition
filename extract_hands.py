@@ -67,14 +67,14 @@ flag_path = 'Dimitris'
 # Choose between Training and Testing.
 if flag_path == 'Alex':
 	if flag == 'Training':
-		color_path = 'C:\Users\Alex\Documents\University\Python\Data\Color_vid'
-		depth_path = 'C:\Users\Alex\Documents\University\Python\Data\Depth_vid'
-		out_path = 'C:\Users\Alex\Documents\University\Python\Data\Train_Images'
+		color_path = '/home/alex/Documents/Data/Color_vid'
+		depth_path = '/home/alex/Documents/Data/Depth_vid'
+		out_path = '/home/alex/Documents/Data/Train_Images'
 		in_file = "Training_set_skeletal.csv"
 	elif flag == 'Testing':
-		color_path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Color_vid'
-		depth_path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Depth_vid'
-		out_path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Images'
+		color_path = '/home/alex/Documents/Data/Test_Color_vid'
+		depth_path = '/home/alex/Documents/Data/Test_Depth_vid'
+		out_path = '/home/alex/Documents/Data/Test_Images'
 		in_file = "Testing_set_skeletal.csv"
 elif flag_path == 'Dimitris':
 	if flag == 'Training':

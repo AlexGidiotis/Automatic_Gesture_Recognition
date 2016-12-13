@@ -16,7 +16,7 @@ words = {'vieniqui':'Vieni qui','prendere':'Le vuoi prendere','sonostufo':'sono 
 		'tantotempo':'Tanto tempo fa','messidaccordo':'Si sono messi d\'accordo','ok':'ok'}
 
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Testing'
+flag = 'Training'
 print flag
 
 # Choose between the two modes.
@@ -31,7 +31,7 @@ if flag == 'Training':
 	out_words = 'words.mlf'
 	out_name = 'TrainingSample'
 	out_phones = 'phones0.mlf'
-	lab_path = 'C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Speech\\train_labels'
+	lab_path = '/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Speech/train_labels'
 
 elif flag == 'Testing':
 	if not os.path.exists("test_labels"):
@@ -44,7 +44,7 @@ elif flag == 'Testing':
 	out_words = 'test_words.mlf'
 	out_name = 'TestingSample'
 	out_phones = 'test_phones0.mlf'
-	lab_path = 'C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Speech\\test_labels'
+	lab_path = '/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Speech/test_labels'
 
 # Words label file starts with #!MLF!#
 mlf.write("#!MLF!#\n")

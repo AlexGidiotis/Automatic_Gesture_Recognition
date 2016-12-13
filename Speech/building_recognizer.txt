@@ -6,7 +6,7 @@
 6. Monophones (monophones0(without 'sp'),monophones1(with 'sp'))
 7. Word level mlf ->create_word_mlf.py
 8. Create mkphones0.led Create mkphones1.led
-9. Phone level mlf ->HLEd -l * -d dictionary -i phones0.mlf mkphones0.led words.mlf ->HLEd -l * -d dictionary -i phones1.mlf mkphones1.led words.mlf
+9. Phone level mlf ->HLEd -l '*' -d dictionary -i phones0.mlf mkphones0.led words.mlf ->HLEd -l '*' -d dictionary -i phones1.mlf mkphones1.led words.mlf
 10. Create config_HCopy
 11. Create wav2mfc.scp ->create_wav2mfc_scp.py
 12.	Convert .wav to .mfc 

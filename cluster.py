@@ -1,4 +1,4 @@
-# Need to find some good metrics for clustering.
+# NEEDS TO BE REMOVED
 
 
 import numpy as np

@@ -75,7 +75,7 @@ def split_to_sets(df):
 ############## main ##################
 path_flag = 'Alex'
 if path_flag == 'Alex':
-	data_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
+	data_path = "/home/alex/Documents/Data/CSV_data"
 elif path_flag == 'Dimitris':
 	data_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/CSV_data"
 

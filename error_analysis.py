@@ -4,7 +4,7 @@ import  numpy as np
 
 classes = ["SIL", "BS", "BN", "CP", "CV", "CN", "CF", "DC", "FM", "FN", "FU", "MC", "OK", "PF", "PR", "SP", "TT", "ST", "VA", "VQ", "NU"]
 classnum=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-out_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_Scripts\\recout.mlf"
+out_file = "/home/alex/Documents/Data/Training_Scripts/recout.mlf"
 
 tf = open(out_file,'r')
 clnums = []

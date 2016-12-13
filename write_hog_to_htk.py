@@ -39,8 +39,8 @@ def map_gesture(gest):
 #================================================================= MAIN =======================================================================
 
 # Change this path to the saved skeletal .csv file.
-#out_path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_data"
-#out_path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_test_data"
+#out_path_train = "/home/alex/Documents/Data/MFC_HOG_data"
+#out_path_test = "/home/alex/Documents/Data/MFC_HOG_test_data"
 # Modify this flag to 'Training' or 'Testing'.
 flag = 'Training'
 # Modify this flag to 'Isolated' or 'Embedded'.
@@ -52,12 +52,12 @@ flag_path = 'Dimitris'
 #Define paths
 if flag_path == 'Alex':
 	if flag == 'Training':
-		out_path = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_data"
-		in_path = "C:\Users\Alex\Documents\University\Python\Data\Train_hog_feats"
+		out_path = "/home/alex/Documents/Data/MFC_HOG_data"
+		in_path = "/home/alex/Documents/Data/Train_hog_feats"
 		out_file = 'Training_Sequence'
 	elif flag == 'Testing':
-		out_path = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_test_data"
-		in_path = "C:\Users\Alex\Documents\University\Python\Data\Test_hog_feats"
+		out_path = "/home/alex/Documents/Data/MFC_HOG_test_data"
+		in_path = "/home/alex/Documents/Data/Test_hog_feats"
 		out_file = 'Testing_Sequence'
 elif flag_path == 'Dimitris':
 	if flag == 'Training':

@@ -10,9 +10,9 @@ flag_path = 'Alex'
 
 if flag_path == 'Alex':
 	#Alex's Paths
-	path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_data"
-	path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_test_data"
-	path_out = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Training_Scripts"
+	path_train = "/home/alex/Documents/Data/MFC_data"
+	path_test = "/home/alex/Documents/Data/MFC_test_data"
+	path_out = "/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Training_Scripts"
 elif flag_path == 'Dimitris':
 	#Dimitri's Paths
 	path_train = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_data"
@@ -39,7 +39,7 @@ if flag == 'Training':
 			elif f[-3:] == 'txt':continue
 			elif f[-3:] == 'csv':continue
 			if flag_path == 'Alex':
-				of.write("%s\\%s\n" %(path_top,f))
+				of.write("%s/%s\n" %(path_top,f))
 			elif flag_path == 'Dimitris':
 				of.write("%s/%s\n" %(path_top,f))
 		print "Training script created."
@@ -51,7 +51,7 @@ if flag == 'Training':
 			if not f.startswith('Embedded'):continue
 			elif f[-3:] == 'txt':continue
 			if flag_path == 'Alex':
-				of.write("%s\\%s\n" %(path_top,f))
+				of.write("%s/%s\n" %(path_top,f))
 			elif flag_path == 'Dimitris':
 				of.write("%s/%s\n" %(path_top,f))
 		print "Training script created."
@@ -72,7 +72,7 @@ elif flag == 'Testing':
 			elif f[-3:] == 'txt':continue
 			elif f[-3:] == 'csv':continue
 			if flag_path == 'Alex':
-				of.write("%s\\%s\n" %(path_top,f))
+				of.write("%s/%s\n" %(path_top,f))
 			elif flag_path == 'Dimitris':
 				of.write("%s/%s\n" %(path_top,f))
 		print "Test script created."
@@ -87,7 +87,7 @@ elif flag == 'Testing':
 			elif f[-3:] == 'txt':continue
 			elif f[-3:] == 'csv':continue
 			if flag_path == 'Alex':
-				of.write("%s\\%s\n" %(path_top,f))
+				of.write("%s/%s\n" %(path_top,f))
 			elif flag_path == 'Dimitris':
 				of.write("%s/%s\n" %(path_top,f))
 		print "Test script created."
