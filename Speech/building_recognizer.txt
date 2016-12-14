@@ -52,7 +52,7 @@
 
 
     ->HVite -A -D -T 1 -H 10gmm_hmm3/macros -H 10gmm_hmm3/hmmdefs -C config -S Test.scp -l '*' -b silence -i recout.mlf -w wdnet -p -20.0 dictionary triphones1
-	->HResults -e ??? sil -e ??? noise -t -I test_words.mlf triphones1 recout.mlf > results_log
+	->HResults -e ??? sil -e ??? noise -t -I test_words.mlf wlist recout.mlf > results_log
  
 
  

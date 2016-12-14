@@ -16,7 +16,7 @@ words = {'vieniqui':'Vieni qui','prendere':'Le vuoi prendere','sonostufo':'sono 
 		'tantotempo':'Tanto tempo fa','messidaccordo':'Si sono messi d\'accordo','ok':'ok'}
 
 # Modify this flag to 'Training' or 'Testing'.
-flag = 'Training'
+flag = 'Testing'
 print flag
 
 # Choose between the two modes.
