@@ -24,7 +24,7 @@ flag_path = 'Alex'
 
 if flag_path == 'Alex':
     #Alex's Paths
-    path_train = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition/"
+    path_train = "/home/alex/Documents/git_projects/Automatic_Gesture_Recognition"
 elif flag_path == 'Dimitris':
     #Dimitri's Paths
     path_train = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/"
@@ -82,8 +82,8 @@ elif flag == 'Testing':
 
     # Create the output .mlf file
     if flag_path == 'Alex':
-        mlf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Training_Scripts\\testphones0.mlf", "w")
-        train_scp = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Training_Scripts\\Test.scp")
+        mlf = open("/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Training_Scripts/testphones0.mlf", "w")
+        train_scp = open("/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Training_Scripts/Test.scp")
     elif flag_path == 'Dimitris':
         mlf = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_Scripts/testphones0.mlf", "w")
         train_scp = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_Scripts/Test.scp")
@@ -112,7 +112,7 @@ elif flag == 'Testing':
             mlf.write(".\n")
 
             # Also create a .lab file and write the class in there too.
-            lf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Training_Scripts\\test_labels\\"+name+'.lab','w')
+            lf = open("/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Training_Scripts/test_labels/"+name+'.lab','w')
             lf.write(label)
             lf.close()
             
@@ -124,7 +124,7 @@ elif flag == 'Testing':
         # C:\Users\Alex\Documents\University\Python\Data\MFC_data\Testing_Sequence101.mfc
         # Read the class sequences from the lab file.
         if flag_path == 'Alex':
-            lab_file = open('C:\Users\Alex\Documents\University\Python\Data\MFC_test_data\\label_file.txt')
+            lab_file = open('/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_test_data/label_file.txt')
         elif flag_path == 'Dimitris':
             lab_file = open('/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_test_data/label_file.txt')
 

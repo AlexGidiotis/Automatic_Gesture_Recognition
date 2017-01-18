@@ -1,4 +1,4 @@
-SIL		[SIL] SIL
+SIL		[] SIL
 BN_2	[BN_2] BN_2
 BS_2	[BS_2] BS_2
 CF_2	[CF_2] CF_2
@@ -19,9 +19,9 @@ ST_2	[ST_2] ST_2
 TT_2	[TT_2] TT_2
 VA_2	[VA_2] VA_2
 VQ_2	[VQ_2] VQ_2
-OH_U	[OH_U] OH_U
-OH_D	[OH_D] OH_D
-TH_LU	[TH_LU] TH_LU
-TH_LD	[TH_LD] TH_LD
-TH_U 	[TH_U] TH_U
-TH_D 	[TH_D] TH_D
+OH_U	[] OH_U
+OH_D	[] OH_D
+TH_LU	[] TH_LU
+TH_LD	[] TH_LD
+TH_U 	[] TH_U
+TH_D 	[] TH_D
