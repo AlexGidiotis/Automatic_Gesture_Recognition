@@ -10,8 +10,13 @@ $vieniqui = Vieni qui ;
 $daccordo =	((Vanno) | (Si sono messi)) d'accordo ;
 $che = Che ((due palle)|(vuoi)) ;
 $noise = noise ;
+$oov = oov ;
+
+$sent = ($single | $daccordo | $che | $vieniqui | $furbo | $seipazzo | $combinato | $freganiente | $cosatifarei | $noise) ;
+$nonkey = ($noise | $oov) ;
+$key = ($single | $daccordo | $che | $vieniqui | $furbo | $seipazzo | $combinato | $freganiente | $cosatifarei ) ;
 
 
 (
-	<(sil ($single | $daccordo | $che | $vieniqui | $furbo | $seipazzo | $combinato | $freganiente | $cosatifarei | $noise) sil)>
+	<(sil ($key | <($nonkey)>) sil)>
 )
