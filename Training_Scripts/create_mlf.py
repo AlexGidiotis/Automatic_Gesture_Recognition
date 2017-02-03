@@ -154,4 +154,3 @@ elif flag == 'Testing':
                 label = classes[lab[1:-1]]
                 lf.write("%s\n"% label)
             lf.close()
-        mlf.close()

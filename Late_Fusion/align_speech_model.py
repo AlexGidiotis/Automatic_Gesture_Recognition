@@ -1,15 +1,18 @@
+#This needs to be modified to support N-best lists.
+
+
 import re
 import pandas as pd
 import numpy as np
 
-activity_file = 'C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Test_labels.csv'
+activity_file = '/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Test_labels.csv'
 #activity_file = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Test_labels.csv'
 fps = 20.0
 
 print 'Loading activity labels...'
 af = pd.read_csv(activity_file)
 out_f = open('aligned_speech_recout.mlf','w')
-in_f = open('C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Speech\\recout.mlf', 'r')
+in_f = open('/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Speech/recout.mlf', 'r')
 #in_f = open('/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Speech/recout.mlf', 'r')
 out_f.write("#!MLF!#\n")
 line = in_f.readline()
@@ -30,9 +33,9 @@ for file in af['file'].unique():
 # Read prediction and put in dictionary
 input_dict = {}
 for line in in_f:
-	if line.startswith('\"\'*\''):
+	if line.startswith('\"*'):
 		file_list = []
-		fileNum = re.findall('\"\'*\'\D*(\d+).rec',line)[0]
+		fileNum = re.findall('\"*\D*(\d+).rec',line)[0]
 		file_list.append(line)
 		
 	elif line.startswith('.'):

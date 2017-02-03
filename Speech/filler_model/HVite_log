@@ -1,0 +1,996 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words_filler.mlf -S Train.scp dictionary hmm5/monophones1 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 ENORMALISE                  TRUE
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND        MFCC_C_K_0_D_A
+
+Read 4 physical / 4 logical HMMs
+Processing data directly from the input filesLabel file will be used to align each file
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample1.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6268 frames] -72.4859 [Ac=-454341.8 LM=0.0] (Act=68.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample10.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6128 frames] -74.2599 [Ac=-455064.9 LM=0.0] (Act=50.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample101.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6428 frames] -72.8392 [Ac=-468210.4 LM=0.0] (Act=45.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample102.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6393 frames] -72.6568 [Ac=-464494.8 LM=0.0] (Act=50.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample103.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5773 frames] -74.2670 [Ac=-428743.6 LM=0.0] (Act=50.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample104.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6438 frames] -73.3333 [Ac=-472119.8 LM=0.0] (Act=46.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample105.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6318 frames] -73.3405 [Ac=-463365.2 LM=0.0] (Act=35.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample106.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5858 frames] -74.0279 [Ac=-433655.5 LM=0.0] (Act=43.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample107.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6428 frames] -70.5973 [Ac=-453799.2 LM=0.0] (Act=46.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample108.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6298 frames] -72.0150 [Ac=-453550.4 LM=0.0] (Act=44.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample109.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6268 frames] -72.7428 [Ac=-455951.7 LM=0.0] (Act=37.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample11.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5708 frames] -72.9200 [Ac=-416227.1 LM=0.0] (Act=39.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample110.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6468 frames] -70.7891 [Ac=-457864.2 LM=0.0] (Act=49.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample111.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6593 frames] -70.8134 [Ac=-466872.6 LM=0.0] (Act=43.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample112.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6318 frames] -71.0773 [Ac=-449066.5 LM=0.0] (Act=46.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample113.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6208 frames] -70.8234 [Ac=-439671.5 LM=0.0] (Act=48.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample114.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6518 frames] -72.0833 [Ac=-469839.0 LM=0.0] (Act=34.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample115.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5823 frames] -69.6534 [Ac=-405591.7 LM=0.0] (Act=49.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample116.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5598 frames] -71.5672 [Ac=-400633.1 LM=0.0] (Act=47.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample117.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6183 frames] -70.9540 [Ac=-438708.8 LM=0.0] (Act=36.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample118.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6243 frames] -69.8233 [Ac=-435906.8 LM=0.0] (Act=34.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample119.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6428 frames] -70.9317 [Ac=-455949.2 LM=0.0] (Act=33.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample12.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5913 frames] -71.3426 [Ac=-421848.8 LM=0.0] (Act=43.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample120.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6098 frames] -71.3475 [Ac=-435077.3 LM=0.0] (Act=44.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample121.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5733 frames] -74.3432 [Ac=-426209.8 LM=0.0] (Act=50.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample122.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5818 frames] -74.3142 [Ac=-432359.9 LM=0.0] (Act=53.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample123.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6658 frames] -72.1445 [Ac=-480338.4 LM=0.0] (Act=51.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample124.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6503 frames] -73.8649 [Ac=-480343.4 LM=0.0] (Act=45.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample125.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6143 frames] -72.3480 [Ac=-444434.0 LM=0.0] (Act=52.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample126.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6203 frames] -74.5975 [Ac=-462728.2 LM=0.0] (Act=41.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample127.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5313 frames] -73.9817 [Ac=-393064.8 LM=0.0] (Act=47.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample128.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6013 frames] -76.3249 [Ac=-458941.4 LM=0.0] (Act=30.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample129.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6023 frames] -74.4990 [Ac=-448707.6 LM=0.0] (Act=34.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample13.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6073 frames] -73.0294 [Ac=-443507.5 LM=0.0] (Act=39.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample130.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6733 frames] -72.4685 [Ac=-487930.7 LM=0.0] (Act=46.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample131.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6003 frames] -76.3931 [Ac=-458587.9 LM=0.0] (Act=33.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample132.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6428 frames] -72.8231 [Ac=-468107.2 LM=0.0] (Act=40.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample133.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5808 frames] -76.0845 [Ac=-441898.8 LM=0.0] (Act=45.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample134.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6378 frames] -74.7348 [Ac=-476658.8 LM=0.0] (Act=46.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample135.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6058 frames] -75.0666 [Ac=-454753.3 LM=0.0] (Act=48.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample136.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6363 frames] -74.5577 [Ac=-474410.4 LM=0.0] (Act=37.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample137.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6628 frames] -74.7446 [Ac=-495407.2 LM=0.0] (Act=33.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample138.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6718 frames] -73.3932 [Ac=-493055.4 LM=0.0] (Act=49.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample139.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6708 frames] -71.7607 [Ac=-481370.9 LM=0.0] (Act=59.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample14.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6223 frames] -71.7819 [Ac=-446698.9 LM=0.0] (Act=42.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample140.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5918 frames] -73.3305 [Ac=-433970.1 LM=0.0] (Act=47.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample141.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5908 frames] -73.5879 [Ac=-434757.4 LM=0.0] (Act=53.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample142.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5833 frames] -74.4169 [Ac=-434074.0 LM=0.0] (Act=54.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample143.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6123 frames] -73.5341 [Ac=-450249.2 LM=0.0] (Act=46.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample144.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5063 frames] -74.7776 [Ac=-378599.1 LM=0.0] (Act=52.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample145.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6293 frames] -71.1921 [Ac=-448011.8 LM=0.0] (Act=70.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample146.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6048 frames] -71.9903 [Ac=-435397.1 LM=0.0] (Act=57.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample147.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6023 frames] -71.2014 [Ac=-428846.2 LM=0.0] (Act=54.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample148.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5513 frames] -72.0963 [Ac=-397467.0 LM=0.0] (Act=48.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample149.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6088 frames] -70.9177 [Ac=-431746.7 LM=0.0] (Act=53.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample150.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5763 frames] -71.3802 [Ac=-411364.3 LM=0.0] (Act=61.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample151.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6013 frames] -70.8125 [Ac=-425795.4 LM=0.0] (Act=59.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample152.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6008 frames] -71.1504 [Ac=-427471.3 LM=0.0] (Act=61.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample153.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5973 frames] -72.2109 [Ac=-431315.9 LM=0.0] (Act=42.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample154.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5908 frames] -71.7917 [Ac=-424145.4 LM=0.0] (Act=56.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample155.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5953 frames] -72.3323 [Ac=-430594.3 LM=0.0] (Act=47.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample156.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5713 frames] -71.9523 [Ac=-411063.4 LM=0.0] (Act=69.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample157.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6028 frames] -71.3598 [Ac=-430156.6 LM=0.0] (Act=54.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample158.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6313 frames] -70.8119 [Ac=-447035.6 LM=0.0] (Act=52.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample159.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5448 frames] -73.1565 [Ac=-398556.8 LM=0.0] (Act=51.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample16.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5848 frames] -73.2147 [Ac=-428159.6 LM=0.0] (Act=39.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample160.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6168 frames] -71.4365 [Ac=-440620.5 LM=0.0] (Act=57.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample161.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5958 frames] -73.9076 [Ac=-440341.2 LM=0.0] (Act=45.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample162.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5618 frames] -73.6168 [Ac=-413579.1 LM=0.0] (Act=53.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample163.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5598 frames] -73.7279 [Ac=-412728.8 LM=0.0] (Act=57.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample164.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6413 frames] -74.8622 [Ac=-480091.3 LM=0.0] (Act=35.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample165.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5678 frames] -72.4152 [Ac=-411173.7 LM=0.0] (Act=53.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample166.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6158 frames] -72.9292 [Ac=-449098.1 LM=0.0] (Act=38.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample167.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5768 frames] -73.4539 [Ac=-423682.2 LM=0.0] (Act=47.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample168.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5523 frames] -73.9392 [Ac=-408366.1 LM=0.0] (Act=41.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample169.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6048 frames] -72.5210 [Ac=-438606.7 LM=0.0] (Act=44.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample17.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5833 frames] -73.2193 [Ac=-427088.2 LM=0.0] (Act=39.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample170.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6398 frames] -74.2296 [Ac=-474920.7 LM=0.0] (Act=35.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample171.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6143 frames] -74.5075 [Ac=-457699.4 LM=0.0] (Act=37.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample172.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5398 frames] -73.0203 [Ac=-394163.8 LM=0.0] (Act=38.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample173.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6108 frames] -72.5697 [Ac=-443255.7 LM=0.0] (Act=46.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample174.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5648 frames] -72.8237 [Ac=-411308.2 LM=0.0] (Act=44.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample175.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5653 frames] -73.8021 [Ac=-417203.5 LM=0.0] (Act=41.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample176.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6693 frames] -75.6663 [Ac=-506434.6 LM=0.0] (Act=35.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample178.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6158 frames] -70.0684 [Ac=-431481.4 LM=0.0] (Act=48.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample179.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5218 frames] -71.9094 [Ac=-375223.4 LM=0.0] (Act=53.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample18.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5928 frames] -73.0970 [Ac=-433318.8 LM=0.0] (Act=48.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample180.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6468 frames] -72.1408 [Ac=-466606.7 LM=0.0] (Act=39.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample181.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5768 frames] -74.6259 [Ac=-430442.3 LM=0.0] (Act=36.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample182.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6108 frames] -74.4885 [Ac=-454975.9 LM=0.0] (Act=38.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample183.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6498 frames] -72.4001 [Ac=-470455.9 LM=0.0] (Act=44.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample184.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6263 frames] -72.6025 [Ac=-454709.7 LM=0.0] (Act=41.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample185.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6368 frames] -72.8314 [Ac=-463790.0 LM=0.0] (Act=52.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample186.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5488 frames] -73.4170 [Ac=-402912.6 LM=0.0] (Act=55.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample187.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5973 frames] -70.8973 [Ac=-423469.8 LM=0.0] (Act=43.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample188.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5638 frames] -71.9073 [Ac=-405413.4 LM=0.0] (Act=45.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample189.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5808 frames] -71.1662 [Ac=-413333.2 LM=0.0] (Act=58.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample19.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6043 frames] -72.1485 [Ac=-435993.4 LM=0.0] (Act=42.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample190.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6893 frames] -71.4664 [Ac=-492617.7 LM=0.0] (Act=37.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample191.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6543 frames] -71.2867 [Ac=-466429.0 LM=0.0] (Act=49.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample192.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6063 frames] -72.5796 [Ac=-440049.9 LM=0.0] (Act=46.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample193.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5898 frames] -71.9818 [Ac=-424548.4 LM=0.0] (Act=38.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample194.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6228 frames] -71.7673 [Ac=-446967.0 LM=0.0] (Act=50.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample195.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5923 frames] -70.5815 [Ac=-418054.4 LM=0.0] (Act=45.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample196.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6198 frames] -72.2037 [Ac=-447518.8 LM=0.0] (Act=50.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample197.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5903 frames] -71.9021 [Ac=-424437.9 LM=0.0] (Act=44.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample198.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6388 frames] -70.8824 [Ac=-452796.5 LM=0.0] (Act=50.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample199.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6143 frames] -70.0928 [Ac=-430579.9 LM=0.0] (Act=51.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample20.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5888 frames] -73.4934 [Ac=-432729.2 LM=0.0] (Act=45.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample200.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5733 frames] -71.6052 [Ac=-410512.7 LM=0.0] (Act=46.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample201.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5843 frames] -69.7902 [Ac=-407784.2 LM=0.0] (Act=54.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample202.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5943 frames] -68.0432 [Ac=-404380.9 LM=0.0] (Act=66.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample203.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6358 frames] -70.4863 [Ac=-448152.1 LM=0.0] (Act=57.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample204.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6273 frames] -68.8355 [Ac=-431805.4 LM=0.0] (Act=56.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample205.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6088 frames] -69.5827 [Ac=-423619.2 LM=0.0] (Act=53.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample206.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5878 frames] -69.5475 [Ac=-408800.3 LM=0.0] (Act=56.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample207.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6053 frames] -68.7321 [Ac=-416035.4 LM=0.0] (Act=61.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample208.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6078 frames] -68.4847 [Ac=-416250.2 LM=0.0] (Act=64.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample209.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6883 frames] -69.6263 [Ac=-479238.0 LM=0.0] (Act=47.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample21.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5513 frames] -72.1885 [Ac=-397975.4 LM=0.0] (Act=48.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample210.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5868 frames] -69.1223 [Ac=-405609.6 LM=0.0] (Act=61.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample211.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6913 frames] -66.9447 [Ac=-462788.5 LM=0.0] (Act=65.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample212.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5893 frames] -68.0478 [Ac=-401005.7 LM=0.0] (Act=57.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample213.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6008 frames] -68.2000 [Ac=-409745.7 LM=0.0] (Act=54.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample214.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5848 frames] -68.3387 [Ac=-399644.7 LM=0.0] (Act=49.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample215.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6128 frames] -68.6546 [Ac=-420715.7 LM=0.0] (Act=53.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample216.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6178 frames] -69.2247 [Ac=-427670.3 LM=0.0] (Act=43.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample217.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6058 frames] -68.3972 [Ac=-414350.1 LM=0.0] (Act=55.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample218.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5473 frames] -69.1715 [Ac=-378575.6 LM=0.0] (Act=43.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample219.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6163 frames] -68.3951 [Ac=-421518.8 LM=0.0] (Act=63.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample22.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7868 frames] -72.1916 [Ac=-568003.8 LM=0.0] (Act=40.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample220.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5723 frames] -67.5895 [Ac=-386814.9 LM=0.0] (Act=62.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample221.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5948 frames] -69.8923 [Ac=-415719.2 LM=0.0] (Act=50.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample222.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6263 frames] -70.6709 [Ac=-442611.8 LM=0.0] (Act=42.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample223.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5643 frames] -70.5504 [Ac=-398115.9 LM=0.0] (Act=46.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample224.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5668 frames] -70.8491 [Ac=-401572.8 LM=0.0] (Act=43.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample225.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5233 frames] -70.9406 [Ac=-371232.1 LM=0.0] (Act=43.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample226.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5623 frames] -70.8974 [Ac=-398656.2 LM=0.0] (Act=43.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample227.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6158 frames] -69.8531 [Ac=-430155.2 LM=0.0] (Act=46.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample229.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6398 frames] -72.0704 [Ac=-461106.3 LM=0.0] (Act=51.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample23.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7408 frames] -70.9229 [Ac=-525397.1 LM=0.0] (Act=41.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample230.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6053 frames] -72.9992 [Ac=-441864.3 LM=0.0] (Act=40.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample231.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6218 frames] -72.1149 [Ac=-448410.3 LM=0.0] (Act=34.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample232.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6463 frames] -70.7955 [Ac=-457551.5 LM=0.0] (Act=43.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample233.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6838 frames] -72.3531 [Ac=-494750.2 LM=0.0] (Act=37.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample234.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6058 frames] -73.8095 [Ac=-447138.2 LM=0.0] (Act=41.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample235.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6208 frames] -72.8947 [Ac=-452530.4 LM=0.0] (Act=45.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample236.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5783 frames] -72.8820 [Ac=-421476.6 LM=0.0] (Act=43.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample237.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6308 frames] -73.0481 [Ac=-460787.6 LM=0.0] (Act=41.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample238.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6448 frames] -71.4024 [Ac=-460402.5 LM=0.0] (Act=36.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample239.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5993 frames] -70.0928 [Ac=-420066.4 LM=0.0] (Act=49.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample24.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7443 frames] -70.9501 [Ac=-528081.4 LM=0.0] (Act=47.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample240.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6643 frames] -70.3208 [Ac=-467140.8 LM=0.0] (Act=40.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample241.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6608 frames] -75.3929 [Ac=-498196.2 LM=0.0] (Act=37.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample242.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5898 frames] -76.2549 [Ac=-449751.1 LM=0.0] (Act=50.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample243.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5753 frames] -74.0612 [Ac=-426074.0 LM=0.0] (Act=63.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample244.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6053 frames] -73.9003 [Ac=-447318.5 LM=0.0] (Act=59.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample245.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6128 frames] -73.8053 [Ac=-452279.1 LM=0.0] (Act=50.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample246.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5983 frames] -73.7885 [Ac=-441476.6 LM=0.0] (Act=62.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample247.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6028 frames] -73.4091 [Ac=-442509.9 LM=0.0] (Act=56.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample248.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6213 frames] -71.9619 [Ac=-447099.5 LM=0.0] (Act=62.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample249.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6243 frames] -72.2139 [Ac=-450831.3 LM=0.0] (Act=61.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample25.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5908 frames] -73.9213 [Ac=-436727.0 LM=0.0] (Act=47.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample250.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6053 frames] -72.4535 [Ac=-438560.9 LM=0.0] (Act=54.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample251.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7053 frames] -73.0608 [Ac=-515298.1 LM=0.0] (Act=39.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample252.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7163 frames] -73.0836 [Ac=-523497.6 LM=0.0] (Act=37.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample253.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [8353 frames] -70.3311 [Ac=-587475.8 LM=0.0] (Act=43.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample254.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6158 frames] -71.0898 [Ac=-437770.8 LM=0.0] (Act=46.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample255.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6193 frames] -71.7222 [Ac=-444175.5 LM=0.0] (Act=48.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample256.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6183 frames] -69.7725 [Ac=-431403.2 LM=0.0] (Act=55.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample257.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5443 frames] -70.0008 [Ac=-381014.2 LM=0.0] (Act=65.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample258.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5483 frames] -70.3127 [Ac=-385524.5 LM=0.0] (Act=57.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample259.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5838 frames] -70.4078 [Ac=-411040.5 LM=0.0] (Act=65.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample26.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5598 frames] -75.3168 [Ac=-421623.2 LM=0.0] (Act=43.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample260.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5863 frames] -69.4361 [Ac=-407104.0 LM=0.0] (Act=61.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample261.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5843 frames] -70.8206 [Ac=-413804.8 LM=0.0] (Act=45.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample262.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6598 frames] -69.8259 [Ac=-460711.4 LM=0.0] (Act=57.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample263.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6033 frames] -70.0010 [Ac=-422315.8 LM=0.0] (Act=59.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample264.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6043 frames] -71.2159 [Ac=-430357.8 LM=0.0] (Act=49.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample265.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6468 frames] -69.7124 [Ac=-450900.0 LM=0.0] (Act=45.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample266.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6028 frames] -70.7433 [Ac=-426440.8 LM=0.0] (Act=58.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample267.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6898 frames] -69.2749 [Ac=-477858.2 LM=0.0] (Act=59.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample268.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6443 frames] -69.8339 [Ac=-449940.0 LM=0.0] (Act=52.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample269.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6058 frames] -71.1739 [Ac=-431171.3 LM=0.0] (Act=56.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample27.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5953 frames] -72.7684 [Ac=-433190.6 LM=0.0] (Act=52.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample270.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6158 frames] -70.2820 [Ac=-432796.4 LM=0.0] (Act=54.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample271.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5298 frames] -73.9876 [Ac=-391986.4 LM=0.0] (Act=56.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample272.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7158 frames] -71.9202 [Ac=-514805.1 LM=0.0] (Act=54.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample273.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [8078 frames] -73.0030 [Ac=-589718.2 LM=0.0] (Act=48.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample274.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7478 frames] -74.4196 [Ac=-556509.6 LM=0.0] (Act=45.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample275.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5763 frames] -74.5061 [Ac=-429378.6 LM=0.0] (Act=44.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample276.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5163 frames] -74.8051 [Ac=-386218.8 LM=0.0] (Act=46.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample277.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5763 frames] -73.0904 [Ac=-421219.8 LM=0.0] (Act=51.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample278.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6123 frames] -74.2696 [Ac=-454752.7 LM=0.0] (Act=51.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample279.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5728 frames] -72.6265 [Ac=-416004.5 LM=0.0] (Act=59.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample28.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6363 frames] -71.7401 [Ac=-456482.3 LM=0.0] (Act=55.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample280.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6273 frames] -72.8324 [Ac=-456877.4 LM=0.0] (Act=55.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample281.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5763 frames] -76.3761 [Ac=-440155.6 LM=0.0] (Act=50.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample282.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5728 frames] -77.7562 [Ac=-445387.8 LM=0.0] (Act=43.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample283.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6318 frames] -88.3375 [Ac=-558116.1 LM=0.0] (Act=33.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample284.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5843 frames] -73.3880 [Ac=-428806.1 LM=0.0] (Act=53.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample285.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5923 frames] -74.2714 [Ac=-439909.6 LM=0.0] (Act=50.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample286.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6238 frames] -76.6583 [Ac=-478194.4 LM=0.0] (Act=47.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample287.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5853 frames] -75.1576 [Ac=-439897.2 LM=0.0] (Act=53.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample288.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6518 frames] -73.5140 [Ac=-479164.1 LM=0.0] (Act=50.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample289.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6028 frames] -73.2651 [Ac=-441642.1 LM=0.0] (Act=57.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample29.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5778 frames] -72.5350 [Ac=-419107.2 LM=0.0] (Act=50.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample290.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6043 frames] -72.8934 [Ac=-440495.1 LM=0.0] (Act=60.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample291.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5688 frames] -70.9117 [Ac=-403345.9 LM=0.0] (Act=62.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample292.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5688 frames] -70.9117 [Ac=-403345.9 LM=0.0] (Act=62.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample293.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5748 frames] -70.6346 [Ac=-406007.9 LM=0.0] (Act=62.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample294.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5488 frames] -72.0630 [Ac=-395481.7 LM=0.0] (Act=57.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample295.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6098 frames] -71.3040 [Ac=-434812.1 LM=0.0] (Act=57.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample296.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5808 frames] -72.4566 [Ac=-420827.8 LM=0.0] (Act=55.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample297.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5298 frames] -72.9368 [Ac=-386419.2 LM=0.0] (Act=50.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample3.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5583 frames] -75.1325 [Ac=-419464.5 LM=0.0] (Act=48.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample30.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6313 frames] -71.8362 [Ac=-453502.0 LM=0.0] (Act=52.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample301.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6253 frames] -70.4114 [Ac=-440282.6 LM=0.0] (Act=56.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample302.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6603 frames] -69.9341 [Ac=-461774.8 LM=0.0] (Act=48.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample305.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6198 frames] -71.3142 [Ac=-442005.3 LM=0.0] (Act=49.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample306.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6118 frames] -72.9093 [Ac=-446058.9 LM=0.0] (Act=56.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample307.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5933 frames] -71.2608 [Ac=-422790.4 LM=0.0] (Act=55.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample308.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5643 frames] -70.6696 [Ac=-398788.7 LM=0.0] (Act=64.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample309.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5908 frames] -72.7439 [Ac=-429771.2 LM=0.0] (Act=47.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample31.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6678 frames] -72.0924 [Ac=-481433.1 LM=0.0] (Act=49.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample310.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6038 frames] -72.3536 [Ac=-436870.8 LM=0.0] (Act=43.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample311.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6943 frames] -70.4542 [Ac=-489163.4 LM=0.0] (Act=61.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample312.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6058 frames] -75.5076 [Ac=-457425.1 LM=0.0] (Act=42.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample313.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6063 frames] -76.4479 [Ac=-463503.5 LM=0.0] (Act=46.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample314.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6073 frames] -74.4858 [Ac=-452352.4 LM=0.0] (Act=48.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample315.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6613 frames] -72.2777 [Ac=-477972.6 LM=0.0] (Act=50.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample316.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6103 frames] -71.9312 [Ac=-438996.2 LM=0.0] (Act=54.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample317.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6303 frames] -71.9034 [Ac=-453207.2 LM=0.0] (Act=55.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample318.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6008 frames] -70.7759 [Ac=-425221.5 LM=0.0] (Act=57.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample319.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5788 frames] -73.1402 [Ac=-423335.2 LM=0.0] (Act=44.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample32.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6453 frames] -71.3776 [Ac=-460599.8 LM=0.0] (Act=65.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample320.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5723 frames] -73.9867 [Ac=-423426.1 LM=0.0] (Act=48.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample321.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5888 frames] -74.1289 [Ac=-436470.9 LM=0.0] (Act=54.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample322.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6568 frames] -74.2367 [Ac=-487586.6 LM=0.0] (Act=40.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample323.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5798 frames] -76.2847 [Ac=-442298.5 LM=0.0] (Act=45.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample324.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6193 frames] -72.8521 [Ac=-451173.1 LM=0.0] (Act=43.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample325.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6203 frames] -76.3599 [Ac=-473660.6 LM=0.0] (Act=33.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample326.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6358 frames] -77.8773 [Ac=-495144.1 LM=0.0] (Act=47.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample327.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5983 frames] -74.3391 [Ac=-444770.8 LM=0.0] (Act=39.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample328.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5643 frames] -74.4250 [Ac=-419980.5 LM=0.0] (Act=51.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample329.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6083 frames] -74.6222 [Ac=-453926.6 LM=0.0] (Act=36.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample33.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6008 frames] -71.8965 [Ac=-431954.1 LM=0.0] (Act=58.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample330.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5753 frames] -76.0575 [Ac=-437558.6 LM=0.0] (Act=50.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample332.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7803 frames] -81.7906 [Ac=-638211.9 LM=0.0] (Act=26.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample333.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7753 frames] -80.1589 [Ac=-621471.9 LM=0.0] (Act=35.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample335.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7618 frames] -78.8629 [Ac=-600777.9 LM=0.0] (Act=32.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample336.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7863 frames] -82.1653 [Ac=-646065.4 LM=0.0] (Act=31.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample337.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7673 frames] -78.5301 [Ac=-602561.6 LM=0.0] (Act=31.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample338.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [8538 frames] -83.8051 [Ac=-715527.9 LM=0.0] (Act=29.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample339.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [8193 frames] -81.5991 [Ac=-668541.4 LM=0.0] (Act=37.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample34.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6118 frames] -72.5193 [Ac=-443673.0 LM=0.0] (Act=53.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample340.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6013 frames] -81.5389 [Ac=-490293.6 LM=0.0] (Act=30.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample341.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6613 frames] -79.7818 [Ac=-527596.8 LM=0.0] (Act=34.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample342.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5288 frames] -79.1273 [Ac=-418424.9 LM=0.0] (Act=43.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample344.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6338 frames] -75.9277 [Ac=-481229.8 LM=0.0] (Act=47.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample345.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5893 frames] -78.8950 [Ac=-464928.0 LM=0.0] (Act=28.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample346.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6148 frames] -74.9324 [Ac=-460684.6 LM=0.0] (Act=55.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample347.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5803 frames] -77.4067 [Ac=-449191.0 LM=0.0] (Act=44.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample348.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5298 frames] -77.9422 [Ac=-412937.8 LM=0.0] (Act=41.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample35.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6693 frames] -72.0160 [Ac=-482003.3 LM=0.0] (Act=50.8)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample353.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6038 frames] -74.8737 [Ac=-452087.2 LM=0.0] (Act=42.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample356.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6513 frames] -72.2949 [Ac=-470856.5 LM=0.0] (Act=46.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample36.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5983 frames] -73.0276 [Ac=-436924.2 LM=0.0] (Act=55.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample364.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5713 frames] -72.9260 [Ac=-416626.2 LM=0.0] (Act=61.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample368.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6878 frames] -70.9579 [Ac=-488048.2 LM=0.0] (Act=45.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample37.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6263 frames] -72.4330 [Ac=-453648.0 LM=0.0] (Act=43.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample371.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [9328 frames] -72.4561 [Ac=-675870.5 LM=0.0] (Act=44.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample376.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6538 frames] -71.2361 [Ac=-465741.8 LM=0.0] (Act=49.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample38.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5728 frames] -74.4760 [Ac=-426598.4 LM=0.0] (Act=42.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample389.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5848 frames] -73.0670 [Ac=-427295.6 LM=0.0] (Act=45.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample39.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5613 frames] -73.5121 [Ac=-412623.4 LM=0.0] (Act=50.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample391.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6668 frames] -76.0774 [Ac=-507283.8 LM=0.0] (Act=49.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample392.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6178 frames] -75.6282 [Ac=-467231.0 LM=0.0] (Act=53.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample394.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6403 frames] -75.5968 [Ac=-484046.2 LM=0.0] (Act=48.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample396.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6278 frames] -79.7972 [Ac=-500966.6 LM=0.0] (Act=36.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample397.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6538 frames] -76.8591 [Ac=-502505.1 LM=0.0] (Act=50.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample40.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5488 frames] -72.6213 [Ac=-398545.5 LM=0.0] (Act=49.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample401.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5578 frames] -71.6055 [Ac=-399415.5 LM=0.0] (Act=44.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample402.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6528 frames] -69.1133 [Ac=-451171.9 LM=0.0] (Act=55.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample403.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6038 frames] -72.3536 [Ac=-436870.8 LM=0.0] (Act=43.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample44.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7678 frames] -72.0012 [Ac=-552825.1 LM=0.0] (Act=46.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample5.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6668 frames] -75.2376 [Ac=-501684.6 LM=0.0] (Act=41.7)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample54.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [8038 frames] -71.7790 [Ac=-576959.5 LM=0.0] (Act=45.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample6.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6008 frames] -75.3104 [Ac=-452464.8 LM=0.0] (Act=40.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample62.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6523 frames] -73.9987 [Ac=-482693.5 LM=0.0] (Act=38.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample63.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6458 frames] -71.3354 [Ac=-460683.9 LM=0.0] (Act=36.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample64.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6433 frames] -75.7304 [Ac=-487173.9 LM=0.0] (Act=54.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample65.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6163 frames] -75.4300 [Ac=-464874.9 LM=0.0] (Act=49.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample66.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6288 frames] -71.3483 [Ac=-448638.3 LM=0.0] (Act=42.1)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample67.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5638 frames] -74.1926 [Ac=-418298.1 LM=0.0] (Act=48.2)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample71.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [8293 frames] -78.7384 [Ac=-652977.4 LM=0.0] (Act=34.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample72.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [8093 frames] -75.9904 [Ac=-614990.5 LM=0.0] (Act=35.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample75.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [8098 frames] -77.9630 [Ac=-631344.2 LM=0.0] (Act=43.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample76.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7443 frames] -76.3480 [Ac=-568258.2 LM=0.0] (Act=59.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample78.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [8163 frames] -80.1374 [Ac=-654161.6 LM=0.0] (Act=32.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample79.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [8358 frames] -77.3046 [Ac=-646111.9 LM=0.0] (Act=47.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample81.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6428 frames] -72.3165 [Ac=-464850.5 LM=0.0] (Act=46.6)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample82.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6843 frames] -73.0202 [Ac=-499677.4 LM=0.0] (Act=40.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample83.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5863 frames] -73.7545 [Ac=-432422.9 LM=0.0] (Act=51.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample84.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [7168 frames] -73.2977 [Ac=-525398.2 LM=0.0] (Act=34.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample85.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5213 frames] -73.7072 [Ac=-384235.9 LM=0.0] (Act=50.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample86.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6423 frames] -72.6974 [Ac=-466935.4 LM=0.0] (Act=39.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample87.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6603 frames] -70.8598 [Ac=-467887.0 LM=0.0] (Act=44.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample88.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6228 frames] -72.3332 [Ac=-450491.4 LM=0.0] (Act=49.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample89.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6048 frames] -71.2070 [Ac=-430659.7 LM=0.0] (Act=46.0)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample9.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6093 frames] -75.0343 [Ac=-457183.8 LM=0.0] (Act=45.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample90.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6008 frames] -71.3568 [Ac=-428711.6 LM=0.0] (Act=41.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample91.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6523 frames] -70.6893 [Ac=-461106.2 LM=0.0] (Act=36.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample92.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5988 frames] -72.3807 [Ac=-433415.8 LM=0.0] (Act=36.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample93.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5853 frames] -73.4601 [Ac=-429962.2 LM=0.0] (Act=42.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample94.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6403 frames] -72.0021 [Ac=-461029.1 LM=0.0] (Act=51.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample95.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6868 frames] -70.5168 [Ac=-484309.5 LM=0.0] (Act=46.9)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample96.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5403 frames] -73.8214 [Ac=-398856.9 LM=0.0] (Act=47.5)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample97.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5218 frames] -75.2452 [Ac=-392629.5 LM=0.0] (Act=50.4)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample98.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [6213 frames] -73.3323 [Ac=-455613.5 LM=0.0] (Act=42.3)
+Aligning File: /home/alex/Documents/Data/MFC_audio/TrainingSample99.mfc
+Created lattice with 62 nodes / 61 arcs from label file
+silence noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise noise oov noise silence  ==  [5613 frames] -74.7371 [Ac=-419499.1 LM=0.0] (Act=44.0)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  ENORMALISE                  TRUE
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND        MFCC_C_K_0_D_A
+

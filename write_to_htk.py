@@ -78,12 +78,12 @@ def map_gesture(gest):
 #================================================================= MAIN =======================================================================
 
 # Change this path to the saved skeletal .csv file.
-flag_path = 'Dimitris'
+flag_path = 'Alex'
 
 if flag_path == 'Alex':
 	#Alex's Paths
-	out_path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_data"
-	out_path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_test_data"
+	out_path_train = "/home/alex/Documents/Data/MFC_data"
+	out_path_test = "/home/alex/Documents/Data/MFC_test_data"
 elif flag_path == "Dimitris":
 	#Dimitri's Paths
 	out_path_train = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_data"
@@ -94,21 +94,21 @@ flag = 'Testing'
 # Modify this flag to 'Isolated' or 'Embedded'.
 flag_embed = 'Embedded'
 
-lab_flag = 'labelled'
+lab_flag = 'Unlabelled'
 #================================================================ Switch between Training and Testing =========================================
 if flag == 'Training':
 	out_path = out_path_train
 	if flag_path == 'Alex':
-		in_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_set_skeletal_extended.csv"
+		in_file = "/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Training_set_skeletal_extended.csv"
 	elif flag_path == 'Dimitris':
 		in_file = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Training_set_skeletal_extended.csv'
 	out_file = 'Training_Sequence'
 elif flag == 'Testing':
 	out_path = out_path_test
 	if flag_path == 'Alex':
-		in_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Testing_set_skeletal_extended.csv"
+		in_file = "/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Testing_set_skeletal_extended.csv"
 	elif flag_path == 'Dimitris':
-		in_file = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Testing_set_skeletal.csv'
+		in_file = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Testing_set_skeletal_extended.csv'
 	out_file = 'Testing_Sequence'
 #============================================== Load data and get rid of some weird labels ====================================================
 # Load the data and get the different file ids in a list.
@@ -194,6 +194,5 @@ elif flag_embed == 'Embedded':
 		# Write the label sequence for each file to the label file.
 		lab_file.write('%s:%s\n' %(file_name,label_sequence))
 	lab_file.close()
-
 
 print "finished"

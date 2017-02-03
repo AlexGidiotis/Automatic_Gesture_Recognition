@@ -2,6 +2,7 @@ silence	[] 	sil
 sil		[]
 sp		[]
 noise	[]	noise	
+oov			oov
 Basta		b a1 s t a sil
 Buonissimo	b w o n i1 s s i m o sil
 ce			ts e1 sp

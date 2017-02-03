@@ -10,13 +10,13 @@ import os
 import numpy as np
 import pandas as pd
 
-flag_path = 'Dimitris'
+flag_path = 'Alex'
 
 if flag_path == 'Alex':
 	#Alex's Paths
-	train_labels_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\training_label_file.csv"
-	test_labels_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\testing_label_file.csv"
-	unlabelled_lab_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\unlabelled_label_file.csv"
+	train_labels_file = "/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/training_label_file.csv"
+	test_labels_file = "/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/testing_label_file.csv"
+	unlabelled_lab_file = "/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/unlabelled_label_file.csv"
 elif flag_path == 'Dimitris':
 	#Dimitr's Paths
 	train_labels_file = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/training_label_file.csv"
@@ -24,7 +24,7 @@ elif flag_path == 'Dimitris':
 	unlabelled_lab_file = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/unlabelled_label_file.csv"
 
 flag = 'Test'
-labeled = 'True'
+labeled = 'False'
 
 # ========================================= Loads the skeletal data and labels =================================================================
 # Returns: a dataframe with the whole training set frame by frame. (num frames x 27)
@@ -257,10 +257,10 @@ def calculate_movement_directions(df):
 #============================================================= Main function ====================================================================
 # This is the function that goes through the feature extraction process and writes the output.
 if flag_path == 'Alex':
-	sk_training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
-	sk_test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
-	out_training_path = "C:\Users\Alex\Documents\University\Python\Data\SK_CSV_feats"
-	out_test_path = "C:\Users\Alex\Documents\University\Python\Data\SK_CSV_TEST_feats"
+	sk_training_path = "/home/alex/Documents/Data/CSV_data"
+	sk_test_path = "/home/alex/Documents/Data/CSV_TEST_data"
+	out_training_path = "/home/alex/Documents/Data/SK_CSV_feats"
+	out_test_path = "/home/alex/Documents/Data/SK_CSV_TEST_feats"
 elif flag_path == 'Dimitris':
 	sk_training_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/CSV_data"
 	sk_test_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/CSV_TEST_data"
@@ -304,3 +304,4 @@ elif flag == 'Test':
 
 
 
+>>>>>>> master

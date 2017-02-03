@@ -1,6 +1,3 @@
-# loads and test the trained model on a series of test videos.
-# outputs a label file(.csv) for all frames in the training or test set"
-
 import numpy as np
 import pandas as pd
 import os
@@ -62,16 +59,16 @@ def split_to_sets(df):
 
 ############################## main ######################################
 #Change this flag
-flag_path = 'Dimitris'
+flag_path = 'Alex'
 # modify this flags for Training or Testing
 flag = 'Testing'
-labeled = 'True'
+labeled = 'False'
 if flag_path == 'Alex':
 	#Alex's Paths
-	training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"
-	test_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_TEST_data"
-	training_labels = "C:\Users\Alex\Documents\University\Python\Data\Labels"
-	test_labels = "C:\Users\Alex\Documents\University\Python\Data\Test_Labels"
+	training_path = "/home/alex/Documents/Data/CSV_data"
+	test_path = "/home/alex/Documents/Data/CSV_TEST_data"
+	training_labels = "/home/alex/Documents/Data/Labels"
+	test_labels = "/home/alex/Documents/Data/Test_Labels"
 elif flag_path == 'Dimitris':	
 	#Dimitri's Paths
 	training_path = "/media/dimitris/TOSHIBA EXT/Chalearn_GestureReco/CSV_data"
@@ -149,8 +146,3 @@ elif labeled == 'False':
 	print "Writing output..."
 	# writing output to csv
 	np.savetxt("unlabelled_label_file.csv", labs, fmt='%s', delimiter=',')
-
-
-
-
-

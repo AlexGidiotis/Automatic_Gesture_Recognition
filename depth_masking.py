@@ -20,10 +20,10 @@ flag_path = 'Dimitris'
 # Choose between Training and Testing.
 if flag_path == 'Alex':
 	if flag == 'Training':
-		path = 'C:\Users\Alex\Documents\University\Python\Data\Train_Images'
+		path = '/home/alex/Documents/Data/Train_Images'
 		in_file = "Training_set_skeletal.csv"
 	elif flag == 'Testing':
-		path = 'C:\Users\Alex\Documents\University\Python\Data\Test_Images'
+		path = '/home/alex/Documents/Data/Test_Images'
 		in_file = "Testing_set_skeletal.csv"
 elif flag_path == 'Dimitris':
 	if flag == 'Training':

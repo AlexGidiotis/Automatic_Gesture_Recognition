@@ -1,0 +1,5 @@
+CL triphones1
+TI T_sil {(*-sil+*,sil+*,*-sil).transP}
+TI T_noise {(*-noise+*,noise+*,*-noise).transP}
+TI T_oov {(*-oov+*,oov+*,*-oov).transP}
+TI T_sp {(*-sp+*,sp+*,*-sp).transP}

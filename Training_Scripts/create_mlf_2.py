@@ -1,4 +1,3 @@
-
 import os
 import re
 import pandas as pd
@@ -37,4 +36,3 @@ for line in train_scp:
 		mlf.write('%s\n'%gest)
 	mlf.write(".\n")
 mlf.close()
-

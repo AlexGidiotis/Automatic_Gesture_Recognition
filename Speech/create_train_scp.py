@@ -25,4 +25,3 @@ of = open(out_name,'w')
 # Write all input files.
 for file in f_list:
 	of.write('%s/%s\n' % (path,file))
-of.close()

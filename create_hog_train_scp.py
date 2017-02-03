@@ -10,9 +10,9 @@ import re
 flag_path = 'Dimitris'
 
 if flag_path == 'Alex':
-	path_train = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_data"
-	path_test = "C:\Users\Alex\Documents\University\Python\Data\MFC_HOG_test_data"
-	path_out = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Training_HOG_Scripts"
+	path_train = "/home/alex/Documents/Data/MFC_HOG_data"
+	path_test = "/home/alex/Documents/Data//MFC_HOG_test_data"
+	path_out = "/home/alex/Documents/git_projects/Automatic_Gesture_Recognition/Training_HOG_Scripts"
 elif flag_path == 'Dimitris':
 	path_train = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_HOG_data"
 	path_test = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_HOG_test_data"
@@ -40,7 +40,7 @@ if flag == 'Training':
 			#if int(label) == 0: continue
 			#Different file systems ('/' or '\')
 			if flag_path == 'Alex':
-				of.write("%s\\%s\n" %(path_top,f))
+				of.write("%s/%s\n" %(path_top,f))
 			elif flag_path == 'Dimitris':
 				of.write('%s/%s\n'%(path_top,f))
 		print "Training script created."
@@ -53,7 +53,7 @@ if flag == 'Training':
 			elif f[-3:] == 'txt':continue
 			#Different file systems ('/' or '\')
 			if flag_path == 'Alex':
-				of.write("%s\\%s\n" %(path_top,f))
+				of.write("%s/%s\n" %(path_top,f))
 			elif flag_path == 'Dimitris':
 				of.write('%s/%s\n'%(path_top,f))
 		print "Training script created."
@@ -77,7 +77,7 @@ elif flag == 'Testing':
 			if int(label) == 0: continue
 			#Different file systems ('/' or '\')
 			if flag_path == 'Alex':
-				of.write("%s\\%s\n" %(path_top,f))
+				of.write("%s/%s\n" %(path_top,f))
 			elif flag_path == 'Dimitris':
 				of.write('%s/%s\n'%(path_top,f))
 		print "Test script created."
@@ -92,7 +92,7 @@ elif flag == 'Testing':
 			elif f[-3:] == 'txt':continue
 			#Different file systems ('/' or '\')
 			if flag_path == 'Alex':
-				of.write("%s\\%s\n" %(path_top,f))
+				of.write("%s/%s\n" %(path_top,f))
 			elif flag_path == 'Dimitris':
 				of.write('%s/%s\n'%(path_top,f))
 		print "Test script created."

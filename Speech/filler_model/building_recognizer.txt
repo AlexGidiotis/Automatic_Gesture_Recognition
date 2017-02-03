@@ -1,0 +1,58 @@
+1. Audio tranining and test data and labels.
+2. Grammar (gram file)
+3. Wordnet -> HParse gram wdnet
+4. Wordlist (wlist)
+5. Dictionary
+6. Monophones (monophones0(without 'sp'),monophones1(with 'sp'))
+7. Word level mlf ->create_word_mlf.py
+8. Create mkphones0.led Create mkphones1.led
+9. Phone level mlf ->HLEd -l '*' -d dictionary -i phones0.mlf mkphones0.led words.mlf ->HLEd -l '*' -d dictionary -i phones1.mlf mkphones1.led words.mlf
+10. Create config_HCopy
+11. Create wav2mfc.scp ->create_wav2mfc_scp.py
+12.	Convert .wav to .mfc 
+13.	Create prototype
+14. Create Train.scp ->create_train_scp.py
+15. Create config
+16. Create directories hmm0-hmm15 and put monophones0 inside hmm0 and monophones1 inside hmm5.
+17. -> HCompV -A -D -T 1 -C config -f 0.01 -m -S Train.scp -M hmm0 prototype
+18. -> initialize_hmm.py
+19. Create split.hed
+20. Repeat 3 times.(hmm0->hmm1,hmm1->hmm2,hmm2->hmm3)
+	HERest -A -D -T 1 -C config -I phones0.mlf -t 250.0 150.0 1000.0 -S Train.scp -H hmm0/macros -H hmm0/hmmdefs -M hmm1 hmm0/monophones0
+21. Create copy hmm3 to hmm4 and add 'sp' to hmmdefs
+22. Create sil.hed
+23. ->HHEd -A -D -T 1 -H hmm4/macros -H hmm4/hmmdefs -M hmm5 sil.hed monophones1
+24. Repeat 2 times.(hmm5->hmm6,hmm6->hmm7)
+	HERest -A -D -T 1 -C config  -I phones1.mlf -t 250.0 150.0 3000.0 -S Train.scp -H hmm5/macros -H  hmm5/hmmdefs -M hmm6 hmm5/monophones1
+25. HVite -A -D -T 1 -l "*" -o SWT -b silence -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words.mlf -S Train.scp dictionary hmm5/monophones1> HVite_log
+26. Repeat 2 times.(hmm7->hmm8,hmm8->hmm9)
+	HERest -A -D -T 1 -C config -I aligned.mlf -t 250.0 150.0 3000.0 -S Train.scp -H hmm7/macros -H hmm7/hmmdefs -M hmm8 hmm5/monophones1 
+27. Create mktr.led
+28. -> HLEd -A -D -T 1 -n triphones1 -l "*" -i wintri.mlf mktri.led aligned.mlf
+29. -> maketrihed.py
+30. -> HHEd -A -D -T 1 -H hmm9/macros -H hmm9/hmmdefs -M hmm10 mktri.hed hmm5/monophones1
+31. (hmm10->hmm11,hmm11->hmm12)
+	-> HERest  -A -D -T 1 -C config -I wintri.mlf -t 250.0 150.0 3000.0 -S Train.scp -H hmm10/macros -H hmm10/hmmdefs -M hmm11 hmm10/triphones1 
+	-> HERest  -A -D -T 1 -C config -I wintri.mlf -t 250.0 150.0 3000.0 -s stats -S Train.scp -H hmm11/macros -H hmm11/hmmdefs -M hmm12 hmm10/triphones1
+32. restimate all the way to hmm17
+33. -> HHEd -H hmm17/macros -H hmm17/hmmdefs -M 2gmm_hmm1 split2.hed triphones1
+34. restimate all the way to 2gmm_hmm12
+	HERest  -A -D -T 1 -C config -I wintri.mlf -t 250.0 150.0 3000.0 -S Train.scp -H 2gmm_hmm1/macros -H 2gmm_hmm1/hmmdefs -M 2gmm_hmm2 hmm10/triphones1
+35.-> HHEd -H 2gmm_hmm12/macros -H 2gmm_hmm12/hmmdefs -M 4gmm_hmm1 split4.hed triphones1
+36. restimate all the way to 4gmm_hmm8
+	HERest  -A -D -T 1 -C config -I wintri.mlf -t 250.0 150.0 3000.0 -S Train.scp -H 4gmm_hmm1/macros -H 4gmm_hmm1/hmmdefs -M 4gmm_hmm2 hmm10/triphones1
+37.-> HHEd -H 4gmm_hmm8/macros -H 4gmm_hmm8/hmmdefs -M 8gmm_hmm1 split8.hed triphones1
+38. restimate all the way to 8gmm_hmm8
+	HERest  -A -D -T 1 -C config -I wintri.mlf -t 250.0 150.0 3000.0 -S Train.scp -H 8gmm_hmm1/macros -H 8gmm_hmm1/hmmdefs -M 8gmm_hmm2 hmm10/triphones1
+39.-> HHEd -H 8gmm_hmm8/macros -H 8gmm_hmm8/hmmdefs -M 10gmm_hmm1 split10.hed triphones1
+40. restimate all the way to 10gmm_hmm12
+	HERest  -A -D -T 1 -C config -I wintri.mlf -t 250.0 150.0 3000.0 -S Train.scp -H 10gmm_hmm1/macros -H 10gmm_hmm1/hmmdefs -M 10gmm_hmm2 hmm10/triphones1
+
+
+
+
+    ->HVite -A -D -T 1 -H 10gmm_hmm12/macros -H 10gmm_hmm12/hmmdefs -C config -S Test.scp -l '*' -b silence -i recout.mlf -w wdnet -p -20.0 dictionary triphones1
+	->HResults -e ??? sil -e ??? noise -t -I test_words.mlf wlist recout.mlf > results_log
+ 
+
+ 

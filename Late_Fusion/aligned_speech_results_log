@@ -1,827 +1,296 @@
-Aligned transcription: '*'/TestingSample800.lab vs '*'/TestingSample800.rec
- LAB:       Ho fame           ok Le  vuoi  prendere Cosa ti farei Vanno d'accordo Basta Sei Pazzo Non ce n'e piu Perfetto Cos'hai combinato                     
- REC: Pazzo Ho fame Vieni qui ok Sei Pazzo prendere Cosa ti farei Vanno d'accordo Basta Sei Pazzo Non ce n'e piu Perfetto Cos'hai combinato Sei Pazzo Vieni qui 
-Aligned transcription: '*'/TestingSample801.lab vs '*'/TestingSample801.rec
- LAB:            Che due palle Che vuoi    Tanto tempo fa Vanno d'accordo sono stufo ok Vieni qui Non ce n'e piu                 Perfetto Cosa ti farei Non me ne frega niente 
- REC: Buonissimo Che due palle Che vuoi ok Tanto tempo fa       d'accordo sono stufo    Vieni qui Non ce n'e piu Sei Pazzo Basta Perfetto Cosa ti farei        ne frega niente 
-Aligned transcription: '*'/TestingSample802.lab vs '*'/TestingSample802.rec
- LAB:      Tanto tempo fa Basta         Vattene ok E' un furbo Che due palle Cos'hai combinato Si sono messi d'accordo                                  Perfetto Che vuoi      
- REC: fame Tanto tempo fa Basta Sei Sei Pazzo   ok E' un furbo     Sei Pazzo Cos'hai combinato Si sono messi d'accordo Sei Pazzo Che vuoi Che Sei Pazzo Perfetto Che vuoi sono 
-Aligned transcription: '*'/TestingSample803.lab vs '*'/TestingSample803.rec
- LAB: Ho fame         Che vuoi       Vattene Vieni qui         Vanno d'accordo Le vuoi prendere Si sono messi d'accordo Tanto tempo fa ok                        Sei Pazzo 
- REC: Ho fame Vattene Che vuoi Pazzo Vattene Vieni qui Vattene Vanno d'accordo Le vuoi prendere Si sono messi d'accordo Tanto tempo fa ok Vattene sono stufo Sei Sei Pazzo 
-Aligned transcription: '*'/TestingSample804.lab vs '*'/TestingSample804.rec
- LAB:     Che vuoi Vieni qui                     Sei Pazzo Vattene Basta Che due palle ok           Ho fame Le vuoi prendere           
- REC: Sei Che vuoi       qui Sei Pazzo Sei Pazzo Sei Pazzo Sei     Pazzo Che due palle ok Sei Pazzo Ho fame         prendere Sei Pazzo 
-Aligned transcription: '*'/TestingSample805.lab vs '*'/TestingSample805.rec
- LAB: Tanto tempo fa           Non ce n'e piu Basta Buonissimo Si sono messi d'accordo           E' un furbo           Perfetto ok Cosa ti farei          Che      due palle 
- REC: Tanto tempo fa Sei Pazzo Non ce n'e piu Basta Buonissimo Si sono messi d'accordo Sei Pazzo E' un furbo Sei Pazzo Perfetto ok Cosa ti farei Che vuoi Che vuoi Sei Pazzo 
-Aligned transcription: '*'/TestingSample806.lab vs '*'/TestingSample806.rec
- LAB:       Basta                    Perfetto                     Non me ne frega niente                     E' un furbo Le vuoi prendere           Che due palle Vanno d'accordo                        ok    Buonissimo Non ce n'e piu   
- REC: Pazzo Basta Che vuoi Sei Pazzo Perfetto Sei Pazzo Sei Pazzo Sei me ne frega niente Sei Pazzo Sei Pazzo E' un furbo Le vuoi prendere Sei Pazzo Che due palle Vanno d'accordo Che vuoi Sei Pazzo Sei Pazzo Buonissimo        Sei Pazzo 
-Aligned transcription: '*'/TestingSample807.lab vs '*'/TestingSample807.rec
- LAB:      Basta                               Buonissimo Non ce n'e piu   Tanto tempo fa Cos'hai combinato Cosa ti farei    Vieni qui          Ho fame Le vuoi prendere 
- REC: vuoi Basta Sei Pazzo Sei Pazzo d'accordo Buonissimo        Sei Pazzo Tanto tempo fa Cos'hai combinato Cosa ti farei ok Vieni qui Che vuoi Ho fame Le vuoi prendere 
-Aligned transcription: '*'/TestingSample808.lab vs '*'/TestingSample808.rec
- LAB: E' un furbo Cosa ti farei Vanno d'accordo             ok           sono stufo Vieni qui                           Tanto tempo fa Si sono messi d'accordo     Sei       Pazzo Che vuoi Che due palle 
- REC: E' un furbo Cosa ti farei Vanno d'accordo Le prendere ok Sei Pazzo sono stufo Vieni qui Vanno d'accordo Sei Pazzo Tanto tempo fa Si sono messi d'accordo Sei Sei Pazzo Pazzo Che vuoi Che due palle 
-Aligned transcription: '*'/TestingSample809.lab vs '*'/TestingSample809.rec
- LAB: Perfetto Non ce n'e piu     Basta ok Vanno           d'accordo                    Che vuoi Si sono messi d'accordo Vattene Le  vuoi  prendere Cosa ti farei 
- REC: Perfetto Non ce n'e piu Sei Pazzo ok Vanno Sei Pazzo d'accordo Che vuoi Sei Pazzo Che vuoi Si sono messi d'accordo         Sei Pazzo prendere Cosa ti farei 
-Aligned transcription: '*'/TestingSample810.lab vs '*'/TestingSample810.rec
- LAB:           Non me ne frega niente E' un furbo Basta     Perfetto Tanto tempo fa               Cos'hai combinato               Vattene Vieni qui Buonissimo 
- REC: d'accordo Non me ne frega niente E' un furbo Basta Sei Perfetto Tanto tempo fa vuoi Che vuoi Cos'hai combinato Sei Pazzo Che vuoi    Vieni qui Buonissimo 
-Aligned transcription: '*'/TestingSample811.lab vs '*'/TestingSample811.rec
- LAB: Si sono messi d'accordo Non ce n'e piu           Vanno d'accordo                         Non me ne frega niente Tanto tempo fa Basta Che due palle Sei Pazzo Ho fame Cosa ti farei                  Vattene                
- REC: Si sono messi d'accordo Non ce n'e piu Sei Pazzo Vanno d'accordo Sei Pazzo Che Sei Pazzo Non me ne frega niente Tanto tempo fa Basta Che due palle Sei Pazzo Ho fame Cosa ti farei Vattene Che vuoi Vattene Vieni qui vuoi 
-Aligned transcription: '*'/TestingSample812.lab vs '*'/TestingSample812.rec
- LAB:              Cos'hai combinato                 Buonissimo Perfetto               Che   due   palle ok Sei Pazzo Tanto tempo fa       Basta 
- REC: vuoi Vattene Cos'hai combinato Pazzo Sei Pazzo Buonissimo Perfetto Sei Pazzo Sei Pazzo Pazzo vuoi  ok Sei Pazzo Tanto tempo fa Pazzo Basta 
-Aligned transcription: '*'/TestingSample813.lab vs '*'/TestingSample813.rec
- LAB: Non me ne   frega niente Le vuoi prendere sono stufo Tanto tempo fa           Vieni qui Cosa ti farei Vanno d'accordo Non ce n'e piu   Vattene       Che due palle Si sono messi d'accordo 
- REC:        vuoi Vanno niente         prendere sono stufo Tanto tempo fa d'accordo Vieni qui Cosa ti farei Vanno d'accordo        Sei Pazzo Vattene Vieni Che due palle Si sono messi d'accordo 
-Aligned transcription: '*'/TestingSample814.lab vs '*'/TestingSample814.rec
- LAB: Le vuoi prendere Buonissimo ok Vieni qui Tanto tempo fa                           Non ce n'e piu           Che due palle Che vuoi Basta Vattene 
- REC:         prendere Buonissimo ok Vieni qui Tanto tempo fa Vanno d'accordo Sei Pazzo Non ce n'e piu Sei Pazzo Che due palle Che vuoi Basta         
-Aligned transcription: '*'/TestingSample815.lab vs '*'/TestingSample815.rec
- LAB:    Non me ne frega niente ok sono stufo E' un furbo Buonissimo Vieni qui           Sei Pazzo Le vuoi  prendere Che      due palle Ho  fame  
- REC: ok Non me ne frega niente ok sono stufo E' un furbo Buonissimo       qui Sei Pazzo Sei Pazzo ok Pazzo prendere prendere Sei Pazzo Sei Pazzo 
-Aligned transcription: '*'/TestingSample816.lab vs '*'/TestingSample816.rec
- LAB: Che due palle Tanto tempo fa Non me ne frega niente              Sei Pazzo         E' un furbo Vieni qui sono stufo Non ce n'e piu     Ho    fame      Si sono messi d'accordo                       
- REC: Che due palle Tanto tempo fa        ne frega niente d'accordo ok Sei Pazzo Vattene E' un furbo Vieni qui sono stufo Non ce n'e piu due palle d'accordo Si sono messi d'accordo Cosa ti farei Che due 
-Aligned transcription: '*'/TestingSample817.lab vs '*'/TestingSample817.rec
- LAB:          Basta Vanno d'accordo sono stufo Si sono messi d'accordo E' un furbo Vattene Le    vuoi prendere Ho fame                   Che vuoi           Perfetto 
- REC: fame Sei Basta Vanno d'accordo sono stufo                         E' un furbo         Basta vuoi prendere Ho fame Cos'hai combinato Che vuoi Sei Pazzo Perfetto 
-Aligned transcription: '*'/TestingSample818.lab vs '*'/TestingSample818.rec
- LAB:              Tanto tempo fa Basta Vieni qui           Cosa ti farei Che vuoi Non me ne frega niente Cos'hai combinato Non ce n'e piu sono stufo Perfetto 
- REC: vuoi Vattene Tanto tempo fa Basta Vieni qui Sei Pazzo Cosa ti farei Che vuoi Non me ne frega niente Cos'hai combinato Non ce n'e piu sono stufo Perfetto 
-Aligned transcription: '*'/TestingSample819.lab vs '*'/TestingSample819.rec
- LAB:                              Cos'hai combinato                         Tanto tempo fa Ho fame sono stufo Basta Non ce n'e piu   Che vuoi Sei Pazzo       Vattene   Vanno d'accordo 
- REC: vuoi Vattene Vanno d'accordo Cos'hai combinato Sei Pazzo Sei Sei Pazzo Tanto tempo fa Ho fame sono stufo Basta        Sei Pazzo Che vuoi Sei Pazzo Vanno d'accordo Vanno d'accordo 
-Aligned transcription: '*'/TestingSample820.lab vs '*'/TestingSample820.rec
- LAB:                                              Vattene Buonissimo Si sono messi d'accordo                               ok Le vuoi  prendere Non    ce n'e   piu    Vanno d'accordo Sei Pazzo 
- REC: Pazzo Vieni qui ok ok Cos'hai combinato Cosa ti      farei      Si sono messi d'accordo Sei Pazzo Sei Pazzo Sei Pazzo E' un furbo Vieni    Non me ne frega niente Vanno d'accordo           
-Aligned transcription: '*'/TestingSample821.lab vs '*'/TestingSample821.rec
- LAB:               ok Vieni qui Sei Pazzo Vanno d'accordo Che vuoi Perfetto           Cos'hai combinato Ho fame         Basta Non me ne frega niente                       
- REC: Pazzo Vattene ok Vieni qui Sei Pazzo Vanno d'accordo Che vuoi Perfetto Sei Pazzo Cos'hai combinato Ho fame Vattene Basta Non me ne frega niente Buonissimo Buonissimo 
-Aligned transcription: '*'/TestingSample822.lab vs '*'/TestingSample822.rec
- LAB: Ho fame           E' un furbo           Basta ok Sei Pazzo Cos'hai combinato Vieni qui Le vuoi prendere            Si sono messi d'accordo                    Vattene 
- REC: Ho fame Sei Pazzo E' un furbo due palle Basta    Sei Pazzo Cos'hai combinato Vieni qui         prendere Buonissimo Si sono messi d'accordo Vattene Buonissimo Vattene 
-Aligned transcription: '*'/TestingSample823.lab vs '*'/TestingSample823.rec
- LAB: Vanno d'accordo Non me ne frega niente Che vuoi    Le vuoi prendere Vieni qui       ok         Cos'hai combinato sono stufo     Che due palle Sei Pazzo 
- REC:       d'accordo Non me ne frega niente Che vuoi ok Le vuoi prendere Sei   qui Vanno ok Vattene Cos'hai combinato sono stufo Sei Che due palle Sei Pazzo 
-Aligned transcription: '*'/TestingSample824.lab vs '*'/TestingSample824.rec
- LAB: sono stufo Le vuoi prendere         Vanno d'accordo                  Che vuoi                             Basta Vieni qui E' un furbo            Si sono messi d'accordo Cosa ti farei Che due palle 
- REC: sono stufo Le vuoi prendere Cos'hai Vanno d'accordo Che vuoi Ho fame Che vuoi Che due palle Che due palle Basta       qui E' un furbo sono stufo Si sono messi d'accordo Cosa ti farei Che due palle 
-Aligned transcription: '*'/TestingSample825.lab vs '*'/TestingSample825.rec
- LAB: Vieni qui Sei Pazzo                         Che vuoi            Vattene Basta     Si sono messi d'accordo Non me ne frega niente     Perfetto Ho fame                               
- REC:       qui Sei Pazzo d'accordo Non d'accordo Che vuoi ok Vattene Vattene Basta Che Si sono messi d'accordo                 niente qui Perfetto Ho fame Vanno d'accordo Cosa ti farei 
-Aligned transcription: '*'/TestingSample826.lab vs '*'/TestingSample826.rec
- LAB:               Non me ne frega niente                 ok Cos'hai combinato Buonissimo Perfetto            Che due palle Non ce n'e piu         Sei Pazzo Cosa ti farei E' un furbo 
- REC: vuoi prendere Non me          niente sono Buonissimo ok Cos'hai combinato Buonissimo Perfetto Buonissimo Che due palle Non ce n'e piu Vattene Sei Pazzo Cosa ti farei E' un furbo 
-Aligned transcription: '*'/TestingSample827.lab vs '*'/TestingSample827.rec
- LAB:     Vanno d'accordo Tanto tempo fa                       Cos'hai combinato Basta Buonissimo Perfetto                              Cosa ti farei Vieni qui E' un furbo                         
- REC: n'e Vanno d'accordo Tanto tempo fa Che Cos'hai combinato Cos'hai combinato Basta Buonissimo Perfetto sono messi Cos'hai combinato Cosa ti farei       qui E' un furbo d'accordo Che due palle 
-Aligned transcription: '*'/TestingSample828.lab vs '*'/TestingSample828.rec
- LAB:       Vattene Tanto tempo fa Le vuoi prendere          Basta                                             Non ce n'e piu Ho fame Che due palle Buonissimo sono stufo                         E' un furbo    Si sono messi d'accordo           
- REC: Pazzo Vattene Tanto tempo fa Le vuoi prendere Che vuoi Basta Cos'hai combinato Sei Pazzo Vanno d'accordo Non ce n'e piu Ho fame Che due palle Buonissimo sono stufo Cosa ti farei Sei Pazzo E' un furbo ok Si sono messi d'accordo Sei Pazzo 
-Aligned transcription: '*'/TestingSample829.lab vs '*'/TestingSample829.rec
- LAB: Le vuoi prendere Che due palle Perfetto                            Basta E' un furbo                Buonissimo Cos'hai combinato                 sono stufo           ok          Non me ne frega niente Si sono messi d'accordo 
- REC: Le vuoi prendere Che due palle Perfetto Cos'hai combinato Che vuoi Basta E' un furbo Ho fame niente Buonissimo Cos'hai combinato Vanno d'accordo sono stufo Sei Pazzo ok Che vuoi qui me ne frega niente Si sono messi d'accordo 
-Aligned transcription: '*'/TestingSample830.lab vs '*'/TestingSample830.rec
- LAB: E' un furbo          Che due palle Non me ne frega niente Cos'hai combinato Perfetto Vieni qui                                                 Sei Pazzo     Ho fame Vattene Buonissimo            Non ce n'e piu 
- REC: E' un furbo Che vuoi Che due palle     me ne frega niente Cos'hai combinato Perfetto Vieni qui Cos'hai combinato Sei Pazzo Che vuoi Buonissimo Sei Pazzo Sei Ho fame Vattene Buonissimo Non ce n'e Non ce n'e piu 
-Aligned transcription: '*'/TestingSample831.lab vs '*'/TestingSample831.rec
- LAB:       Cosa ti farei sono stufo         ok Cos'hai combinato Sei Pazzo E' un furbo Ho fame         Che vuoi Buonissimo Non ce n'e piu                        
- REC: Pazzo Cosa ti farei sono stufo Cos'hai ok Cos'hai combinato Sei Pazzo E' un furbo Ho fame Vattene Che vuoi Buonissimo Non ce n'e piu qui Che vuoi Sei Pazzo 
-Aligned transcription: '*'/TestingSample832.lab vs '*'/TestingSample832.rec
- LAB: Sei Pazzo                                           Che due palle Vanno d'accordo                  Che         vuoi          E' un furbo Non me ne frega niente            Buonissimo            Perfetto Basta           ok 
- REC: Sei Pazzo Cos'hai combinato Che vuoi Che Buonissimo Che due palle Vanno d'accordo Che vuoi Vattene Che vuoi Le vuoi prendere E' un furbo Non    ne frega niente Buonissimo Buonissimo Non ce n'e Perfetto Basta d'accordo ok 
-Aligned transcription: '*'/TestingSample833.lab vs '*'/TestingSample833.rec
- LAB:          Che due palle Non ce n'e piu Vieni qui                          Che vuoi     Si sono messi d'accordo sono stufo Basta                                               ok Vanno d'accordo Cos'hai combinato                         
- REC: prendere Che due palle Non ce n'e piu       qui Che vuoi Vanno d'accordo Che vuoi Che Si sono messi d'accordo sono stufo Basta Che vuoi Sei Pazzo fame Che Che vuoi Che vuoi ok Vanno d'accordo Cos'hai combinato Vieni qui Cosa ti farei 
-Aligned transcription: '*'/TestingSample834.lab vs '*'/TestingSample834.rec
- LAB:                     Vieni qui                   Ho fame                              Non ce n'e piu E' un furbo Cos'hai combinato                          Si sono messi d'accordo Che vuoi               Cosa ti farei Non me ne frega niente 
- REC: Pazzo Cosa ti farei Vieni qui Cos'hai combinato Ho fame Vanno d'accordo ok Vieni qui Non ce n'e piu E' un furbo Cos'hai combinato Che due palle Buonissimo Si sono messi d'accordo Che vuoi Cosa ti farei Cosa ti farei Non me ne frega niente 
-Aligned transcription: '*'/TestingSample835.lab vs '*'/TestingSample835.rec
- LAB: Perfetto Ho fame Si sono messi d'accordo                   Sei Pazzo     Cosa ti farei Che due palle                                            Che vuoi Non ce n'e piu                   Vanno     d'accordo          
- REC: Perfetto Ho fame Si sono messi d'accordo Cos'hai combinato Sei Pazzo qui Cosa ti farei Che due palle Cos'hai combinato Buonissimo Cosa ti farei Che vuoi Non ce n'e piu d'accordo Cos'hai combinato d'accordo ti farei 
-Aligned transcription: '*'/TestingSample836.lab vs '*'/TestingSample836.rec
- LAB: Basta            ok         Vieni qui sono stufo       Buonissimo                                              Ho fame Che due palle Non ce n'e piu Non        me  ne    frega niente E' un furbo 
- REC: Basta Buonissimo ok Vattene Vieni qui sono stufo Basta Buonissimo Vanno d'accordo sono stufo Vieni qui Cos'hai Ho fame Che due palle Non ce n'e piu Non niente Sei Pazzo Sei   Pazzo  E' un furbo 
-Aligned transcription: '*'/TestingSample837.lab vs '*'/TestingSample837.rec
- LAB: sono stufo               Tanto tempo fa Non ce n'e piu Buonissimo           E' un furbo Si sono messi d'accordo Sei Pazzo                             Cosa ti farei Le        vuoi prendere ok                     
- REC: sono stufo vuoi prendere Tanto tempo fa Non ce n'e piu Buonissimo Sei Pazzo E' un furbo Si sono messi d'accordo Sei Pazzo Cosa ti farei Cosa ti farei Cosa ti farei d'accordo vuoi prendere ok d'accordo d'accordo 
-Aligned transcription: '*'/TestingSample838.lab vs '*'/TestingSample838.rec
- LAB: sono stufo               Tanto tempo fa Non ce n'e piu Buonissimo           E' un furbo Si sono messi d'accordo Sei Pazzo                             Cosa ti farei Le        vuoi prendere ok                     
- REC: sono stufo vuoi prendere Tanto tempo fa Non ce n'e piu Buonissimo Sei Pazzo E' un furbo Si sono messi d'accordo Sei Pazzo Cosa ti farei Cosa ti farei Cosa ti farei d'accordo vuoi prendere ok d'accordo d'accordo 
-Aligned transcription: '*'/TestingSample839.lab vs '*'/TestingSample839.rec
- LAB: Non ce n'e piu                                Non me ne frega niente Sei Pazzo                             Basta Vattene     Si sono messi d'accordo     Che due palle Ho fame sono stufo 
- REC: Non ce n'e piu Si sono messi qui ok Vieni qui Non me ne frega niente Sei Pazzo Che due palle Non d'accordo Basta Vattene qui Si sono messi d'accordo Sei Che due palle Ho fame sono stufo 
-Aligned transcription: '*'/TestingSample840.lab vs '*'/TestingSample840.rec
- LAB: Non ce n'e piu                                Non me ne frega niente Sei Pazzo                             Basta Vattene     Si sono messi d'accordo     Che due palle Ho fame sono stufo 
- REC: Non ce n'e piu Si sono messi qui ok Vieni qui Non me ne frega niente Sei Pazzo Che due palle Non d'accordo Basta Vattene qui Si sono messi d'accordo Sei Che due palle Ho fame sono stufo 
-Aligned transcription: '*'/TestingSample841.lab vs '*'/TestingSample841.rec
- LAB: Perfetto                            Non ce n'e piu Tanto tempo fa Che due palle          Vattene Si sono messi d'accordo            ok          Che vuoi     Sei Pazzo          Cos'hai combinato         
- REC: Perfetto Vanno d'accordo Buonissimo Non ce n'e piu Tanto tempo fa Che due palle prendere Vattene Si sono messi d'accordo ok Vattene ok Che vuoi Che vuoi Che Sei Pazzo Che vuoi Cos'hai combinato Vattene 
-Aligned transcription: '*'/TestingSample842.lab vs '*'/TestingSample842.rec
- LAB: Perfetto                            Non ce n'e piu Tanto tempo fa Che due palle          Vattene Si sono messi d'accordo            ok          Che vuoi     Sei Pazzo          Cos'hai combinato         
- REC: Perfetto Vanno d'accordo Buonissimo Non ce n'e piu Tanto tempo fa Che due palle prendere Vattene Si sono messi d'accordo ok Vattene ok Che vuoi Che vuoi Che Sei Pazzo Che vuoi Cos'hai combinato Vattene 
-Aligned transcription: '*'/TestingSample843.lab vs '*'/TestingSample843.rec
- LAB:                                       Tanto tempo fa Sei Pazzo           Che due palle                   E' un furbo Vieni qui               Cosa ti farei               Basta Non me ne frega niente Non ce n'e piu Ho fame 
- REC: Pazzo Cos'hai combinato Cosa ti farei Tanto tempo fa Sei Pazzo d'accordo Che due palle Cos'hai combinato E' un furbo Vieni qui Cosa ti farei Cosa ti farei Che due palle Basta Non             niente Non ce n'e piu Ho fame 
-Aligned transcription: '*'/TestingSample844.lab vs '*'/TestingSample844.rec
- LAB:                                       Tanto tempo fa Sei Pazzo           Che due palle                   E' un furbo Vieni qui               Cosa ti farei               Basta Non me ne frega niente Non ce n'e piu Ho fame 
- REC: Pazzo Cos'hai combinato Cosa ti farei Tanto tempo fa Sei Pazzo d'accordo Che due palle Cos'hai combinato E' un furbo Vieni qui Cosa ti farei Cosa ti farei Che due palle Basta Non             niente Non ce n'e piu Ho fame 
-Aligned transcription: '*'/TestingSample845.lab vs '*'/TestingSample845.rec
- LAB:      Perfetto         Che due palle Che vuoi Sei Pazzo Ho fame                         Le vuoi prendere E' un  furbo Buonissimo Tanto tempo fa 
- REC: fame Perfetto Vattene Che due palle Che vuoi Sei Pazzo Ho fame Vattene Vanno d'accordo Le vuoi prendere    Che vuoi  Buonissimo Tanto tempo fa 
-Aligned transcription: '*'/TestingSample846.lab vs '*'/TestingSample846.rec
- LAB:            Basta           Tanto tempo fa          Vieni qui         Che vuoi Sei Pazzo Che due palle     sono stufo Vanno d'accordo ok Cos'hai combinato Non me ne frega niente               Non ce n'e piu 
- REC: Buonissimo Basta Sei Pazzo Tanto tempo fa Che vuoi Vieni qui Vattene Che vuoi Sei Pazzo Che due palle qui sono stufo ok    d'accordo ok Cos'hai combinato Non me ne frega niente Che due palle Non ce n'e piu 
-Aligned transcription: '*'/TestingSample847.lab vs '*'/TestingSample847.rec
- LAB:                    Vieni qui Tanto tempo fa Si sono messi d'accordo         Basta                              Non me   ne    frega     niente            sono stufo Che vuoi         Perfetto    Vattene ok 
- REC: Che vuoi Vieni qui Vieni qui Tanto tempo fa Si sono messi d'accordo Vattene Basta Vieni qui ok Vanno d'accordo Si  sono messi d'accordo niente Buonissimo sono stufo Che vuoi Ho fame Perfetto ok Vattene ok 
-Aligned transcription: '*'/TestingSample848.lab vs '*'/TestingSample848.rec
- LAB: Basta Che due palle sono stufo                                                             Le vuoi prendere Vattene Tanto tempo fa    ok                Buonissimo Vanno d'accordo 
- REC: Basta Che due palle sono stufo Che due palle Cos'hai combinato Cos'hai combinato Sei Pazzo Le vuoi prendere Vattene Tanto tempo fa ok ok Tanto tempo fa Buonissimo       d'accordo 
-Aligned transcription: '*'/TestingSample849.lab vs '*'/TestingSample849.rec
- LAB:      Si sono messi d'accordo Non me ne frega niente sono stufo Vattene                         Sei Pazzo Che due palle               Perfetto Cos'hai combinato           E' un furbo Che vuoi           
- REC: fame Si sono messi d'accordo Non me ne frega niente sono stufo Vattene Pazzo Sei Pazzo Cos'hai Sei Pazzo Che due palle Cosa ti farei Perfetto Cos'hai combinato Vieni qui E' un furbo Che vuoi Sei Pazzo 
-Aligned transcription: '*'/TestingSample850.lab vs '*'/TestingSample850.rec
- LAB: E' un furbo Cos'hai combinato Si sono messi d'accordo Sei Pazzo Le  vuoi                                    prendere Vanno d'accordo          Tanto tempo fa Basta Non ce n'e piu Ho fame          sono stufo 
- REC: E' un furbo Cos'hai combinato Si sono messi d'accordo Sei Pazzo Che vuoi sono stufo Sei Pazzo Che due palle prendere       d'accordo Perfetto Tanto tempo fa Basta Non ce n'e piu Ho fame Che vuoi sono stufo 
-Aligned transcription: '*'/TestingSample851.lab vs '*'/TestingSample851.rec
- LAB: Vieni qui Si sono messi d'accordo     Vanno d'accordo ok    Ho  fame  Sei Pazzo Cosa ti farei     Che   due palle           Che vuoi     Basta 
- REC:       qui Si sono messi d'accordo Sei Pazzo Sei       Pazzo Sei Pazzo Sei Pazzo Cosa ti farei Sei Pazzo due palle Sei Pazzo Che vuoi Sei Pazzo 
-Aligned transcription: '*'/TestingSample852.lab vs '*'/TestingSample852.rec
- LAB: Cosa ti farei Sei Pazzo Non ce n'e piu Buonissimo Si sono messi d'accordo Tanto tempo fa sono stufo Le vuoi prendere     Vattene 
- REC: Cosa ti farei Sei Pazzo Non ce n'e piu Buonissimo Si sono messi d'accordo Tanto tempo fa sono stufo         prendere Sei Pazzo   
-Aligned transcription: '*'/TestingSample853.lab vs '*'/TestingSample853.rec
- LAB:      Vieni qui Perfetto Buonissimo Sei Pazzo Vanno d'accordo Si sono messi d'accordo Che vuoi Non me ne frega niente Cos'hai combinato Non ce n'e piu 
- REC: fame Vieni qui          Buonissimo Sei Pazzo Vanno d'accordo Si sono messi d'accordo Che vuoi        ok frega niente Cos'hai combinato Non ce n'e piu 
-Aligned transcription: '*'/TestingSample854.lab vs '*'/TestingSample854.rec
- LAB:                       Vanno d'accordo Cosa ti farei Buonissimo Ho fame Si sono messi d'accordo Che vuoi E' un furbo                  Vattene sono stufo           ok Tanto tempo fa 
- REC: stufo Vanno d'accordo Vanno d'accordo Cosa ti farei Buonissimo Ho fame Si sono messi d'accordo          E' un furbo Sei Pazzo ok Sei Pazzo   sono stufo Sei Pazzo ok Tanto tempo fa 
-Aligned transcription: '*'/TestingSample855.lab vs '*'/TestingSample855.rec
- LAB:      Basta           Perfetto Tanto tempo fa    Si sono messi d'accordo Vanno d'accordo Non ce n'e piu Ho fame Vattene Che vuoi Cosa ti farei Le vuoi prendere 
- REC: vuoi Basta Sei Pazzo Sei      Pazzo Sei   Pazzo Si sono messi d'accordo Sei   Pazzo     Non ce n'e piu Ho fame ok      Che vuoi Cosa ti farei    Sei  Pazzo    
-Aligned transcription: '*'/TestingSample856.lab vs '*'/TestingSample856.rec
- LAB: Sei Pazzo Tanto tempo fa           sono stufo Vanno d'accordo     Le  vuoi  prendere Vieni qui ok    Che vuoi Ho fame Non me  ne    frega niente Vattene 
- REC: Sei Pazzo Tanto tempo fa Sei Pazzo sono stufo Vanno d'accordo Che due palle Sei      Pazzo Sei Pazzo Che vuoi             Sei Pazzo Sei   Pazzo  ok      
-Aligned transcription: '*'/TestingSample857.lab vs '*'/TestingSample857.rec
- LAB:       sono stufo Sei Pazzo Ho fame Buonissimo Vieni qui Cos'hai combinato Non ce  n'e   piu Che   due palle Le    vuoi prendere Perfetto 
- REC: Pazzo sono stufo Sei Pazzo Ho fame Buonissimo Vieni qui                       Sei Pazzo Sei Pazzo Sei Pazzo Vieni qui  Sei      Pazzo    
-Aligned transcription: '*'/TestingSample858.lab vs '*'/TestingSample858.rec
- LAB:       sono stufo Vanno d'accordo Cos'hai combinato Vattene Ho fame Vieni qui E' un furbo Non me  ne    frega niente Sei Pazzo Basta 
- REC: Pazzo sono stufo       d'accordo Cos'hai combinato Vattene Ho fame Vieni qui E' un furbo     Sei Pazzo Sei   Pazzo  Sei Pazzo       
-Aligned transcription: '*'/TestingSample859.lab vs '*'/TestingSample859.rec
- LAB: Tanto tempo fa Che due palle Vieni qui Le vuoi prendere     ok    Sei Pazzo     Perfetto Ho  fame  Basta Buonissimo 
- REC:                        palle       qui Le vuoi prendere Sei Pazzo Sei Pazzo Sei Pazzo    Sei Pazzo Basta Buonissimo 
-Aligned transcription: '*'/TestingSample860.lab vs '*'/TestingSample860.rec
- LAB: Che vuoi Tanto tempo fa Si sono messi d'accordo           Cosa ti farei Ho fame Vieni qui sono stufo Non ce n'e piu Vanno d'accordo E' un furbo 
- REC: Che vuoi Tanto tempo fa Si sono messi d'accordo Sei Pazzo Cosa ti farei    ok   Vieni qui sono stufo Non ce n'e piu Vanno d'accordo E' un furbo 
-Aligned transcription: '*'/TestingSample861.lab vs '*'/TestingSample861.rec
- LAB: Che vuoi          Si sono messi d'accordo sono stufo Basta Che   due palle Sei Pazzo Non ce n'e piu           Vattene ok    E' un furbo Cos'hai combinato 
- REC:     vuoi prendere Si sono messi d'accordo sono stufo Sei   Pazzo Sei Pazzo Sei Pazzo Non ce n'e piu Sei Pazzo Sei     Pazzo E' un furbo Cos'hai combinato 
-Aligned transcription: '*'/TestingSample862.lab vs '*'/TestingSample862.rec
- LAB: Basta Che vuoi E' un furbo     Le    vuoi prendere ok     Vattene Cos'hai combinato Cosa ti  farei Tanto tempo fa Ho  fame  
- REC: Basta Che vuoi E' un furbo Sei Pazzo Sei  Pazzo    ok Che vuoi    Cos'hai combinato      Sei Pazzo Tanto tempo fa Sei Pazzo 
-Aligned transcription: '*'/TestingSample863.lab vs '*'/TestingSample863.rec
- LAB: Basta Tanto tempo fa E' un furbo ok Vanno d'accordo Buonissimo Non ce  n'e   piu Cosa ti  farei Le vuoi prendere Sei Pazzo 
- REC: Basta Tanto tempo fa E' un furbo ok Vanno d'accordo Buonissimo     Sei Pazzo Che vuoi Sei Pazzo Le vuoi prendere Sei Pazzo 
-Aligned transcription: '*'/TestingSample864.lab vs '*'/TestingSample864.rec
- LAB: Vattene Le vuoi prendere Vieni qui Vanno d'accordo Che vuoi  Tanto tempo fa Sei Pazzo Non ce n'e piu   Si sono messi d'accordo           
- REC:         Le vuoi prendere Vieni qui Sei   Pazzo     Sei Pazzo Tanto tempo fa Sei Pazzo        Sei Pazzo Si sono messi d'accordo Sei Pazzo 
-Aligned transcription: '*'/TestingSample865.lab vs '*'/TestingSample865.rec
- LAB:              sono stufo               Perfetto E' un furbo Non ce n'e piu Che vuoi      Sei Pazzo Ho  fame  Vattene Le vuoi prendere Si sono messi d'accordo Buonissimo           
- REC: vuoi Vattene sono stufo Sei Pazzo Sei Pazzo    E' un furbo Non ce n'e piu     d'accordo Sei Pazzo Sei Pazzo ok      Le      prendere Si sono messi d'accordo Buonissimo Sei Pazzo 
-Aligned transcription: '*'/TestingSample866.lab vs '*'/TestingSample866.rec
- LAB: E' un  furbo Sei Pazzo Non me ne frega niente Buonissimo           Cos'hai combinato Basta ok Tanto tempo fa     Vattene Si sono messi d'accordo 
- REC:    Sei Pazzo Sei Pazzo Non me ne frega niente Buonissimo Sei Pazzo Cos'hai combinato Basta ok Tanto tempo fa Sei Pazzo   Si sono messi d'accordo 
-Aligned transcription: '*'/TestingSample867.lab vs '*'/TestingSample867.rec
- LAB:                 Cos'hai combinato E' un furbo           Vieni qui Vattene Le  vuoi prendere Buonissimo     Che vuoi  Sei Pazzo     Basta Che due palle 
- REC: Pazzo Sei Pazzo Cos'hai combinato E' un furbo Sei Pazzo Vieni qui ok      Che Sei  Pazzo    Buonissimo Sei Sei Pazzo Sei Pazzo Sei Pazzo Che due palle 
-Aligned transcription: '*'/TestingSample868.lab vs '*'/TestingSample868.rec
- LAB: Si sono messi d'accordo Non ce n'e piu   Vieni qui   Cos'hai combinato E' un furbo Cosa ti farei     Che   due palle Vanno d'accordo Perfetto Che vuoi                       ok 
- REC: Si sono messi d'accordo        Sei Pazzo Sei   Pazzo Cos'hai combinato E' un furbo Cosa ti farei Sei Pazzo due palle                          Che vuoi Sei Pazzo E' un furbo ok 
-Aligned transcription: '*'/TestingSample869.lab vs '*'/TestingSample869.rec
- LAB: E' un  furbo Che vuoi  Sei Pazzo sono stufo           Ho fame Che due palle       Cosa ti farei Tanto tempo fa Le vuoi prendere 
- REC:    Sei Pazzo Sei Pazzo Sei Pazzo sono stufo Sei Pazzo Ho fame Che due palle Pazzo Cosa ti farei Tanto tempo fa         prendere 
-Aligned transcription: '*'/TestingSample870.lab vs '*'/TestingSample870.rec
- LAB: Ho fame Sei Pazzo Che due palle Cosa ti farei    Vattene Basta Non ce n'e piu Perfetto Le vuoi prendere Cos'hai combinato 
- REC:    ok   Sei Pazzo Che due palle Cosa ti farei ok Ho      fame  Non ce n'e piu Perfetto         prendere Cos'hai combinato 
-Aligned transcription: '*'/TestingSample871.lab vs '*'/TestingSample871.rec
- LAB:         Le vuoi prendere E' un furbo           Che due palle           Cos'hai combinato Sei Pazzo Non me ne  frega niente Si sono messi d'accordo Vieni qui           Buonissimo Perfetto ok 
- REC: vuoi ok Le vuoi prendere E' un furbo Sei Pazzo Che due palle Sei Pazzo Cos'hai combinato Sei Pazzo        qui Sei   Pazzo  Si sono messi d'accordo Vieni qui Sei Pazzo Buonissimo Perfetto ok 
-Aligned transcription: '*'/TestingSample872.lab vs '*'/TestingSample872.rec
- LAB:       ok Cosa ti farei Vieni qui Basta Ho fame Sei Pazzo Le vuoi  prendere Cos'hai combinato Buonissimo          Tanto tempo fa 
- REC: Pazzo ok      ok ok    Vieni qui Basta Ho fame Sei Pazzo    Vieni qui      Cos'hai combinato Buonissimo Che vuoi Tanto tempo fa 
-Aligned transcription: '*'/TestingSample873.lab vs '*'/TestingSample873.rec
- LAB:       Cosa ti farei Sei Pazzo Si sono messi d'accordo Vieni qui           Vanno d'accordo           Ho fame Basta Vattene Che vuoi               Perfetto 
- REC: Pazzo Cosa          Sei Pazzo Si sono messi d'accordo Vieni qui Sei Pazzo Vanno d'accordo Sei Pazzo Ho fame Basta         Che vuoi Sei Pazzo Sei Pazzo    
-Aligned transcription: '*'/TestingSample874.lab vs '*'/TestingSample874.rec
- LAB: E' un  furbo Buonissimo Vieni qui           Cos'hai combinato ok Vanno d'accordo           Sei Pazzo Le vuoi prendere Che vuoi Non ce   n'e piu   
- REC:    Sei Pazzo Buonissimo Vieni qui Sei Pazzo Cos'hai combinato ok       d'accordo Sei Pazzo Sei Pazzo Le vuoi prendere Che vuoi Che vuoi Sei Pazzo 
-Aligned transcription: '*'/TestingSample875.lab vs '*'/TestingSample875.rec
- LAB: Non me ne frega niente           Basta Che vuoi  E' un furbo Sei Pazzo Che due palle Buonissimo           Cos'hai combinato ok 
- REC:           vuoi  niente Sei Pazzo Basta Sei Pazzo E' un furbo Sei Pazzo     Sei Pazzo Buonissimo Sei Pazzo Cos'hai combinato ok 
-Aligned transcription: '*'/TestingSample876.lab vs '*'/TestingSample876.rec
- LAB:           Basta     Vattene Ho fame Non me ne frega niente           Buonissimo           Cosa ti farei Non ce n'e piu Che vuoi Che due   palle ok    
- REC: Sei Pazzo Basta Sei Pazzo   Ho fame Non me ne frega niente Sei Pazzo Buonissimo Sei Pazzo Cosa          Non ce n'e piu Che vuoi Sei Pazzo Sei   Pazzo 
-Aligned transcription: '*'/TestingSample877.lab vs '*'/TestingSample877.rec
- LAB:                            Cosa      ti  farei Ho fame     Vattene Cos'hai combinato Basta Vieni qui Perfetto Non ce n'e piu Tanto tempo fa Le vuoi prendere 
- REC: vuoi Vanno d'accordo Vanno d'accordo Che vuoi  Ho fame Sei Pazzo   Cos'hai combinato Basta Vieni qui Perfetto Non ce n'e piu Tanto tempo fa         prendere 
-Aligned transcription: '*'/TestingSample878.lab vs '*'/TestingSample878.rec
- LAB: Non me ne frega niente Cos'hai combinato ok Perfetto Ho fame Non ce n'e piu Vanno d'accordo sono stufo E' un furbo           
- REC: Non me ne frega niente Cos'hai combinato ok Perfetto Ho fame Non ce n'e piu Vanno d'accordo sono stufo E' un furbo Sei Pazzo 
-Aligned transcription: '*'/TestingSample879.lab vs '*'/TestingSample879.rec
- LAB: Cosa ti farei Non me    ne  frega niente Tanto tempo fa Che vuoi Vanno d'accordo Le  vuoi  prendere           Sei Pazzo Che due palle Vieni qui Si sono messi d'accordo 
- REC: Cosa              Vieni qui Sei   Pazzo  Tanto tempo fa Che vuoi       d'accordo Sei Pazzo prendere Sei Pazzo Sei Pazzo Che due palle       qui Si sono messi d'accordo 
-Aligned transcription: '*'/TestingSample880.lab vs '*'/TestingSample880.rec
- LAB: Non me ne   frega niente Vanno d'accordo     Vattene sono stufo Tanto tempo fa Vieni qui Non ce n'e piu ok           E' un furbo Sei Pazzo           
- REC:        fame Vieni qui    Vanno d'accordo Sei Pazzo   sono stufo Tanto tempo fa Vieni qui Non ce n'e piu ok Sei Pazzo E' un furbo Sei Pazzo d'accordo 
-Aligned transcription: '*'/TestingSample881.lab vs '*'/TestingSample881.rec
- LAB:       Cos'hai combinato Si sono messi d'accordo           Vanno d'accordo           Che due palle Le vuoi prendere Perfetto Buonissimo           Tanto tempo fa Non me ne frega niente ok 
- REC: Pazzo Cos'hai combinato Si sono messi d'accordo Sei Pazzo Vanno d'accordo Sei Pazzo Che due palle         prendere Perfetto Buonissimo Sei Pazzo Tanto tempo fa           Sei   Pazzo  ok 
-Aligned transcription: '*'/TestingSample882.lab vs '*'/TestingSample882.rec
- LAB:          Vattene Buonissimo sono stufo Si sono messi d'accordo           ok Le vuoi prendere           Non ce n'e piu Vanno d'accordo          Sei Pazzo 
- REC: vuoi Sei Pazzo   Buonissimo sono stufo Si sono messi d'accordo Sei Pazzo ok         prendere Sei Pazzo Non ce n'e piu Vanno d'accordo Che vuoi Sei Pazzo 
-Aligned transcription: '*'/TestingSample883.lab vs '*'/TestingSample883.rec
- LAB: Tanto tempo fa     Vattene Cos'hai combinato Le vuoi prendere Sei Pazzo sono stufo Non ce n'e piu Si sono messi d'accordo Perfetto Che vuoi       
- REC: Tanto tempo fa Sei Pazzo   Cos'hai combinato                  Sei Pazzo sono stufo Non ce n'e piu Si sono messi d'accordo Perfetto Che vuoi Pazzo 
-Aligned transcription: '*'/TestingSample884.lab vs '*'/TestingSample884.rec
- LAB: Basta Cos'hai combinato           Non ce n'e piu Tanto tempo fa Non me ne frega niente Vanno d'accordo Che vuoi Perfetto Vattene Ho  fame  
- REC: Basta Cos'hai combinato Sei Pazzo Non ce n'e piu Tanto tempo fa Non me ne frega niente Vanno d'accordo Che vuoi Perfetto Vattene Sei Pazzo 
-Aligned transcription: '*'/TestingSample885.lab vs '*'/TestingSample885.rec
- LAB: Basta Si sono messi d'accordo Vattene Vieni qui Non me ne frega niente Perfetto Buonissimo Le  vuoi  prendere Che vuoi Tanto tempo fa 
- REC: Basta Si sono messi d'accordo Vattene Vieni qui           Vieni qui    Perfetto Buonissimo Sei Pazzo prendere          Tanto tempo fa 
-Aligned transcription: '*'/TestingSample886.lab vs '*'/TestingSample886.rec
- LAB:                 Vattene sono stufo Si sono messi d'accordo ok Perfetto Cos'hai combinato Vieni qui Non me ne frega niente  Ho fame Le vuoi prendere 
- REC: Pazzo Sei Pazzo Vattene sono stufo Si sono messi d'accordo ok Perfetto Cos'hai combinato Vieni qui                 Vattene Ho fame Le vuoi prendere 
-Aligned transcription: '*'/TestingSample887.lab vs '*'/TestingSample887.rec
- LAB: Sei Pazzo Vieni qui sono stufo     E'    un  furbo Buonissimo Tanto tempo fa Ho fame Le vuoi prendere           Basta     Vattene 
- REC: Sei Pazzo Vieni qui sono stufo Sei Pazzo Sei Pazzo Buonissimo Tanto tempo fa Ho fame Le vuoi prendere Sei Pazzo Basta Sei Pazzo   
-Aligned transcription: '*'/TestingSample888.lab vs '*'/TestingSample888.rec
- LAB: Basta           Tanto tempo fa     Vattene Le  vuoi  prendere Che vuoi Non me ne frega niente Sei Pazzo E' un furbo           sono stufo Ho fame 
- REC: Basta Sei Pazzo Tanto tempo fa Sei Pazzo   Sei Pazzo prendere Che vuoi           Vieni qui    Sei Pazzo E' un furbo Sei Pazzo sono stufo Ho fame 
-Aligned transcription: '*'/TestingSample889.lab vs '*'/TestingSample889.rec
- LAB:             Vattene   E'  un    furbo   Che      due palle Ho fame Si sono messi d'accordo Perfetto Non ce n'e piu           Cos'hai combinato Cosa ti farei Sei Pazzo 
- REC: Pazzo Vanno d'accordo Sei Pazzo Vattene Che vuoi Sei Pazzo Ho fame Si sono messi d'accordo Perfetto Non ce n'e piu Sei Pazzo Cos'hai combinato Cosa ti farei Sei Pazzo 
-Aligned transcription: '*'/TestingSample890.lab vs '*'/TestingSample890.rec
- LAB: Le vuoi prendere Buonissimo Basta               ok    sono stufo          Sei Pazzo Ho fame Vieni qui E' un furbo 
- REC:         prendere Buonissimo Basta Sei Pazzo Sei Pazzo sono stufo Che vuoi Sei Pazzo Ho fame Vieni qui E' un furbo 
-Aligned transcription: '*'/TestingSample891.lab vs '*'/TestingSample891.rec
- LAB: Che vuoi Non me ne frega niente sono stufo E' un furbo ok     Vieni qui Si sono messi d'accordo Le vuoi prendere Perfetto 
- REC: Che vuoi           Vieni qui    sono stufo E' un furbo ok Sei Pazzo qui Si sono messi d'accordo Le vuoi prendere Perfetto 
-Aligned transcription: '*'/TestingSample892.lab vs '*'/TestingSample892.rec
- LAB: Che vuoi  Perfetto Cosa ti farei Buonissimo Basta Vattene Si sono messi d'accordo Sei Pazzo Che due palle Non ce n'e piu 
- REC: Sei Pazzo Perfetto         ok    Buonissimo Basta Vattene Si sono messi d'accordo Sei Pazzo Che due palle Non ce n'e piu 
-Aligned transcription: '*'/TestingSample893.lab vs '*'/TestingSample893.rec
- LAB:       Vattene   Cos'hai combinato Ho fame Tanto tempo fa Sei Pazzo Vanno d'accordo Perfetto Si sono messi d'accordo          Le vuoi prendere                
- REC: Vanno d'accordo Cos'hai combinato Ho fame Tanto tempo fa Sei Pazzo Vanno d'accordo Perfetto Si sono messi d'accordo Che vuoi Le vuoi prendere Non ce n'e piu 
-Aligned transcription: '*'/TestingSample894.lab vs '*'/TestingSample894.rec
- LAB: Vanno d'accordo               E' un furbo Cos'hai combinato Buonissimo          sono stufo Cosa ti farei Basta Le vuoi prendere           ok Tanto tempo fa 
- REC: Vanno d'accordo Sei Sei Pazzo E' un furbo Cos'hai combinato Buonissimo Che vuoi sono stufo Cosa ti farei Basta         prendere Sei Pazzo ok Tanto tempo fa 
-Aligned transcription: '*'/TestingSample895.lab vs '*'/TestingSample895.rec
- LAB: Non ce n'e piu sono stufo Buonissimo Tanto tempo fa Vanno d'accordo Sei Pazzo Che vuoi Cosa ti farei Le vuoi prendere         ok           
- REC: Non ce n'e piu sono stufo Buonissimo Tanto tempo fa Vanno d'accordo Sei Pazzo Che vuoi Cosa ti farei         prendere Vattene ok Vieni qui 
-Aligned transcription: '*'/TestingSample896.lab vs '*'/TestingSample896.rec
- LAB: Basta sono stufo Cosa ti farei Tanto tempo fa E' un furbo Vanno d'accordo           Sei Pazzo Non me ne frega niente Che due palle Vattene 
- REC: fame  sono stufo Cosa ti farei Tanto tempo fa       Che   vuoi  d'accordo Sei Pazzo Sei Pazzo Non me ne frega niente     due palle Vattene 
-Aligned transcription: '*'/TestingSample897.lab vs '*'/TestingSample897.rec
- LAB: Le vuoi prendere Cosa ti farei Buonissimo Vanno d'accordo Sei Pazzo Tanto tempo fa Cos'hai combinato                     Basta Non ce n'e   piu sono stufo              
- REC:         prendere Cosa ti farei Buonissimo Vanno d'accordo Sei Pazzo Tanto tempo fa Cos'hai combinato Che vuoi sono stufo Basta        Vieni qui sono stufo Sei Pazzo ok 
-Aligned transcription: '*'/TestingSample898.lab vs '*'/TestingSample898.rec
- LAB:                          Non me ne frega niente Che due palle           ok E' un furbo Vanno d'accordo Si sono messi d'accordo Che vuoi Sei Pazzo Le vuoi prendere Tanto tempo fa 
- REC: vuoi Sei Pazzo Sei Pazzo Non me ne frega niente Che due palle Sei Pazzo ok E' un furbo Vanno d'accordo Si sono messi d'accordo Che vuoi Sei Pazzo         prendere Tanto tempo fa 
-Aligned transcription: '*'/TestingSample899.lab vs '*'/TestingSample899.rec
- LAB: Buonissimo E' un furbo sono stufo Le vuoi prendere Si sono messi d'accordo Vieni qui Non me ne frega niente Cosa ti farei                  Vattene  
- REC: Buonissimo E' un furbo sono stufo Le vuoi prendere Si sono messi d'accordo Vieni qui Non me ne frega niente Cosa ti farei Che vuoi Le vuoi prendere 
-Aligned transcription: '*'/TestingSample900.lab vs '*'/TestingSample900.rec
- LAB: E' un furbo           Buonissimo Cosa ti farei Perfetto Vattene Che     vuoi  ok Ho fame     Sei Pazzo Le vuoi prendere Basta     
- REC: E' un furbo Sei Pazzo Buonissimo Cosa ti farei Perfetto Vattene Che due palle ok Ho fame Che Sei Pazzo         prendere Basta Sei 
-Aligned transcription: '*'/TestingSample901.lab vs '*'/TestingSample901.rec
- LAB: Non me ne frega niente Sei Pazzo Tanto tempo fa Cosa ti farei Vieni qui         Non ce n'e piu Si sono messi d'accordo Ho fame Che due palle           sono stufo 
- REC:           Vieni qui    Sei Pazzo Tanto tempo fa Cosa ti farei Vieni qui Vattene Non ce n'e piu Si sono messi d'accordo Ho fame Che due palle Sei Pazzo sono stufo 
-Aligned transcription: '*'/TestingSample902.lab vs '*'/TestingSample902.rec
- LAB: Tanto tempo fa Buonissimo Le vuoi prendere Che   due palle Vattene           Ho fame sono stufo E' un furbo Perfetto           Sei Pazzo 
- REC: Tanto tempo fa Buonissimo                  Vieni qui palle Vattene Sei Pazzo Ho fame sono stufo E' un furbo Perfetto Sei Pazzo Sei Pazzo 
-Aligned transcription: '*'/TestingSample903.lab vs '*'/TestingSample903.rec
- LAB: Sei Pazzo Vieni qui Vanno d'accordo sono stufo Non ce  n'e piu   Non me ne frega niente               ok   Si sono messi d'accordo Che vuoi Le vuoi prendere              Perfetto 
- REC: Sei Pazzo Vieni qui Vanno d'accordo sono stufo     qui Sei Pazzo Non me ne frega niente Sei Pazzo Che vuoi Si sono messi d'accordo Che vuoi Le vuoi prendere Sei Pazzo E' un       
-Aligned transcription: '*'/TestingSample904.lab vs '*'/TestingSample904.rec
- LAB: Si sono messi d'accordo E' un furbo Basta Tanto tempo fa Perfetto Sei Pazzo sono stufo Vattene           ok Vanno d'accordo Che due palle 
- REC: Si sono messi d'accordo E' un furbo Basta Tanto tempo fa Perfetto Sei Pazzo sono stufo Vattene Sei Pazzo ok Vanno d'accordo Che due palle 
-Aligned transcription: '*'/TestingSample906.lab vs '*'/TestingSample906.rec
- LAB:           Si sono messi d'accordo Vieni qui sono stufo Basta Cosa ti farei Che due palle Perfetto Cos'hai combinato Le vuoi prendere 
- REC: combinato Si sono messi d'accordo Vieni qui sono stufo Basta Cosa ti farei     due palle Perfetto Cos'hai combinato    vuoi prendere 
-Aligned transcription: '*'/TestingSample908.lab vs '*'/TestingSample908.rec
- LAB:                           E' un furbo Sei Pazzo Cos'hai combinato Tanto tempo fa Che due palle Vieni qui Basta Si sono messi d'accordo Buonissimo 
- REC: sono messi d'accordo sono E' un furbo Sei Pazzo Cos'hai combinato Tanto tempo fa Che due palle Vieni qui Basta Si sono messi d'accordo Buonissimo 
-Aligned transcription: '*'/TestingSample909.lab vs '*'/TestingSample909.rec
- LAB:         Buonissimo Vanno d'accordo Basta Vattene Si sono messi d'accordo Cos'hai combinato Che vuoi Cosa ti farei Sei Pazzo Non me ne frega niente Che due palle 
- REC: Ho fame Buonissimo Vanno d'accordo Basta Vattene Si sono messi d'accordo Cos'hai combinato Che vuoi Cosa ti farei Sei Pazzo Non me ne frega niente Che due palle 
-Aligned transcription: '*'/TestingSample910.lab vs '*'/TestingSample910.rec
- LAB: Basta Buonissimo           Cosa ti farei Tanto tempo fa Vanno d'accordo Perfetto Vattene ok Ho fame Vieni qui 
- REC: Basta Buonissimo Sei Pazzo Cosa ti farei Tanto tempo fa       d'accordo Perfetto Vattene ok    fame Vieni qui 
-Aligned transcription: '*'/TestingSample911.lab vs '*'/TestingSample911.rec
- LAB: Che vuoi Buonissimo Basta Sei Pazzo Vattene Ho fame E' un  furbo Cos'hai combinato Vanno d'accordo         sono stufo             
- REC: Che vuoi Buonissimo Basta Sei Pazzo Vattene            Sei Pazzo Cos'hai combinato Vanno d'accordo Vattene sono stufo E' un furbo 
-Aligned transcription: '*'/TestingSample912.lab vs '*'/TestingSample912.rec
- LAB: Sei       Pazzo Ho fame     Perfetto Basta Non ce n'e piu Non me ne frega niente Cosa ti farei       E' un furbo Tanto tempo fa ok        
- REC: Sei Pazzo Pazzo Ho fame Sei Pazzo    Basta Non ce n'e piu Non    ce n'e   piu    Cosa ti farei Basta E' un furbo                d'accordo 
-Aligned transcription: '*'/TestingSample913.lab vs '*'/TestingSample913.rec
- LAB: E'   un  furbo Le vuoi prendere Si sono messi d'accordo Tanto tempo fa Perfetto Che vuoi Sei Pazzo Non ce n'e piu   Non me ne frega niente          Che due palle                
- REC: fame Che vuoi  Le vuoi prendere Si sono messi d'accordo Tanto tempo fa Perfetto Che vuoi Sei Pazzo        Sei Pazzo Non me ne       niente Che vuoi Che due palle Che vuoi Basta 
-Aligned transcription: '*'/TestingSample914.lab vs '*'/TestingSample914.rec
- LAB: Tanto tempo fa Cos'hai combinato ok Le vuoi prendere Basta sono stufo Sei Pazzo Vanno d'accordo Si sono messi d'accordo Vattene Non me ne frega niente 
- REC: Tanto tempo fa Cos'hai combinato ok    vuoi prendere Basta sono stufo Sei Pazzo Vanno d'accordo Si sono messi d'accordo Vattene Non me ne frega niente 
-Aligned transcription: '*'/TestingSample915.lab vs '*'/TestingSample915.rec
- LAB: Cosa ti farei sono stufo Vattene Non me ne frega niente E' un furbo Sei Pazzo ok Perfetto Buonissimo Vieni qui 
- REC: Cosa ti farei sono stufo Vattene                 niente E' un furbo Sei Pazzo ok Perfetto Buonissimo Vieni qui 
-Aligned transcription: '*'/TestingSample916.lab vs '*'/TestingSample916.rec
- LAB:      Sei Pazzo ok Tanto tempo fa Cos'hai combinato E' un furbo Non me ne frega niente Le  vuoi prendere Buonissimo sono stufo Perfetto          
- REC: fame Sei Pazzo ok       tempo fa Cos'hai combinato                       Che   vuoi   Che vuoi prendere Buonissimo sono stufo Perfetto Che vuoi 
-Aligned transcription: '*'/TestingSample917.lab vs '*'/TestingSample917.rec
- LAB: E' un furbo Ho fame Tanto tempo fa Si sono messi d'accordo Sei Pazzo Cosa ti farei Che vuoi Vanno d'accordo Non ce n'e piu Vieni qui 
- REC:       Pazzo Ho fame Tanto tempo fa                         Sei Pazzo                                            ce n'e piu           
-Aligned transcription: '*'/TestingSample918.lab vs '*'/TestingSample918.rec
- LAB: Buonissimo Non ce n'e   piu Sei  Pazzo      Cosa ti farei Che due palle Perfetto Cos'hai combinato Ho fame sono stufo Vattene 
- REC:                   Pazzo Che vuoi Buonissimo Cosa ti farei Che due palle Perfetto Cos'hai combinato Ho fame            Cosa    
-Aligned transcription: '*'/TestingSample919.lab vs '*'/TestingSample919.rec
- LAB:            Sei Pazzo Le  vuoi  prendere Cosa ti farei Non ce n'e piu E' un furbo Tanto tempo fa Non me ne frega niente Che vuoi sono stufo Buonissimo Cos'hai combinato 
- REC: ce n'e piu Sei Pazzo Sei Pazzo prendere Cosa ti farei Non ce n'e piu E' un furbo Tanto tempo fa     me ne frega niente Che vuoi sono stufo Buonissimo Cos'hai combinato 
-Aligned transcription: '*'/TestingSample920.lab vs '*'/TestingSample920.rec
- LAB: sono stufo Cosa ti farei           Basta Vanno d'accordo Che vuoi             Le  vuoi prendere E' un furbo Ho fame Si sono messi d'accordo ok Le  vuoi prendere Non me ne frega niente 
- REC: sono stufo Cosa ti farei Sei Pazzo Basta Vanno d'accordo Che vuoi ok prendere Che vuoi          E' un furbo Ho fame Si sono messi d'accordo ok Che vuoi          Non me ne frega niente 
-Aligned transcription: '*'/TestingSample921.lab vs '*'/TestingSample921.rec
- LAB:            Perfetto Tanto tempo fa Vieni qui ok Vattene Cos'hai combinato Che due palle E' un furbo Ho fame sono stufo Che vuoi    
- REC: ce n'e piu Perfetto Tanto tempo fa Vieni qui ok Vattene Cos'hai combinato Che due palle E' un furbo Ho fame sono stufo Che vuoi ok 
-Aligned transcription: '*'/TestingSample922.lab vs '*'/TestingSample922.rec
- LAB: Cosa ti farei Sei Pazzo ok           Si sono messi d'accordo Che vuoi Perfetto Vieni qui Basta Buonissimo 
- REC: Cosa ti farei Sei Pazzo ok d'accordo Si sono messi d'accordo Che vuoi Perfetto       qui Basta Buonissimo 
-Aligned transcription: '*'/TestingSample923.lab vs '*'/TestingSample923.rec
- LAB:               Cos'hai combinato Ho fame Buonissimo            Cosa ti farei Basta ok Non me ne frega niente                         sono stufo Vieni qui Vattene Che vuoi 
- REC: Cosa ti farei Cos'hai combinato Ho fame Buonissimo Non ce n'e Cosa ti farei Basta ok Non me ne frega niente sono stufo Che vuoi Che sono stufo Vieni qui Vattene Che vuoi 
-Aligned transcription: '*'/TestingSample924.lab vs '*'/TestingSample924.rec
- LAB:          Che vuoi Che due palle Si sono messi d'accordo         Vieni qui Basta Ho fame Tanto tempo fa Perfetto Sei Pazzo Le vuoi prendere           
- REC: Che vuoi Che vuoi Che due palle Si sono messi d'accordo Sei qui Vieni qui Basta Ho fame Tanto tempo fa Perfetto Sei Pazzo         prendere Vieni qui 
-Aligned transcription: '*'/TestingSample925.lab vs '*'/TestingSample925.rec
- LAB: Vattene Perfetto     Vieni qui Le  vuoi prendere Vanno d'accordo Si sono messi d'accordo Non ce n'e piu Non me ne frega niente Basta Cosa ti farei                         
- REC: Vattene Perfetto Sei Pazzo qui Che vuoi          Vanno d'accordo Si sono messi d'accordo Non ce n'e piu           Vieni qui    Basta Cosa ti farei Si sono messi d'accordo 
-Aligned transcription: '*'/TestingSample926.lab vs '*'/TestingSample926.rec
- LAB:                    Buonissimo           Vieni qui sono stufo           Che due palle Cosa ti farei Basta ok Non ce n'e piu Tanto tempo fa 
- REC: vuoi Che due palle Buonissimo Vieni qui Vieni qui sono stufo Sei Pazzo Che due palle Cosa ti farei Basta ok Non ce n'e piu Tanto tempo fa 
-Aligned transcription: '*'/TestingSample927.lab vs '*'/TestingSample927.rec
- LAB:      E' un furbo Ho fame Basta Buonissimo Che due palle Sei Pazzo Vattene Non me ne frega niente Vanno d'accordo    ok         
- REC: fame E' un furbo Ho fame Basta Buonissimo Che due palle Sei Pazzo                   Che   vuoi   Vanno d'accordo ok ok Ho fame 
-Aligned transcription: '*'/TestingSample928.lab vs '*'/TestingSample928.rec
- LAB: Perfetto Che vuoi Vanno d'accordo Ho fame Vattene Non me ne frega niente Cos'hai combinato Vieni qui sono stufo Cosa ti farei 
- REC: Perfetto Che vuoi       d'accordo Ho fame Vattene        ne frega niente Cos'hai combinato Vieni qui sono stufo Cosa ti farei 
-Aligned transcription: '*'/TestingSample929.lab vs '*'/TestingSample929.rec
- LAB:                Vanno d'accordo ok Basta Perfetto Sei Pazzo Ho fame Cosa ti farei Non ce n'e piu     Vattene Cos'hai combinato 
- REC: Pazzo Che vuoi Vanno d'accordo ok Basta Perfetto Sei Pazzo Ho fame Cosa ti farei Non ce n'e piu Sei Pazzo   Cos'hai combinato 
-Aligned transcription: '*'/TestingSample930.lab vs '*'/TestingSample930.rec
- LAB: Le vuoi prendere ok sono stufo Che due palle Ho fame Basta           Perfetto Cosa ti farei          Si sono messi d'accordo          Cos'hai combinato 
- REC: Le vuoi prendere ok sono stufo Che due palle    fame Basta Sei Pazzo Perfetto Cosa ti farei Che vuoi Si sono messi d'accordo Che vuoi Cos'hai combinato 
-Aligned transcription: '*'/TestingSample931.lab vs '*'/TestingSample931.rec
- LAB: E' un furbo Cosa ti farei Basta Che due palle ok Cos'hai combinato sono stufo Non ce n'e piu Vanno d'accordo 
- REC:                                                                                                              
-Aligned transcription: '*'/TestingSample932.lab vs '*'/TestingSample932.rec
- LAB: Le    vuoi prendere Tanto tempo fa    Cosa ti farei          Vattene                          Buonissimo Sei Pazzo           Si sono messi d'accordo Basta Non me ne    frega niente Che vuoi          
- REC: Vieni qui  qui      Tanto tempo fa ok Cosa ti farei Che vuoi Vattene Vieni qui Non ce n'e piu Buonissimo Sei Pazzo Vieni qui Si sono messi d'accordo Basta        Vieni qui   qui    Che vuoi prendere 
-Aligned transcription: '*'/TestingSample933.lab vs '*'/TestingSample933.rec
- LAB: Cos'hai combinato                     Non ce n'e piu Buonissimo Le vuoi prendere Sei Pazzo Basta            sono stufo Vanno d'accordo Vattene Che   due palle 
- REC: Cos'hai combinato due palle Vieni qui Non ce n'e piu Buonissimo         qui      Sei Pazzo Basta Buonissimo sono stufo       d'accordo         Vieni qui palle 
-Aligned transcription: '*'/TestingSample934.lab vs '*'/TestingSample934.rec
- LAB: Che               due   palle Ho fame  Le  vuoi prendere Tanto tempo fa Sei Pazzo     Vanno d'accordo Vattene Cosa ti farei Non ce n'e piu 
- REC: Che vuoi vuoi qui Vieni qui   ok Vieni qui Non  piu      Tanto tempo    Sei Pazzo Che vuoi  Vattene   Vattene Cosa ti farei Non ce n'e piu 
-Aligned transcription: '*'/TestingSample935.lab vs '*'/TestingSample935.rec
- LAB:     Ho fame Buonissimo                      Vattene              Che vuoi Sei Pazzo     ok    Non me  ne   frega niente Vanno d'accordo Le vuoi prendere Si sono messi d'accordo Cosa ti farei 
- REC: Che Ho fame Buonissimo qui Vattene Che vuoi Vattene Che vuoi qui Che vuoi Sei Pazzo Che Vieni qui Che vuoi Vieni qui    Vanno d'accordo         qui      Si sono messi d'accordo Cosa ti farei 
-Aligned transcription: '*'/TestingSample936.lab vs '*'/TestingSample936.rec
- LAB: Si sono messi d'accordo Le vuoi prendere Perfetto sono stufo Non me ne frega niente Basta E' un furbo Che due palle Ho fame Vanno d'accordo Buonissimo           
- REC: Si sono messi d'accordo         qui      Perfetto sono stufo Non me          niente Basta E' un furbo Che due palle Ho fame Vanno d'accordo Buonissimo Vieni qui 
-Aligned transcription: '*'/TestingSample937.lab vs '*'/TestingSample937.rec
- LAB: Cosa ti farei E' un  furbo Si sono messi d'accordo Vattene Sei Pazzo Tanto tempo fa Perfetto Le vuoi prendere 
- REC: Cosa ti farei    Che vuoi  Si sono messi d'accordo Vattene Sei Pazzo Tanto tempo fa Perfetto Le vuoi prendere 
-Aligned transcription: '*'/TestingSample938.lab vs '*'/TestingSample938.rec
- LAB:      Tanto tempo fa Ho fame sono stufo Che vuoi Vieni qui Si sono messi d'accordo Vanno d'accordo Non me ne frega niente Perfetto Sei Pazzo 
- REC: fame Tanto tempo fa Ho fame sono stufo Che vuoi       qui Si sono messi d'accordo Vanno d'accordo                 niente ok       Sei Pazzo 
-Aligned transcription: '*'/TestingSample939.lab vs '*'/TestingSample939.rec
- LAB:                Cosa ti farei Le  vuoi prendere sono stufo Vieni qui Ho  fame Non me ne    frega niente Buonissimo Tanto tempo fa Basta Che due palle 
- REC: Buonissimo Che Cosa ti farei Che vuoi qui      sono stufo Vieni qui Che vuoi qui ok Vieni qui   Che    Buonissimo Tanto tempo    Basta     qui stufo 
-Aligned transcription: '*'/TestingSample940.lab vs '*'/TestingSample940.rec
- LAB:           Si sono messi d'accordo Vanno d'accordo Vieni qui                 Tanto tempo fa  Non ce n'e piu         Cos'hai combinato Vattene E' un furbo Perfetto Buonissimo          Basta 
- REC: Vieni qui Si sono messi d'accordo Vanno d'accordo Vieni qui Vanno d'accordo Tanto tempo qui Non ce n'e piu qui qui Cos'hai combinato Vattene E' un furbo Perfetto Buonissimo un furbo Basta 
-Aligned transcription: '*'/TestingSample941.lab vs '*'/TestingSample941.rec
- LAB: Vattene      Le    vuoi prendere Basta E' un furbo Non me ne frega niente Sei Pazzo Cos'hai combinato                 ok                           Tanto tempo fa 
- REC: Vattene Cosa Vieni qui  Non      Basta E' un furbo           Vieni qui    Sei Pazzo Cos'hai combinato Vanno d'accordo ok Vieni qui qui qui Non qui Tanto tempo    
-Aligned transcription: '*'/TestingSample942.lab vs '*'/TestingSample942.rec
- LAB:                        E' un furbo Le vuoi  prendere Che vuoi                          Non ce n'e piu          Vanno d'accordo Si sono messi d'accordo Buonissimo          Cos'hai combinato Che due palle Vattene          
- REC: Vieni qui Si d'accordo E' un furbo    Vieni qui      Che vuoi Non ce n'e piu Vieni qui Non ce n'e piu Che vuoi Vanno d'accordo Si sono messi d'accordo Buonissimo Che vuoi Cos'hai combinato Che     vuoi  Vattene Che vuoi 
-Aligned transcription: '*'/TestingSample943.lab vs '*'/TestingSample943.rec
- LAB:    Cosa ti farei Basta E' un furbo sono stufo Vieni qui Vanno d'accordo Le vuoi prendere          Sei Pazzo          Vattene ok                              Non        me  ne    frega niente     
- REC: ok Cosa ti farei Basta E' un furbo sono stufo Vieni qui Vanno d'accordo    vuoi prendere Che vuoi Sei Pazzo Perfetto Vattene ok qui Non ce n'e piu due palle Non ce n'e piu Vieni qui   Buonissimo 
-Aligned transcription: '*'/TestingSample944.lab vs '*'/TestingSample944.rec
- LAB:         Buonissimo Cosa ti farei sono stufo Le vuoi  prendere Tanto tempo fa Che vuoi Che due palle ok Basta           
- REC: qui qui Buonissimo Cosa ti farei sono stufo    Vieni qui      Tanto tempo fa Che vuoi     due palle ok Basta d'accordo 
-Aligned transcription: '*'/TestingSample945.lab vs '*'/TestingSample945.rec
- LAB: Vieni qui Basta                     Vanno d'accordo Che               vuoi Sei Pazzo Vattene Perfetto Tanto tempo fa Cosa ti farei      
- REC: Vieni qui Basta Vieni qui d'accordo Vanno d'accordo Che due palle qui qui  Sei Pazzo Vattene Perfetto Tanto tempo    Cosa ti farei vuoi 
-Aligned transcription: '*'/TestingSample946.lab vs '*'/TestingSample946.rec
- LAB:     Vattene Non ce n'e piu sono stufo        Basta Cos'hai combinato Sei Pazzo Tanto tempo fa ok Buonissimo          Vieni qui           
- REC: Non ce      Non ce n'e piu sono stufo ok Che Basta Cos'hai combinato Sei Pazzo Tanto tempo    ok Buonissimo Che vuoi Vieni qui d'accordo 
-Aligned transcription: '*'/TestingSample947.lab vs '*'/TestingSample947.rec
- LAB:     Vattene          Si sono messi d'accordo     E' un furbo Ho fame Cosa ti farei Buonissimo     Tanto tempo fa Che vuoi sono stufo Non me ne frega niente Vanno d'accordo 
- REC: qui Vattene ti farei Si sono messi d'accordo qui E' un furbo Ho fame Cosa ti farei Buonissimo qui Tanto tempo    Che vuoi            Non me ne frega niente Vanno d'accordo 
-Aligned transcription: '*'/TestingSample948.lab vs '*'/TestingSample948.rec
- LAB: Non me ne frega niente Cosa ti farei             Cos'hai combinato           Che due palle Buonissimo ok                 Vanno d'accordo Le  vuoi prendere Che vuoi Non ce n'e piu 
- REC:     me ne frega niente Cosa ti farei qui Vattene Cos'hai combinato Vieni qui Che           Buonissimo ok Vieni qui E' un furbo Vieni     qui Cosa ti       Che vuoi Non ce n'e piu 
-Aligned transcription: '*'/TestingSample949.lab vs '*'/TestingSample949.rec
- LAB: Non ce n'e piu          Perfetto          Ho fame Si sono messi d'accordo Cosa ti farei Vieni qui Che due palle Basta     Vattene                             Cos'hai combinato Le vuoi prendere 
- REC: Non ce n'e piu ti farei Perfetto ok Vieni Ho fame Si sono messi d'accordo Cosa ti farei Vieni qui Che     qui   Basta qui Vattene Cosa ti farei qui Vieni qui Cos'hai combinato Le vuoi prendere 
-Aligned transcription: '*'/TestingSample950.lab vs '*'/TestingSample950.rec
- LAB:     Che due palle Cos'hai combinato Tanto tempo fa           Si sono messi d'accordo                                              Vanno d'accordo Ho fame     E' un furbo     Sei Pazzo sono stufo           Buonissimo                                           
- REC: qui Che due palle Cos'hai combinato Tanto tempo fa Sei Pazzo Si sono messi d'accordo E' un furbo Le vuoi prendere sono stufo Cosa ti    farei     Ho fame qui E' un furbo qui Sei Pazzo sono stufo Vieni qui Buonissimo Perfetto Che vuoi Perfetto Non ce n'e piu 
-Aligned transcription: '*'/TestingSample951.lab vs '*'/TestingSample951.rec
- LAB: Che due palle           Sei Pazzo           Cosa ti farei Le vuoi prendere                      Tanto tempo fa                Non ce n'e piu Ho fame                 Che vuoi     Basta sono stufo 
- REC: Che due palle d'accordo Sei Pazzo Vieni qui Cosa ti farei         prendere Sei Pazzo sono stufo Tanto tempo fa ti farei Vieni Non ce n'e piu Ho fame Vanno d'accordo Che vuoi Sei Basta sono stufo 
-Aligned transcription: '*'/TestingSample952.lab vs '*'/TestingSample952.rec
- LAB: Che due palle Basta Perfetto           Vieni qui Cosa  ti  farei sono stufo Tanto tempo fa Sei Pazzo Si sono messi                 d'accordo 
- REC: Che due palle Basta Perfetto Vanno Sei Pazzo Sei Pazzo Sei Pazzo sono stufo Tanto tempo fa Sei Pazzo Si sono messi d'accordo Vanno d'accordo 
-Aligned transcription: '*'/TestingSample953.lab vs '*'/TestingSample953.rec
- LAB: Non me ne frega niente ok Vieni qui Sei Pazzo Ho fame Buonissimo     Si sono messi d'accordo            Perfetto Non ce n'e piu           Tanto tempo fa                                
- REC:     me ne frega niente ok Vieni qui Sei Pazzo Ho fame Buonissimo Sei Si sono messi d'accordo Buonissimo Perfetto Non ce n'e piu Sei Pazzo Tanto tempo fa Che due palle sono stufo Vanno 
-Aligned transcription: '*'/TestingSample954.lab vs '*'/TestingSample954.rec
- LAB: Le vuoi prendere            Si sono messi d'accordo Cos'hai combinato Vieni qui      Vattene Tanto tempo fa ok            Che due palle Sei Pazzo Che vuoi               
- REC: Le vuoi prendere Buonissimo Si sono messi d'accordo Cos'hai combinato Vieni qui fame Vattene Tanto tempo fa ok sono stufo Che due palle Sei Pazzo Che vuoi qui Sei Pazzo 
-Aligned transcription: '*'/TestingSample955.lab vs '*'/TestingSample955.rec
- LAB: E' un furbo           Che due palle           Non ce n'e piu Buonissimo Sei Pazzo ok                 Basta Le vuoi prendere Vieni qui Cos'hai combinato Vanno d'accordo 
- REC: E' un furbo Sei Pazzo Che due palle Sei Pazzo Non ce n'e piu Buonissimo Sei Pazzo ok Vanno Sei Pazzo Basta Le vuoi prendere Vieni qui Cos'hai combinato Vanno d'accordo 
-Aligned transcription: '*'/TestingSample956.lab vs '*'/TestingSample956.rec
- LAB: Non ce n'e piu Perfetto Sei Pazzo Ho fame Cos'hai combinato          Che vuoi Basta           Buonissimo                     Le vuoi prendere 
- REC: Non ce n'e piu Perfetto Sei Pazzo Ho fame Cos'hai combinato Che vuoi Che vuoi Basta Sei Pazzo Buonissimo Vieni d'accordo Che Le vuoi prendere 
-Aligned transcription: '*'/TestingSample957.lab vs '*'/TestingSample957.rec
- LAB:                   Vattene                   ok Che vuoi Buonissimo Non ce n'e piu Le vuoi prendere Ho  fame  Non me ne frega niente Che due palle           sono stufo 
- REC: Sei Pazzo Vattene Vattene qui Sei Sei Pazzo ok Che vuoi Buonissimo Non ce n'e piu Le vuoi prendere Sei Pazzo Non me ne frega niente         palle Sei Pazzo sono stufo 
-Aligned transcription: '*'/TestingSample958.lab vs '*'/TestingSample958.rec
- LAB: Che due palle           Sei Pazzo Cos'hai combinato               ok Si sono messi d'accordo Vanno d'accordo             Tanto tempo fa Cosa ti farei       Buonissimo          
- REC: Che due palle Sei Pazzo Sei Pazzo Cos'hai combinato Sei d'accordo ok Si sono messi d'accordo       d'accordo Ho fame Che Tanto tempo fa Cosa ti farei Vanno Buonissimo Perfetto 
-Aligned transcription: '*'/TestingSample959.lab vs '*'/TestingSample959.rec
- LAB: Si sono messi d'accordo                                    Vanno d'accordo Sei Pazzo Ho fame           Buonissimo Che due palle ok Cosa ti farei Non me ne frega niente E' un furbo          Tanto tempo fa            
- REC:    sono messi d'accordo Ho fame Che vuoi Sei Pazzo Si sono messi d'accordo Sei Pazzo Ho fame Sei Pazzo Buonissimo     Le  vuoi  ok Cosa ti farei                 niente E' un furbo Che vuoi Tanto tempo fa sono stufo 
-Aligned transcription: '*'/TestingSample960.lab vs '*'/TestingSample960.rec
- LAB: Cosa ti farei Che due palle Tanto tempo fa           Sei Pazzo Si sono messi d'accordo Cos'hai combinato sono stufo Ho fame                                Non ce n'e piu Vanno d'accordo       
- REC: Cosa ti farei Che due palle Tanto tempo fa Sei Pazzo Sei Pazzo Si sono messi d'accordo Cos'hai combinato sono stufo Ho fame Buonissimo Sei Pazzo d'accordo Non ce n'e piu Vanno d'accordo Pazzo 
-Aligned transcription: '*'/TestingSample961.lab vs '*'/TestingSample961.rec
- LAB:                     Che vuoi           Sei Pazzo Ho  fame  Vanno d'accordo Le vuoi prendere                 E'        un    furbo Non ce n'e piu                ok    Si sono messi d'accordo Non me ne frega niente 
- REC: Sei Pazzo Sei Pazzo Che vuoi Sei Pazzo Sei Pazzo Sei Pazzo Vanno d'accordo Le vuoi prendere Sei Pazzo Vanno d'accordo Vieni qui   Non ce n'e piu Buonissimo Sei Pazzo Si sono messi d'accordo                        
-Aligned transcription: '*'/TestingSample962.lab vs '*'/TestingSample962.rec
- LAB:           Buonissimo sono stufo          Cos'hai combinato E' un furbo Cosa ti farei Vieni qui Ho fame                 Sei Pazzo Non ce n'e piu           Tanto tempo fa 
- REC: due palle Buonissimo sono stufo un furbo Cos'hai combinato E' un furbo Cosa ti farei Vieni qui Ho fame Vieni Sei Pazzo Sei Pazzo Non ce n'e piu Sei Pazzo Tanto tempo fa 
-Aligned transcription: '*'/TestingSample963.lab vs '*'/TestingSample963.rec
- LAB:      sono stufo Ho fame Vattene Vanno d'accordo Buonissimo Cosa ti farei             Perfetto Si sono messi           d'accordo Che vuoi Le vuoi prendere                     
- REC: fame sono stufo    Sei  Pazzo   Vanno d'accordo Buonissimo Cosa ti farei Vanno tempo fa       Si sono messi d'accordo d'accordo Che vuoi    vuoi prendere Vieni qui Sei Pazzo 
-Aligned transcription: '*'/TestingSample964.lab vs '*'/TestingSample964.rec
- LAB: E' un furbo Basta                                Vanno d'accordo Le  vuoi prendere Che due palle Non ce n'e piu                             Perfetto Ho fame Non me ne frega   niente  Cos'hai combinato 
- REC: E' un furbo Basta Buonissimo Sei Pazzo Sei Pazzo Vanno d'accordo Che vuoi prendere Che due palle Non ce n'e piu Che vuoi Sei Pazzo Che vuoi Perfetto Ho fame           Vattene Vattene Cos'hai combinato 
-Aligned transcription: '*'/TestingSample965.lab vs '*'/TestingSample965.rec
- LAB:     Vattene     Basta Le vuoi prendere Che vuoi     Che   due palle Cosa ti farei Buonissimo                   Ho fame         sono stufo Sei Pazzo 
- REC: qui Vattene Sei Pazzo Le      prendere Che vuoi Sei Pazzo Sei Pazzo Cosa ti farei Buonissimo Cos'hai combinato Ho fame Vattene sono stufo Sei Pazzo 
-Aligned transcription: '*'/TestingSample966.lab vs '*'/TestingSample966.rec
- LAB:                               Vanno d'accordo               Sei Pazzo Ho  fame  Che due palle Tanto tempo fa               Vattene Cosa ti farei Che vuoi Non me ne frega niente     Perfetto 
- REC: d'accordo Sei Pazzo Sei Pazzo Vanno d'accordo Sei Pazzo Sei Sei Pazzo Sei Pazzo Che due palle Tanto tempo fa Sei Pazzo Sei Pazzo   Cosa ti farei Che vuoi Non me ne frega niente Che vuoi     
-Aligned transcription: '*'/TestingSample967.lab vs '*'/TestingSample967.rec
- LAB: Vieni     qui                                           Che   due palle ok E' un furbo Ho fame                     Cosa  ti  farei Tanto tempo fa Non ce n'e piu Basta Cos'hai combinato 
- REC: d'accordo qui Vattene Sei Pazzo Sei Pazzo Sei Pazzo Sei Pazzo Sei Pazzo ok E' un furbo Ho fame Vanno d'accordo Sei Pazzo Sei Pazzo Tanto tempo fa Non ce n'e piu Basta Cos'hai combinato 
-Aligned transcription: '*'/TestingSample968.lab vs '*'/TestingSample968.rec
- LAB: Cosa ti farei Sei Pazzo Perfetto Ho fame           Basta                    sono stufo       Che due palle                         Vattene E' un furbo 
- REC: Cosa ti farei Sei Pazzo Perfetto Ho fame Sei Pazzo Basta Che vuoi Sei Pazzo sono stufo Basta Che due palle Sei Pazzo Sei Pazzo Sei Pazzo   E' un furbo 
-Aligned transcription: '*'/TestingSample969.lab vs '*'/TestingSample969.rec
- LAB:      Tanto tempo fa     Vieni qui Cos'hai combinato           Si sono messi d'accordo sono stufo Che vuoi ok Buonissimo Ho fame                   Che due palle 
- REC: fame Tanto tempo fa Sei Pazzo qui Cos'hai combinato Sei Pazzo Si sono messi d'accordo sono stufo Che vuoi ok Buonissimo Ho fame Buonissimo ok Sei Che due palle 
-Aligned transcription: '*'/TestingSample970.lab vs '*'/TestingSample970.rec
- LAB: E' un furbo Vieni qui           Perfetto                Sei Pazzo Vanno d'accordo           Che vuoi           Basta Cos'hai combinato Che due palle Le vuoi prendere 
- REC: E' un furbo Vieni qui Sei Pazzo Perfetto Non ce n'e piu Sei Pazzo Vanno d'accordo Sei Pazzo Che vuoi Sei Pazzo Basta Cos'hai combinato Che due palle Le vuoi prendere 
-Aligned transcription: '*'/TestingSample971.lab vs '*'/TestingSample971.rec
- LAB: sono stufo Cosa ti farei Buonissimo                                      Non ce n'e piu Le  vuoi  prendere Che due palle Ho fame ok Si sono messi d'accordo     Sei Pazzo 
- REC: sono stufo Cosa ti farei Buonissimo Sei Pazzo ok Che due palle Sei Pazzo Non ce n'e piu Sei Pazzo prendere Che due palle Ho fame ok Si sono messi d'accordo Sei Sei Pazzo 
-Aligned transcription: '*'/TestingSample972.lab vs '*'/TestingSample972.rec
- LAB: Che vuoi sono stufo Vattene Cosa ti farei Cos'hai combinato Ho fame Tanto tempo fa ok Vieni qui          Perfetto 
- REC: Che vuoi sono stufo Vattene Cosa ti farei Cos'hai combinato Ho fame Tanto tempo fa ok Vieni qui Che vuoi Perfetto 
-Aligned transcription: '*'/TestingSample973.lab vs '*'/TestingSample973.rec
- LAB: Vattene     Le vuoi prendere Si sono messi d'accordo Non ce n'e piu Cosa ti farei Non   me    ne frega niente Sei Pazzo Vieni qui Ho fame                    Che vuoi 
- REC: Vattene Che Le      prendere Si sono messi d'accordo Non ce n'e piu         Sei   Pazzo Pazzo Le vuoi  niente Sei Pazzo       qui Ho fame Che vuoi Sei Pazzo Che vuoi 
-Aligned transcription: '*'/TestingSample974.lab vs '*'/TestingSample974.rec
- LAB: ok Vanno d'accordo Le vuoi prendere Vieni qui Buonissimo                 Non ce n'e piu Cos'hai combinato           Che due   palle Vattene Basta Perfetto 
- REC: ok Sei   d'accordo         prendere Vieni qui Buonissimo Vanno Sei Pazzo Non ce n'e piu Cos'hai combinato Sei Pazzo Sei Pazzo Sei   Pazzo   Basta          
-Aligned transcription: '*'/TestingSample975.lab vs '*'/TestingSample975.rec
- LAB: E' un furbo               Cosa ti farei Vanno d'accordo Non ce n'e piu           Si sono messi d'accordo Che vuoi                               Buonissimo Vattene Cos'hai combinato 
- REC: E' un furbo Sei Pazzo qui Cosa ti farei Vanno d'accordo Non ce n'e piu Sei Pazzo Si sono messi d'accordo Che vuoi Sei Pazzo Sei Pazzo Sei Pazzo Sei        Pazzo   Cos'hai combinato 
-Aligned transcription: '*'/TestingSample976.lab vs '*'/TestingSample976.rec
- LAB: Cosa ti farei                 Basta               ok                  Non me   ne      frega niente Vanno d'accordo              Sei Pazzo Che vuoi Vieni qui Ho fame 
- REC: Cosa ti farei furbo furbo Che Basta Che Sei Pazzo ok Le vuoi prendere Che vuoi Vattene qui   Che    Vanno d'accordo Che vuoi qui Sei Pazzo Che vuoi       qui Ho fame 
-Aligned transcription: '*'/TestingSample977.lab vs '*'/TestingSample977.rec
- LAB:      Cosa ti farei          Vieni qui Che vuoi Cos'hai combinato           Che due palle           Tanto tempo fa          Perfetto Le vuoi prendere                                    Si sono messi d'accordo sono                         stufo 
- REC: vuoi Cosa ti farei Che vuoi Vieni qui Che vuoi Cos'hai combinato Sei Pazzo Che due palle Sei Pazzo Tanto tempo fa Che vuoi Perfetto Le vuoi prendere ok Vieni qui Che vuoi Che Che vuoi Si sono messi d'accordo sono Sei Pazzo Sei Pazzo Sei Pazzo 
-Aligned transcription: '*'/TestingSample978.lab vs '*'/TestingSample978.rec
- LAB: Cos'hai combinato                           Che vuoi                                            Ho fame Tanto tempo fa                 sono stufo                             Si sono messi d'accordo Perfetto Le vuoi prendere Non me ne frega niente                        E' un furbo 
- REC: Cos'hai combinato Le vuoi prendere Che vuoi Che vuoi Sei Pazzo Non me ne frega niente d'accordo Ho fame Tanto tempo fa Vanno d'accordo sono stufo Vanno d'accordo Vattene Che Si sono messi d'accordo Perfetto         prendere Non me ne frega niente Che vuoi Vieni qui Sei E' un furbo 
-Aligned transcription: '*'/TestingSample979.lab vs '*'/TestingSample979.rec
- LAB: ok Non ce n'e piu                   Che vuoi Perfetto Cosa ti farei                              Cos'hai combinato           Le  vuoi prendere Ho fame                            Vattene E' un furbo Si sono messi d'accordo 
- REC: ok Non ce n'e piu Che vuoi Che vuoi Che vuoi Perfetto Cosa ti farei Che vuoi Buonissimo Che vuoi Cos'hai combinato Sei Pazzo qui Sei  prendere Ho fame Che vuoi un furbo prendere Vattene    un furbo Si sono messi d'accordo 
-Aligned transcription: '*'/TestingSample980.lab vs '*'/TestingSample980.rec
- LAB:                               Che due palle          Ho fame     Vanno d'accordo Sei Pazzo          Cos'hai combinato Che vuoi Non ce n'e piu Tanto tempo fa Non me ne frega niente          Le vuoi          prendere          Vieni qui  
- REC: Vieni qui Che Vanno d'accordo Che due palle prendere Ho fame Che vuoi  d'accordo Sei Pazzo Che vuoi Cos'hai combinato Che vuoi Non ce n'e piu Tanto tempo fa     me ne       niente Che vuoi Le vuoi prendere prendere Che vuoi Che   vuoi 
-Aligned transcription: '*'/TestingSample981.lab vs '*'/TestingSample981.rec
- LAB: Cos'hai combinato           Non me ne frega niente Si sono messi d'accordo          Tanto tempo fa Vattene           Vieni qui Ho fame Cosa ti farei                             Perfetto                           Che vuoi Basta                           
- REC: Cos'hai combinato d'accordo Non me          niente Si sono messi d'accordo Che vuoi Tanto tempo fa Vattene Vieni qui Vieni qui Ho fame Cosa ti farei Vattene Sei Pazzo Vieni qui Perfetto Sei Pazzo Che vuoi Non ce Che vuoi Basta vuoi Che vuoi Non n'e piu 
-Aligned transcription: '*'/TestingSample982.lab vs '*'/TestingSample982.rec
- LAB: Vattene Perfetto Cos'hai combinato          Vanno d'accordo                               sono stufo Si sono messi d'accordo Le vuoi prendere                               Non ce n'e piu ok 
- REC: Vattene Perfetto Cos'hai combinato prendere qui   d'accordo qui prendere Le vuoi prendere sono stufo Si sono messi d'accordo         prendere Vanno d'accordo Sei Pazzo Che Non ce n'e     ok 
-Aligned transcription: '*'/TestingSample983.lab vs '*'/TestingSample983.rec
- LAB: Non    me       ne frega niente Buonissimo      Le vuoi  prendere          Vattene Tanto tempo fa          Perfetto                       ok Basta             Che due palle 
- REC: niente prendere E' un    furbo  Buonissimo Cosa ti farei prendere Che vuoi Vattene Tanto tempo fa Che vuoi Perfetto d'accordo qui Che Che ok Basta Le prendere Che due palle 
-Aligned transcription: '*'/TestingSample984.lab vs '*'/TestingSample984.rec
- LAB: Le vuoi prendere    E' un furbo Non    me    ne  frega niente Vieni qui ok              sono stufo           Tanto tempo fa Si sono messi d'accordo Basta                        Che vuoi 
- REC: Le vuoi prendere ok ok un furbo niente Vieni qui Che   vuoi   Vieni qui ok Sei Che vuoi sono stufo d'accordo Tanto tempo fa Si sono messi d'accordo Basta Che vuoi Sei Pazzo Che Che vuoi 
-Aligned transcription: '*'/TestingSample985.lab vs '*'/TestingSample985.rec
- LAB: E' un furbo                                 sono stufo Non me ne frega niente Cos'hai combinato          Tanto tempo fa ok          Cosa ti farei                 Sei Pazzo          Ho fame         Che vuoi              
- REC: E' un furbo Che vuoi Sei Pazzo Che vuoi Che sono stufo           Che   vuoi   Cos'hai combinato Che vuoi Tanto tempo fa ok Che vuoi Cosa ti farei Vanno d'accordo Sei Pazzo Che vuoi Ho fame Vattene Che vuoi Sei Pazzo ok 
-Aligned transcription: '*'/TestingSample986.lab vs '*'/TestingSample986.rec
- LAB:                         Tanto tempo fa                  Le vuoi prendere Non me ne frega niente Sei Pazzo Cos'hai combinato                 Che due palle Cosa ti farei Basta                                         Buonissimo     Ho fame 
- REC: fame Sei Pazzo Che vuoi Tanto tempo fa Che vuoi Vattene Le vuoi prendere        ne frega niente Sei Pazzo Cos'hai combinato Vanno d'accordo Che due palle Cosa ti farei Basta Cosa ti farei prendere Non ce d'accordo Buonissimo Che Ho fame 
-Aligned transcription: '*'/TestingSample987.lab vs '*'/TestingSample987.rec
- LAB:       sono stufo Sei Pazzo Le vuoi prendere Basta                          Buonissimo       Perfetto                  ok Non ce n'e piu Ho fame Che vuoi 
- REC: Pazzo sono stufo Sei Pazzo         prendere Basta vuoi furbo qui Sei Pazzo Buonissimo Pazzo Perfetto Sei Che vuoi Sei ok Non ce         Ho fame Che vuoi 
-Aligned transcription: '*'/TestingSample988.lab vs '*'/TestingSample988.rec
- LAB: Non me ne frega niente ok              E' un furbo Cosa ti farei          Perfetto Vanno           d'accordo Che due palle Basta Ho fame                                                      Vieni qui 
- REC:                 niente ok prendere Sei E' un furbo Cosa ti farei Che vuoi Perfetto Vanno d'accordo d'accordo Che due palle Basta Ho fame furbo Sei Pazzo ok Sei Pazzo qui Vieni qui Sei Pazzo Vieni qui 
-Aligned transcription: '*'/TestingSample989.lab vs '*'/TestingSample989.rec
- LAB:                               Perfetto Non ce n'e piu Le vuoi prendere Vanno d'accordo Vieni qui Non me ne frega niente     sono stufo Vattene          Tanto tempo fa                                         E'   un furbo           
- REC: Che vuoi Buonissimo Sei Pazzo Perfetto Non ce n'e             prendere Vanno d'accordo Vieni qui Non me ne frega niente Che sono stufo Vattene Che vuoi Tanto tempo fa Che Che vuoi Cosa ti farei Che vuoi Che vuoi un furbo d'accordo 
-Aligned transcription: '*'/TestingSample990.lab vs '*'/TestingSample990.rec
- LAB:           Ho fame Che vuoi Si sono messi d'accordo          Tanto tempo fa sono stufo Vattene          Le  vuoi prendere Non me ne frega niente                       Perfetto Vieni qui                                                              
- REC: d'accordo Ho fame Che vuoi Si sono messi d'accordo Che vuoi Tanto tempo fa sono stufo Vattene prendere Che vuoi Vieni    qui me ne frega niente Vattene Sei Pazzo Che vuoi     Vieni qui Che vuoi Sei Pazzo Che vuoi Che vuoi Che vuoi Che vuoi E' un 
-Aligned transcription: '*'/TestingSample991.lab vs '*'/TestingSample991.rec
- LAB:          Tanto tempo fa Ho fame ok          Le  vuoi prendere Vattene                   Vieni     qui          E' un furbo                    Perfetto         Non ce n'e piu          Si sono messi d'accordo 
- REC: fame qui Tanto tempo fa Ho fame ok prendere Che vuoi          Vattene Che vuoi Che vuoi Vieni qui qui prendere E' un furbo Che vuoi Sei Pazzo Perfetto Vattene Non ce n'e piu Che vuoi Si sono messi d'accordo 
-Aligned transcription: '*'/TestingSample992.lab vs '*'/TestingSample992.rec
- LAB: Non me ne frega niente Si sono messi d'accordo E' un furbo          Tanto tempo fa                                            Buonissimo sono stufo Che due palle Cosa ti farei             ok              Vanno d'accordo                            
- REC:                 niente Si sono messi d'accordo E' un furbo Che vuoi Tanto tempo fa Cosa ti farei Cosa ti farei Buonissimo qui Buonissimo sono stufo               Cosa ti farei E' un furbo ok Che vuoi Che Vanno d'accordo Che vuoi prendere Che vuoi 
-Aligned transcription: '*'/TestingSample993.lab vs '*'/TestingSample993.rec
- LAB:                                      Che vuoi Vieni qui                Tanto tempo fa             ok Buonissimo Le vuoi prendere Ho fame Cosa ti farei          Perfetto            sono stufo               Vattene 
- REC: E' un furbo Che Ho fame qui Che vuoi Che vuoi Vieni qui Che vuoi Basta Tanto tempo fa ok Che vuoi ok Buonissimo Le vuoi prendere Ho fame Cosa ti farei Che vuoi Perfetto Non ce n'e sono stufo Sei Pazzo Che vuoi    
-Aligned transcription: '*'/TestingSample994.lab vs '*'/TestingSample994.rec
- LAB: Cosa ti farei Basta                          Che vuoi Perfetto                   Sei Pazzo Non me     ne  frega niente   Non ce n'e piu Cos'hai combinato     Tanto tempo fa                
- REC: Cosa ti farei Basta Non ce n'e piu Sei Pazzo Che vuoi Perfetto Vieni qui qui Che Sei Pazzo     niente Che vuoi  Perfetto Non ce n'e piu Cos'hai combinato qui Tanto tempo fa Non ce n'e piu 
-Aligned transcription: '*'/TestingSample995.lab vs '*'/TestingSample995.rec
- LAB: Cosa ti farei E' un furbo Perfetto Non me ne frega niente                                    Sei Pazzo                                         Che due palle sono stufo Basta Vanno d'accordo ok 
- REC:               E' un furbo Perfetto     me ne frega niente Vattene vuoi prendere Sei Pazzo ok Sei Pazzo Buonissimo Vanno Che vuoi Cosa ti farei Che due palle sono stufo Basta Vanno d'accordo ok 
-Aligned transcription: '*'/TestingSample996.lab vs '*'/TestingSample996.rec
- LAB:      Perfetto           Cos'hai combinato       Vieni     qui Che      vuoi E' un furbo                                     Non ce n'e piu Le vuoi prendere             Buonissimo Basta                      Non me ne frega niente 
- REC: fame Perfetto Sei Pazzo Cos'hai combinato Vanno d'accordo qui Che vuoi vuoi E' un furbo prendere Vieni qui Le vuoi prendere Non ce n'e piu         prendere Vattene Che Buonissimo Basta Che vuoi Che vuoi ok Non me ne frega niente 
-Aligned transcription: '*'/TestingSample997.lab vs '*'/TestingSample997.rec
- LAB: ok          Si sono messi d'accordo           Buonissimo    Basta                      Cos'hai combinato     Vanno d'accordo Sei Pazzo Le vuoi prendere                           Ho fame              Tanto tempo fa 
- REC: ok Che vuoi Si sono messi d'accordo Sei Pazzo Buonissimo ok Basta Vattene qui prendere Cos'hai combinato Che vuoi  d'accordo Sei Pazzo    vuoi prendere Vanno d'accordo Vieni qui Ho fame Che Che vuoi Tanto tempo fa 
-Aligned transcription: '*'/TestingSample998.lab vs '*'/TestingSample998.rec
- LAB: Ho fame          Non ce n'e piu                    Che due palle Si sono messi d'accordo                   E' un furbo          Buonissimo          Che vuoi Sei Pazzo Vanno d'accordo                   sono stufo                 
- REC: Ho fame prendere Non ce n'e piu Che vuoi Sei Pazzo Che due palle Si sono messi d'accordo Che vuoi Che vuoi E' un furbo Che vuoi Buonissimo Che vuoi Che vuoi Sei Pazzo       d'accordo Che vuoi Che vuoi sono stufo Vanno d'accordo 
-Aligned transcription: '*'/TestingSample999.lab vs '*'/TestingSample999.rec
- LAB: Cosa ti farei                                                  Non ce n'e piu Sei Pazzo Ho fame          Vanno d'accordo                    E' un furbo               ok Che vuoi Che due palle Non me ne frega niente          
- REC: Cosa ti farei Le vuoi prendere Buonissimo Sei Pazzo Non ce n'e Non ce n'e piu Sei Pazzo Ho fame Che vuoi Vanno d'accordo prendere due palle E' un furbo d'accordo qui ok Che vuoi Che due palle                 niente Che vuoi 
-Aligned transcription: '*'/TestingSample1000.lab vs '*'/TestingSample1000.rec
- LAB:      Che due palle          Basta                    Cos'hai combinato Non me ne frega niente                    sono stufo                 Ho fame                   E' un furbo ok Le vuoi prendere           Sei Pazzo 
- REC: fame Che due palle Che vuoi Basta Sei Pazzo Che vuoi Cos'hai combinato     me ne frega niente Che vuoi Sei Pazzo sono stufo Vanno d'accordo Ho fame Vattene d'accordo E' un furbo ok         prendere Sei Pazzo Sei Pazzo 
-Aligned transcription: '*'/TestingSample1001.lab vs '*'/TestingSample1001.rec
- LAB: Cosa ti farei sono stufo Non ce n'e piu Le vuoi prendere Sei Pazzo Ho fame Che vuoi Che due palle         ok Tanto tempo fa 
- REC: Cosa ti       sono stufo Non ce n'e piu         prendere Sei Pazzo Ho fame Che vuoi Che due palle Vattene ok Tanto tempo fa 
-Aligned transcription: '*'/TestingSample1002.lab vs '*'/TestingSample1002.rec
- LAB: Si sono messi d'accordo                      Non me ne frega niente Tanto tempo fa           Vanno d'accordo Cosa ti farei ok Basta           Sei Pazzo             Perfetto          Che vuoi 
- REC: Si sono messi d'accordo Che vuoi Vattene qui Non me ne frega niente Tanto tempo fa Sei Pazzo Vanno d'accordo Cosa ti       ok Basta Sei Pazzo Sei Pazzo Le vuoi qui Perfetto prendere Che vuoi 
-Aligned transcription: '*'/TestingSample1003.lab vs '*'/TestingSample1003.rec
- LAB: Vieni qui sono stufo Perfetto Cos'hai combinato                          Vanno d'accordo                        Ho fame Tanto tempo fa Non me ne frega niente                 Che due palle Le vuoi prendere 
- REC: Vieni qui sono stufo Perfetto Cos'hai combinato Le vuoi prendere Vattene Vanno d'accordo prendere Che Sei Pazzo Ho fame Tanto tempo fa Non             niente Vattene Vattene Che due palle         prendere 
-Aligned transcription: '*'/TestingSample1004.lab vs '*'/TestingSample1004.rec
- LAB: Basta         ok Le vuoi prendere Buonissimo          Vieni qui Sei Pazzo Tanto tempo fa Che     due     palle Cosa ti           farei Vattene Vanno d'accordo 
- REC: Basta Vattene ok Le vuoi prendere Buonissimo Che vuoi Vieni qui Sei Pazzo Tanto tempo fa Vattene Vattene palle Cosa ti d'accordo qui   Vattene Vanno d'accordo 
-Aligned transcription: '*'/TestingSample1005.lab vs '*'/TestingSample1005.rec
- LAB:     Che due palle ok           sono stufo Vanno     d'accordo                   Tanto tempo fa Si sono    messi d'accordo               Perfetto     Basta Le vuoi prendere 
- REC: Che Che due palle ok d'accordo sono stufo d'accordo d'accordo Che vuoi Che vuoi Tanto tempo fa    Vattene messi d'accordo Cosa ti farei Perfetto Sei Basta    qui  prendere 
-Aligned transcription: '*'/TestingSample1006.lab vs '*'/TestingSample1006.rec
- LAB: Cos'hai combinato         Vieni qui Vanno d'accordo Le    vuoi prendere Che vuoi sono stufo ok Non ce n'e piu                            E' un furbo              Ho fame 
- REC: Cos'hai combinato Vattene Vieni qui       d'accordo Vieni qui  prendere Che vuoi sono stufo ok Non ce n'e piu Che vuoi Sei qui Sei Pazzo E' un furbo qui Che vuoi Ho fame 
-Aligned transcription: '*'/TestingSample1007.lab vs '*'/TestingSample1007.rec
- LAB:                   Non ce n'e piu Sei Pazzo Si sono messi d'accordo           Basta                           Cosa ti farei Perfetto Non me ne frega niente Tanto tempo fa     Vieni qui 
- REC: d'accordo Vattene Non ce n'e piu Sei Pazzo Si sono messi d'accordo Vieni qui Basta d'accordo Vanno d'accordo Cosa          Perfetto Non             niente Tanto tempo fa Che vuoi  qui 
-Aligned transcription: '*'/TestingSample1008.lab vs '*'/TestingSample1008.rec
- LAB:      ok Vattene Che due palle     Tanto tempo fa           Sei Pazzo E' un furbo Non ce n'e piu         Cosa ti farei Basta     Non me ne frega niente               Che vuoi          
- REC: fame ok Vattene         d'accordo Tanto tempo fa d'accordo Sei Pazzo E' un furbo Non ce n'e piu Vattene Cosa ti       Basta qui Non me ne       niente d'accordo qui Che vuoi prendere 
-Aligned transcription: '*'/TestingSample1009.lab vs '*'/TestingSample1009.rec
- LAB:                                                    Sei Pazzo Che vuoi Non me ne frega niente Non ce n'e piu sono stufo                ok Basta                               Tanto tempo fa Che due palle 
- REC: Pazzo Che vuoi Sei Pazzo palle d'accordo d'accordo Sei Pazzo Che vuoi Non me ne frega niente Non ce n'e piu sono stufo Non ce n'e piu ok Basta Non ce prendere d'accordo qui Tanto tempo fa Che due palle 
-Aligned transcription: '*'/TestingSample1010.lab vs '*'/TestingSample1010.rec
- LAB:       Basta Tanto tempo fa                   Ho fame         Vattene Non ce n'e piu Le    vuoi      prendere Vanno d'accordo         Si sono messi d'accordo                           Buonissimo sono stufo 
- REC: Pazzo Basta Tanto tempo fa Cos'hai combinato Ho fame Vattene Vattene Non ce n'e piu Vanno d'accordo prendere Vanno d'accordo Vattene Si sono messi d'accordo prendere Vattene Che vuoi Buonissimo sono stufo 
-Aligned transcription: '*'/TestingSample1011.lab vs '*'/TestingSample1011.rec
- LAB:                     Buonissimo Non me ne frega niente Cosa ti farei   sono stufo               Si sono messi d'accordo                         Vanno d'accordo Tanto tempo fa Che vuoi Vattene   ok 
- REC: vuoi ok qui Vattene Buonissimo Non me ne frega niente Cosa ti Vattene sono stufo Cosa ti farei Si sono messi d'accordo prendere Che Buonissimo Vanno d'accordo Tanto tempo fa          d'accordo ok 
-Aligned transcription: '*'/TestingSample1012.lab vs '*'/TestingSample1012.rec
- LAB: E' un  furbo Sei Pazzo sono stufo Non me ne frega niente         Cos'hai combinato Perfetto          Vattene Vanno d'accordo ok Che vuoi                     
- REC:    qui furbo Sei Pazzo sono stufo        ne frega niente Vattene Cos'hai combinato Perfetto prendere Vattene       d'accordo ok Che vuoi Cos'hai qui Vattene 
-Aligned transcription: '*'/TestingSample1013.lab vs '*'/TestingSample1013.rec
- LAB:               Cos'hai combinato Vieni qui Si sono messi d'accordo sono stufo Che due palle Perfetto Cosa ti     farei Non ce n'e piu                                           E' un furbo Le vuoi prendere 
- REC: fame Perfetto Cos'hai combinato       qui Si sono messi d'accordo sono stufo     due palle Perfetto Cosa ti qui Che   Non ce n'e piu Vattene d'accordo messi d'accordo Vattene E' un furbo Le vuoi prendere 
-Aligned transcription: '*'/TestingSample1014.lab vs '*'/TestingSample1014.rec
- LAB: Non ce n'e piu         Cos'hai combinato Che vuoi           Le  vuoi prendere                                        Che due palle E' un furbo Non me ne frega    niente           Sei Pazzo Tanto tempo fa Vanno d'accordo 
- REC: Non ce n'e piu Vattene Cos'hai combinato Che vuoi d'accordo Che vuoi prendere Sei Pazzo Che vuoi d'accordo Sei Pazzo Che due palle E' un furbo           prendere niente d'accordo Sei Pazzo Tanto tempo fa       d'accordo 
-Aligned transcription: '*'/TestingSample1015.lab vs '*'/TestingSample1015.rec
- LAB:      Vieni qui                     Vanno   d'accordo             Vattene     Si sono messi d'accordo Cosa ti farei Cos'hai combinato Basta     Sei Pazzo Tanto tempo fa           
- REC: Cosa ti    qui d'accordo Sei Pazzo Vattene d'accordo Tanto tempo Vattene Sei Si sono messi d'accordo Cosa ti       Cos'hai combinato Basta Sei Sei Pazzo Tanto tempo fa Sei Pazzo 
-Aligned transcription: '*'/TestingSample1016.lab vs '*'/TestingSample1016.rec
- LAB: Che due      palle Vieni qui Tanto tempo fa Perfetto                   Cosa ti farei   Che vuoi Vattene           Non me ne frega niente ok         Vanno d'accordo     Sei Pazzo     
- REC:     prendere palle Vieni qui Tanto tempo fa Perfetto Vattene d'accordo Cosa    Vattene Che vuoi Vattene Sei Pazzo Non me ne frega niente ok Vattene qui   d'accordo Sei Sei Pazzo qui 
-Aligned transcription: '*'/TestingSample1017.lab vs '*'/TestingSample1017.rec
- LAB: Vanno     d'accordo Non me ne frega niente Tanto tempo fa             Cosa ti farei Che vuoi Cos'hai combinato ok                    Sei Pazzo Vieni qui                            Non ce n'e piu         
- REC: d'accordo d'accordo Non me ne frega niente Tanto tempo fa Che Vattene Cosa ti       Che vuoi Cos'hai combinato ok Perfetto d'accordo Sei Pazzo Vieni qui Le vuoi prendere Sei Pazzo Non ce n'e piu Vattene 
-Aligned transcription: '*'/TestingSample1018.lab vs '*'/TestingSample1018.rec
- LAB:         ok                                                 Buonissimo Le vuoi prendere Che      due palle Basta Che vuoi     Non  me    ne  frega niente           Si sono messi d'accordo Cosa ti farei Perfetto     Tanto tempo fa 
- REC: Vattene ok d'accordo Buonissimo Vattene un furbo d'accordo Buonissimo Le vuoi prendere Che vuoi due palle       Che vuoi Che vuoi Basta Che vuoi  niente Sei Pazzo Si sono messi d'accordo Cosa ti       Perfetto Che Tanto tempo fa 
-Aligned transcription: '*'/TestingSample1019.lab vs '*'/TestingSample1019.rec
- LAB: Non ce n'e piu Tanto tempo fa      Che due palle Le vuoi     prendere Ho fame Buonissimo Vanno d'accordo          Perfetto Sei Pazzo Cos'hai combinato 
- REC: Non ce n'e piu Tanto tempo Vattene Che due palle    prendere prendere Ho fame Buonissimo Vanno d'accordo Che vuoi Perfetto Sei Pazzo Cos'hai combinato 
-Aligned transcription: '*'/TestingSample1020.lab vs '*'/TestingSample1020.rec
- LAB:     Vattene sono stufo Vanno d'accordo Cosa ti farei ok Ho fame Perfetto Non me ne frega niente                       Che             vuoi 
- REC: Che vuoi    sono stufo       d'accordo Cosa ti       ok Ho fame Perfetto           frega niente Vattene Cosa prendere Che vuoi qui Le vuoi 
-Aligned transcription: '*'/TestingSample1021.lab vs '*'/TestingSample1021.rec
- LAB: Sei Pazzo Buonissimo                     E' un furbo Vieni qui     Che vuoi Vanno d'accordo sono stufo         Basta         Perfetto Le vuoi prendere 
- REC: Sei Pazzo Buonissimo d'accordo Sei Pazzo E' un furbo       qui Che Che vuoi Vanno d'accordo sono stufo Vattene Basta Vattene Perfetto         prendere 
-Aligned transcription: '*'/TestingSample1022.lab vs '*'/TestingSample1022.rec
- LAB:                     Sei Pazzo Cos'hai combinato         Ho fame                Si sono messi d'accordo Non me ne frega niente      ok Perfetto Buonissimo                     Basta Vieni           qui 
- REC: Pazzo qui Sei Pazzo Sei Pazzo Cos'hai combinato Vattene Ho fame Vanno Che vuoi Si sono messi d'accordo Non me ne frega niente vuoi ok Perfetto Buonissimo d'accordo d'accordo Basta Vieni d'accordo qui 
-Aligned transcription: '*'/TestingSample1023.lab vs '*'/TestingSample1023.rec
- LAB: Vattene E' un furbo         Che vuoi Non me ne frega niente         Cos'hai combinato       Basta Sei Pazzo Si sono messi d'accordo Non ce n'e piu Perfetto                    
- REC: Vattene E' un furbo Vattene Che vuoi Non me ne frega niente Vattene Cos'hai combinato Pazzo Basta Sei Pazzo    sono messi d'accordo Non ce         Perfetto Che vuoi d'accordo 
-Aligned transcription: '*'/TestingSample1024.lab vs '*'/TestingSample1024.rec
- LAB:              E' un furbo Cosa ti farei     Ho fame          sono stufo Perfetto      Si sono messi d'accordo Vattene Sei Pazzo               Basta Buonissimo 
- REC: fame Vattene E' un furbo Cosa ti d'accordo Ho fame Che vuoi sono stufo Perfetto Cosa Si sono messi d'accordo Vattene Sei Pazzo vuoi prendere Basta Buonissimo 
-Aligned transcription: '*'/TestingSample1025.lab vs '*'/TestingSample1025.rec
- LAB: Non ce n'e piu sono stufo               Basta           Buonissimo Le vuoi prendere Non me ne frega   niente                    Si sono messi d'accordo           Che vuoi Ho fame 
- REC: Non ce n'e piu sono stufo Cosa ti farei Basta d'accordo Buonissimo         prendere           Vattene niente d'accordo prendere Si sono messi d'accordo Sei Pazzo Che vuoi Ho fame 
-Aligned transcription: '*'/TestingSample1026.lab vs '*'/TestingSample1026.rec
- LAB: Che due palle Vieni qui ok Buonissimo Non me ne frega niente Sei Pazzo    Non      ce  n'e   piu Vattene Cos'hai combinato Cosa  ti farei           
- REC: Che due palle Vieni qui ok Buonissimo Non me ne frega niente Sei Pazzo Le prendere Sei Pazzo qui Vattene         Sei       Pazzo ti farei Sei Pazzo 
-Aligned transcription: '*'/TestingSample1027.lab vs '*'/TestingSample1027.rec
- LAB:      Le vuoi prendere Vieni qui Che due palle Vanno d'accordo                     Che vuoi     sono stufo ok Sei Pazzo Ho fame                   
- REC: fame Le vuoi prendere Vieni qui Che due palle Vanno d'accordo Perfetto sono stufo Che vuoi qui Che  vuoi  ok Sei Pazzo    fame Perfetto Che vuoi 
-Aligned transcription: '*'/TestingSample1028.lab vs '*'/TestingSample1028.rec
- LAB:                  Non  me ne frega niente Cosa ti farei Non ce n'e piu Buonissimo Vattene                           ok         Perfetto Tanto tempo fa Si sono messi d'accordo Vanno d'accordo                            
- REC: vuoi Vattene Che vuoi E' un furbo niente Cosa ti farei Non ce n'e piu Buonissimo Vattene prendere Le vuoi prendere ok Vattene Perfetto Tanto tempo fa Si sono messi d'accordo Vanno d'accordo Che vuoi Che vuoi Che vuoi 
-Aligned transcription: '*'/TestingSample1029.lab vs '*'/TestingSample1029.rec
- LAB:                    Che due palle sono       stufo      Tanto tempo fa Buonissimo Vanno d'accordo          E' un furbo Perfetto Le vuoi      prendere Non me ne frega niente    Si sono messi d'accordo 
- REC: prendere Sei Pazzo Che due palle Buonissimo Buonissimo Tanto tempo    Buonissimo Vanno d'accordo Che vuoi E' un furbo Perfetto    d'accordo prendere     me ne frega niente ok Si sono messi d'accordo 
-Aligned transcription: '*'/TestingSample1030.lab vs '*'/TestingSample1030.rec
- LAB: sono stufo Vieni qui Che vuoi Vattene           Tanto tempo fa E' un furbo Basta      Sei Pazzo Buonissimo Che due palle                              
- REC: sono stufo       qui Che vuoi Vattene d'accordo Tanto tempo fa E' un furbo Basta vuoi Sei Pazzo Buonissimo Che due palle Vieni qui Vattene sono stufo 
-Aligned transcription: '*'/TestingSample1031.lab vs '*'/TestingSample1031.rec
- LAB:                               Vattene                 Ho fame E' un furbo Non me ne frega niente Vieni qui Vanno d'accordo Tanto tempo fa Cosa ti farei Non ce n'e piu Che vuoi    Si sono messi d'accordo 
- REC: vuoi Vattene Le vuoi prendere Vattene Vanno d'accordo Ho fame E' un furbo        ne frega niente Vieni qui Vanno d'accordo Tanto tempo fa Cosa ti farei Non ce n'e piu Che vuoi ok Si sono messi d'accordo 
-Aligned transcription: '*'/TestingSample1032.lab vs '*'/TestingSample1032.rec
- LAB: Vanno d'accordo Che vuoi              E' un furbo           Non ce n'e piu Si sono messi d'accordo                           Vattene Ho fame Vieni qui                             Perfetto 
- REC: Vanno d'accordo Che vuoi Che Perfetto E' un furbo Sei Pazzo Non ce         Si sono messi d'accordo Che vuoi sono stufo E' un furbo   Ho fame Vieni qui Sei Pazzo Cos'hai combinato Perfetto 
-Aligned transcription: '*'/TestingSample1033.lab vs '*'/TestingSample1033.rec
- LAB: Non ce n'e piu Perfetto Tanto tempo fa          Che vuoi    Ho fame  Cosa ti farei         Si sono messi d'accordo Vieni qui Che      due palle         
- REC: Non ce n'e piu Perfetto Tanto tempo fa Che vuoi Che vuoi E' un furbo Cosa ti farei Vattene Si sono messi d'accordo       qui Che vuoi due palle Ho fame 
-Aligned transcription: '*'/TestingSample1034.lab vs '*'/TestingSample1034.rec
- LAB:      E' un furbo Si sono messi d'accordo Cos'hai combinato Che due palle Le        vuoi prendere Buonissimo Cosa ti farei Non ce n'e piu Ho fame ok                   
- REC: fame E' un furbo Si sono messi d'accordo Cos'hai combinato Che due palle d'accordo ok   prendere Buonissimo Cosa ti farei Non ce n'e piu Ho fame ok Vattene Sei Pazzo 
-Aligned transcription: '*'/TestingSample1035.lab vs '*'/TestingSample1035.rec
- LAB:       Cos'hai combinato           Perfetto           Vieni qui Ho fame Non ce n'e piu Cosa ti farei Che due palle sono stufo Che vuoi           Basta 
- REC: Pazzo Cos'hai combinato d'accordo Perfetto Vieni qui Vieni qui Ho fame Non ce n'e piu Cosa ti farei Che due palle Sei  Pazzo Che vuoi Sei Pazzo Basta 
-Aligned transcription: '*'/TestingSample1036.lab vs '*'/TestingSample1036.rec
- LAB:                Cos'hai combinato Si sono messi d'accordo                  Vanno d'accordo           Cosa ti farei Non ce n'e piu Perfetto                    E' un furbo ok                   Le  vuoi prendere 
- REC: vuoi Sei Pazzo Cos'hai combinato Si sono messi d'accordo Le vuoi prendere Vanno d'accordo Sei Pazzo Cosa ti farei Non ce         Perfetto d'accordo Che vuoi E' un furbo ok prendere Che vuoi Che vuoi ok       
-Aligned transcription: '*'/TestingSample1037.lab vs '*'/TestingSample1037.rec
- LAB:           Vattene   Tanto tempo fa sono stufo Vanno d'accordo Che vuoi Le vuoi prendere Vieni qui          Basta Perfetto Buonissimo 
- REC: Sei Pazzo d'accordo Tanto tempo fa sono stufo Vanno d'accordo Che         vuoi prendere       qui Che vuoi Basta Perfetto Buonissimo 
-Aligned transcription: '*'/TestingSample1038.lab vs '*'/TestingSample1038.rec
- LAB:      Che vuoi                       Non ce n'e piu Le vuoi prendere sono stufo ok                              Cos'hai combinato        Vanno d'accordo Perfetto Basta          
- REC: fame Che vuoi Basta Vanno d'accordo Non ce n'e piu Le vuoi prendere sono stufo ok Buonissimo Cos'hai combinato Cos'hai combinato ok Sei Pazzo d'accordo          Basta prendere 
-Aligned transcription: '*'/TestingSample1039.lab vs '*'/TestingSample1039.rec
- LAB:       Che due palle sono stufo Non me ne frega niente Cosa ti farei            Si sono messi d'accordo Basta       Non ce n'e  piu      Che vuoi                 Vanno d'accordo    Vattene Cos'hai combinato                   
- REC: Pazzo Che due palle sono stufo                 niente Cosa ti farei Buonissimo Si sono messi d'accordo Basta Vieni qui Le vuoi prendere Che vuoi Vanno d'accordo Vanno d'accordo ok Vattene Cos'hai combinato Che vuoi Che vuoi 
-Aligned transcription: '*'/TestingSample1040.lab vs '*'/TestingSample1040.rec
- LAB:      Vattene Ho      fame Buonissimo Cosa ti   farei    Si sono messi           d'accordo         Che vuoi sono stufo     Le vuoi prendere Cos'hai combinato 
- REC: fame Vattene Vattene ok   Buonissimo Le   vuoi prendere Si sono messi d'accordo d'accordo Ho fame Che vuoi sono stufo qui Le vuoi prendere Cos'hai combinato 
-Aligned transcription: '*'/TestingSample1041.lab vs '*'/TestingSample1041.rec
- LAB:                     Che due palle ok Vieni qui Vattene Perfetto Le vuoi prendere Vanno d'accordo sono stufo Basta           Non ce n'e piu         
- REC: Pazzo Che due palle Che due palle ok Vieni qui Vattene Perfetto Le vuoi prendere       d'accordo sono stufo Basta Sei Pazzo Non ce n'e piu Ho fame 
-Aligned transcription: '*'/TestingSample1042.lab vs '*'/TestingSample1042.rec
- LAB:         Che vuoi  ok          Vattene Cosa ti farei Non me ne frega niente Vanno d'accordo Basta Si sono messi d'accordo    Sei Pazzo Ho fame 
- REC: fame E' un  furbo ok Perfetto Vattene Cosa ti farei           frega niente       d'accordo Basta Si sono messi d'accordo ok Sei Pazzo Ho fame 
-Aligned transcription: '*'/TestingSample1043.lab vs '*'/TestingSample1043.rec
- LAB: ok Vieni qui Vanno d'accordo Sei Pazzo Non ce n'e piu                            Ho fame                             Basta                   Che vuoi Tanto tempo fa Non me ne frega niente                        
- REC: ok Vieni qui       d'accordo Sei Pazzo Non ce n'e piu Che vuoi Vattene Vieni qui Ho fame Perfetto Vieni qui Che vuoi Basta Che vuoi Che vuoi Che vuoi Tanto tempo fa Non me ne frega niente Non ce n'e piu Vattene 
-Aligned transcription: '*'/TestingSample1044.lab vs '*'/TestingSample1044.rec
- LAB:         Che due palle Non me ne frega niente Cos'hai combinato sono stufo Sei Pazzo Vattene Cosa ti farei Le vuoi prendere Vieni   qui Vanno d'accordo Buonissimo 
- REC: Vattene Che due palle                 niente Cos'hai combinato sono stufo                   Cosa ti farei         prendere Vattene qui       d'accordo            
-Aligned transcription: '*'/TestingSample1045.lab vs '*'/TestingSample1045.rec
- LAB: Non me    ne frega niente Perfetto Basta ok Ho fame Sei Pazzo sono stufo     Cos'hai combinato Tanto tempo fa Non ce n'e piu 
- REC: Sei Pazzo ne frega niente Perfetto Basta ok Ho fame Sei Pazzo sono stufo qui Cos'hai combinato Tanto tempo fa Non ce n'e piu 
-Aligned transcription: '*'/TestingSample1046.lab vs '*'/TestingSample1046.rec
- LAB:                Che vuoi Le vuoi prendere Si sono messi d'accordo Non me ne frega niente Vieni qui Ho fame Vanno d'accordo sono stufo Buonissimo E' un furbo            
- REC: Pazzo Che vuoi Che vuoi Le vuoi prendere Si sono messi d'accordo Non             niente Vieni qui         Vanno d'accordo sono stufo Buonissimo E' un furbo sono stufo 
-Aligned transcription: '*'/TestingSample1047.lab vs '*'/TestingSample1047.rec
- LAB: Le vuoi prendere          Vanno d'accordo Si sono messi d'accordo Ho fame Non ce n'e piu Basta sono stufo Non me  ne    frega niente           Vattene Perfetto                    Che vuoi 
- REC:    vuoi prendere Che vuoi Vanno d'accordo Si sono messi d'accordo Ho fame Non ce n'e piu Basta sono stufo     due palle frega niente Basta Che vuoi    Perfetto Che vuoi Sei Pazzo Che vuoi 
-Aligned transcription: '*'/TestingSample1048.lab vs '*'/TestingSample1048.rec
- LAB:    Perfetto Che vuoi Cosa ti farei Ho fame Si sono messi d'accordo Che due palle               Tanto tempo fa Sei Pazzo Vanno d'accordo Vattene             
- REC: ti Perfetto Che vuoi Cosa ti farei Ho fame Si sono messi d'accordo     due palle Cosa ti farei Tanto tempo fa Sei Pazzo Vanno d'accordo Vattene E' un furbo 
-Aligned transcription: '*'/TestingSample1049.lab vs '*'/TestingSample1049.rec
- LAB: Che vuoi Ho fame Le vuoi prendere Vieni qui Vattene Che due palle Buonissimo Perfetto Basta Cosa ti farei          
- REC: Che vuoi Ho fame         prendere Vieni qui Vattene     due palle Buonissimo Perfetto Basta Cosa ti farei Perfetto 
-Aligned transcription: '*'/TestingSample1050.lab vs '*'/TestingSample1050.rec
- LAB:         Cos'hai combinato Vieni qui                         sono stufo                            Si sono messi d'accordo Basta Sei Pazzo Non ce n'e piu Buonissimo Che vuoi Cosa ti farei 
- REC: Vattene Cos'hai combinato       qui Sei Pazzo Cosa ti farei sono stufo Che vuoi Cos'hai combinato Si sono messi d'accordo Basta Sei Pazzo Non ce n'e piu Buonissimo Che vuoi Cosa ti farei 
-Aligned transcription: '*'/TestingSample1051.lab vs '*'/TestingSample1051.rec
- LAB: Che  due palle Tanto tempo fa E' un furbo     Non ce n'e piu ok Basta Cos'hai combinato           Buonissimo    Vanno d'accordo                    
- REC: fame due palle Tanto tempo fa E' un furbo Sei Non ce n'e piu ok Basta Cos'hai combinato Vieni qui Buonissimo ti farei d'accordo vuoi vuoi Che vuoi 
-Aligned transcription: '*'/TestingSample1052.lab vs '*'/TestingSample1052.rec
- LAB: Si sono messi d'accordo Tanto tempo fa Perfetto                        ok Basta                Non ce n'e piu    Che      due palle Non  me    ne frega niente E' un furbo Sei Pazzo               
- REC: Si sono messi d'accordo Tanto tempo fa Perfetto Non me ne frega niente ok Basta Che vuoi Pazzo Non ce n'e piu Le prendere due palle sono messi ne frega niente E' un furbo Sei Pazzo Cosa ti farei 
-Aligned transcription: '*'/TestingSample1053.lab vs '*'/TestingSample1053.rec
- LAB: Tanto tempo fa sono stufo           Basta           Si sono messi d'accordo Ho fame Non me ne frega niente Che due palle Vattene Le vuoi prendere Vieni qui       Cos'hai combinato 
- REC: Tanto tempo fa sono stufo due palle Basta Sei Pazzo Si sono messi d'accordo Ho fame                 niente Che due palle                 prendere Vieni qui Pazzo Cos'hai combinato 
-Aligned transcription: '*'/TestingSample1054.lab vs '*'/TestingSample1054.rec
- LAB:      sono stufo                          Buonissimo Cosa    ti  farei Si sono messi d'accordo Vanno d'accordo Vattene       Tanto tempo fa E' un furbo Le vuoi prendere 
- REC: vuoi sono stufo Sei Pazzo Tanto tempo fa Buonissimo Vattene Non ce    Si sono messi d'accordo Vanno d'accordo Vattene Pazzo Tanto tempo fa E' un furbo         prendere 
-Aligned transcription: '*'/TestingSample1055.lab vs '*'/TestingSample1055.rec
- LAB: Non me ne frega niente               Cos'hai combinato             Vieni qui           Tanto tempo fa Si sono messi d'accordo Vanno d'accordo Basta            E' un furbo          Buonissimo                         Che vuoi 
- REC: Non me ne frega niente Che due palle Cos'hai combinato E' un furbo Vieni qui Sei Pazzo Tanto tempo    Si sono messi d'accordo Vanno d'accordo Basta sono stufo E' un furbo Perfetto Buonissimo messi d'accordo Sei due Che vuoi 
-Aligned transcription: '*'/TestingSample1056.lab vs '*'/TestingSample1056.rec
- LAB: sono stufo               ok Cos'hai combinato Vieni qui Che vuoi Vanno d'accordo Cosa ti farei Perfetto Ho fame Vattene 
- REC: sono stufo Cosa ti farei ok Cos'hai combinato Vieni qui Che vuoi Vanno d'accordo Cosa ti farei Perfetto Ho fame Vattene 
-Aligned transcription: '*'/TestingSample1057.lab vs '*'/TestingSample1057.rec
- LAB: Basta           Perfetto             E' un furbo sono stufo Cos'hai combinato Vanno d'accordo Vieni qui Si sono messi d'accordo          Non me ne frega niente 
- REC: Basta Sei Pazzo Perfetto E' un furbo E' un furbo sono stufo Cos'hai combinato Vanno d'accordo Vieni qui Si sono messi d'accordo Che vuoi Non me ne frega niente 
-Aligned transcription: '*'/TestingSample1058.lab vs '*'/TestingSample1058.rec
- LAB: Cosa ti farei       Ho fame E' un furbo Vattene Non me ne frega niente Si sono messi d'accordo ok                       Buonissimo                   Cos'hai combinato Vanno d'accordo 
- REC: Cosa ti farei Vanno Ho fame E' un furbo Basta   Non me ne frega niente Si sono messi d'accordo ok Le prendere Sei Pazzo Buonissimo Cos'hai combinato Cos'hai combinato Vanno d'accordo 
-Aligned transcription: '*'/TestingSample1059.lab vs '*'/TestingSample1059.rec
- LAB: ok            Si sono messi d'accordo Vieni qui Non me ne frega niente      E' un furbo             Ho fame Buonissimo Cos'hai combinato Vattene Le vuoi prendere 
- REC: ok sono stufo Si sono messi d'accordo Vieni qui                 niente vuoi E' un furbo Non n'e piu Ho fame Buonissimo Cos'hai combinato         Ho fame prendere 
-Aligned transcription: '*'/TestingSample1060.lab vs '*'/TestingSample1060.rec
- LAB: Vanno d'accordo                       Vieni qui Perfetto           Cos'hai combinato                     Sei Pazzo Basta Le vuoi prendere Non me ne      frega niente Che vuoi         
- REC: Vanno d'accordo Che due palle Ho fame Vieni qui Perfetto Sei Pazzo Cos'hai combinato Buonissimo Che vuoi Sei Pazzo Basta Le vuoi prendere        Vattene Sei   stufo  Che vuoi Ho fame 
-Aligned transcription: '*'/TestingSample1061.lab vs '*'/TestingSample1061.rec
- LAB:                 E' un furbo Buonissimo       Che        due palle           Basta       sono stufo              Vattene Che vuoi                           Si sono messi d'accordo Vieni qui Le vuoi prendere Sei Pazzo                               
- REC: Vanno d'accordo E' un furbo Buonissimo Basta Buonissimo qui palle Sei Pazzo Basta Vanno sono stufo Vattene sono Vattene Che vuoi Non ce n'e piu sono stufo Si sono messi d'accordo Vieni qui         prendere Sei Pazzo Che due palle Vanno d'accordo 
-Aligned transcription: '*'/TestingSample1062.lab vs '*'/TestingSample1062.rec
- LAB:            Che vuoi Che                                       due palle Basta          Ho fame Buonissimo Si sono messi d'accordo Cosa ti farei     Cos'hai combinato Vieni qui Sei Pazzo 
- REC: ce n'e piu Che vuoi Che vuoi d'accordo Sei Pazzo Vattene vuoi Che vuoi  Basta ti farei Ho fame Buonissimo Si sono messi d'accordo Cosa ti farei Non Cos'hai combinato Vieni qui Sei Pazzo 
-Aligned transcription: '*'/TestingSample1063.lab vs '*'/TestingSample1063.rec
- LAB: Vieni qui Buonissimo Cosa ti farei Che     due palle Le vuoi prendere E' un furbo Non me ne frega niente            Che vuoi Cos'hai combinato Si sono messi d'accordo             
- REC: Vieni qui Buonissimo               Vattene due palle Le vuoi prendere E' un furbo        ne frega niente Non ce n'e Che vuoi Cos'hai combinato Si sono messi d'accordo Basta palle 
-Aligned transcription: '*'/TestingSample1064.lab vs '*'/TestingSample1064.rec
- LAB:    Vattene Che due palle Buonissimo sono stufo Tanto tempo fa Non me ne frega niente Ho fame                                 Non ce n'e piu 
- REC: ok Vattene Che due palle Buonissimo sono stufo Tanto tempo    Non me ne frega niente Ho fame Vattene Che due palle Sei Pazzo Non ce n'e piu 
-Aligned transcription: '*'/TestingSample1065.lab vs '*'/TestingSample1065.rec
- LAB:                Cos'hai combinato Vieni qui  Si sono messi d'accordo Perfetto Sei Pazzo Che vuoi Le vuoi          prendere sono stufo Non me ne frega niente      
- REC: Non ce n'e piu Cos'hai combinato Che   vuoi Si sono messi d'accordo Perfetto Sei Pazzo Che vuoi Le vuoi prendere prendere sono stufo           frega niente vuoi 
-Aligned transcription: '*'/TestingSample1066.lab vs '*'/TestingSample1066.rec
- LAB: Non me ne frega niente E' un furbo Che due palle Le vuoi prendere           ok Tanto tempo fa Buonissimo Cos'hai combinato           Vattene Ho fame Vanno d'accordo                         
- REC: Non me ne frega niente E' un furbo         Basta Le      prendere Sei Pazzo ok Tanto tempo    Buonissimo Cos'hai combinato Sei Pazzo Vattene Ho fame       d'accordo Che due palle combinato 
-Aligned transcription: '*'/TestingSample1067.lab vs '*'/TestingSample1067.rec
- LAB: Tanto tempo fa Le vuoi prendere                             ok Basta           Vieni qui                  Che due  palle Vattene Cos'hai combinato Che vuoi sono stufo                            
- REC: Tanto tempo fa         prendere Sei Pazzo Cos'hai combinato ok Basta Sei Pazzo Vieni qui sono stufo Pazzo Si  sono messi ok      Cos'hai combinato Che vuoi sono stufo Non ce n'e piu ok Perfetto 
-Aligned transcription: '*'/TestingSample1068.lab vs '*'/TestingSample1068.rec
- LAB: Sei Pazzo Si sono messi d'accordo Non ce n'e piu           Perfetto     Basta Le vuoi prendere       Cos'hai combinato ok Cosa ti farei Che vuoi    
- REC:     Pazzo Si sono messi d'accordo Non ce n'e piu Sei Pazzo Perfetto Sei Basta Le      prendere Basta Cos'hai combinato ok Cosa ti farei Che vuoi ok 
-Aligned transcription: '*'/TestingSample1069.lab vs '*'/TestingSample1069.rec
- LAB: ok Che vuoi       Le vuoi prendere Vattene Vanno                                   d'accordo Non me ne frega niente Perfetto          Basta E' un furbo Tanto tempo fa 
- REC: ok Che vuoi Vanno Le vuoi prendere Vattene Vanno d'accordo Si sono messi d'accordo d'accordo Non me ne frega niente Perfetto Che vuoi Basta E' un furbo Tanto tempo    
-Aligned transcription: '*'/TestingSample1070.lab vs '*'/TestingSample1070.rec
- LAB:      Che due   palle              Buonissimo       Cosa ti farei                 E' un furbo                                   Cos'hai combinato Non me ne frega niente                             Ho   fame  sono stufo Vieni qui Vattene 
- REC: Cosa ti  farei palle Sei Pazzo ce Buonissimo Basta Cosa ti farei Vanno d'accordo E' un furbo Si sono messi d'accordo Sei Pazzo Cos'hai combinato     me ne frega niente Vattene E' un furbo Non piu Cosa farei sono stufo       qui Vattene 
-Aligned transcription: '*'/TestingSample1071.lab vs '*'/TestingSample1071.rec
- LAB: Vieni qui Buonissimo                             Si sono messi d'accordo              Non ce n'e piu Vanno d'accordo                Cos'hai combinato ok Non me ne frega niente Le vuoi     prendere Ho fame 
- REC:       qui Buonissimo prendere d'accordo tempo fa Si sono messi d'accordo Non prendere Non ce n'e piu       d'accordo Non ce n'e piu Cos'hai combinato ok Non me ne frega niente    prendere prendere Ho fame 
-Aligned transcription: '*'/TestingSample1072.lab vs '*'/TestingSample1072.rec
- LAB: Ho fame Le vuoi prendere                                        Sei Pazzo         Non   me ne frega niente          Che vuoi Tanto tempo fa             ok Vattene                   Basta 
- REC: Ho fame         prendere Si sono messi d'accordo Non ce n'e piu Sei Pazzo Che due palle me ne frega niente Che vuoi Che vuoi Tanto tempo fa Pazzo Pazzo ok Vattene Cos'hai combinato Basta 
-Aligned transcription: '*'/TestingSample1073.lab vs '*'/TestingSample1073.rec
- LAB: Perfetto Non me ne frega niente Buonissimo           Si sono messi d'accordo           Sei Pazzo Ho fame Vieni qui Che         vuoi sono stufo                      Vattene 
- REC: Perfetto     me ne frega niente Buonissimo d'accordo Si sono messi d'accordo due palle Sei Pazzo Ho fame Vieni qui Che vuoi Le vuoi sono stufo Non ce n'e piu Vanno Vattene 
-Aligned transcription: '*'/TestingSample1074.lab vs '*'/TestingSample1074.rec
- LAB:      Non    ce n'e   piu    Vattene Sei Pazzo ok E' un furbo Buonissimo Le vuoi prendere Cosa ti farei    Tanto tempo fa Basta                                                                         
- REC: fame Non me ne frega niente Vattene Sei Pazzo ok E' un furbo Buonissimo         prendere Cosa ti farei ok Tanto tempo fa Basta Cos'hai combinato Cosa ti farei Vanno d'accordo Si sono messi d'accordo 
+Aligned transcription: TestingSample410.lab vs TestingSample410.rec
+ LAB: Buonissimo Perfetto E' un furbo Cosa ti farei sono stufo Le vuoi prendere Sei Pazzo Cos'hai combinato Tanto tempo fa 
+ REC: Buonissimo Perfetto E' un furbo Cosa ti farei sono stufo    vuoi prendere Sei Pazzo Cos'hai combinato Tanto tempo fa 
+Aligned transcription: TestingSample411.lab vs TestingSample411.rec
+ LAB: Non me ne frega niente Cosa ti farei Vattene ok Che vuoi Si sono messi d'accordo sono stufo Ho fame Cos'hai combinato Sei Pazzo Le vuoi prendere 
+ REC:                 niente Cosa ti farei Vattene ok Che vuoi Si sono messi d'accordo sono stufo Ho fame Cos'hai combinato Sei Pazzo Le vuoi prendere 
+Aligned transcription: TestingSample412.lab vs TestingSample412.rec
+ LAB: Non me ne frega niente Perfetto Cosa ti farei         Tanto tempo fa Vanno d'accordo Si sono messi d'accordo Vieni qui Cos'hai combinato Che due palle E' un furbo 
+ REC: Non me ne frega niente Perfetto Cosa ti farei Vattene Tanto tempo fa Vanno d'accordo Si sono messi d'accordo Vieni qui Cos'hai combinato Che due palle E' un furbo 
+Aligned transcription: TestingSample413.lab vs TestingSample413.rec
+ LAB: Vanno d'accordo Buonissimo Vattene Vieni qui E' un furbo         Non ce n'e piu Sei Pazzo Si sono messi d'accordo Perfetto sono stufo 
+ REC:       d'accordo Buonissimo Vattene Vieni qui E' un furbo Vattene Non ce n'e piu Sei Pazzo Si sono messi d'accordo Perfetto sono stufo 
+Aligned transcription: TestingSample414.lab vs TestingSample414.rec
+ LAB: Buonissimo Cos'hai combinato Che     due palle E' un furbo sono stufo Che vuoi Vanno d'accordo Non me ne frega niente Cosa ti farei Tanto tempo fa 
+ REC: Buonissimo Cos'hai combinato Che due due palle E' un furbo sono stufo Che vuoi Vanno d'accordo Non me ne frega niente Cosa ti farei Tanto tempo fa 
+Aligned transcription: TestingSample416.lab vs TestingSample416.rec
+ LAB: Tanto tempo fa Si sono messi d'accordo Perfetto Ho fame         Non ce n'e piu         Buonissimo Sei Pazzo Vanno d'accordo Cos'hai combinato Le vuoi prendere 
+ REC: Tanto tempo fa Si sono messi d'accordo Perfetto Ho fame Vattene Non ce n'e piu Vattene Buonissimo Sei Pazzo Vanno d'accordo Cos'hai combinato Le vuoi prendere 
+Aligned transcription: TestingSample417.lab vs TestingSample417.rec
+ LAB: Perfetto Ho fame Vattene Che due palle Non ce n'e piu         Buonissimo Non me ne frega niente Basta Cos'hai combinato E' un furbo Sei Pazzo 
+ REC: Perfetto Ho fame Vattene Che due palle Non ce n'e piu Vattene Buonissimo Non me ne frega niente Basta Cos'hai combinato E' un furbo Sei Pazzo 
+Aligned transcription: TestingSample418.lab vs TestingSample418.rec
+ LAB: E' un furbo Perfetto Basta Cos'hai combinato           Vieni qui Sei Pazzo Che vuoi Cosa ti farei Tanto tempo fa sono stufo 
+ REC: E' un furbo Perfetto Basta Cos'hai combinato Vieni qui Vieni qui Sei Pazzo Che vuoi Cosa ti       Tanto tempo fa sono stufo 
+Aligned transcription: TestingSample420.lab vs TestingSample420.rec
+ LAB: Basta Si sono messi d'accordo Ho fame Non me ne frega niente Che due palle Vanno d'accordo Cosa ti farei Perfetto Le vuoi prendere       Sei Pazzo 
+ REC: Basta Si sono messi d'accordo Ho fame Non me ne frega niente Che due palle Vanno d'accordo Cosa ti       Perfetto         prendere Vanno Sei Pazzo 
+Aligned transcription: TestingSample421.lab vs TestingSample421.rec
+ LAB: Che due palle Non ce n'e piu Tanto tempo fa Che vuoi Sei Pazzo Buonissimo Basta Cosa ti farei Perfetto         Vattene 
+ REC: Che due palle Non ce n'e piu Tanto tempo fa Che vuoi Sei Pazzo Buonissimo Basta Cosa ti       Perfetto Vattene Vattene 
+Aligned transcription: TestingSample422.lab vs TestingSample422.rec
+ LAB: Perfetto sono stufo Non me ne frega niente ok Si sono messi d'accordo Che vuoi Buonissimo Ho fame Cos'hai combinato Vattene 
+ REC: Perfetto sono stufo Non me ne frega niente ok Si sono messi d'accordo Che vuoi Buonissimo Ho fame Cos'hai combinato         
+Aligned transcription: TestingSample423.lab vs TestingSample423.rec
+ LAB: Non me ne frega niente Si sono messi d'accordo Ho fame Vieni qui sono stufo Vattene E' un furbo Cos'hai combinato    Le vuoi prendere 
+ REC: Non me ne frega niente Si sono messi d'accordo Ho fame Vieni qui sono stufo         E' un furbo Cos'hai combinato ok Le vuoi prendere 
+Aligned transcription: TestingSample424.lab vs TestingSample424.rec
+ LAB: Basta Ho fame E' un furbo Vattene Cosa ti farei Che due palle Vieni qui Perfetto         sono stufo 
+ REC: Basta Ho fame E' un furbo         Cosa ti farei     due palle Vieni qui Perfetto Vattene sono stufo 
+Aligned transcription: TestingSample425.lab vs TestingSample425.rec
+ LAB: Ho fame Vattene Tanto tempo fa Vieni qui Che due palle Vanno d'accordo Non ce n'e piu Basta Le vuoi prendere Buonissimo 
+ REC: Ho fame Vattene Tanto tempo fa Vieni qui Che due palle Vanno d'accordo Non ce n'e piu Basta         prendere Buonissimo 
+Aligned transcription: TestingSample426.lab vs TestingSample426.rec
+ LAB: Vieni qui Cos'hai combinato Ho fame Cosa ti farei Sei Pazzo E' un furbo         Vanno d'accordo Vattene Non ce n'e piu 
+ REC:       qui Cos'hai combinato Ho fame Cosa ti farei Sei Pazzo E' un furbo Vattene Vanno d'accordo Vattene Non ce n'e piu 
+Aligned transcription: TestingSample427.lab vs TestingSample427.rec
+ LAB: Sei Pazzo Cosa ti farei Vanno d'accordo Che due palle Si sono messi d'accordo sono stufo Cos'hai combinato Tanto tempo fa Che vuoi ok 
+ REC: Sei Pazzo Cosa                d'accordo Che due palle Si sono messi d'accordo sono stufo Cos'hai combinato Tanto tempo fa Che vuoi ok 
+Aligned transcription: TestingSample429.lab vs TestingSample429.rec
+ LAB: sono stufo Tanto tempo fa Si sono messi d'accordo Le vuoi prendere Non ce n'e piu Vattene Che vuoi Sei Pazzo E' un furbo Cos'hai combinato 
+ REC: sono stufo Tanto tempo fa Si sono messi d'accordo Le vuoi prendere Non ce n'e piu         Che vuoi Sei Pazzo E' un furbo Cos'hai combinato 
+Aligned transcription: TestingSample431.lab vs TestingSample431.rec
+ LAB: Non me ne frega niente Che due palle Basta ok Ho fame           Sei Pazzo Vieni qui           Che vuoi Si sono messi d'accordo 
+ REC: Non me ne frega niente Che     vuoi  Basta ok Ho fame Sei Pazzo Sei Pazzo Vieni qui Sei Pazzo Che vuoi Si sono messi d'accordo 
+Aligned transcription: TestingSample432.lab vs TestingSample432.rec
+ LAB: Vattene  Ho fame Cos'hai combinato Tanto tempo fa Perfetto Le vuoi prendere Vieni qui Cosa ti farei E' un furbo 
+ REC: prendere Ho fame Cos'hai combinato Tanto tempo fa Perfetto         prendere Vieni qui Cosa ti farei E' un furbo 
+Aligned transcription: TestingSample433.lab vs TestingSample433.rec
+ LAB: Vattene Cos'hai combinato Basta Sei Pazzo Che due palle Che vuoi Vieni qui Le    vuoi prendere Non me ne frega niente Vanno d'accordo 
+ REC: Vattene Cos'hai combinato Basta Sei Pazzo Che due palle Che vuoi Vieni qui Vieni qui  prendere Non me ne frega niente Vanno           
+Aligned transcription: TestingSample434.lab vs TestingSample434.rec
+ LAB: Tanto tempo fa Che due palle ok Cos'hai combinato E' un furbo Vieni qui Non   me ne frega niente Non ce n'e piu Si sono messi d'accordo Sei Pazzo 
+ REC: Tanto tempo fa Che due palle ok Cos'hai combinato E' un furbo Vieni qui Vanno me ne frega niente Non ce n'e piu Si sono messi d'accordo Sei Pazzo 
+Aligned transcription: TestingSample435.lab vs TestingSample435.rec
+ LAB: Basta Vanno d'accordo Cosa ti farei Che vuoi      E' un furbo Non ce n'e piu Cos'hai combinato Perfetto Non me ne       frega niente ok 
+ REC: Basta Vanno d'accordo Cosa ti           d'accordo E' un furbo Non ce n'e piu Cos'hai combinato Perfetto        Perfetto frega niente ok 
+Aligned transcription: TestingSample436.lab vs TestingSample436.rec
+ LAB: E' un furbo Buonissimo Che due palle ok Sei Pazzo Vanno d'accordo Ho fame Vieni qui Non me ne    frega niente       
+ REC: E' un furbo Buonissimo Che due palle ok Sei Pazzo Vanno d'accordo Ho fame Vieni qui        Vieni qui   niente Vanno 
+Aligned transcription: TestingSample437.lab vs TestingSample437.rec
+ LAB:           Vieni qui Cosa ti farei Buonissimo Ho fame    Tanto tempo fa sono stufo Basta ok Non me ne frega niente     Vattene 
+ REC: Vieni qui Vieni qui Cosa ti farei Buonissimo Ho fame ok Tanto tempo fa sono stufo Basta ok                 niente Che vuoi    
+Aligned transcription: TestingSample438.lab vs TestingSample438.rec
+ LAB: Buonissimo Perfetto E' un furbo Cosa ti farei Non me ne frega niente Cos'hai combinato sono stufo Si sono messi d'accordo Le vuoi prendere ok         Che vuoi 
+ REC: Buonissimo Perfetto E' un furbo Cosa ti farei Non me ne frega niente Cos'hai combinato sono stufo Si sono messi d'accordo Le vuoi prendere ok Vattene Che vuoi 
+Aligned transcription: TestingSample439.lab vs TestingSample439.rec
+ LAB: Ho fame Tanto tempo fa Che vuoi Le vuoi prendere sono stufo Cosa ti farei Vanno d'accordo         ok           Vieni qui 
+ REC: Ho fame Tanto tempo fa Che vuoi Le vuoi prendere sono stufo Cosa ti             d'accordo Vattene ok Vieni qui Vieni qui 
+Aligned transcription: TestingSample440.lab vs TestingSample440.rec
+ LAB: E' un furbo Cosa ti farei Sei Pazzo Le vuoi prendere Cos'hai combinato Vattene Vieni qui          ok Non ce n'e piu         Tanto tempo fa Si sono messi d'accordo 
+ REC: E' un furbo Cosa ti farei Sei Pazzo         prendere Cos'hai combinato Vattene Vieni qui Che vuoi ok Non ce n'e piu Vattene Tanto tempo fa Si sono messi d'accordo 
+Aligned transcription: TestingSample441.lab vs TestingSample441.rec
+ LAB: Le vuoi prendere sono stufo ok Vanno d'accordo Cosa ti farei           Vieni qui Sei Pazzo Si sono messi d'accordo Ho fame Non me ne frega niente E' un furbo 
+ REC:         prendere sono stufo ok       d'accordo Cosa ti farei Vieni qui Vieni qui Sei Pazzo Si sono messi d'accordo Ho fame Non me ne frega niente E' un furbo 
+Aligned transcription: TestingSample442.lab vs TestingSample442.rec
+ LAB:           Vieni qui Vattene Non ce n'e piu Vanno d'accordo Che due palle E' un furbo Perfetto ok Ho fame 
+ REC: Vieni qui Vieni qui Vattene Non ce n'e piu Vanno d'accordo     due palle E' un furbo Perfetto ok Ho fame 
+Aligned transcription: TestingSample443.lab vs TestingSample443.rec
+ LAB: Si sono messi d'accordo Buonissimo Sei Pazzo Non me ne frega niente Cosa ti farei Le vuoi prendere Vattene Non ce n'e piu Basta           Vieni qui 
+ REC: Si sono messi d'accordo Buonissimo Sei Pazzo     me ne frega niente Cosa ti farei                  Vattene Non ce n'e piu Basta Vieni qui Vieni qui 
+Aligned transcription: TestingSample444.lab vs TestingSample444.rec
+ LAB: Le vuoi prendere Che due palle Vanno d'accordo sono stufo Non ce n'e piu Ho fame         Vattene Cos'hai combinato Sei Pazzo ok 
+ REC:         prendere Che due palle Vanno d'accordo sono stufo Non ce n'e piu Ho fame Vattene Vattene Cos'hai combinato Sei Pazzo ok 
+Aligned transcription: TestingSample445.lab vs TestingSample445.rec
+ LAB: Che due palle sono stufo Che vuoi Non ce n'e piu Non me ne frega niente ok Perfetto Buonissimo Le vuoi    prendere Cosa ti farei 
+ REC: Che due palle sono stufo Che vuoi Non ce n'e piu     me ne frega niente ok Perfetto Buonissimo    Vattene prendere Cosa ti       
+Aligned transcription: TestingSample446.lab vs TestingSample446.rec
+ LAB: Buonissimo ok Le vuoi prendere Che vuoi    Vieni qui Non ce n'e piu Ho fame Basta Cosa ti farei       Si sono messi d'accordo 
+ REC: Buonissimo ok Le vuoi prendere Che vuoi ok Vieni qui Non ce n'e piu Ho fame Basta Cosa ti farei Pazzo Si sono messi d'accordo 
+Aligned transcription: TestingSample447.lab vs TestingSample447.rec
+ LAB: Tanto tempo fa Vieni qui Cosa ti farei Non me ne frega niente Le vuoi prendere Cos'hai combinato E' un furbo Che vuoi Che      due palle 
+ REC: Tanto tempo fa Vieni qui Cosa ti farei Non me ne frega niente         prendere Cos'hai combinato E' un furbo Che vuoi Perfetto due palle 
+Aligned transcription: TestingSample448.lab vs TestingSample448.rec
+ LAB: ok Si sono messi d'accordo Perfetto Sei Pazzo Non ce n'e piu Vanno d'accordo Vattene Cosa ti farei         Buonissimo          
+ REC: ok Si sono messi d'accordo Perfetto Sei Pazzo Non ce n'e piu       d'accordo         Cosa ti farei Vattene Buonissimo Che vuoi 
+Aligned transcription: TestingSample449.lab vs TestingSample449.rec
+ LAB: Basta E' un furbo Non ce n'e piu Che due palle sono stufo ok Le vuoi prendere Si sono messi d'accordo       Buonissimo Ho fame 
+ REC: Basta E' un furbo Non ce n'e piu Che due palle sono stufo ok Le vuoi prendere Si sono messi d'accordo Vieni Buonissimo Ho fame 
+Aligned transcription: TestingSample450.lab vs TestingSample450.rec
+ LAB: Vanno d'accordo Che vuoi Non ce n'e piu Tanto tempo fa Ho fame Sei Pazzo Basta Vattene Non me ne frega niente Le vuoi prendere 
+ REC:       d'accordo Che vuoi            qui Tanto tempo fa    fame Sei Pazzo Basta Vattene                 niente         prendere 
+Aligned transcription: TestingSample451.lab vs TestingSample451.rec
+ LAB: ok Vanno d'accordo Che   vuoi Cos'hai combinato Ho fame Non   ce n'e piu E' un furbo Buonissimo Le vuoi prendere Tanto tempo fa 
+ REC: ok       d'accordo Vieni qui  Cos'hai combinato Ho fame Vanno ce n'e piu E' un furbo Buonissimo         prendere Tanto tempo fa 
+Aligned transcription: TestingSample452.lab vs TestingSample452.rec
+ LAB: sono stufo Cos'hai combinato Sei Pazzo Che due palle Perfetto Buonissimo Vieni qui Basta Si sono messi d'accordo Ho fame 
+ REC: sono stufo Cos'hai combinato Sei Pazzo Che     vuoi  Perfetto Buonissimo       qui Basta    sono messi d'accordo Ho fame 
+Aligned transcription: TestingSample453.lab vs TestingSample453.rec
+ LAB: Buonissimo Non ce n'e piu Le vuoi prendere Sei Pazzo ok Cosa ti farei sono stufo Cos'hai combinato E' un furbo Che vuoi 
+ REC: Buonissimo Non ce n'e piu    vuoi prendere Sei Pazzo ok Cosa ti farei sono stufo Cos'hai combinato E' un furbo Che vuoi 
+Aligned transcription: TestingSample454.lab vs TestingSample454.rec
+ LAB: Non ce n'e piu Ho fame Vattene E' un furbo Buonissimo Vieni qui    Basta Cosa ti farei Che vuoi 
+ REC: Non ce n'e piu Ho fame Vattene E' un furbo Buonissimo Vieni qui ok Basta Cosa ti farei Che vuoi 
+Aligned transcription: TestingSample455.lab vs TestingSample455.rec
+ LAB: Che due palle Le vuoi prendere Si sono messi d'accordo Basta Buonissimo Perfetto Vanno d'accordo Tanto tempo fa Che vuoi Non ce n'e piu Sei Pazzo 
+ REC: Che              vuoi prendere    sono messi d'accordo Basta Buonissimo Perfetto       d'accordo Tanto tempo fa Che vuoi     ce n'e piu Sei Pazzo 
+Aligned transcription: TestingSample456.lab vs TestingSample456.rec
+ LAB: Tanto tempo fa Vattene Cos'hai combinato Buonissimo E' un furbo Le vuoi prendere Basta ok Si sono messi d'accordo       
+ REC: Tanto tempo fa Vattene Cos'hai combinato Buonissimo E' un furbo         prendere Basta ok Si sono messi d'accordo Vieni 
+Aligned transcription: TestingSample457.lab vs TestingSample457.rec
+ LAB: Vieni qui Cosa ti farei Vanno d'accordo Tanto tempo fa Che vuoi          Vattene Sei Pazzo Che due palle sono stufo Si sono messi d'accordo         Ho fame 
+ REC: Vieni qui Cosa ti farei       d'accordo Tanto tempo fa Che vuoi Perfetto Vattene Sei Pazzo     due palle sono stufo Si      messi d'accordo Vattene Ho fame 
+Aligned transcription: TestingSample458.lab vs TestingSample458.rec
+ LAB: Vanno d'accordo Vattene Cos'hai combinato Le vuoi prendere Tanto tempo fa Basta Sei Pazzo Vieni qui Buonissimo 
+ REC: Vanno d'accordo Vattene Cos'hai combinato         prendere Tanto tempo fa Basta Sei Pazzo Vieni qui Buonissimo 
+Aligned transcription: TestingSample459.lab vs TestingSample459.rec
+ LAB: Vanno d'accordo Si sono messi d'accordo Che due palle Ho fame E' un furbo Vattene Perfetto Cosa ti farei ok 
+ REC:       d'accordo Si sono messi d'accordo         palle Ho fame E' un furbo Vattene Perfetto Cosa ti farei ok 
+Aligned transcription: TestingSample460.lab vs TestingSample460.rec
+ LAB: Si sono messi d'accordo Cos'hai combinato Che due palle Cosa ti farei Buonissimo Ho fame Tanto tempo fa Non me ne frega niente Che vuoi 
+ REC: Si sono messi d'accordo Cos'hai combinato Che due palle Cosa ti farei Buonissimo Ho fame Tanto tempo fa           Vieni qui    Che vuoi 
+Aligned transcription: TestingSample461.lab vs TestingSample461.rec
+ LAB: Tanto tempo fa ok sono stufo Cos'hai combinato Vieni qui Ho fame Non me ne frega niente Buonissimo Vattene Si sono messi d'accordo 
+ REC: Tanto tempo fa ok sono stufo Cos'hai combinato Vieni qui Ho fame                 niente Buonissimo Vattene Si sono messi d'accordo 
+Aligned transcription: TestingSample462.lab vs TestingSample462.rec
+ LAB: sono stufo Cosa ti farei Che due palle Buonissimo       Ho fame Vanno d'accordo Che   vuoi Tanto tempo fa E' un furbo         Cos'hai combinato 
+ REC: sono stufo Cosa ti farei Che due palle Buonissimo Vieni Ho fame Vanno d'accordo Vieni qui  Tanto tempo fa E' un furbo Vattene Cos'hai combinato 
+Aligned transcription: TestingSample463.lab vs TestingSample463.rec
+ LAB: Vattene Perfetto Cosa ti farei Vanno d'accordo Tanto tempo fa Basta Non me ne frega niente sono stufo         ok Ho fame 
+ REC: Vattene Perfetto Cosa ti farei Vanno d'accordo Tanto tempo fa Basta                 niente sono stufo Vattene ok Ho fame 
+Aligned transcription: TestingSample464.lab vs TestingSample464.rec
+ LAB: Buonissimo Vanno d'accordo Cos'hai combinato sono stufo Vieni qui Non ce n'e piu Che vuoi Ho fame Che due  palle   
+ REC: Buonissimo Vanno d'accordo Cos'hai combinato sono stufo Vieni qui Non ce n'e piu Che vuoi         Che vuoi Vattene 
+Aligned transcription: TestingSample465.lab vs TestingSample465.rec
+ LAB: Che vuoi Ho fame Le vuoi prendere E' un furbo Che due palle Vattene Cos'hai combinato Sei Pazzo Non ce n'e piu 
+ REC: Che vuoi Ho fame         prendere E' un furbo Che due palle Vattene Cos'hai combinato Sei Pazzo Non ce n'e piu 
+Aligned transcription: TestingSample466.lab vs TestingSample466.rec
+ LAB: Non ce n'e piu Cos'hai combinato Vanno d'accordo ok Tanto tempo fa     Vattene Buonissimo Ho fame Sei Pazzo Le vuoi prendere 
+ REC: Non ce n'e piu Cos'hai combinato Vanno d'accordo ok Tanto tempo fa Sei Pazzo   Buonissimo Ho fame Sei Pazzo         prendere 
+Aligned transcription: TestingSample467.lab vs TestingSample467.rec
+ LAB: ok Buonissimo Sei Pazzo Cos'hai combinato Vattene Non me ne frega niente Non ce n'e piu Le vuoi prendere Che vuoi Vanno d'accordo 
+ REC: ok Buonissimo Sei Pazzo Cos'hai combinato Vattene                 niente Non ce n'e piu         prendere Che vuoi Vanno d'accordo 
+Aligned transcription: TestingSample468.lab vs TestingSample468.rec
+ LAB: Perfetto Vanno d'accordo Sei Pazzo Le vuoi  prendere Che vuoi Buonissimo         Cos'hai combinato Non ce n'e piu         Ho fame 
+ REC: Perfetto Vanno d'accordo Sei Pazzo    Vieni qui      Che vuoi Buonissimo Vattene Cos'hai combinato Non ce n'e piu Vattene Ho fame 
+Aligned transcription: TestingSample469.lab vs TestingSample469.rec
+ LAB: Non me ne frega niente Cos'hai combinato Le vuoi prendere Perfetto     Buonissimo Ho    fame Si sono messi d'accordo Tanto tempo fa E' un furbo         Sei Pazzo 
+ REC:                 niente Cos'hai combinato Le vuoi prendere Perfetto Che Buonissimo Vieni qui  Si sono messi d'accordo Tanto tempo fa E' un furbo Vattene Sei Pazzo 
+Aligned transcription: TestingSample470.lab vs TestingSample470.rec
+ LAB: Che due palle Vieni qui ok Sei Pazzo Ho fame Le vuoi prendere Cosa ti farei E' un furbo Perfetto 
+ REC:     due palle Vieni qui ok Sei Pazzo Ho fame         prendere Cosa ti farei E' un furbo Perfetto 
+Aligned transcription: TestingSample471.lab vs TestingSample471.rec
+ LAB: Che vuoi Vattene     E' un furbo Non ce n'e piu Vieni qui Sei Pazzo Cos'hai combinato Non me ne frega niente Che due     palle Vanno d'accordo Buonissimo 
+ REC: Che vuoi Vattene Che E' un furbo Non ce n'e piu Vieni qui Sei Pazzo Cos'hai combinato                            Vattene palle                 Buonissimo 
+Aligned transcription: TestingSample472.lab vs TestingSample472.rec
+ LAB: Basta Non me ne frega niente   ok Perfetto Tanto tempo fa Che due palle Buonissimo Vieni qui E' un furbo 
+ REC: Basta        Le vuoi  prendere ok          Tanto tempo fa         palle Buonissimo Vieni qui       furbo 
+Aligned transcription: TestingSample473.lab vs TestingSample473.rec
+ LAB: Le vuoi prendere ok Perfetto Vieni qui Sei Pazzo Che due palle Vanno d'accordo Ho fame Non me ne frega niente         
+ REC:         prendere ok          Vieni qui Sei Pazzo Che due palle       d'accordo                         niente Vattene 
+Aligned transcription: TestingSample474.lab vs TestingSample474.rec
+ LAB: Le vuoi prendere Che vuoi Che due palle E' un furbo Perfetto Buonissimo Non me ne frega niente Cosa ti farei Ho fame Basta 
+ REC:         prendere Che vuoi Che due palle E' un furbo Perfetto Buonissimo     me ne frega niente      ti farei Ho fame Basta 
+Aligned transcription: TestingSample475.lab vs TestingSample475.rec
+ LAB: Tanto tempo fa Non me ne frega niente Le vuoi prendere     Vattene Non ce n'e piu E' un furbo Vanno d'accordo Vieni qui Perfetto 
+ REC: Tanto tempo fa                                prendere Sei Pazzo   Non ce n'e piu E' un furbo                       qui Perfetto 
+Aligned transcription: TestingSample476.lab vs TestingSample476.rec
+ LAB: Sei Pazzo Basta Le vuoi prendere Tanto tempo fa         Buonissimo Vanno d'accordo Si sono messi d'accordo ok Vattene Cos'hai combinato 
+ REC: Sei Pazzo Basta         prendere Tanto tempo fa Cos'hai Buonissimo                    sono messi d'accordo ok         Cos'hai combinato 
+Aligned transcription: TestingSample477.lab vs TestingSample477.rec
+ LAB: Vattene  Cosa ti farei Ho fame Che due palle Tanto tempo fa Che vuoi Vieni qui E' un furbo 
+ REC: prendere Cosa ti farei Ho fame         palle Tanto tempo fa Che vuoi Vieni qui E' un furbo 
+Aligned transcription: TestingSample478.lab vs TestingSample478.rec
+ LAB: Le vuoi prendere Perfetto Che vuoi E' un furbo Basta Tanto tempo fa ok         Cos'hai combinato Che due palle Vattene Si sono messi d'accordo 
+ REC: Le vuoi prendere Perfetto Che vuoi E' un furbo Basta Tanto tempo fa ok Vattene Cos'hai combinato     due palle         Si sono messi d'accordo 
+Aligned transcription: TestingSample479.lab vs TestingSample479.rec
+ LAB: Tanto tempo fa Le vuoi prendere Si sono messi d'accordo Non me ne frega niente  Sei Pazzo Vanno d'accordo Perfetto ok Che due palle Che vuoi Vieni qui 
+ REC: Tanto tempo fa         prendere Si sono messi d'accordo                 Vattene Sei Pazzo                 Perfetto ok         palle Che vuoi       qui 
+Aligned transcription: TestingSample480.lab vs TestingSample480.rec
+ LAB: Le vuoi prendere Non ce n'e piu Che due palle Basta Si sono messi d'accordo Che vuoi Vieni qui Buonissimo Perfetto Tanto tempo fa 
+ REC:         prendere     ce n'e piu Che due palle Basta Si sono messi d'accordo Che vuoi       qui Buonissimo Perfetto Tanto tempo fa 
+Aligned transcription: TestingSample481.lab vs TestingSample481.rec
+ LAB: Perfetto sono stufo Che vuoi Sei Pazzo Basta Le vuoi prendere Cosa ti farei Non me ne frega niente  E' un furbo       Vattene Che due palle 
+ REC: Perfetto      stufo Che vuoi Sei Pazzo Basta         prendere Cosa ti farei                 Vattene E' un furbo Vieni Vattene         palle 
+Aligned transcription: TestingSample482.lab vs TestingSample482.rec
+ LAB: Ho fame Che vuoi Vanno d'accordo Cosa ti farei Vieni qui Vattene Basta Sei Pazzo E' un furbo 
+ REC:         Che vuoi       d'accordo Cosa ti farei       qui Vattene Basta Sei Pazzo E' un furbo 
+Aligned transcription: TestingSample483.lab vs TestingSample483.rec
+ LAB: Vanno d'accordo Vieni qui Basta Le vuoi prendere Perfetto Ho fame         Tanto tempo fa Buonissimo Cosa ti farei         
+ REC:       d'accordo Vieni qui Basta         prendere Vattene  Ho fame Vattene Tanto tempo fa Buonissimo Cosa ti farei Vattene 
+Aligned transcription: TestingSample484.lab vs TestingSample484.rec
+ LAB: Si sono messi d'accordo Buonissimo Non ce n'e piu Che vuoi Perfetto       Basta       Tanto tempo fa Cosa ti farei Le vuoi prendere 
+ REC:    sono messi d'accordo Buonissimo Non ce n'e piu Che vuoi Perfetto Vanno Basta Vanno Tanto tempo fa Cosa ti farei Le      prendere 
+Aligned transcription: TestingSample485.lab vs TestingSample485.rec
+ LAB: Vattene Perfetto Sei Pazzo Non ce n'e piu Vieni qui Ho fame Le vuoi prendere Tanto tempo fa 
+ REC:         Perfetto Sei Pazzo Non ce n'e           qui    fame         prendere Tanto tempo fa 
+Aligned transcription: TestingSample486.lab vs TestingSample486.rec
+ LAB: Cos'hai combinato Perfetto Che due palle Ho fame Buonissimo Tanto tempo     fa        Vanno d'accordo Basta E' un furbo       
+ REC: Cos'hai combinato              due palle         Buonissimo Che   d'accordo d'accordo Vanno           Basta E' un furbo Vanno 
+Aligned transcription: TestingSample487.lab vs TestingSample487.rec
+ LAB: Che vuoi Vieni qui Sei Pazzo Tanto tempo fa Le vuoi prendere Perfetto Buonissimo Che due palle Cos'hai combinato Non me ne frega niente  Vanno d'accordo 
+ REC: Che vuoi Vieni qui Sei Pazzo Tanto tempo fa         prendere Perfetto Buonissimo         palle Cos'hai combinato                 Vattene Che   vuoi      
+Aligned transcription: TestingSample488.lab vs TestingSample488.rec
+ LAB: Perfetto Basta E' un furbo Non me ne frega niente  Cosa ti farei Buonissimo Ho fame ok Vieni qui 
+ REC: Perfetto Basta E' un furbo                 Vattene Cosa ti farei Buonissimo Ho fame ok       qui 
+Aligned transcription: TestingSample489.lab vs TestingSample489.rec
+ LAB: Perfetto Le vuoi prendere Non ce n'e piu Vattene Basta Ho fame Buonissimo Si sono messi d'accordo Che due palle 
+ REC: Perfetto         prendere Non ce n'e piu ok      Basta Ho fame Buonissimo         messi d'accordo         palle 
+Aligned transcription: TestingSample490.lab vs TestingSample490.rec
+ LAB: Vattene Perfetto Cos'hai combinato Ho fame Si sono messi d'accordo Che due palle E' un furbo Buonissimo Tanto tempo fa 
+ REC: ok      Perfetto Cos'hai combinato         Si sono messi d'accordo         palle E' un furbo Buonissimo Tanto tempo fa 
+Aligned transcription: TestingSample491.lab vs TestingSample491.rec
+ LAB: Ho fame Buonissimo Perfetto Si sono messi d'accordo sono stufo Vanno d'accordo Tanto tempo fa Che due palle       Cos'hai combinato Non me ne frega niente 
+ REC: Ho fame Buonissimo Perfetto Si sono messi d'accordo sono stufo Vanno d'accordo Tanto tempo fa Che due palle Vanno Cos'hai combinato Non me ne frega niente 
+Aligned transcription: TestingSample492.lab vs TestingSample492.rec
+ LAB: Non ce n'e piu Buonissimo Vattene Tanto tempo fa Vanno d'accordo Si sono messi d'accordo Vieni qui Che due palle Cosa ti farei 
+ REC: Non ce n'e piu Buonissimo Che     Tanto tempo fa       d'accordo Si sono messi d'accordo Vieni qui         palle Cosa ti farei 
+Aligned transcription: TestingSample493.lab vs TestingSample493.rec
+ LAB: Cosa ti farei Ho fame Tanto tempo fa Che vuoi Vanno     d'accordo Non ce n'e piu Che due palle Vieni qui E' un furbo 
+ REC: Cosa ti farei Ho fame Tanto tempo fa          d'accordo d'accordo Non ce n'e piu Che due palle Vieni qui E' un furbo 
+Aligned transcription: TestingSample494.lab vs TestingSample494.rec
+ LAB: sono stufo Si sono messi d'accordo Vieni qui Che vuoi                 Che due palle Cos'hai combinato ok Tanto tempo fa Cosa ti farei   Non  me    ne frega niente 
+ REC: sono stufo Si sono messi d'accordo           Che vuoi Vanno d'accordo Che due palle Cos'hai combinato ok Tanto tempo fa         Vattene sono stufo E' un    furbo  
+Aligned transcription: TestingSample495.lab vs TestingSample495.rec
+ LAB: Ho fame Sei Pazzo ok Non me ne frega niente Che due palle Vieni qui       Basta Vanno d'accordo Vattene Le vuoi prendere Perfetto 
+ REC:    fame Sei Pazzo ok                 niente Che due palle Vieni qui Basta Basta Vanno d'accordo Vattene    vuoi prendere Perfetto 
+Aligned transcription: TestingSample496.lab vs TestingSample496.rec
+ LAB: Le vuoi prendere Che vuoi    Ho fame E' un furbo Vanno d'accordo                     Basta Cos'hai combinato Vieni qui Si sono messi d'accordo 
+ REC:    vuoi prendere Che vuoi ok Ho fame E' un furbo Vanno d'accordo Che due palle Basta Basta Cos'hai combinato Vieni qui Si sono messi d'accordo 
+Aligned transcription: TestingSample497.lab vs TestingSample497.rec
+ LAB: ok           Vieni qui       Basta sono stufo Perfetto Non me ne frega niente Che due palle Ho fame Non ce n'e piu Vanno d'accordo 
+ REC: ok Vieni qui Vieni qui Basta Basta sono stufo Perfetto                 niente               Ho fame Non ce n'e piu       d'accordo 
+Aligned transcription: TestingSample498.lab vs TestingSample498.rec
+ LAB: Cosa ti farei Che vuoi Le vuoi prendere E' un furbo Non me ne frega niente Sei Pazzo Ho fame Vieni qui   Si sono messi d'accordo Tanto tempo fa 
+ REC: Cosa ti farei Che         vuoi prendere E' un furbo                 niente Sei Pazzo Ho fame un    furbo Si sono messi d'accordo Tanto tempo fa 
+Aligned transcription: TestingSample499.lab vs TestingSample499.rec
+ LAB: Perfetto Cosa ti farei Vattene Cos'hai combinato Vanno d'accordo Che due palle Le vuoi prendere ok       Basta 
+ REC: Perfetto Cosa          Vattene Cos'hai combinato Vanno d'accordo     due palle Le vuoi prendere ok Basta Basta 
+Aligned transcription: TestingSample500.lab vs TestingSample500.rec
+ LAB: Non me ne frega niente Cos'hai combinato Tanto tempo fa Ho fame Buonissimo Che due palle                Vieni qui    ok Perfetto Non ce n'e piu 
+ REC: Non me ne frega niente Cos'hai combinato Tanto tempo fa Ho fame Buonissimo Che due palle sono stufo qui Vieni qui ok ok Perfetto Non ce n'e piu 
+Aligned transcription: TestingSample501.lab vs TestingSample501.rec
+ LAB: Cosa ti farei sono stufo Ho fame Sei Pazzo Cos'hai combinato            Buonissimo Tanto tempo fa Vattene E' un furbo Perfetto       Basta 
+ REC: Cosa ti farei sono stufo Ho fame Sei Pazzo Cos'hai combinato Buonissimo Buonissimo Tanto tempo fa         E' un furbo Perfetto Basta Basta 
+Aligned transcription: TestingSample502.lab vs TestingSample502.rec
+ LAB: sono stufo Vattene Vieni qui Si sono messi d'accordo                   Basta Perfetto ok         Che     vuoi  Cosa ti farei Sei Pazzo 
+ REC: sono stufo ok      Vieni qui Si sono messi d'accordo E' un furbo Basta Basta Perfetto ok Vattene Che due palle Cosa ti farei Sei Pazzo 
+Aligned transcription: TestingSample503.lab vs TestingSample503.rec
+ LAB: Non me ne frega niente Le vuoi prendere Tanto tempo fa Che due  palle Non ce n'e piu Sei Pazzo Vattene Ho fame Cosa ti farei Vieni qui 
+ REC: Non me ne frega niente    vuoi prendere Tanto tempo fa     sono stufo Non ce n'e piu Sei Pazzo Vattene Ho fame Cosa          Vieni qui 
+Aligned transcription: TestingSample504.lab vs TestingSample504.rec
+ LAB: ok E'  un   furbo Che due palle Ho fame Non ce  n'e piu   Cos'hai combinato Vattene Le vuoi prendere       Basta Tanto tempo fa            
+ REC: ok Che vuoi Che   Che due palle Ho fame     Che due palle Cos'hai combinato Vattene         prendere Basta Basta Tanto tempo fa Buonissimo 
+Aligned transcription: TestingSample505.lab vs TestingSample505.rec
+ LAB: Vieni qui Basta Si sono messi d'accordo Non ce n'e piu Che due palle E' un furbo Cos'hai combinato sono stufo Tanto tempo fa    ok 
+ REC: Vieni qui Basta Si sono messi d'accordo Non ce n'e piu               E' un furbo Cos'hai combinato sono stufo Tanto tempo fa ok ok 
+Aligned transcription: TestingSample506.lab vs TestingSample506.rec
+ LAB: Ho fame Vanno d'accordo Perfetto sono stufo      Buonissimo           Vieni qui E' un furbo Che     vuoi  Tanto tempo fa           Basta Si sono messi d'accordo 
+ REC: Ho fame       d'accordo Perfetto      Buonissimo Buonissimo Vieni qui Vieni qui E' un furbo Che due palle Tanto tempo fa Sei Pazzo Basta Si sono messi d'accordo 
+Aligned transcription: TestingSample507.lab vs TestingSample507.rec
+ LAB: ok Non me ne frega niente Tanto tempo fa sono stufo Si sono messi d'accordo Le vuoi prendere Che due   palle Basta Cosa ti farei Che vuoi       
+ REC: ok        ne frega niente Tanto tempo fa sono stufo Si sono messi d'accordo Le vuoi prendere     Basta Basta Basta Cosa          Che vuoi Basta 
+Aligned transcription: TestingSample508.lab vs TestingSample508.rec
+ LAB: Non me ne frega niente Cosa ti farei Cos'hai combinato Buonissimo Perfetto Sei Pazzo Non ce n'e piu Basta Vieni qui Le vuoi prendere Vattene 
+ REC:                 niente Cosa ti farei Cos'hai combinato Buonissimo Perfetto Sei Pazzo Non ce n'e piu Basta       qui Le vuoi prendere Vattene 
+Aligned transcription: TestingSample509.lab vs TestingSample509.rec
+ LAB: Ho fame Si sono messi d'accordo Non me    ne frega niente Perfetto Vattene Sei Pazzo Cosa ti  farei Cos'hai combinato            Buonissimo Che vuoi          
+ REC: Ho fame Si sono messi d'accordo     me ne ne frega niente Perfetto         Sei Pazzo      Che vuoi  Cos'hai combinato Buonissimo Buonissimo Che vuoi ok Basta 
 ====================== HTK Results Analysis =======================
-  Date: Thu Dec 01 15:44:50 2016
+  Date: Mon Jan 23 03:50:08 2017
   Ref : test_words.mlf
   Rec : aligned_speech_recout.mlf
 ------------------------ Overall Results --------------------------
-SENT: %Correct=0.36 [H=1, S=273, N=274]
-WORD: %Corr=82.88, Acc=47.86 [H=5301, D=539, S=556, I=2240, N=6396]
+SENT: %Correct=3.03 [H=3, S=96, N=99]
+WORD: %Corr=83.70, Acc=79.15 [H=1895, D=297, S=72, I=103, N=2264]
 ===================================================================
