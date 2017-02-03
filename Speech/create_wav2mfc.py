@@ -26,7 +26,7 @@ elif flag == 'Testing':
 	out_name = 'TestingSample'
 
 # List the directory with the input .wav data.
-f_list = os.listdir(path)
+f_list = sorted(os.listdir(path))
 # Create the .scp file.
 of = open('wav2mfc.scp','w')
 # Write all input files and output files.

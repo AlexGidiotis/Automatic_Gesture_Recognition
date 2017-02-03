@@ -14,7 +14,7 @@ from load_skeleton import import_data
 from r_position import estimate_rest_position, calc_distance_from_rp
 
 #Define which path 
-flag_path = 'Alex'
+flag_path = 'Dimitris'
 
 ###################### Main function #############################################################
 if flag_path == 'Alex':

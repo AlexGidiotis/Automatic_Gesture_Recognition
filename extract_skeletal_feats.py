@@ -10,7 +10,7 @@ import os
 import numpy as np
 import pandas as pd
 
-flag_path = 'Alex'
+flag_path = 'Dimitris'
 
 if flag_path == 'Alex':
 	#Alex's Paths
@@ -24,7 +24,7 @@ elif flag_path == 'Dimitris':
 	unlabelled_lab_file = "/home/dimitris/GitProjects/Automatic_Gesture_Recognition/unlabelled_label_file.csv"
 
 flag = 'Test'
-labeled = 'False'
+labeled = 'True'
 
 # ========================================= Loads the skeletal data and labels =================================================================
 # Returns: a dataframe with the whole training set frame by frame. (num frames x 27)

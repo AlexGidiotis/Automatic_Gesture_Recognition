@@ -62,10 +62,10 @@ def split_to_sets(df):
 
 ############################## main ######################################
 #Change this flag
-flag_path = 'Alex'
+flag_path = 'Dimitris'
 # modify this flags for Training or Testing
 flag = 'Testing'
-labeled = 'False'
+labeled = 'True'
 if flag_path == 'Alex':
 	#Alex's Paths
 	training_path = "C:\Users\Alex\Documents\University\Python\Data\CSV_data"

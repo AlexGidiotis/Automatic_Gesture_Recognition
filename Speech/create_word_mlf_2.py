@@ -8,10 +8,14 @@ map_lab = {1:'Vattene', 2:'Vieni qui', 3:'Perfetto', 4:'E\' un furbo', 5:'Che du
 			13:'Basta', 14:'Le vuoi prendere', 15:'Non ce n\'e piu', 16:'Ho fame', 17:'Tanto tempo fa', 18:'Buonissimo', 
 			19:'Si sono messi d\'accordo', 20:'sono stufo'}
 
-path = 'C:\Users\Alex\Documents\University\Python\Data\MFC_test_data\\labels.csv'
+#path = 'C:\Users\Alex\Documents\University\Python\Data\MFC_test_data\\labels.csv'
+path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/MFC_test_data/labels.csv'
+#mlf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Speech\\test_words.mlf", "w")
+mlf = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Speech/test_words.mlf", "w")
 
-mlf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Speech\\test_words.mlf", "w")
-train_scp = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Speech\\Test.scp")
+#train_scp = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Speech\\Test.scp")
+train_scp = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Speech/Test.scp")
+
 df = pd.read_csv(path,'r',index_col = 0, delimiter = ',')
 # Phonemes label file starts with #!MLF!#
 mlf.write("#!MLF!#\n")

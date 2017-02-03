@@ -20,7 +20,7 @@ flag = 'Testing'
 embed_flag = 'Embedded'
 print flag, embed_flag
 
-flag_path = 'Alex'
+flag_path = 'Dimitris'
 
 if flag_path == 'Alex':
     #Alex's Paths

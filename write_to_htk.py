@@ -78,7 +78,7 @@ def map_gesture(gest):
 #================================================================= MAIN =======================================================================
 
 # Change this path to the saved skeletal .csv file.
-flag_path = 'Alex'
+flag_path = 'Dimitris'
 
 if flag_path == 'Alex':
 	#Alex's Paths
@@ -94,7 +94,7 @@ flag = 'Testing'
 # Modify this flag to 'Isolated' or 'Embedded'.
 flag_embed = 'Embedded'
 
-lab_flag = 'Unlabelled'
+lab_flag = 'labelled'
 #================================================================ Switch between Training and Testing =========================================
 if flag == 'Training':
 	out_path = out_path_train
@@ -108,7 +108,7 @@ elif flag == 'Testing':
 	if flag_path == 'Alex':
 		in_file = "C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\Testing_set_skeletal_extended.csv"
 	elif flag_path == 'Dimitris':
-		in_file = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Testing_set_skeletal_extended.csv'
+		in_file = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Testing_set_skeletal.csv'
 	out_file = 'Testing_Sequence'
 #============================================== Load data and get rid of some weird labels ====================================================
 # Load the data and get the different file ids in a list.
