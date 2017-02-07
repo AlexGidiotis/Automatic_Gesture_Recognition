@@ -24,7 +24,7 @@ mlf.write("#!MLF!#\n")
 
 for line in train_scp:
 	# We want to get the file name only.
-	name = re.findall('.*\\\(\D*\d*).mfc',line)[0]
+	name = re.findall('.*/(\D*\d*).mfc',line)[0]
 	file_num = re.findall('\D*(\d*)',name)[0]
 	idx = int(file_num)
 	lab_list = df.loc[idx].tolist()[0].split()
