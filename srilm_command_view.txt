@@ -1,0 +1,13 @@
+
+#command shows more 50k hyps error
+> nbest-lattice -debug 2 -lattice-wer -read-htk -nbest-files File_list.txt -write-dir output
+
+#Transform lattice into mesh
+> lattice-tool -read-htk -in-lattice-list File_list.txt -write-mesh-dir output
+> lattice-tool -read-htk -posterior-prune 0.01 -in-lattice-list File_list.txt -write-mesh-dir sk_meshes
+
+#combination mesh with lattice command
+> lattice-tool -posterior-prune 0.001 -init-mesh sk_meshes/EmbeddedTesting_Sequence510.mfc.gz -in-lattice Speech/test_lattices/TestingSample510.lat -read-htk -write-mesh combined_Networks/combined_mesh_510.mfc
+
+#from meshes to lattices again
+> lattice-tool -read-mesh -in-lattice combined_Networks/combined_mesh_510.mfc -write-htk -out-lattice combined_htk_lattices/fusion_lattice_510.lat

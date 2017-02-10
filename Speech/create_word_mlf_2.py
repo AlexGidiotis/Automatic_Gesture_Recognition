@@ -8,7 +8,7 @@ map_lab = {1:'Vattene', 2:'Vieni qui', 3:'Perfetto', 4:'E\' un furbo', 5:'Che du
 			19:'Si sono messi d\'accordo', 20:'sono stufo'}
 
 #path = 'C:\Users\Alex\Documents\University\Python\Data\MFC_test_data\\labels.csv'
-path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/MFC_test_data/labels.csv'
+path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_test_data/labels.csv'
 #mlf = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Speech\\test_words.mlf", "w")
 mlf = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Speech/test_words.mlf", "w")
 
@@ -21,7 +21,8 @@ mlf.write("#!MLF!#\n")
 
 for line in train_scp:
 	# We want to get the file name only.
-	name = re.findall('.*\\\(\D*\d*).mfc',line)[0]
+	#print line
+	name = re.findall('.*/(\D*\d*).mfc',line)[0]
 	file_num = re.findall('\D*(\d*)',name)[0]
 	idx = int(file_num)
 	lab_list = df.loc[idx].tolist()[0].split()
