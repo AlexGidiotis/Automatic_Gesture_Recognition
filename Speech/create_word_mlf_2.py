@@ -13,7 +13,7 @@ path = '/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Data/MFC_test_d
 mlf = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Speech/test_words.mlf", "w")
 
 #train_scp = open("C:\Users\Alex\Documents\University\Python\Automatic_Gesture_Recognition\\Speech\\Test.scp")
-train_scp = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Speech/Test.scp")
+train_scp = open("/home/dimitris/GitProjects/Automatic_Gesture_Recognition/Speech/Train.scp")
 
 df = pd.read_csv(path,'r',index_col = 0, delimiter = ',')
 # Phonemes label file starts with #!MLF!#
@@ -27,7 +27,7 @@ for line in train_scp:
 	idx = int(file_num)
 	lab_list = df.loc[idx].tolist()[0].split()
 	# Write to master label file.
-	mlf.write('"*/%s.lab"\n' % name)
+	mlf.write('"*/%s.mfc"\n' % name)
 	for lab in lab_list:
 		gest = map_lab[int(lab)]
 		wordlist = gest.split()

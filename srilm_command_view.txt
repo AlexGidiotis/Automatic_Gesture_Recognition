@@ -2,12 +2,33 @@
 #command shows more 50k hyps error
 > nbest-lattice -debug 2 -lattice-wer -read-htk -nbest-files File_list.txt -write-dir output
 
+# The command below is for creating the lattices from skeletal model with the settings and
+# the dictionary of the speech model with 3-best 10 states 
+> HVite -A -D -T 1 -H ../Speech/10gmm_hmm12/macros -n 10 3 -H ../Speech/10gmm_hmm12/hmmdefs -H ../Speech/10gmm_hmm12/hmmdefs_filler -C ../Speech/config -S Test.scp -z lat -l sk_lattices/  -b silence  -w ../Speech/wdnet -p -20.0 ../Speech/dictionary ../Speech/triphones1
+
+
 #Transform lattice into mesh
 > lattice-tool -read-htk -in-lattice-list File_list.txt -write-mesh-dir output
-> lattice-tool -read-htk -posterior-prune 0.01 -in-lattice-list File_list.txt -write-mesh-dir sk_meshes
+> lattice-tool -read-htk -posterior-prune 0.001 -in-lattice-list File_list.txt -write-mesh-dir sk_meshes
 
 #combination mesh with lattice command
 > lattice-tool -posterior-prune 0.001 -init-mesh sk_meshes/EmbeddedTesting_Sequence510.mfc.gz -in-lattice Speech/test_lattices/TestingSample510.lat -read-htk -write-mesh combined_Networks/combined_mesh_510.mfc
 
 #from meshes to lattices again
 > lattice-tool -read-mesh -in-lattice combined_Networks/combined_mesh_510.mfc -write-htk -out-lattice combined_htk_lattices/fusion_lattice_510.lat
+
+# Language Model Building
+# Download Italian dictionary from voxforge
+> ngram-count -wbdiscountn -interpolate -text it.dic.train -lm it_lm.lm
+
+# Prune model to reduce size
+> ngram -lm your.lm -prune 1e-8 -write-lm your-pruned.lm
+
+# Test Perplexity of the model 
+> ngram -lm your.lm -ppl test-text.txt
+
+> HVite -A -D -T 1 -C Speech/config -H Speech/10gmm_hmm12/macros -H Speech/10gmm_hmm12/hmmdefs -H Speech/10gmm_hmm12/hmmdefs_filler -S Speech/Test.scp -l '*' -b silence -L combined_htk_lattices_2/ -X mfc -w Speech/wdnet  -p -20.0 -i lattice_recout.mlf Speech/dictionary Speech/triphones1 
+
+> HResults -e ??? sil -e ??? noise -e ??? oov -t -I Speech/test_words.mlf Speech/wlist lattice_recout.mlf > results_log
+> HResults -e ??? sil -e ??? noise -e ??? oov -t -d 3 -I lattice_recout.mlf wlist recout.mlf > results_log
+
